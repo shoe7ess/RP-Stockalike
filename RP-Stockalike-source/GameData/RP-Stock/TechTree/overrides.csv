@@ -1,0 +1,2043 @@
+part,node,reason
+ca.argo-mk3,interplanetaryProbes,"like ca.argo-mk2 (CoatlAerospace), same node as analogue"
+ca.argo-mk3-hga,interplanetaryComms,"like ca.argo-mk2-hga (CoatlAerospace), same node as analogue"
+ca.argo-mk4,interplanetaryProbes,"like ca.argo-mk2 (CoatlAerospace), same node as analogue"
+ca.argo-mk4-hga,interplanetaryComms,"like ca.argo-mk2-hga (CoatlAerospace), same node as analogue"
+ca.jib-mk2,earlyFlightControl,"like ca.jib (CoatlAerospace), same node as analogue"
+barquetta2,internationalAvionics,"like barquetta (CoatlAerospace), same node as analogue"
+ca.argo-mk4-mast,scienceHuman,"like ca.argo-mk2-mast (CoatlAerospace), analogue era (1961) in its own branch"
+ca.argo-mk4-solar,improvedPower,"reviewed: solar panel, same era as the Argo probe"
+barca,internationalAvionics,"like barquetta (CoatlAerospace), same node as analogue"
+sp.juno.mag,advancedSurfaceScience,"like sp.maven (CoatlAerospace), analogue era (2009) in its own branch"
+ca.argo-mk3-solar,earlyPower,"reviewed: solar panel, same era as the Argo probe"
+ca.argo-mk4-cam,scienceHuman,"like ca.argo-mk2-mast (CoatlAerospace), analogue era (1961) in its own branch"
+ca.ESM,largeStationControl,"like ca.ESM2 (CoatlAerospace), analogue era (1998) in its own branch"
+ca.aegis,advancedAvionics,"like quetzal (CoatlAerospace), same node as analogue"
+ca.thermometer,start,"like sensorThermometer (Squad), same node as analogue"
+ca.barometer,start,"like sensorBarometer (Squad), same node as analogue"
+ca.accelerometer,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+ca.DUSTX,scienceHuman,"like ca.argo-mk2-mast (CoatlAerospace), analogue era (1961) in its own branch"
+ca.gravioli,scienceHuman,"like sensorGravimeter (Squad), same node as analogue"
+ca.tank.lfo.m,orbitalRocketry1970,"like ca.vor.tank (CoatlAerospace), analogue era (1971) in its own branch"
+ca.telescope.a,advancedSurfaceScience,"like sp.maven (CoatlAerospace), analogue era (2009) in its own branch"
+ca.argo-mk2-cam,scienceHuman,"like ca.argo-mk2-mast (CoatlAerospace), analogue era (1961) in its own branch"
+ca.sciBoom,scienceHuman,"like ca.argo-mk2-mast (CoatlAerospace), analogue era (1961) in its own branch"
+ca.LUV,advancedSurfaceScience,"like sp.maven (CoatlAerospace), analogue era (2009) in its own branch"
+ca.SWIS,scienceHuman,"like ca.argo-mk2-mast (CoatlAerospace), analogue era (1961) in its own branch"
+ca.tank.mp.m,earlyFlightControl,"like ca.tank.mp.s (CoatlAerospace), analogue era (1955) in its own branch"
+ca.vor.camera,scienceHuman,"like ca.argo-mk2-mast (CoatlAerospace), analogue era (1961) in its own branch"
+mer.rsp,advancedSurfaceScience,"like sp.maven (CoatlAerospace), analogue era (2009) in its own branch"
+3.75.Heatshield,humanRatedEDL,"like 1.25.Heatshield (DeadlyReentry), same node as analogue"
+truss-octo-docking-125,standardDockingPorts,"like truss-octo-docking-octo (NearFutureConstruction), analogue era (1986) in its own branch"
+truss-octo-docking-25,standardDockingPorts,"like truss-octo-docking-octo (NearFutureConstruction), analogue era (1986) in its own branch"
+truss-micro-adapter-01,materialsScienceHuman,start-node cleanup: micro truss adapter
+truss-octo-adapter-01,materialsScienceLongTerm,"like truss-octo-attach-01 (NearFutureConstruction), analogue era (1986) in its own branch"
+adapter-125-0625-1,materialsScienceSpaceStation,"like truss-hex-adapter-01 (NearFutureConstruction), analogue era (1972) in its own branch"
+adapter-125-0625-2,materialsScienceSpaceStation,"like truss-hex-adapter-01 (NearFutureConstruction), analogue era (1972) in its own branch"
+adapter-25-125,materialsScienceSpaceStation,"like truss-hex-adapter-01 (NearFutureConstruction), analogue era (1972) in its own branch"
+adapter-125-0625-3,materialsScienceSpaceStation,"like truss-hex-adapter-01 (NearFutureConstruction), analogue era (1972) in its own branch"
+adapter-125-0625-4,materialsScienceSpaceStation,"like truss-hex-adapter-01 (NearFutureConstruction), analogue era (1972) in its own branch"
+adapter-375-25-1,materialsScienceInternational,"like truss-spinal-adapter-02 (NearFutureConstruction), analogue era (1998) in its own branch"
+adapter-25-multi-1,materialsScienceInternational,"like truss-spinal-adapter-02 (NearFutureConstruction), analogue era (1998) in its own branch"
+adapter-rad-125,materialsScienceSpaceStation,"like truss-hex-adapter-01 (NearFutureConstruction), analogue era (1972) in its own branch"
+adapter-rad-0625,materialsScienceSpaceStation,"like truss-hex-adapter-01 (NearFutureConstruction), analogue era (1972) in its own branch"
+scansat-sar-radarsat-2-1,advancedSurfaceScience,"like scansat-sar-paz-1 (SCANsat), same node as analogue"
+scansat-sar-tandem-l-1,advancedSurfaceScience,"like scansat-sar-paz-1 (SCANsat), same node as analogue"
+scansat-recon-ikonos-1,scienceHuman,"like scansat-radar-poseidon-3b-1 (SCANsat), same node as analogue"
+scansat-recon-worldview-3-1,advancedSurfaceScience,"like scansat-sar-paz-1 (SCANsat), same node as analogue"
+scansat-recon-kh11-1,advancedSurfaceScience,"like scansat-sar-paz-1 (SCANsat), same node as analogue"
+scansat-exomars-1,advancedSurfaceScience,"like scansat-sar-paz-1 (SCANsat), same node as analogue"
+Size2LFB.v2,stagedCombustion1986,engine era pass: Twin-Boar ~ RD-170/180 multi-chamber ORSC
+liquidEngine.v2,rocketryTesting,stock/restock review: Reliant ~ first liquid booster engine
+liquidEngine2.v2,basicRocketryRP0,stock/restock review: Swivel: first gimballed engine
+roverBody,largeScaleAvionics,"like roverBody.v2 (Squad), same node as analogue"
+smallRadialEngine.v2,orbitalRocketry1963,stock/restock review: Thud
+probeCoreOcto.v2,improvedAvionics,"like probeCoreHex (Squad), same node as analogue"
+Mite,solids1956,stock/restock review: Mite: tiny SRB
+Shrimp,solids1958,stock/restock review: Shrimp: small SRB
+probeCoreOcto2.v2,matureAvionics,stock/restock review: OKTO2
+liquidEngine3.v2,orbitalRocketry1959,stock/restock review: Terrier ~ Able/AJ10 upper stage
+sensorAccelerometer,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+rocketNoseCone.v3,orbitalRocketry1962,start-node cleanup: 2.5 m nose cone
+liquidEngine2-2.v2,orbitalRocketry1963,stock/restock review: Poodle ~ 2.5 m upper stage
+solarPanelOX10C,spaceStationSolarPanels,"like solarPanels1 (Squad), same node as analogue"
+solarPanelOX10L,spaceStationSolarPanels,"like solarPanels1 (Squad), same node as analogue"
+solarPanelSP10C,spaceStationSolarPanels,"like solarPanels1 (Squad), same node as analogue"
+solarPanelSP10L,spaceStationSolarPanels,"like solarPanels1 (Squad), same node as analogue"
+MpoProbe,advModernAvionics,stock/restock review: BepiColombo MPO (2018)
+radialDrogue,entryDescentLanding,stock/restock review: radial drogue
+microEngine.v2,orbitalRocketry1961,stock/restock review: Ant: tiny vacuum engine
+Clydesdale,solids1981,stock/restock review: Clydesdale ~ Shuttle SRB
+RCSLinearSmall,improvedFlightControl,"like linearRcs (Squad), same node as analogue"
+engineLargeSkipper.v2,orbitalRocketry1964,stock/restock review: Skipper ~ S-IV era
+MtmStage,advModernAvionics,stock/restock review: BepiColombo MTM (2018)
+RCSBlock.v2,improvedFlightControl,"like linearRcs (Squad), same node as analogue"
+liquidEngineMainsail.v2,orbitalRocketry1965,stock/restock review: Mainsail ~ H-1/F-1 era
+smallClaw,materialsScienceSpaceStation,"like GrapplingDevice (Squad), analogue era (1972) in its own branch"
+RCSblock.01.small,improvedFlightControl,"like linearRcs (Squad), same node as analogue"
+Thoroughbred,solids1981,stock/restock review: Thoroughbred ~ Shuttle SRB
+Size3MediumTank,orbitalRocketry1965,stock/restock review: Kerbodyne 3.75 m ~ Saturn
+Size3SmallTank,orbitalRocketry1965,stock/restock review: Kerbodyne 3.75 m ~ Saturn
+InfraredTelescope,scienceExploration,reviewed: space IR telescope era (IRAS 1983)
+InflatableHeatShield,HIAD,stock/restock review: inflatable heat shield ~ HIAD
+Size3To2Adapter.v2,orbitalRocketry1965,stock/restock review: 3.75-2.5 adapter
+miniFuelTank,orbitalRocketry1959,"like miniFuselage (Squad), analogue era (1959) in its own branch"
+smallCargoContainer,materialsScienceHuman,start-node cleanup: small cargo container
+Rockomax32.BW,orbitalRocketry1962,reviewed: 2.5 m Saturn-era tank
+externalTankCapsule,orbitalRocketry1961,stock/restock review: Dumpling probe tank
+externalTankToroid,orbitalRocketry1961,stock/restock review: Doughnut probe tank
+Magnetometer,scienceSatellite,reviewed: first magnetometers flew on early satellites
+Rockomax16.BW,orbitalRocketry1961,reviewed: 2.5 m Saturn-era tank
+Rockomax8BW,orbitalRocketry1961,reviewed: 2.5 m Saturn-era tank (adapter was a false match)
+cargoContainer,materialsScienceSatellite,"like stackTriCoupler.v2 (Squad), same node as analogue"
+Rockomax64.BW,orbitalRocketry1963,reviewed: 2.5 m Saturn-era tank
+externalTankRound,orbitalRocketry1961,stock/restock review: Baguette probe tank
+fireworksLauncherBig,materialsScienceSpaceplanes,"like radPanelEdge (Squad), same node as analogue"
+RadialOreTank,lifeSupportISRU,reviewed: ore tank goes with ISRU
+ScienceBox,scienceHuman,"reviewed: experiment storage, crewed-science era"
+SmallTank,lifeSupportISRU,reviewed: ore tank goes with ISRU
+CargoStorageUnit,materialsScienceAdvCapsules,"like Separator.2 (Squad), same node as analogue"
+LargeTank,lifeSupportISRU,reviewed: ore tank goes with ISRU
+MiniDrill,lifeSupportISRU,reviewed: ore drill goes with ISRU
+batteryBank,electronicsSatellite,"like batteryBankMini (Squad), analogue era (1953) in its own branch"
+ConformalStorageUnit,materialsScienceSpaceplanes,"like radPanelEdge (Squad), same node as analogue"
+ISRU,lifeSupportISRU,reviewed: ISRU belongs on the ISRU node
+flagPartSize1,earlyMaterialsScience,start-node cleanup: 1.25 m flag
+flagPartSize2,materialsScienceHuman,start-node cleanup: 2.5 m flag
+flagPartSize3,materialsScienceLunar,start-node cleanup: 3.75 m flag
+fireworksLauncherSmall,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+batteryBankLarge,electronicsHuman,stock/restock review: Z-4K battery
+rocketNoseConeSize3,orbitalRocketry1965,start-node cleanup: 3.75 m nose cone
+RadialDrill,lifeSupportISRU,reviewed: ore drill goes with ISRU
+flagPartFlat,materialsScienceSpaceplanes,"like radPanelSm (Squad), same node as analogue"
+flagPartSize0,earlyMaterialsScience,"like Separator.0 (Squad), same node as analogue"
+MiniISRU,lifeSupportISRU,reviewed: ISRU belongs on the ISRU node
+evaRepairKit,materialsScienceAdvCapsules,"like evaCylinder (Squad), analogue era (1964) in its own branch"
+sspx-adjusting-base-1875-1,electronicsSpaceStation,"like sspx-adjusting-base-25-1 (StationPartsExpansionRedux), analogue era (1972) in its own branch"
+sspx-adjusting-base-cradle-5-1,materialsScienceInternational,"like sspx-adjusting-base-cradle-375-1 (StationPartsExpansionRedux), analogue era (1998) in its own branch"
+sspx-adjusting-base-cradle-1875-1,materialsScienceSpaceStation,"like sspx-adjusting-base-cradle-25-1 (StationPartsExpansionRedux), analogue era (1972) in its own branch"
+sspx-adjusting-base-5-1,electronicsInternational,"like sspx-adjusting-base-375-1 (StationPartsExpansionRedux), analogue era (1998) in its own branch"
+USSingleProbeCore,interplanetaryProbes,"like USDoubleProbeCore (UniversalStorage2), same node as analogue"
+USDataStorageWedge,materialsScienceAdvCapsules,"like USSolidWasteWedge (UniversalStorage2), analogue era (1964) in its own branch"
+USCargoStorageWedge,materialsScienceHuman,"like USHydrogenWedge (UniversalStorage2), same node as analogue"
+USGuidanceComputer,electronicsHuman,"like USBatteryWedge (UniversalStorage2), analogue era (1961) in its own branch"
+USGooBayWedge,materialsScienceLunar,"like USOctocore (UniversalStorage2), same node as analogue"
+USAccelGravWedge,materialsScienceHuman,"like USRadialTanks (UniversalStorage2), same node as analogue"
+USComboLifesupportWedge,earlyLifeSupport,"like USFuelCellMedium (UniversalStorage2), analogue era (1964) in its own branch"
+USMatBayWedge,materialsScienceSpaceStation,"like USWaterPurifier (UniversalStorage2), analogue era (1972) in its own branch"
+USThermoBaroWedge,materialsScienceHuman,"like USRadialTanks (UniversalStorage2), same node as analogue"
+USBasicMicroSatWedge,interplanetaryProbes,"like USDoubleProbeCore (UniversalStorage2), same node as analogue"
+ca.stereoBoom,advModernScience,reviewed: Xihe science boom (2021 mission)
+ca.KLIR,sampleReturnScience,"reviewed: IR spectrometer, 1990s probes"
+ca.HOLA,advancedSurfaceScience,reviewed: laser altimeter like OSIRIS-REx OLA (2016)
+ca.TRIXIE,advancedScience,"reviewed: multispectral imager, ~2000"
+ca.magneto2,scienceHuman,"reviewed: magnetometer boom, early-60s probes"
+mer.mag,advancedScience,reviewed: Mars Exploration Rover instrument (2003)
+ca.GRS,advancedScience,reviewed: gamma-ray spectrometer like Mars Odyssey (2001)
+ca.H2RS,advancedScience,reviewed: high-res camera like HiRISE (2005)
+ca.RPWS,sampleReturnScience,reviewed: radio & plasma wave science like Cassini (1997)
+ca.RPWS.STEREO,advancedScience,reviewed: plasma wave instrument like STEREO (2006)
+ca.vor.sar,deepSpaceScience,reviewed: synthetic-aperture radar like Seasat (1978)
+ca.landv.cam.s1,deepSpaceScience,reviewed: lander camera like Viking (1975)
+ca.landv.soilScoop,scienceLunar,reviewed: soil scoop like Surveyor 3 (1967)
+ca.DUSTC,advancedScience,reviewed: dust collector like Stardust (1999)
+ca.ELIX,sampleReturnScience,"reviewed: electrostatic instrument, ~1990"
+mer.vla,materialsScienceInternational,reviewed: MER launch adapter (2003)
+USFluidSpectroWedge,sampleReturnScience,reviewed: fluid spectrometer wedge
+USMapCamWedge,sampleReturnScience,reviewed: mapping camera wedge
+USAdvancedMicroSatWedge,internationalAvionics,reviewed: advanced microsat core
+hydrogen-25-1,improvedHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-radial-125-1,earlyHydrolox,batch2 reviewed rule: radial LH2 tank
+hydrogen-25-2,improvedHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-radial-25-1,earlyHydrolox,batch2 reviewed rule: radial LH2 tank
+hydrogen-radial-375-1,earlyHydrolox,batch2 reviewed rule: radial LH2 tank
+hydrogen-125-1,earlyHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-25-3,improvedHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-375-3,largeHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-375-1,largeHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-375-2,largeHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-5-2,hydrolox1981,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-5-3,hydrolox1981,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-125-2,earlyHydrolox,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-10-1,hydroloxNF,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+hydrogen-5-1,hydrolox1981,"batch2 reviewed rule: LH2 tank by diameter (Centaur, S-IVB, S-II, Shuttle ET)"
+dmSoilMoisture,advancedSurfaceScience,batch2 reviewed rule: soil-moisture radiometer ~ SMOS (2009)
+dmASERT,scienceLunar,batch2 reviewed rule: atmospheric sounder
+dmRoverGoo,surfaceScience,batch2 reviewed rule: rover-mounted experiment
+dmXRay,advancedSurfaceScience,batch2 reviewed rule: Curiosity-era instrument (2012)
+dmRoverMat,surfaceScience,batch2 reviewed rule: rover-mounted experiment
+dmSolarCollector,advancedScience,batch2 reviewed rule: solar-wind collector ~ Genesis (2001)
+dmUS2GoreSat,advModernScience,batch2 reviewed rule: Earth radiometer ~ DSCOVR (2015)
+dmUS2RPWS,deepSpaceScience,batch2 reviewed rule: plasma-wave antenna ~ Voyager
+dmAnomScanner,scienceExploration,batch2 reviewed rule: anomaly scanner
+dmBathymetry,advancedScience,batch2 reviewed rule: bathymetry
+dmUS2Asert,scienceLunar,batch2 reviewed rule: atmospheric sounder
+dmUS2MagBoom,scienceSatellite,batch2 reviewed rule: magnetometer boom (1958)
+dmUS2SolarParticles,advancedScience,batch2 reviewed rule: solar-wind collector ~ Genesis (2001)
+dmReconLarge,scienceHuman,batch2 reviewed rule: large recon camera
+dmSIGINT.Small,digitalComms,batch2 reviewed rule: SIGINT ~ GRAB (1960)
+dmSeismicHammer,surfaceScience,batch2 reviewed rule: seismometer ~ ALSEP
+dmscope,scienceExploration,batch2 reviewed rule: orbital telescope
+rpwsAnt,deepSpaceScience,batch2 reviewed rule: plasma-wave antenna ~ Voyager
+dmDAN,advancedSurfaceScience,batch2 reviewed rule: Curiosity-era instrument (2012)
+dmGoreSat,advModernScience,batch2 reviewed rule: Earth radiometer ~ DSCOVR (2015)
+dmImagingPlatform,deepSpaceScience,batch2 reviewed rule: multispectral imager ~ Landsat (1972)
+dmReconSmall,scienceSatellite,batch2 reviewed rule: recon camera ~ Corona (1960)
+dmSeismicPod,surfaceScience,batch2 reviewed rule: seismometer ~ ALSEP
+dmUS2SoilMoisture,advancedSurfaceScience,batch2 reviewed rule: soil-moisture radiometer ~ SMOS (2009)
+dmbioDrill,deepSpaceScience,batch2 reviewed rule: biology drill ~ Viking (1976)
+dmsurfacelaser,advancedSurfaceScience,batch2 reviewed rule: Curiosity-era instrument (2012)
+dmUS2ImagingPlatform,deepSpaceScience,batch2 reviewed rule: multispectral imager ~ Landsat (1972)
+dmUS2Scope,scienceExploration,batch2 reviewed rule: orbital telescope
+dmmagBoom,scienceSatellite,batch2 reviewed rule: magnetometer boom (1958)
+IRtestdock,standardDockingPorts,batch2 reviewed rule: APAS-style androgynous port
+SCS-DP1,standardDockingPorts,batch2 reviewed rule: APAS-style androgynous port
+B10.APASv2.TestDock,standardDockingPorts,batch2 reviewed rule: APAS-style androgynous port
+FSnoseEngineElectric,advancedTurbofans,batch2 reviewed rule: electric aviation: 2000s+
+FSVTOLengine,efficientSupersonic,batch2 reviewed rule: VTOL fans ~ Harrier era
+FSswampEngine,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSVTOLengineLarge,efficientSupersonic,batch2 reviewed rule: VTOL fans ~ Harrier era
+FSbomberCockpit,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FScopterCockpit,matureSupersonic,batch2 reviewed rule: helicopter parts ~ 1950s
+FSapacheCockpit,matureTurbofans,batch2 reviewed rule: attack-helicopter parts ~ 1980s
+FSstrutConnectorWood,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FS.BiplaneEngine,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSCrewFuselage,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSPROpeller,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSturboProp,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FS.BiplaneRudder,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FS.BiplaneWingTip,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSstrutConnectorWire,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSoblongNoseIntake,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FS.BiplaneElevator,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSapacheNoseASAS,earlyFlightControl,batch2 reviewed rule: gyro/ASAS
+FS.BiplaneWingMain,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FS.BiplaneWingRound,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSdropTankMount,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+fsgyroscope,earlyFlightControl,batch2 reviewed rule: gyro/ASAS
+FSfighterWing,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FS.BiplaneWingCenter,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSengineMount,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FS.BiplaneWheel,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FS.BiplaneWingShort,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSbomberWing,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSbiPlaneAileron,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSbomberWingExtender,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSwinglet,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FStailWing,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSbomberFuselage,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FStailWingLarge,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FS.BiplaneTailFuselage,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSfighterJetRudder,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSfighterJetWing,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSdropTank,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSfighterJetElevator,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSoblongMultiTank,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FS.OblongToRoundAdapter,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSbiplaneGear,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSoblongToRoundAdapter,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSoblongToSmallAdapter,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FS.BiplaneSkid,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSairTank,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FScopterRotorMain,matureSupersonic,batch2 reviewed rule: helicopter parts ~ 1950s
+FSlandingPads,matureSupersonic,batch2 reviewed rule: helicopter parts ~ 1950s
+FSoblongNose,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSairBrake,supersonicFlightRP0,batch2 reviewed rule: air brake
+FSapacheLandingGear,matureTurbofans,batch2 reviewed rule: attack-helicopter parts ~ 1980s
+FSapacheLandingGearFlip,matureTurbofans,batch2 reviewed rule: attack-helicopter parts ~ 1980s
+FSbomberLandingGear,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FScopterRotorTail,matureSupersonic,batch2 reviewed rule: helicopter parts ~ 1950s
+FSfighterLandingGear,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSoblongNoseLong,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSoblongNoseRound,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSoblongTail,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+fstrimgadget,start,batch2 reviewed rule: pre-jet aviation / utility
+FSPROpellerElectric,advancedTurbofans,batch2 reviewed rule: electric aviation: 2000s+
+FSbomberFuselageTail,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FScopterRotorFenestron,matureSupersonic,batch2 reviewed rule: helicopter parts ~ 1950s
+FScopterRotorMainElectric,advancedTurbofans,batch2 reviewed rule: electric aviation: 2000s+
+FSfloatEnd,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSfloatStrut,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSoblongFuselageHalf,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSoxidizerTank,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FStailBoom,matureSupersonic,batch2 reviewed rule: helicopter parts ~ 1950s
+fsmovecraftgadget,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSbombBay,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSfighterTailGear,supersonicDev,batch2 reviewed rule: WWII/early-jet airframe parts
+FSfloatEndTail,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSfloatGearbay,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSfloatStraight,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSjerrycan,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+fsinfopopup,start,batch2 reviewed rule: pre-jet aviation / utility
+indicatorLightSmall,electronicsSatellite,start cleanup: indicator lights
+Engineer7500,start,batch2 reviewed rule: readout part
+EngineerChip,start,batch2 reviewed rule: readout part
+IR.DockingPort,standardDockingPorts,batch2 reviewed rule: robotic docking mechanism
+IR.StrutDecoupler.Large,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.StrutDecoupler.Small,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Camera,surfaceScience,batch2 reviewed rule: robotic sampler/camera
+IR.SmallSuspension,interplanetaryRovers,batch2 reviewed rule: rover suspension
+IR.LargeSuspension,interplanetaryRovers,batch2 reviewed rule: rover suspension
+IR.Adapter.0625ToTrussSmall,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Foldatron.Hinge.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Adapter.0625ToTrussLarge,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Adapter.0625ToTubeLarge,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Adapter.TrussLargeToTrussSmall,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Adapter.TrussLargeToTubeLarge,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Adapter.TubeLargeToTrussSmall,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Adapter.TubeLargeToTubeSmall,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Pivotron.Hinge.Flat.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Rotatron.Basic.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Segment.TrussSmall.1m25,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TubeSmall.2m50,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Adapter.TrussSmallToTubeSmall,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Foldatron.Offset.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Foldatron.OffsetMini.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.LandingFoot,interplanetaryRovers,batch2 reviewed rule: rover suspension
+IR.Pivotron.Basic.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Pivotron.Hinge.Basic.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Pivotron.OneTwenty.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Pivotron.RangeNinety.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.RailSlidertron.Short,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Rotatron.Right.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Rotatron.Uncontrolled.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Segment.TrussLarge.1m25,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TrussSmall.2m50,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Adaptron.Offset.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.AthleteTruss.0m625,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.AthleteTruss.1m875,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.AthleteTruss.4m375,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Extendatron.Basic.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Extendatron.BasicHalf.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Extendatron.Stackable.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Foldatron.Inset.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Foldatron.InsetEnd.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Foldatron.InsetTwist.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Pivotron.Sixty.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Pivotron.Uncontrolled.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.RailPivotron.Short,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailRotatron.Short,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Rotatron.Bearing.Basic.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Rotatron.OffAxis.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Segment.TrussLarge.2m50,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TrussLarge.5m00,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TrussSmall.0m625,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TubeSmall.0m625,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.SurfaceSampler,surfaceScience,batch2 reviewed rule: robotic sampler/camera
+IR.Adaptron.Basic.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Extendatron.Right.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Extendatron.RightHalf.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Extendatron.StackableHalf.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Foldatron.Basic.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Foldatron.Extended.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Foldatron.Mini.v3,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailExtendatron,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailGantry.Short,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailLiftatron.Short,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Rotatron.Bearing.Hub.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Rotatron.Parallel.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.Segment.TubeLarge.1m25,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TubeLarge.2m50,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TubeLarge.5m00,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.Segment.TubeSmall.1m25,materialsScienceSpaceStation,batch2 reviewed rule: robotics structure
+IR.RailHinge.Short,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailPivotron.Long,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailRotatron.Long,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailSlidertron.Long,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.Rotatron.Bearing.Uncontrolled.v3,electronicsSpaceStation,batch2 reviewed rule: basic servo/rotator
+IR.RailGantry.Long,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailHinge.Long,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+IR.RailLiftatron.Long,electronicsSpaceplanes,batch2 reviewed rule: robotic arm joints ~ Canadarm (1981)
+mumech.MJ2.AR202.features1,basicAvionics,batch2 reviewed rule: MechJeb feature tier 1
+mumech.MJ2.AR202.features2,improvedAvionics,batch2 reviewed rule: MechJeb feature tier 2
+mumech.MJ2.AR202.features3,matureAvionics,batch2 reviewed rule: MechJeb feature tier 3
+mumech.MJ2.AR202.features4,advancedAvionics,batch2 reviewed rule: MechJeb feature tier 4
+mumech.MJ2.AR202,earlyAvionics,batch2 reviewed rule: MechJeb core
+reactor-375,advModernNuclearPower,batch2 analogue (checked): like reactor-25 (NearFutureElectrical)
+reactor-375-2,nuclearPowerNF,batch2 analogue (checked): like reactor-25-2 (NearFutureElectrical)
+nfe-reactor-0625-1,modernNuclearPower,batch2 analogue (checked): like reactor-0625 (NearFutureElectrical)
+nfe-reactor-25-2,nuclearPowerNF,batch2 analogue (checked): like reactor-25-2 (NearFutureElectrical)
+nfe-reactor-25-1,advModernNuclearPower,batch2 analogue (checked): like reactor-25 (NearFutureElectrical)
+nfe-reactor-125-1,advancedNuclearPower,batch2 analogue (checked): like reactor-125 (NearFutureElectrical)
+nfe-reactor-tiny-2,modernNuclearPower,batch2 analogue (checked): like reactor-0625 (NearFutureElectrical)
+nfe-reactor-tiny-1,modernNuclearPower,batch2 analogue (checked): like reactor-0625 (NearFutureElectrical)
+battery-0625,electronicsHuman,batch2 reviewed rule: small battery
+nfe-reactor-375-1,nuclearPowerNF,batch2 analogue (checked): like reactor-25-2 (NearFutureElectrical)
+nfe-reactor-1875-1,advancedNuclearPower,batch2 analogue (checked): like reactor-125 (NearFutureElectrical)
+battery-125,electronicsLunar,batch2 reviewed rule: battery
+nfe-nuclear-recycler-25-1,modernNuclearPower,batch2 reviewed rule: fuel reprocessor
+nfe-nuclearfuel-0625-1,advancedNuclearPower,batch2 reviewed rule: reactor fuel container
+nfe-nuclearfuel-125-1,advancedNuclearPower,batch2 reviewed rule: reactor fuel container
+nfe-nuclearfuel-25-1,advancedNuclearPower,batch2 reviewed rule: reactor fuel container
+nfex-antenna-phased-single-2,improvedComms,batch2 analogue (checked): like nfex-antenna-phased-single-3 (NearFutureExploration)
+nfex-antenna-phased-single-1,improvedComms,batch2 analogue (checked): like nfex-antenna-phased-single-3 (NearFutureExploration)
+nfex-antenna-rover-1,improvedComms,batch2 analogue (checked): like nfex-antenna-rover-3 (NearFutureExploration)
+nfex-antenna-feeder-relay-1,interplanetaryComms,batch2 analogue (checked): like nfex-antenna-feeder-direct-1 (NearFutureExploration)
+nfex-probe-rnd-1,longTermAvionics,batch2 analogue (checked): like probeCoreCube (Squad)
+nfex-fueltank-radial-small-1,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nfex-fueltank-radial-small-2,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nfex-fueltank-radial-small-3,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nfex-probe-chfr-1,matureAvionics,batch2 analogue (checked): like HECS2.ProbeCore (Squad)
+nfex-reaction-wheel-mini-1,largeSpaceplaneControl,batch2 analogue (checked): like restock-reactionwheel-radial-1 (ReStockPlus)
+nfex-probe-sqr-1,matureAvionics,batch2 analogue (checked): like HECS2.ProbeCore (Squad)
+nfex-fueltank-stack-medium-1,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nfex-probe-dsk-1,longTermAvionics,batch2 analogue (checked): like probeStackSmall (Squad)
+nfex-probe-stp-1,longTermAvionics,batch2 analogue (checked): like probeStackSmall (Squad)
+nfex-fueltank-stack-medium-2,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nfex-fueltank-stack-medium-3,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nfex-probe-plto-1,longTermAvionics,batch2 analogue (checked): like probeStackSmall (Squad)
+nfex-probe-rkt-1,matureAvionics,batch2 analogue (checked): like HECS2.ProbeCore (Squad)
+nfex-landing-leg-nano-1,earlyLanding,batch2 analogue (checked): like miniLandingLeg (Squad)
+nfex-fueltank-radial-tiny-1,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nfex-fueltank-stack-tiny-1,orbitalRocketry1963,batch2 reviewed rule: small probe propellant tank
+nflv-rcs-heavy-4x-2,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-2 (NearFutureLaunchVehicles)
+nflv-rcs-heavy-1x-2,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-2 (NearFutureLaunchVehicles)
+nflv-engine-rutherford-vac-1,orbitalRocketry2014,batch2 reviewed rule: Rutherford (2017)
+nflv-rcs-heavy-4x-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+nflv-engine-rutherford-1,orbitalRocketry2014,batch2 reviewed rule: Rutherford (2017)
+nflv-rcs-heavy-1x-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+nflv-rcs-integrated-4x-2,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-2 (NearFutureLaunchVehicles)
+nflv-rcs-integrated-3x-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-2 (NearFutureLaunchVehicles)
+nflv-rcs-integrated-4x-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-2 (NearFutureLaunchVehicles)
+nflv-drone-core-5-1,matureAvionics,batch2 analogue (checked): like restock-drone-core-375-1 (ReStockPlus)
+nflv-decoupler-radial-1,earlyMaterialsScience,start-node cleanup: radial decoupler
+nflv-docking-5-1,largeDockingPorts,batch2 analogue (checked): like truss-circular-docking-01 (NearFutureConstruction)
+nflv-drone-core-75-1,advModernAvionics,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-75-4,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-5-4,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-fueltank-5-3,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fueltank-5-4,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fueltank-5-2,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fueltank-adapter-5-375-1,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-cargo-5-1,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-cargo-5-2,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-cargo-5-3,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-cargo-75-4,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-75-3,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-75-1,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-75-2,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-75-3,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-decoupler-5-1,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-decoupler-75-1,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-5-1,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-separator-5-1,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-separator-75-1,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-nose-5-1,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-fueltank-75-1,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-75-2,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-nose-75-1,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fairing-5-1,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-fueltank-adapter-5-375-2,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fairing-75-1,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-75-5,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-adapter-5-375-3,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-skeletal-adapter-5-375-1,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fueltank-adapter-75-5-1,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-nosecone-5-1,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fueltank-round-5-1,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fueltank-adapter-75-5-2,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-fueltank-round-75-1,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-nflv-fueltank-adapter-5-375-4,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-skeletal-adapter-75-5-1,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cluster-mount-lower-5-1,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-cluster-mount-lower-5-2,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-fueltank-nosecone-75-1,orbitalRocketry2019,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-tube-5-1,materialsScienceSpaceStation,batch2 reviewed rule: 5 m cargo/structure
+nflv-cluster-mount-upper-5-2,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-cluster-mount-lower-5-3,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-cluster-mount-upper-5-3,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-cluster-mount-lower-5-4,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-cluster-mount-upper-5-1,orbitalRocketry1967,batch2 reviewed rule: 5 m tankage ~ Saturn V
+nflv-battery-stack-75-1,electronicsMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cargo-tube-75-1,electronicsMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-service-bay-75-1,electronicsMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cluster-mount-lower-75-1,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cluster-mount-upper-75-1,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cluster-mount-upper-75-2,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+nflv-cluster-mount-lower-75-2,materialsScienceMatureCommercial,batch2 reviewed rule: 7.5 m heavy-lift ~ SLS/Starship era
+argon-125-1,earlyElecPropulsion,batch2 analogue (checked): like argon-125-2 (NearFuturePropulsion)
+argon-125-3,earlyElecPropulsion,batch2 analogue (checked): like argon-125-2 (NearFuturePropulsion)
+xenon-125-1,earlyElecPropulsion,batch2 analogue (checked): like xenon-125-2 (NearFuturePropulsion)
+xenon-125-3,earlyElecPropulsion,batch2 analogue (checked): like xenon-125-2 (NearFuturePropulsion)
+argon-25-1,earlyElecPropulsion,batch2 analogue (checked): like argon-25-2 (NearFuturePropulsion)
+argon-25-3,earlyElecPropulsion,batch2 analogue (checked): like argon-25-2 (NearFuturePropulsion)
+xenon-25-1,earlyElecPropulsion,batch2 analogue (checked): like xenon-25-2 (NearFuturePropulsion)
+xenon-25-3,earlyElecPropulsion,batch2 analogue (checked): like xenon-25-2 (NearFuturePropulsion)
+argon-0625-2,earlyElecPropulsion,batch2 analogue (checked): like argon-125-2 (NearFuturePropulsion)
+argon-0625-1,earlyElecPropulsion,batch2 analogue (checked): like argon-125-2 (NearFuturePropulsion)
+argon-0625-3,earlyElecPropulsion,batch2 analogue (checked): like argon-125-2 (NearFuturePropulsion)
+xenon-radial-125-1,earlyElecPropulsion,batch2 analogue (checked): like xenon-125-2 (NearFuturePropulsion)
+argon-radial-125-1,earlyElecPropulsion,batch2 analogue (checked): like argon-125-2 (NearFuturePropulsion)
+argon-radial-0625-1,earlyElecPropulsion,batch2 analogue (checked): like argon-125-2 (NearFuturePropulsion)
+lithium-125-1,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-125-2,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-25-2,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-25-3,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-0625-1,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-125-3,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-0625-2,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-25-1,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-0625-3,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+lithium-radial-125-1,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+rcsblock-mpdt-quint-01,elecPropulsion2009,batch2 reviewed rule: MPD RCS
+rcsblock-mpdt-triple-01,elecPropulsion2009,batch2 reviewed rule: MPD RCS
+rcsblock-mpdt-quad-01,elecPropulsion2009,batch2 reviewed rule: MPD RCS
+rcsblock-mpdt-single-01,elecPropulsion2009,batch2 reviewed rule: MPD RCS
+lithium-radial-0625-1,elecPropulsion1986,"batch2 reviewed rule: lithium tank, same node as first MPD thruster (mpdt-0625)"
+rcsblock-gridded-01,elecPropulsion1998,batch2 reviewed rule: gridded-ion RCS ~ DS1
+rcsblock-pulsedplasma-01,earlyElecPropulsion,batch2 reviewed rule: pulsed-plasma RCS
+rcsblock-hall-01,elecPropulsion1981,batch2 reviewed rule: Hall RCS
+nfs-panel-deploying-blanket-orion-1,spaceStationSolarPanels,batch2 analogue (checked): like ca.explorer.solar (CoatlAerospace)
+nfs-panel-static-truss-3,advancedPower,batch2 analogue (checked): like sp.express.b (CoatlAerospace)
+nfs-panel-deploying-advanced-1x1-messenger-1,advancedPower,batch2 analogue (checked): like sp.express.b (CoatlAerospace)
+nfs-panel-deploying-advanced-1x2-mro-1,earlyPower,batch2 analogue (checked): like sp.mariner.a (CoatlAerospace)
+nfs-panel-deploying-advanced-1x3-orion-1,spaceStationSolarPanels,batch2 analogue (checked): like ca.explorer.solar (CoatlAerospace)
+nfs-panel-deploying-advanced-3x1-tdrss-1,spaceStationSolarPanels,batch2 analogue (checked): like ca.explorer.solar (CoatlAerospace)
+nfs-panel-deploying-advanced-1x1-ikonos-1,advancedPower,batch2 analogue (checked): like sp.odyssey.a (CoatlAerospace)
+nfs-panel-deploying-advanced-1x2-wv4-1,spaceStationSolarPanels,batch2 analogue (checked): like ca.explorer.solar (CoatlAerospace)
+nfs-panel-deploying-advanced-1x3-orion-2,spaceStationSolarPanels,batch2 analogue (checked): like ca.explorer.solar (CoatlAerospace)
+nfs-panel-deploying-advanced-3x1-wv3-1,advancedPower,batch2 analogue (checked): like sp.express.b (CoatlAerospace)
+nfs-panel-static-truss-2,advancedPower,batch2 analogue (checked): like sp.express.b (CoatlAerospace)
+nfs-panel-deploying-advanced-1x4-dragon-1,modernPower,batch2 analogue (checked): like sp.juno (CoatlAerospace)
+nfs-panel-deploying-blanket-nautilus-1,maturePower,batch2 analogue (checked): like largeSolarPanel (Squad)
+nfs-panel-deploying-blanket-starship-1,maturePower,batch2 analogue (checked): like largeSolarPanel (Squad)
+nfs-panel-deploying-concentrator-1x4-juno-1,modernPower,batch2 analogue (checked): like sp.juno (CoatlAerospace)
+nfs-panel-deploying-advanced-1x4-dragon-2,modernPower,batch2 analogue (checked): like sp.juno (CoatlAerospace)
+nfs-panel-deploying-advanced-1x5-goes-1,maturePower,batch2 analogue (checked): like largeSolarPanel (Squad)
+nfs-panel-deploying-advanced-2x6x6-lab-1,maturePower,batch2 analogue (checked): like largeSolarPanel (Squad)
+nfs-panel-deploying-concentrator-1x3x1-juice-1,maturePower,batch2 analogue (checked): like largeSolarPanel (Squad)
+nfs-panel-static-truss-1,advancedPower,batch2 analogue (checked): like sp.express.b (CoatlAerospace)
+nfs-panel-deploying-blanket-copernicus-1,spaceStationSolarPanels,batch2 analogue (checked): like ca.explorer.solar (CoatlAerospace)
+landingleg-pod-1,lunarLanding,batch2 analogue (checked): like landingLeg1-2 (Squad)
+rcsblock-aero-5way-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+command-25-landing-1,lunarLanding,batch2 reviewed rule: lander can ~ LM
+command-125-1,improvedCapsules,batch2 reviewed rule: utility command can
+command-125-landing-1,lunarLanding,batch2 reviewed rule: lander can ~ LM
+command-25-1,improvedCapsules,batch2 reviewed rule: utility command can
+command-mk3-9,spaceShuttles,batch2 reviewed rule: Mk3 spaceplane cockpit
+rcsblock-orbital-2way-45-1,earlyFlightControl,start-node cleanup: RCS block
+rcsblock-orbital-3way-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+rcsblock-orbital-4way-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+rcsblock-orbital-5way-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+command-125-orbit-1,advancedCapsules,batch2 analogue (checked): like cupola (Squad)
+command-ppd-1,earlySpaceStations,batch2 reviewed rule: station utility module
+rcsblock-orbital-2way-45-2,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+orbital-engine-0625,earlyFlightControl,batch2 analogue (checked): like ca.jib (CoatlAerospace)
+rcsblock-orbital-linear-1,improvedFlightControl,batch2 analogue (checked): like nflv-rcs-aero-heavy-1 (NearFutureLaunchVehicles)
+orbital-engine-125,spaceStationControl,batch2 analogue (checked): like ca.trident (CoatlAerospace)
+command-mk4-1,modernCapsules,batch2 reviewed rule: Orion-class capsule
+utility-pod-25,earlySpaceStations,batch2 reviewed rule: station utility module
+command-375-biconic-1,commercialCapsules,batch2 reviewed rule: large biconic capsule
+PWBFuelBalancer,improvedFlightControl,batch2 reviewed rule: automatic CoM balancer
+proceduralTankLiquid,start,batch2 reviewed rule: procedural parts available from start (your rule)
+proceduralTankSRB,start,batch2 reviewed rule: procedural parts available from start (your rule)
+proceduralHeatshield,entryDescentLanding,start cleanup: heat shields arrive with reentry work
+proceduralBattery,electronicsSatellite,start cleanup: batteries with early electronics
+restock-relay-radial-2.v2,improvedComms,stock/restock review: long-range HG-5 relay
+restock-srb-striker-1,solids1958,"stock/restock review: Striker, with the Thumper"
+restock-srb-castor-1,solids1966,"stock/restock review: Castor, with the Pollux"
+restock-pod-sphere-2,secondGenCapsules,stock/restock review: like kv2
+restock-pod-sphere-3,secondGenCapsules,stock/restock review: like kv3
+restock-decoupler-1875-truss-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-engine-galleon-1,orbitalRocketry1965,stock/restock review: Galleon ~ Mastodon
+restock-engine-caravel-1,orbitalRocketry1966,stock/restock review: Caravel ~ Wolfhound
+restock-engine-schnauzer-1,orbitalRocketry1965,stock/restock review: Schnauzer ~ Skiff
+restock-engine-les-2,basicCapsules,"stock/restock review: small LES, with the LES"
+restock-rcs-block-multi-mini-2,earlyFlightControl,stock/restock review: mini RCS
+restock-engine-ursa-1,orbitalRocketry1956,stock/restock review: Ursa ~ Kodiak
+restock-rcs-block-multi-2,improvedFlightControl,batch2 analogue (checked): like restock-rcs-block-quint-1 (ReStockPlus)
+restock-drone-core-1875-1,largeScaleAvionics,"stock/restock review: RC-M001, with RC-001S"
+restock-engine-panda-1,earlyFlightControl,"stock/restock review: vernier, with the Cub"
+restock-drone-core-0625-1,matureAvionics,stock/restock review: RC-XS1
+restock-engineplate-1875-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-reactionwheel-1875-1,improvedFlightControl,"stock/restock review: 1.875 m reaction wheel, between 1.25 and 2.5"
+restock-fairing-base-5-1,materialsScienceLunar,start-node cleanup: 5 m fairing
+restock-decoupler-5-1,materialsScienceLunar,batch2 reviewed rule: structure dated by diameter
+restock-separator-5-1,materialsScienceLunar,batch2 reviewed rule: structure dated by diameter
+restock-fueltank-1875-soyuz-1,orbitalRocketry1961,batch2 reviewed rule: LFO tank dated by diameter
+restock-service-module-1875-1,materialsScienceHuman,stock/restock review: 1.875 m service module
+restock-service-bay-1875-1,materialsScienceHuman,stock/restock review: 1.875 m service bay
+restock-node-1875-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-adapter-1875-25-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-battery-1875-1,electronicsHuman,"stock/restock review: Z-2.5K, between Z-1K and Z-4K"
+restock-engineplate-125-1,materialsScienceSatellite,batch2 reviewed rule: structure dated by diameter
+restock-adapter-1875-125-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-engineplate-125-2,materialsScienceSatellite,batch2 reviewed rule: structure dated by diameter
+restock-mk2-pod,secondGenCapsules,stock/restock review: like MH Mk2 pod
+restock-node-625-1,materialsScienceSatellite,batch2 reviewed rule: structure dated by diameter
+restock-engineplate-25-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-engineplate-375-1,materialsScienceLunar,batch2 reviewed rule: structure dated by diameter
+restock-fueltank-adapter-1875-125-1,orbitalRocketry1961,batch2 reviewed rule: adapter tank dated by larger diameter
+restock-fueltank-adapter-1875-125-2,orbitalRocketry1961,batch2 reviewed rule: adapter tank dated by larger diameter
+restock-fueltank-sphere-125-1,orbitalRocketry1960,batch2 reviewed rule: LFO tank dated by diameter
+restock-structural-tube-1875-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-structural-tube-375-1,materialsScienceLunar,batch2 reviewed rule: structure dated by diameter
+restock-apu-radial-1,earlyLifeSupport,batch2 analogue (checked): like FuelCell (Squad)
+restock-fuel-tank-rcs-radial-tiny-1,earlyFlightControl,batch2 reviewed rule: RCS tank by diameter
+restock-fueltank-saturn-engine-1,orbitalRocketry1967,stock/restock review: 5 m engine adapter tank
+restock-oretank-1875-1,lifeSupportISRU,"batch2 reviewed rule: ore tank, with stock ISRU"
+restock-docking-375-1,largeDockingPorts,"stock/restock review: Clamp-O-Tron 'Grande', after the Sr."
+restock-fueltank-1875-3,orbitalRocketry1961,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-5-4,orbitalRocketry1967,batch2 reviewed rule: LFO tank dated by diameter
+restock-ladder-static-2,materialsScienceHuman,start-node cleanup: ladder
+restock-nosecone-375-1,orbitalRocketry1965,batch2 reviewed rule: nosecone by diameter
+restock-engineplate-5-1,materialsScienceLunar,batch2 reviewed rule: structure dated by diameter
+restock-fueltank-adapter-375-5-1,orbitalRocketry1965,batch2 reviewed rule: adapter tank dated by larger diameter
+restock-ladder-static-3,materialsScienceHuman,start-node cleanup: ladder
+restock-wheel-1-T,advancedUncrewedLanding,stock/restock review: with RoveMax M1
+restock-fuel-tank-375-4,orbitalRocketry1965,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-5-3,orbitalRocketry1967,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-sphere-25-1,orbitalRocketry1962,batch2 reviewed rule: LFO tank dated by diameter
+restock-oretank-375-1,lifeSupportISRU,"batch2 reviewed rule: ore tank, with stock ISRU"
+restock-truss-adapter-0625-1,materialsScienceHuman,start-node cleanup: girder adapter
+restock-fuel-tank-0625-1,orbitalRocketry1958,batch2 reviewed rule: LFO tank dated by diameter
+restock-fuel-tank-rcs-1875-1,stabilityRP0,batch2 reviewed rule: RCS tank by diameter
+restock-fueltank-1875-2,orbitalRocketry1961,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-1875-4,orbitalRocketry1961,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-sphere-1875-1,orbitalRocketry1961,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-sphere-375-1,orbitalRocketry1965,batch2 reviewed rule: LFO tank dated by diameter
+restock-heatshield-1875-1,humanRatedEDL,batch2 reviewed rule: 1.875 m heat shield
+restock-structural-tube-25-1,materialsScienceHuman,batch2 reviewed rule: structure dated by diameter
+restock-fuel-tank-rcs-375-1,improvedFlightControl,batch2 reviewed rule: RCS tank by diameter
+restock-fueltank-1875-1,orbitalRocketry1961,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-5-2,orbitalRocketry1967,batch2 reviewed rule: LFO tank dated by diameter
+restock-sciencebox-stack-1,scienceHuman,stock/restock review: with Experiment Storage
+restock-fuel-tank-0625-2,orbitalRocketry1958,batch2 reviewed rule: LFO tank dated by diameter
+restock-fuel-tank-0625-3,orbitalRocketry1958,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-5-1,orbitalRocketry1967,batch2 reviewed rule: LFO tank dated by diameter
+restock-fueltank-adapter-25-1875-1,orbitalRocketry1961,batch2 reviewed rule: adapter tank dated by larger diameter
+restock-fuel-tank-0625-5,orbitalRocketry1958,batch2 reviewed rule: LFO tank dated by diameter
+restock-fuel-tank-probe-1,orbitalRocketry1963,batch2 reviewed rule: probe tank
+restock-fueltank-adapter-1875-0625-1,orbitalRocketry1958,batch2 reviewed rule: adapter tank dated by larger diameter
+restock-fuel-tank-probe-2,orbitalRocketry1963,batch2 reviewed rule: probe tank
+restock-fueltank-sphere-0625-1,orbitalRocketry1958,batch2 reviewed rule: LFO tank dated by diameter
+restock-truss-3,materialsScienceSpaceStation,start-node cleanup: XXL girder ~ station trusses
+restock-structural-tube-125-1,materialsScienceSatellite,batch2 reviewed rule: structure dated by diameter
+restock-structural-tube-5-1,materialsScienceLunar,batch2 reviewed rule: structure dated by diameter
+restock-nosecone-1875-2,orbitalRocketry1961,batch2 reviewed rule: nosecone by diameter
+restock-truss-hub-1,materialsScienceLunar,start-node cleanup: girder hub
+restock-claw-625-1,spaceStationControl,"stock/restock review: small claw, with the Klaw"
+restock-materialbay-radial-1,scienceSatellite,stock/restock review: with the Materials Bay
+restock-airlock-1,inflatableHabitats,batch2 reviewed rule: inflatable airlock
+restock-goocanister-625-1,earlyScience,stock/restock review: with Mystery Goo
+restock-nosecone-0625-1,orbitalRocketry1958,batch2 reviewed rule: nosecone by diameter
+restock-nosecone-5-1,orbitalRocketry1967,batch2 reviewed rule: nosecone by diameter
+RTPassiveAntennaTech,lunarRangeComms,batch2 reviewed rule: passive antenna tech
+restock-leg-1-rigid,earlyLanding,batch2 reviewed rule: rigid lander leg
+restock-leg-3-rigid,advancedUncrewedLanding,batch2 reviewed rule: rigid lander leg
+restock-leg-2-rigid,lunarLanding,batch2 reviewed rule: rigid lander leg
+Decoupler.4,materialsScienceLunar,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Separator.4,materialsScienceLunar,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Size1p5.Tank.05,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+LiquidEngineRK-7,orbitalRocketry1956,stock/restock review: Kodiak ~ RD-107
+LiquidEngineKE-1,orbitalRocketry1965,stock/restock review: Mastodon
+LiquidEngineLV-T91,orbitalRocketry1963,stock/restock review: Cheetah
+Pollux,solids1966,stock/restock review: Pollux 1.875 m SRB
+LiquidEngineLV-TX87,orbitalRocketry1961,stock/restock review: Bobcat
+Mk2Pod,secondGenCapsules,batch2 reviewed rule: Voskhod/Gemini-era pod
+LiquidEngineRE-I2,orbitalRocketry1965,stock/restock review: Skiff
+LiquidEngineRE-J10,orbitalRocketry1966,stock/restock review: Wolfhound ~ J-2 class
+kv2Pod,secondGenCapsules,batch2 reviewed rule: Voskhod/Gemini-era pod
+roverWheelM1-F,advancedUncrewedLanding,stock/restock review: RoveMax M1-F ~ LRV
+HeatShield1p5,humanRatedEDL,batch2 reviewed rule: 1.875 m heat shield
+kv3Pod,secondGenCapsules,batch2 reviewed rule: Voskhod/Gemini-era pod
+kv1Pod,basicCapsules,batch2 reviewed rule: Vostok-style 1-seat
+fairingSize1p5,materialsScienceHuman,start-node cleanup: 1.875 m fairing
+Size1p5.Strut.Decoupler,materialsScienceHuman,start-node cleanup: 1.875 m strut decoupler
+fairingSize4,orbitalRocketry1967,batch2 reviewed rule: 5 m part
+Decoupler.1p5,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Separator.1p5,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+largePropeller,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+largeHeliBlade,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+EnginePlate2,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+EnginePlate3,materialsScienceLunar,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+EnginePlate5,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Size1to0ServiceModule,materialsScienceSatellite,batch2 analogue (checked): like ServiceBay.125.v2 (Squad)
+Size4.Tank.02,orbitalRocketry1967,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+largeFanBlade,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+mediumHeliBlade,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+mediumPropeller,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+smallPropeller,materialsScienceSatellite,batch2 reviewed rule: with the small electric rotor (RP-1 places rotor.01 here)
+RobotArmScanner.S1,surfaceScience,batch2 reviewed rule: robotic arm scanner
+RobotArmScanner.S2,scienceExploration,batch2 reviewed rule: robotic arm scanner
+RobotArmScanner.S3,sampleReturnScience,batch2 reviewed rule: robotic arm scanner
+Size1p5.Tank.02,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+mediumFanBlade,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+smallHeliBlade,materialsScienceSatellite,batch2 reviewed rule: with the small electric rotor (RP-1 places rotor.01 here)
+Size1p5.Tank.03,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Size4.Tank.01,orbitalRocketry1967,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Size4.Tank.03,orbitalRocketry1967,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+smallFanBlade,materialsScienceSatellite,batch2 reviewed rule: with the small electric rotor (RP-1 places rotor.01 here)
+Size1p5.Tank.01,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+LiquidEngineRV-1,earlyFlightControl,stock/restock review: Cub vernier (was mis-sorted as nuclear)
+Size1p5.Size2.Adapter.01,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Size4.Tank.04,orbitalRocketry1967,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Panel1,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Panel2,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Size1p5.Size0.Adapter.01,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Size1p5.Size1.Adapter.01,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Size1p5.Size1.Adapter.02,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+EquiTriangle2,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+InflatableAirlock,inflatableHabitats,batch2 reviewed rule: inflatable airlock
+Size1p5.Tank.04,orbitalRocketry1961,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Size3.Size4.Adapter.01,orbitalRocketry1965,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Size4.EngineAdapter.01,orbitalRocketry1967,"batch2 reviewed rule: tank dated by diameter (1.875 m ~ 1961, 5 m ~ 1967)"
+Triangle2,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+FanShroud.01,materialsScienceSatellite,batch2 reviewed rule: with the small electric rotor (RP-1 places rotor.01 here)
+FanShroud.03,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+Triangle0,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Triangle1,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Triangle1p5,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+lGripPad,materialsScienceSpaceStation,batch2 analogue (checked): like GrapplingDevice (Squad)
+monopropMiniSphere,earlyFlightControl,batch2 analogue (checked): like rcsTankMini (Squad)
+noseconeVS,highSpeedFlight,batch2 analogue (checked): like RotorEngine.02 (SquadExpansion)
+EquiTriangle0,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+EquiTriangle1,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+EquiTriangle1p5,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Panel0,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+ServiceModule18,materialsScienceSatellite,batch2 analogue (checked): like ServiceBay.125.v2 (Squad)
+noseconeTiny,highSpeedFlight,batch2 analogue (checked): like RotorEngine.02 (SquadExpansion)
+EnginePlate1p5,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+FanShroud.02,materialsScienceAdvCapsules,batch2 reviewed rule: with the larger rotors (RP-1 places rotor.02/03 here)
+Tube1,materialsScienceSatellite,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Tube2,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+rocketNoseConeSize4,orbitalRocketry1967,batch2 reviewed rule: 5 m part
+Panel1p5,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+flagPartSize4,orbitalRocketry1967,batch2 reviewed rule: 5 m part
+EnginePlate4,materialsScienceLunar,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+DeployedCentralStation,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+Size.1.5.Cone,orbitalRocketry1961,batch2 reviewed rule: 1.875 m nose cone
+Tube3,materialsScienceLunar,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+ServiceModule25,materialsScienceLunar,batch2 reviewed rule: 2.5 m service module
+DeployedSatDish,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+Tube1p5,materialsScienceHuman,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+Tube4,materialsScienceLunar,"batch2 reviewed rule: structure dated by size (1.875 m ~ 1961, 5 m ~ 1967)"
+DeployedRTG,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+DeployedSeismicSensor,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+DeployedSolarPanel,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+DeployedWeatherStn,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+Size1p5.Monoprop,improvedFlightControl,batch2 reviewed rule: 1.875 m monoprop
+DeployedGoExOb,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+DeployedIONExp,surfaceScience,batch2 reviewed rule: Breaking Ground deployable science ~ ALSEP (1969)
+StnSciExperiment1,deepSpaceScience,batch2 reviewed rule: station experiment
+StnSciExperiment2,deepSpaceScience,batch2 reviewed rule: station experiment
+StnSciExperiment3,scienceExploration,batch2 reviewed rule: station experiment
+StnSciExperiment4,scienceExploration,batch2 reviewed rule: station experiment
+StnSciExperiment7,advancedScience,batch2 reviewed rule: station experiment
+StnSciExperiment8,advancedScience,batch2 reviewed rule: station experiment
+StnSciLab,earlySpaceStations,batch2 reviewed rule: station lab ~ Skylab
+StnSciExperiment5,sampleReturnScience,batch2 reviewed rule: station experiment
+StnSciExperiment6,sampleReturnScience,batch2 reviewed rule: station experiment
+StnSciKibJr,earlySpaceStations,batch2 reviewed rule: station lab ~ Skylab
+StnSciKib,earlySpaceStations,batch2 reviewed rule: station lab ~ Skylab
+StnSciZoo,modularSpaceStations,batch2 reviewed rule: large station facility ~ Mir
+StnSciSpectro,modularSpaceStations,batch2 reviewed rule: large station facility ~ Mir
+StnSciCyclo,modularSpaceStations,batch2 reviewed rule: large station facility ~ Mir
+W485.SurfaceLight,electronicsHuman,start-node cleanup: surface light
+W485.SurfaceOmniLight,electronicsHuman,start-node cleanup: surface light
+W485.Surface4WayLight,electronicsHuman,start-node cleanup: surface light
+systemheat-coolant-tank-radial-1,nuclearFissionReactors,batch2 reviewed rule: reactor cooling loop
+systemheat-sink-1,nuclearFissionReactors,batch2 reviewed rule: reactor cooling loop
+systemheat-exchanger-1,nuclearFissionReactors,batch2 reviewed rule: reactor cooling loop
+KA.Drill.Radial.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Drill.125.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+MKS.Drill.01,longTermLifeSupport,batch2 reviewed rule: pulse drills
+KER.RadialProbe,improvedAvionics,batch2 reviewed rule: radial probe core
+MKS.Drill.01A,longTermLifeSupport,batch2 reviewed rule: pulse drills
+MKS.Drill.02A,longTermLifeSupport,batch2 reviewed rule: pulse drills
+KER.SABRE,scramjetEngines,batch2 reviewed rule: air-breathing hybrid
+MKS.Drill.02,longTermLifeSupport,batch2 reviewed rule: pulse drills
+KA.Drill.250.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+MKS.Drill.03A,advancedHabitats,batch2 reviewed rule: industrial strip miners/harvesters
+Akita.Seat,interplanetaryRovers,batch2 reviewed rule: small Akita rover kit
+KA.Generator.02,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+MKS.Drill.03,advancedHabitats,batch2 reviewed rule: industrial strip miners/harvesters
+Akita.Wheel,interplanetaryRovers,batch2 reviewed rule: small Akita rover kit
+KA.Engine.125.01,orbitalRocketry1967,"batch2 reviewed rule: Karbonite-fuelled rocket, after Karbonite mining"
+LFKA.Engine.250.01,orbitalRocketry1967,"batch2 reviewed rule: conventional LF engine, larger"
+LFKA.Jet.Stack.01,matureSupersonic,batch2 reviewed rule: turbojet
+Ranger.VBracket,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+KER.VTOL,improvedLandingEngines,batch2 reviewed rule: VTOL descent engine
+LFKA.Engine.125.01,orbitalRocketry1964,batch2 reviewed rule: conventional LF engine
+LFKA.Jet.Radial.01,matureSupersonic,batch2 reviewed rule: turbojet
+LFKA.Jet.PropFan.01,matureTurbofans,batch2 reviewed rule: propfan ~ 1980s UDF
+MKS.LandingWheel,largeRoverDesigns,batch2 reviewed rule: base wheels
+ConstructionPort0,largeScaleOrbitalCon,batch2 reviewed rule: construction (weld) ports: ISS-assembly era
+ConstructionPort1,largeScaleOrbitalCon,batch2 reviewed rule: construction (weld) ports: ISS-assembly era
+PAL.Wheel,largeRoverDesigns,batch2 reviewed rule: construction vehicle wheels
+ConstructionPort2,largeScaleOrbitalCon,batch2 reviewed rule: construction (weld) ports: ISS-assembly era
+KER.Wheel.01,interplanetaryRovers,batch2 reviewed rule: rover wheel
+ORE.DRILL,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+PAL.MiniWheel,largeRoverDesigns,batch2 reviewed rule: construction vehicle wheels
+KER.CrewCab,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+KER.RoverCab,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+LFKA.Jet.PropFan.02,matureTurbofans,batch2 reviewed rule: propfan ~ 1980s UDF
+LFKA.Jet.PropFan.03,matureTurbofans,batch2 reviewed rule: propfan ~ 1980s UDF
+PAL.Wheel.2,largeRoverDesigns,batch2 reviewed rule: construction vehicle wheels
+PAL.Wheel.3,largeRoverDesigns,batch2 reviewed rule: construction vehicle wheels
+USILS.Greenhouse.MiniCupola,efficientLifeSupport,batch2 reviewed rule: small greenhouse ~ Veggie (2014)
+Akita.Cab,interplanetaryRovers,batch2 reviewed rule: small Akita rover kit
+KA.Analyzer.01,scienceLunar,batch2 reviewed rule: surface sample kit
+KER.Crate,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+KER.Shelter,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+MKS.InflationTank,orbitalRocketry2014,batch2 reviewed rule: inflatable propellant tank
+MKS.LandingLeg,advancedLanding,batch2 reviewed rule: heavy base landing legs
+SalamanderPod,advancedLanding,batch2 reviewed rule: small crewed lander pods
+Tundra.Hub250,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+C3.DepletedFuelTank,advModernNuclearPower,"batch2 reviewed rule: reactor fuel storage, with the USI reactors"
+C3.Kontainer.01,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+KA.Engine.250.03,colonization2051NuclearProp,batch2 reviewed rule: Karborundum fusion/torch drive: 2050s
+KA.Engine.625.01,orbitalRocketry1967,"batch2 reviewed rule: Karbonite-fuelled rocket, after Karbonite mining"
+KA.Jet.Stack.01,matureSupersonic,batch2 reviewed rule: turbojet
+KER.Tank,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+Ranger.MiniHab,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' inflatables ~ BEAM (2016)
+Tundra.Hub250.Short,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+USI.Nuke.250,nuclearPowerNF,batch2 reviewed rule: large surface fission reactor: near-future
+C3.FlatRnd.01,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.FlatTank.01,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+Fert.Tank.125,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+KA.Engine.250.01,orbitalRocketry1967,"batch2 reviewed rule: Karbonite-fuelled rocket, after Karbonite mining"
+KA.Engine.375.01,colonization2051NuclearProp,batch2 reviewed rule: Karborundum fusion/torch drive: 2050s
+KA.Engine.500.01,colonization2051NuclearProp,batch2 reviewed rule: Karborundum fusion/torch drive: 2050s
+LS.Tank.125,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+MountableLqdTank,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+USILS.SmCupola,improvedOrbitalConstruction,"batch2 reviewed rule: cupola, same node as stock cupola"
+USILS.ViewingCupola,improvedOrbitalConstruction,"batch2 reviewed rule: cupola, same node as stock cupola"
+C3.FlatRnd.02,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.FlatTank.02,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.NukeFuelTank,advModernNuclearPower,"batch2 reviewed rule: reactor fuel storage, with the USI reactors"
+C3.RTank.00,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.RTank.01,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Tank.01,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+KA.Converter.125.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Distiller.125.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Generator.250.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Jet.PropFan.01,matureTurbofans,batch2 reviewed rule: propfan ~ 1980s UDF
+KA.ParticleCollector.250.01,advancedLifeSupport,batch2 reviewed rule: particle collector: Genesis-era (2001)
+KA.Scanner.01,scienceExploration,"batch2 reviewed rule: orbital resource scanner, same node as stock SurveyScanner"
+Ranger.AuxCon,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Tundra.Airlock,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Akademy,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.MultiHub,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+C3.DepletedFuelTank.Lg,advModernNuclearPower,"batch2 reviewed rule: reactor fuel storage, with the USI reactors"
+C3.FlatRnd.03,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.FlatTank.03,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Kontainer.INV.04,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.NukeFuelTank.Lg,advModernNuclearPower,"batch2 reviewed rule: reactor fuel storage, with the USI reactors"
+Duna.MedBay,advancedHabitats,batch2 reviewed rule: MKS 'Duna' large base modules
+Fert.Tank.250,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+KA.Distiller.250.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Engine.125.02,colonization2051NuclearProp,batch2 reviewed rule: Karborundum fusion/torch drive: 2050s
+KA.Engine.625.02,colonization2051NuclearProp,batch2 reviewed rule: Karborundum fusion/torch drive: 2050s
+KA.Jet.Radial.01,matureSupersonic,batch2 reviewed rule: turbojet
+LS.Tank.250,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+MountableSupPack,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+USI.Nuke.375,nuclearPowerNF,batch2 reviewed rule: large surface fission reactor: near-future
+WOLF.Terminal.375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WideLeg,advancedLanding,batch2 reviewed rule: heavy base landing legs
+ATLAS.Harvester.Lg,advancedHabitats,batch2 reviewed rule: industrial strip miners/harvesters
+ATLAS.Harvester.Lg.a,advancedHabitats,batch2 reviewed rule: industrial strip miners/harvesters
+ATLAS.Harvester.Sm,advancedHabitats,batch2 reviewed rule: industrial strip miners/harvesters
+C3.FlatRnd.04,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.FlatTank.04,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Kontainer.INV.01,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Kontainer.INV.02,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Kontainer.INV.03,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.LqdTrussTank,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+LS.Tank.375,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+MKS.SkyCrane,reusability,batch2 reviewed rule: sky crane ~ Curiosity (2012)
+Tundra.250Cap,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.375Cap,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Kolonist250,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Kolonist375,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.MedBay250,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.MedBay375,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+USILS.CoolantTank,lifeSupportNF,batch2 reviewed rule: Kerbcicle cryo-sleep: speculative tech
+WOLF.Cargo.Kontainer.125,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.Terminal.10m,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+kaRadialLeg,lunarLanding,batch2 reviewed rule: landing legs/frames
+ATLAS.Harvester.Sm.a,advancedHabitats,batch2 reviewed rule: industrial strip miners/harvesters
+C3.Kontainer.02,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.RTank.02,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.RTank.03,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.RTank.04,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+Duna.Kerbitat,advancedHabitats,batch2 reviewed rule: MKS 'Duna' large base modules
+Duna.Kolonist,advancedHabitats,batch2 reviewed rule: MKS 'Duna' large base modules
+Fert.Tank.375,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+KA.Converter.250.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.DetectionArray.01,scienceExploration,"batch2 reviewed rule: orbital resource scanner, same node as stock SurveyScanner"
+KA.SRB.625.02,solids1962,batch2 reviewed rule: small SRB
+KA.Tank.Radial.02,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Tank.Radial.03,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+PAL.Ladder,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+Ranger.CommPak,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+ScoutLanderMk2,advancedLanding,batch2 reviewed rule: small crewed lander pods
+StowPakSup,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+Tundra.Agriculture250,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Agriculture375,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Kerbitat375,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.MiniAirlock,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+USI.DeomlitionBlock,materialsScienceSatellite,start cleanup: demolition charge
+USI.Nuke.125,advModernNuclearPower,batch2 reviewed rule: small fission reactor ~ Kilopower (2018)
+WOLF.Cargo.Kontainer.250,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.Cargo.Kontainer.375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.CrewCargo.Kontainer.125,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.CrewCargo.Kontainer.250,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.CrewCargo.Kontainer.375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.Transporter,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+Akita.Bed,interplanetaryRovers,batch2 reviewed rule: small Akita rover kit
+C3.Kontainer.03,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Kontainer.04,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Kontainer.INV.M,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.RTank.06,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.RTank.08,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Tank.02,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+C3.Tank.03,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+Duna.LogCenter,advancedHabitats,batch2 reviewed rule: MKS 'Duna' large base modules
+KA.LandingFrame,lunarLanding,batch2 reviewed rule: landing legs/frames
+KA.Tank.Radial.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KER.INVCrate,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+KER.RCSBlock,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+MKS.LightGlobe,electronicsCommercial,batch2 reviewed rule: portable light kit
+PAL.Stabilizer,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+PAL.Truss,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+RadialLqdTank,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+RadialSupPack,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+Ranger.AnchorHub,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Tundra.AssemblyPlant,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Kerbitat250,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.PioneerLC,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.RecyclingPlant,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+UKS.PowerAntenna,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+UKS.PowerBox,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+USI.Nuke.125.S,advModernNuclearPower,batch2 reviewed rule: small fission reactor ~ Kilopower (2018)
+USI.Nuke.625,advModernNuclearPower,batch2 reviewed rule: small fission reactor ~ Kilopower (2018)
+USI.WarpDrive.625,colonization2150ElecProp,batch2 reviewed rule: Alcubierre drive: far-future endgame
+WOLF.Cargo.Kontainer.500,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.Connector,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.CrewCargo.Kontainer.500,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+Atlas.Kerbitat.10m,largeScaleHabitats,batch2 reviewed rule: MKS 'Atlas' 10-20 m colony modules
+C3.Tank.04,materialsScienceHuman,"batch2 reviewed rule: generic cargo Kontainer, early storage"
+Duna.Agriculture,advancedHabitats,batch2 reviewed rule: MKS 'Duna' large base modules
+Duna.Pioneer,advancedHabitats,batch2 reviewed rule: MKS 'Duna' large base modules
+KA.Engine.250.02,colonization2051NuclearProp,batch2 reviewed rule: Karborundum fusion/torch drive: 2050s
+KA.SRB.125.01,solids1962,batch2 reviewed rule: small SRB
+KA.SRB.125.02,solids1962,batch2 reviewed rule: small SRB
+KA.SRB.625.01,solids1962,batch2 reviewed rule: small SRB
+KA.Tank.125.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Tank.125.02,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Tank.125.03,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Tank.125.04,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KER.CargoBay,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+NodeHelper,start,batch2 reviewed rule: utility part
+PAL.Cradle250,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+PAL.Crane,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+Tundra.ASM,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.NukeProc,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Refinery,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.RegSifter,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Workshop250,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+KA.AtmScoop.125.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.AtmScoop.125.02,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KA.Jet.PropFan.02,matureTurbofans,batch2 reviewed rule: propfan ~ 1980s UDF
+KA.Jet.PropFan.03,matureTurbofans,batch2 reviewed rule: propfan ~ 1980s UDF
+KA.LandingFrame.4,lunarLanding,batch2 reviewed rule: landing legs/frames
+KA.SolarCollector,advancedLifeSupport,batch2 reviewed rule: particle collector: Genesis-era (2001)
+KA.Tank.250.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+PAL.Claw,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+PAL.Forklift,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+PAL.Gripper,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+PAL.Humpback,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+PAL.MagPad,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+Ranger.Airlock,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Ranger.Sifter,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Atlas.Kerbitat.20m,largeScaleHabitats,batch2 reviewed rule: MKS 'Atlas' 10-20 m colony modules
+Duna.PDU,advancedHabitats,batch2 reviewed rule: MKS 'Duna' large base modules
+KA.Engine.125.03,colonization2051NuclearProp,batch2 reviewed rule: Karborundum fusion/torch drive: 2050s
+KA.Tank.VTS.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KER.Adapter,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+MKS.FlexOTube,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+PAL.MultiMount,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+Ranger.BallHub,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Tundra.PDU,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+USI.WarpDrive,colonization2150ElecProp,batch2 reviewed rule: Alcubierre drive: far-future endgame
+WOLF.BioreactorModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+KER.FlatBed,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+MKS.Processor125,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+MKS.Processor250,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+PAL.Magnet,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+Ranger.HeatPump,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Ranger.MountPoint,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Tundra.MiniTruss,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.Pioneer.375,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+USILS.Recycler,basicLifeSupport,batch2 reviewed rule: recycler ~ Skylab/Salyut era
+Atlas.Factory.10m,largeScaleHabitats,batch2 reviewed rule: MKS 'Atlas' 10-20 m colony modules
+Atlas.Farm.10m,largeScaleHabitats,batch2 reviewed rule: MKS 'Atlas' 10-20 m colony modules
+MKS.Processor375,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+PAL.Cradle375,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+Ranger.BatPak,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Ranger.Smelter,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Ranger.AgModule,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' inflatables ~ BEAM (2016)
+Ranger.Crusher,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Ranger.HabModule,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' inflatables ~ BEAM (2016)
+Ranger.PowerPack,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' small base kit
+Tundra.HabRing,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.ISM,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.MultiTruss,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Atlas.Factory.20m,largeScaleHabitats,batch2 reviewed rule: MKS 'Atlas' 10-20 m colony modules
+FertilizerMiniPack,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+Konstruction.Orbital.Shipyard.250,largeScaleHabitats,batch2 reviewed rule: orbital shipyard
+Ranger.ISM,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' inflatables ~ BEAM (2016)
+USILS.Greenhouse.Cupola,commercialLifeSupport,batch2 reviewed rule: large greenhouse: after Veggie
+USILS.Greenhouse.Inline,commercialLifeSupport,batch2 reviewed rule: large greenhouse: after Veggie
+WOLF.AgricultureModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+Atlas.Farm.20m,largeScaleHabitats,batch2 reviewed rule: MKS 'Atlas' 10-20 m colony modules
+KA.AtmScoop.250.01,basicLifeSupport,"batch2 reviewed rule: Karbonite ISRU, just after stock ISRU"
+KER.Hub,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+KER.PassengerCab,largeRoverDesigns,batch2 reviewed rule: Karibou expedition rover system
+KER.WheelBay,interplanetaryRovers,batch2 reviewed rule: rover wheel
+KER.WheelBay.Short,interplanetaryRovers,batch2 reviewed rule: rover wheel
+Konstruction.Orbital.Shipyard.500,largeScaleHabitats,batch2 reviewed rule: orbital shipyard
+Kosntruction.Workshop.250,advancedHabitats,batch2 reviewed rule: in-situ fabricator
+PAL.Counterweight,improvedOrbitalConstruction,batch2 reviewed rule: construction/manipulator kit
+Tundra.275.Hab,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.425.Hab,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+Tundra.PDU.375,improvedHabitats,batch2 reviewed rule: MKS 'Tundra' base modules
+USI.ORIONTank,nuclearPropulsionNF2,batch2 reviewed rule: nuclear pulse propulsion: post-2035 concept
+WOLF.ExtractorModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.FabricatorModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.Habitation375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.Harvester.125,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.Harvester.375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.MaintenanceModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.PowerModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.TransportModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+ZWarpDrive125,colonization2150ElecProp,batch2 reviewed rule: Alcubierre drive: far-future endgame
+LifeSupportMiniPack,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+MulchMiniPack,earlyLifeSupport,"batch2 reviewed rule: consumables storage, Gemini-era"
+Ranger.Workshop,inflatableHabitats,batch2 reviewed rule: MKS 'Ranger' inflatables ~ BEAM (2016)
+USILS.LgRecycler,longTermLifeSupport,batch2 reviewed rule: large recycler ~ Mir/ISS ECLSS
+WOLF.HarvestingHopper250,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.HarvestingHopper375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.RefineryModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.ScienceModule375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+USI.ORION,nuclearPropulsionNF2,batch2 reviewed rule: nuclear pulse propulsion: post-2035 concept
+WOLF.Depot,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.FuelHopper250,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.FuelHopper375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.LifeSupport375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.LifeSupportHopper250,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.LifeSupportHopper375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.ManufacturingHopper250,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.ManufacturingHopper375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+WOLF.WasteProcessor375,colonization2051LifeSupport,batch2 reviewed rule: WOLF interplanetary logistics: colonisation era
+ZWarpDrive25,colonization2150ElecProp,batch2 reviewed rule: Alcubierre drive: far-future endgame
+ZWarpDrive375,colonization2150ElecProp,batch2 reviewed rule: Alcubierre drive: far-future endgame
+USI.MEDUSA,nuclearPropulsionNF2,batch2 reviewed rule: nuclear pulse propulsion: post-2035 concept
+USILS.CryoTank250,lifeSupportNF,batch2 reviewed rule: Kerbcicle cryo-sleep: speculative tech
+USI.BNTR-06,nuclearPropulsionNF,batch2 reviewed rule: bimodal NTR (power + thrust): 2020s concept
+USI.BNTR-12-T,nuclearPropulsionNF,batch2 reviewed rule: bimodal NTR (power + thrust): 2020s concept
+USI.BNTR-12-L,nuclearPropulsionNF,batch2 reviewed rule: bimodal NTR (power + thrust): 2020s concept
+USI.BNTR-25,nuclearPropulsionNF,batch2 reviewed rule: bimodal NTR (power + thrust): 2020s concept
+USI.BNTR-18,nuclearPropulsionNF,batch2 reviewed rule: bimodal NTR (power + thrust): 2020s concept
+USI.BNTR-37,nuclearPropulsionNF,batch2 reviewed rule: bimodal NTR (power + thrust): 2020s concept
+USI.BNTR-50,nuclearPropulsionNF,batch2 reviewed rule: bimodal NTR (power + thrust): 2020s concept
+bluedog.1875.NoseNoSep,advancedJetEngines,bluedog review: Titan III SRB fittings (1965)
+bluedog.1875.NoseSep,solids1964,bluedog review: Titan III SRB fittings (1965)
+bluedog.1875.RadialDecoupler,materialsScienceLunar,bluedog review: Titan III SRB fittings (1965)
+bluedog.1875.RadialSep,solids1964,bluedog review: Titan III SRB fittings (1965)
+bluedog.AJ10.118F,orbitalRocketry1972,bluedog review: AJ10-118F (1972)
+bluedog.AJ10.118K,orbitalRocketry1981,bluedog review: Delta K stage (1982)
+bluedog.AJ10.118X,orbitalRocketry1972,bluedog review: AJ10-118X
+bluedog.ALSEP.ALSD,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.ActiveSeismic,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.CPLEE,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.FROST,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.Gravimeter,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.Hadley,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.HeatFlow,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.LRRR,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.LargeSolar,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.MEME,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.Magnetometer,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.PassiveSeismic,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.Penetrometer,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.SEP,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.SWC,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.SolarWind,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.TVCamera,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.ALSEP.UVTelescope,surfaceScience,bluedog review: ALSEP (1969-72)
+bluedog.Ablestar.Engine,orbitalRocketry1960,bluedog review: Thor-Ablestar (1960)
+bluedog.Ablestar.Fairing.SAF,materialsScienceSatellite,bluedog review: Thor-Ablestar (1960)
+bluedog.Ablestar.Tank,basicAvionics,bluedog review: Thor-Ablestar (1960)
+bluedog.Athena.Castor30,solids2009,bluedog review: Castor 30 (2009)
+bluedog.Athena.Castor30XL,solids2009,bluedog review: Castor 30XL (2013)
+bluedog.Athena.OAM,largeSpaceplaneControl,"bluedog review: Athena orbit-adjust module (hydrazine), 1995"
+bluedog.Athena3.Adapter2p5,materialsScienceMatureCommercial,bluedog review: Athena III
+bluedog.Athena3.Adapter2p5.SAF,materialsScienceMatureCommercial,bluedog review: Athena III
+bluedog.Atlas.CELV.extensionTank,orbitalRocketry1986,bluedog review: Atlas I/II-era
+bluedog.Atlas2.RollControlSystem,largeSpaceplaneControl,bluedog review: Atlas II (1991)
+bluedog.Burner2,improvedFlightControl,bluedog review: Burner II (1966)
+bluedog.CELV.AdapterTank.1p875m.Long,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.AdapterTank.1p875m.Short,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.AdapterTank.2p5m.Long,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.AdapterTank.2p5m.Short,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.BoosterSkirt,materialsScienceLongTerm,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.ConicalAdapterTank,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.Fin,refinedTurbofans,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.LongTank,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.MainTank,longTermAvionics,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.MediumTank,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.ShortTank,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.CELV.SustainerTank,orbitalRocketry1986,bluedog review: Atlas I/II-era tankage (1990)
+bluedog.Castor.RadialDecoupler,materialsScienceAdvCapsules,bluedog review: Castor strap-on (1964)
+bluedog.Castor2,solids1964,bluedog review: Castor II (1964)
+bluedog.Castor4,solids1969,bluedog review: Castor IV (1971)
+bluedog.Castor4XL,solids1986,bluedog review: Castor IVA-XL (1989)
+bluedog.CentaurD.FuelTank,earlyHydrolox,bluedog review: Centaur D (1965)
+bluedog.CentaurIII.FuelTank,hydrolox1998,bluedog review: Centaur III (2002)
+bluedog.CentaurT.Avionics,longTermAvionics,bluedog review: Centaur-T (1994)
+bluedog.CentaurT.TankA,hydrolox1992,bluedog review: Centaur-T (1994)
+bluedog.CentaurT.TankB,hydrolox1992,bluedog review: Centaur-T (1994)
+bluedog.CentaurT.TankC,hydrolox1992,bluedog review: Centaur-T (1994)
+bluedog.CentaurT.TankD,hydrolox1992,bluedog review: Centaur-T (1994)
+bluedog.DCSS.2p5mFairing,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DCSS.2p5mFairing.SAF,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DCSS.Interstage,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DCSS.PayloadAdapter.0p9375m,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DCSS.PayloadAdapter.1p875m,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DCSS.PayloadAdapter.2p5m,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DCSS.StructAdapter,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DCSS.Tank,internationalAvionics,bluedog review: Delta IV / DCSS (2002)
+bluedog.Delta.Avionics,basicAvionics,bluedog review: Thor-Delta (1960)
+bluedog.Delta.DoubleBarrelAdapter,materialsScienceSatellite,bluedog review: Thor-Delta (1960)
+bluedog.Delta.Fin,highSpeedFlight,bluedog review: Thor-Delta (1960)
+bluedog.Delta.GEM40.Inline,solids1986,bluedog review: GEM-40 (1990)
+bluedog.Delta.GEM60XL,solids1998,bluedog review: GEM-60 (2002)
+bluedog.Delta.Interstage,materialsScienceSatellite,bluedog review: Thor-Delta (1960)
+bluedog.Delta.Miniskirt.1p5m,materialsScienceSatellite,bluedog review: Thor-Delta (1960)
+bluedog.Delta.Miniskirt.1p875m,materialsScienceSatellite,bluedog review: Thor-Delta (1960)
+bluedog.Delta2.1875.adapter.fairingBase.SAF,materialsScienceLongTerm,bluedog review: Delta II (1989)
+bluedog.Delta2.dpaf.base,materialsScienceLongTerm,bluedog review: Delta II (1989)
+bluedog.Delta2.dpaf.top,materialsScienceLongTerm,bluedog review: Delta II (1989)
+bluedog.Delta2.metalFairing.SAF,materialsScienceLongTerm,bluedog review: Delta II (1989)
+bluedog.Delta4.dpaf.base,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.Delta4.dpaf.top,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIII.AdapterTank,orbitalRocketry1998,bluedog review: Delta III (1998)
+bluedog.DeltaIV.3p125interstage,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.DCSS.3p125.payloadAdapter,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.DCSS.5m,internationalAvionics,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.DCSS.fairingBase,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.DCSS.fairingBase.SAF,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.RS68,hydrolox1998,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.heavyDecoupler,solids1998,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.noseCone,solids1998,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.s1.lowerTank,hydrolox1998,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.s1.upperTank,hydrolox1998,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaIV.smallInterstage,materialsScienceInternational,bluedog review: Delta IV / DCSS (2002)
+bluedog.DeltaK.Stage,largeSpaceplaneControl,bluedog review: Delta K stage (1982)
+bluedog.E1.engine,orbitalRocketry1958,bluedog review: Rocketdyne E-1 (1958)
+bluedog.HAPS.HAPS,largeSpaceplaneControl,bluedog review: HAPS (1991)
+bluedog.HAPS.SuperHAPS,largeSpaceplaneControl,bluedog review: HAPS (1991)
+bluedog.HOSS.Tank,hydrolox1969,bluedog review: Delta upper stage concept (~1970)
+bluedog.IDCSP.Truss,materialsScienceLunar,bluedog review: IDCSP (1966)
+bluedog.IUS.Avionics,nextGenAvionics,bluedog review: IUS (1982)
+bluedog.IUS.Interstage,materialsScienceSpaceplanes,bluedog review: IUS (1982)
+bluedog.IUS.Orbus21,solids1981,bluedog review: IUS (1982)
+bluedog.IUS.Orbus6,solids1981,bluedog review: IUS (1982)
+bluedog.LR87,orbitalRocketry1959,bluedog review: Titan I engine (1959)
+bluedog.LR87.3,orbitalRocketry1962,bluedog review: Titan II engine (1962)
+bluedog.LR87.5,orbitalRocketry1965,bluedog review: Titan III engine (1965)
+bluedog.LR87.LH2.SL,prototypeHydrolox,bluedog review: LR87 hydrogen test variant (early 60s)
+bluedog.LR87.LH2.Single,prototypeHydrolox,bluedog review: LR87 hydrogen test variant (early 60s)
+bluedog.LR87.LH2.V,prototypeHydrolox,bluedog review: LR87 hydrogen test variant (early 60s)
+bluedog.LR87.Single,orbitalRocketry1965,bluedog review: single-chamber LR87 variant
+bluedog.LR91,orbitalRocketry1959,bluedog review: Titan I engine (1959)
+bluedog.LR91.3,orbitalRocketry1962,bluedog review: Titan II engine (1962)
+bluedog.LR91.3.SingleVernier,orbitalRocketry1962,bluedog review: Titan II engine (1962)
+bluedog.LR91.5,orbitalRocketry1965,bluedog review: Titan III engine (1965)
+bluedog.LR91.5.FourVernier,orbitalRocketry1965,bluedog review: Titan III engine (1965)
+bluedog.LRV.Wheel,advancedUncrewedLanding,bluedog review: LRV (1971); the rover branch starts in 1992
+bluedog.MB60,hydrolox2009,bluedog review: MB-60 (2000s)
+bluedog.MB60.deployable,hydrolox2009,bluedog review: MB-60 (2000s)
+bluedog.Minotaur.GCA,internationalAvionics,bluedog review: Minotaur (2000)
+bluedog.Minotaur.Interstage,materialsScienceInternational,bluedog review: Minotaur (2000)
+bluedog.Minotaur1.M55A1,solids1998,bluedog review: Minotaur (2000)
+bluedog.Minotaur1.S1.Interstage,materialsScienceInternational,bluedog review: Minotaur (2000)
+bluedog.Minotaur1.S2.Interstage,materialsScienceInternational,bluedog review: Minotaur (2000)
+bluedog.Minotaur1.SR19,solids1998,bluedog review: Minotaur (2000)
+bluedog.Minuteman.Avionics,improvedAvionics,bluedog review: Minuteman (1962)
+bluedog.Minuteman.Nose,highSpeedFlight,bluedog review: Minuteman (1962)
+bluedog.Minuteman.PSRE,orbitalRocketry1962,bluedog review: Minuteman (1962)
+bluedog.Minuteman.SR73,solids1962,bluedog review: Minuteman (1962)
+bluedog.NERVA.FF,earlyNuclearPropulsion,bluedog review: NERVA flight engine
+bluedog.NERVA.II,earlyNuclearPropulsion,bluedog review: NERVA II
+bluedog.Peacekeeper.Castor120,solids1986,bluedog review: Peacekeeper (1986)
+bluedog.Peacekeeper.PostBoostVehicle,orbitalRocketry1986,bluedog review: Peacekeeper (1986)
+bluedog.Peacekeeper.SR119,solids1986,bluedog review: Peacekeeper (1986)
+bluedog.Peacekeeper.SR120,solids1986,bluedog review: Peacekeeper (1986)
+bluedog.Pegasus.Avionics,longTermAvionics,bluedog review: Pegasus (1990)
+bluedog.Pegasus.Decoupler,materialsScienceLongTerm,bluedog review: Pegasus (1990)
+bluedog.Pegasus.Fin,refinedTurbofans,bluedog review: Pegasus (1990)
+bluedog.Pegasus.Orion38,solids1986,bluedog review: Pegasus (1990)
+bluedog.Pegasus.Orion38.Interstage,materialsScienceLongTerm,bluedog review: Pegasus (1990)
+bluedog.Pegasus.Orion50SXL,solids1986,bluedog review: Pegasus (1990)
+bluedog.Pegasus.Orion50XL,solids1986,bluedog review: Pegasus (1990)
+bluedog.Pegasus.Strongback,refinedTurbofans,bluedog review: Pegasus (1990)
+bluedog.Saturn.AJ260,solids1964,bluedog review: AJ-260 test firings (1965)
+bluedog.Saturn.AJ260.Inline,solids1964,bluedog review: AJ-260 test firings (1965)
+bluedog.Saturn.AJ260.Radial,solids1964,bluedog review: AJ-260 test firings (1965)
+bluedog.Saturn.AJ260.Sepratron,solids1964,bluedog review: AJ-260 test firings (1965)
+bluedog.Scout.Algol.Fin,highSpeedFlight,bluedog review: Scout (1960)
+bluedog.Scout.Algol.Inline,solids1959,bluedog review: Scout (1960)
+bluedog.Scout.Algol.Radial,solids1959,bluedog review: Scout (1960)
+bluedog.Scout.Algol.Short,solids1959,bluedog review: Scout (1960)
+bluedog.Scout.Antares.Basic,solids1959,bluedog review: Scout (1960)
+bluedog.Scout.Antares.Inline,solids1959,bluedog review: Scout (1960)
+bluedog.Scout.Castor.Inline,solids1959,bluedog review: Scout (1960)
+bluedog.TOS.Avionics,longTermAvionics,bluedog review: TOS (1992)
+bluedog.Taurus.Avionics,longTermAvionics,bluedog review: Taurus (1994)
+bluedog.Taurus.Orion50SXLT,solids1992,bluedog review: Taurus (1994)
+bluedog.Taurus.S1.Interstage,materialsScienceLongTerm,bluedog review: Taurus (1994)
+bluedog.Taurus.S1.StructuralAdapter,materialsScienceLongTerm,bluedog review: Taurus (1994)
+bluedog.Taurus.StraightFairingBase,materialsScienceLongTerm,bluedog review: Taurus (1994)
+bluedog.Taurus.StraightFairingBase.SAF,materialsScienceLongTerm,bluedog review: Taurus (1994)
+bluedog.Taurus.UpperStageAdapter,materialsScienceLongTerm,bluedog review: Taurus (1994)
+bluedog.Taurus.WideFairingBase,materialsScienceLongTerm,bluedog review: Taurus (1994)
+bluedog.Taurus.WideFairingBase.SAF,materialsScienceLongTerm,bluedog review: Taurus (1994)
+bluedog.Thor.1p25mAdapter.Long,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Thor.1p25mAdapter.Medium,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Thor.1p25mAdapter.Short,materialsScienceSatellite,bluedog review: Thor IRBM (1957)
+bluedog.Thor.AbleAdapter,materialsScienceSatellite,bluedog review: Thor-Able (1958)
+bluedog.Thor.CZFin,matureSupersonic,bluedog review: Thor IRBM (1957)
+bluedog.Thor.EngineMount,materialsScienceSatellite,bluedog review: Thor IRBM (1957)
+bluedog.Thor.LR101,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Thor.LR79,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Thor.LowerTank.1,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Thor.MediumExtensionTank,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Thor.ShortExtensionTank,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Thor.UpperTank.1,orbitalRocketry1956,bluedog review: Thor IRBM (1957)
+bluedog.Titan.S1.LowerTank,orbitalRocketry1962,bluedog review: Titan II core (1962)
+bluedog.Titan.S1.UpperTank,orbitalRocketry1962,bluedog review: Titan II core (1962)
+bluedog.Titan.S2.Tank,orbitalRocketry1962,bluedog review: Titan II core (1962)
+bluedog.Titan.Transtage,orbitalRocketry1965,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan.Transtage.Antenna,improvedComms,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan.Transtage.RCS,improvedFlightControl,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan.Transtage.RCS.A,improvedFlightControl,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan.Transtage.RCS.B,improvedFlightControl,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan.Transtage.RCS.C,improvedFlightControl,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan.Transtage.RCS.D,improvedFlightControl,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan.Transtage.RCS.E,improvedFlightControl,bluedog review: Titan III Transtage/SRB (1965)
+bluedog.Titan1.S1.EngineShroud,materialsScienceSatellite,bluedog review: Titan I (1959)
+bluedog.Titan1.S1.LowerTank,orbitalRocketry1959,bluedog review: Titan I (1959)
+bluedog.Titan1.S1.UpperTank,orbitalRocketry1959,bluedog review: Titan I (1959)
+bluedog.Titan1.S2.ShortTank,orbitalRocketry1959,bluedog review: Titan I (1959)
+bluedog.Titan1.S2.Tank,orbitalRocketry1959,bluedog review: Titan I (1959)
+bluedog.Titan1.SeparationBottle,solids1959,bluedog review: Titan I (1959)
+bluedog.Titan1.StructuralAdapter,materialsScienceSatellite,bluedog review: Titan I (1959)
+bluedog.Titan2.Adapter,materialsScienceHuman,bluedog review: Titan II (1962)
+bluedog.Titan2.S1.Lower.Tank,orbitalRocketry1962,bluedog review: Titan II (1962)
+bluedog.Titan2.S1.Upper.Tank,orbitalRocketry1962,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.1p25mAdapter,materialsScienceHuman,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.1p5mAdapter,materialsScienceHuman,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.EngineDecoupler,materialsScienceHuman,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.EngineInterstage,materialsScienceHuman,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.GeminiDecoupler,materialsScienceHuman,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.NoseCone,improvedAvionics,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.RetroMotor,solids1962,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.Tank,orbitalRocketry1962,bluedog review: Titan II (1962)
+bluedog.Titan2.S2.VernierMotor,solids1962,bluedog review: Titan II (1962)
+bluedog.Titan3.AvionicsTruss,matureAvionics,bluedog review: Titan III (1965)
+bluedog.Titan3.CommercialDPAF.SAF,electronicsLunar,bluedog review: Titan III (1965)
+bluedog.Titan3.CommercialPLF,improvedFlightControl,bluedog review: Titan III (1965)
+bluedog.Titan3.CommercialPLF.SAF,improvedFlightControl,bluedog review: Titan III (1965)
+bluedog.Titan3.S1.EngineShroud,materialsScienceLunar,bluedog review: Titan III (1965)
+bluedog.Titan3.S1.Stretched.Tank,orbitalRocketry1965,bluedog review: Titan III (1965)
+bluedog.Titan3C.StandardFairing.SAF,materialsScienceLunar,bluedog review: Titan III (1965)
+bluedog.Titan3E.PLF,materialsScienceSpaceStation,bluedog review: Titan IIIE (1974)
+bluedog.Titan3E.PLF.SAF,materialsScienceSpaceStation,bluedog review: Titan IIIE (1974)
+bluedog.Titan4.PLF,materialsScienceLongTerm,bluedog review: Titan IV (1989)
+bluedog.Titan4.PLF.SAF,materialsScienceLongTerm,bluedog review: Titan IV (1989)
+bluedog.Titan4.S1.Lower.Tank,orbitalRocketry1986,bluedog review: Titan IV (1989)
+bluedog.Titan4.S2.Tank,orbitalRocketry1986,bluedog review: Titan IV (1989)
+bluedog.UA120,solids1964,bluedog review: UA1205 SRM (1965)
+bluedog.UA1202,solids1964,bluedog review: UA1205 SRM (1965)
+bluedog.UA1203,solids1964,bluedog review: UA1205 SRM (1965)
+bluedog.UA1204,solids1964,bluedog review: UA1205 SRM (1965)
+bluedog.UA1205,solids1964,bluedog review: UA1205 SRM (1965)
+bluedog.UA1206,solids1981,"bluedog review: UA1206 (Titan 34D, 1982)"
+bluedog.UA1207,solids1986,"bluedog review: UA1207 (Titan IV, 1989)"
+bluedog.UA1208,solids1986,"bluedog review: UA1207 (Titan IV, 1989)"
+bluedog.UpperSolids.Altair,solids1958,bluedog review: Altair (1958)
+bluedog.UpperSolids.BE3,solids1959,bluedog review: BE-3 (1960)
+bluedog.UpperSolids.Star24,solids1967,bluedog review: Star 24
+bluedog.UpperSolids.Star37B,solids1966,bluedog review: Surveyor retro motor (1966)
+bluedog.UpperSolids.Star37BV,solids1976,bluedog review: Star 37 family
+bluedog.UpperSolids.Star37FMV,solids1976,bluedog review: Star 37 family
+bluedog.UpperSolids.Star48BV,solids1981,"bluedog review: Star 48 (PAM-D, 1982)"
+bluedog.XLR129,hydrolox1969,bluedog review: XLR-129 (1970)
+liquidEngine,rocketryTesting,stock/restock review: Reliant ~ first liquid booster engine
+liquidEngine2,basicRocketryRP0,stock/restock review: Swivel: first gimballed engine
+Size3AdvancedEngine,orbitalRocketry1967,stock/restock review: Rhino ~ Saturn era
+Size3EngineCluster,FRSC2014,"engine era pass: Mammoth = 4x KS-25 Vector ~ SLS core (4x RS-25, 2014)"
+Size2LFB,stagedCombustion1986,engine era pass: Twin-Boar ~ RD-170/180 multi-chamber ORSC
+liquidEngineMini.v2,orbitalRocketry1962,stock/restock review: Spark: small probe engine
+radialLiquidEngine1-2,orbitalRocketry1962,stock/restock review: Twitch
+smallRadialEngine,orbitalRocketry1963,stock/restock review: Thud
+toroidalAerospike,orbitalRocketry1998,stock/restock review: Dart ~ X-33 aerospike (1998)
+nuclearEngine,earlyNuclearPropulsion,stock/restock review: Nerv ~ NERVA
+JetEngine,highSpeedFlight,stock/restock review: Wheesley ~ early turbofan
+turboJet,advancedJetEngines,stock/restock review: Whiplash ~ J58 (1962)
+turboFanEngine,efficientSupersonic,stock/restock review: Panther: afterburning turbofan
+miniJetEngine,supersonicDev,stock/restock review: Juno: small turbojet
+solidBooster.sm.v2,earlySolids,stock/restock review: Flea
+solidBooster.v2,basicSolids,stock/restock review: Hammer
+solidBooster1-1,solids1958,stock/restock review: Thumper
+MassiveBooster,solids1964,stock/restock review: Kickback ~ Titan III SRM
+LaunchEscapeSystem,basicCapsules,stock/restock review: LES ~ Mercury (1961)
+fuelTankSmallFlat,rocketryTesting,stock/restock review: FL-T100
+fuelTankSmall,rocketryTesting,stock/restock review: FL-T200
+fuelTank,earlyRocketry,stock/restock review: FL-T400
+fuelTank.long,basicRocketryRP0,stock/restock review: FL-T800
+adapterSize2-Size1,orbitalRocketry1961,stock/restock review: 2.5-1.25 tank adapter
+adapterSize2-Size1Slant,orbitalRocketry1961,stock/restock review: 2.5-1.25 tank adapter
+Size3LargeTank,orbitalRocketry1965,stock/restock review: Kerbodyne 3.75 m ~ Saturn
+rcsTankMini,earlyFlightControl,stock/restock review: small RCS tank
+radialRCSTank,earlyFlightControl,stock/restock review: radial RCS tank
+rcsTankRadialLong,stabilityRP0,stock/restock review: radial RCS tank
+RCSFuelTank,stabilityRP0,stock/restock review: 1.25 m RCS tank
+RCSTank1-2,improvedFlightControl,stock/restock review: 2.5 m RCS tank
+landerCabinSmall,lunarLanding,stock/restock review: Mk1 lander can ~ LM
+mk2LanderCabin,lunarLanding,stock/restock review: Mk2 lander can ~ LM
+mk2LanderCabin.v2,lunarLanding,stock/restock review: Mk2 lander can ~ LM
+probeCoreSphere.v2,earlyAvionics,stock/restock review: Stayputnik ~ Sputnik (1957)
+probeCoreCube,internationalAvionics,stock/restock review: QBE ~ CubeSat (2003)
+probeStackSmall,largeScaleAvionics,stock/restock review: RC-001S
+probeStackLarge,advancedAvionics,stock/restock review: RC-L01
+sasModule,stabilityRP0,stock/restock review: small reaction wheel
+advSasModule,improvedFlightControl,stock/restock review: 1.25 m reaction wheel
+asasmodule1-2,spaceStationControl,stock/restock review: 2.5 m reaction wheel
+dockingPort2,dockingCrewTransfer,stock/restock review: Clamp-O-Tron ~ Apollo probe/drogue
+dockingPort1,dockingCrewTransfer,stock/restock review: shielded Clamp-O-Tron
+dockingPortLarge,standardDockingPorts,stock/restock review: Clamp-O-Tron Sr.
+dockingPortLateral,standardDockingPorts,stock/restock review: inline Clamp-O-Tron
+HeatShield0,entryDescentLanding,stock/restock review: 0.625 m heat shield
+HeatShield1,humanRatedEDL,"stock/restock review: 1.25 m heat shield, needed by the Mk1 pod"
+parachuteRadial,entryDescentLanding,stock/restock review: radial chute
+parachuteDrogue,entryDescentLanding,stock/restock review: drogue chute
+parachuteLarge,humanRatedEDL,stock/restock review: large chute
+landingLeg1,earlyLanding,stock/restock review: LT-1 leg
+miniLandingLeg,earlyLanding,stock/restock review: LT-05 leg ~ Surveyor
+roverWheel1,advancedUncrewedLanding,stock/restock review: RoveMax M1 ~ LRV (1971)
+roverWheel2,advancedUncrewedLanding,stock/restock review: RoveMax S2 ~ Lunokhod
+wheelMed,interplanetaryRovers,stock/restock review: TR-2L wheel
+solarPanels5,primitiveSolarPanels,stock/restock review: OX-STAT ~ Vanguard (1958)
+rtg,earlyRTG,stock/restock review: PB-NUK ~ SNAP-9
+HighGainAntenna,advancedComms,stock/restock review: HG-55
+RelayAntenna5,improvedComms,stock/restock review: RA-2 relay ~ Syncom
+RelayAntenna50,advancedComms,stock/restock review: RA-15 relay
+RelayAntenna100,deepSpaceComms,stock/restock review: RA-100 relay
+GooExperiment,earlyScience,stock/restock review: Mystery Goo
+science.module,scienceSatellite,stock/restock review: Materials Bay
+restock-engine-125-valiant,rocketryTesting,stock/restock review: LV-T15: precedes the Reliant
+restock-engine-torch,orbitalRocketry1958,stock/restock review: Torch: small booster
+restock-engine-125-pug,orbitalRocketry1959,"stock/restock review: Pug: small upper stage, with the Terrier"
+restock-engine-375-corgi,orbitalRocketry1967,"stock/restock review: Corgi cluster, with the Rhino"
+restock-engine-boar,stagedCombustion1986,"engine era pass: single Boar, with the Twin-Boar"
+restock-srb-mallet-1,basicSolids,"stock/restock review: Mallet, with the Hammer"
+restock-reactionwheel-radial-1,stabilityRP0,stock/restock review: small radial reaction wheel
+restock-rcs-block-dual-mini-1,earlyFlightControl,stock/restock review: mini RCS
+restock-rcs-block-quad-angled-mini-1,earlyFlightControl,stock/restock review: mini RCS
+restock-rcs-block-quad-mini-1,earlyFlightControl,stock/restock review: mini RCS
+restock-rcs-block-qunit-mini-1,earlyFlightControl,stock/restock review: mini RCS
+restock-rcs-block-triple-angled-mini-1,earlyFlightControl,stock/restock review: mini RCS
+restock-rcs-single-mini-1,earlyFlightControl,stock/restock review: mini RCS
+restock-battery-375-1,electronicsSpaceStation,stock/restock review: Z-10K
+restock-drone-core-375-1,advancedAvionics,"stock/restock review: RC-XL001, with RC-L01"
+restock-antenna-stack-2,improvedComms,stock/restock review: fixed DTS-M1
+restock-antenna-stack-3,advancedComms,stock/restock review: budget HG-55
+restock-relay-radial-2,improvedComms,stock/restock review: long-range HG-5 relay
+restock-pod-sphere-1,basicCapsules,"stock/restock review: Vostok-style, like kv1"
+restock-decoupler-1875-1,materialsScienceHuman,stock/restock review: 1.875 m decoupler
+restock-separator-1875-1,materialsScienceHuman,stock/restock review: 1.875 m separator
+restock-nosecone-1875-1,orbitalRocketry1961,stock/restock review: 1.875 m nose
+restock-adapter-hollow-25-375-1,materialsScienceLunar,stock/restock review: 2.5-3.75 adapter
+restock-adapter-skeletal-25-375-1,materialsScienceLunar,stock/restock review: 2.5-3.75 adapter
+restock-service-module-125-625-1,materialsScienceSatellite,"stock/restock review: small service module, with the 1.25 m bay"
+restock-wheel-4,advancedUncrewedLanding,stock/restock review: with the M1-F wheel
+CRY-0300Freezer,lifeSupportNF,"new mods: DeepFreeze cryo-sleep: speculative, with the Kerbcicle"
+CRY-0300RFreezer,lifeSupportNF,"new mods: DeepFreeze cryo-sleep: speculative, with the Kerbcicle"
+CRY-1300Freezer,lifeSupportNF,"new mods: DeepFreeze cryo-sleep: speculative, with the Kerbcicle"
+CRY-2300Freezer,lifeSupportNF,"new mods: DeepFreeze cryo-sleep: speculative, with the Kerbcicle"
+GlykerolTankRadial,lifeSupportNF,"new mods: DeepFreeze cryo-sleep: speculative, with the Kerbcicle"
+tbee-taerobee-adapter-short,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-adapter-tall,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-aerobee,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-control,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-decoupler,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-despin,earlyFlightControl,new mods: yo-yo/despin thrusters (1959)
+tbee-taerobee-fin-large,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-fin-small,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-nosecone,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-parachute,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-science,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-taerobee-tank-sustainer-3,earlyRocketry,new mods: stretched Aerobee tank ~ Aerobee-Hi
+tbee-taerobee-tinytim,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+tbee-bumper-body,rocketryTesting,new mods: V-2 / Bumper (1946-50)
+tbee-bumper-control,rocketryTesting,new mods: V-2 / Bumper (1946-50)
+tbee-bumper-engine-slimJim,rocketryTesting,new mods: V-2 / Bumper (1946-50)
+tbee-bumper-engine-unclad,rocketryTesting,new mods: V-2 / Bumper (1946-50)
+tbee-bumper-engine,rocketryTesting,new mods: V-2 / Bumper (1946-50)
+tbee-bumper-fin,rocketryTesting,new mods: V-2 / Bumper (1946-50)
+tbee-bumper-nose,rocketryTesting,new mods: V-2 / Bumper (1946-50)
+tbee-x1-body,supersonicDev,"new mods: Bell X-1 (1947), first supersonic flight"
+tbee-x1-crew,supersonicDev,"new mods: Bell X-1 (1947), first supersonic flight"
+tbee-x1-engine,supersonicDev,"new mods: Bell X-1 (1947), first supersonic flight"
+tbee-x1-tail,supersonicDev,"new mods: Bell X-1 (1947), first supersonic flight"
+CapellaParachute.Taerobee,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+Capella.FinSmall,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+Capella.FinLarge,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+Capella.TinyTim,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+Capella.TinyTim.Decoupler,start,new mods: Aerobee / WAC Corporal sounding rocket (1945-47)
+CapellaEngine1,start,new mods: WAC Corporal (1945): Wacapella/CNAR starter sounding rocket
+CapellaExperiment1,start,new mods: WAC Corporal (1945): Wacapella/CNAR starter sounding rocket
+CapellaExperiment2,start,new mods: WAC Corporal (1945): Wacapella/CNAR starter sounding rocket
+CapellaExperiment3,start,new mods: WAC Corporal (1945): Wacapella/CNAR starter sounding rocket
+bluedog.Beacon1,solids1958,bluedog review: Juno I / Explorer 1 (1958)
+bluedog.Juno1.Explorer1,earlyAvionics,bluedog review: Juno I / Explorer 1 (1958)
+bluedog.Juno1.Guidance,earlyAvionics,bluedog review: Juno I / Explorer 1 (1958)
+bluedog.Juno1.Nose,highSpeedFlight,bluedog review: Juno I / Explorer 1 (1958)
+bluedog.Redstone.A7.Bare,orbitalRocketry1960,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Redstone.A7.TailUnit,orbitalRocketry1960,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Redstone.Fin.Basic,highSpeedFlight,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Redstone.Fin.CtrlSurf,highSpeedFlight,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Redstone.FuelTank,orbitalRocketry1960,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Redstone.Guidance,basicAvionics,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Redstone.MediumFuelTank,orbitalRocketry1960,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Redstone.ShortFuelTank,orbitalRocketry1960,bluedog review: Mercury-Redstone (1960-61)
+bluedog.Sergeant.11x,solids1958,bluedog review: Juno I / Explorer 1 (1958)
+bluedog.Sparta.0p625mAdapter,materialsScienceLunar,bluedog review: Sparta (1966)
+bluedog.Sparta.0p625mInterstage,materialsScienceLunar,bluedog review: Sparta (1966)
+bluedog.Sparta.ControlJets,improvedFlightControl,bluedog review: Sparta (1966)
+bluedog.Sparta.Guidance,matureAvionics,bluedog review: Sparta (1966)
+bluedog.WRESAT,largeScaleAvionics,bluedog review: WRESAT (1967)
+bluedog.VanguardFairing.SAF,materialsScienceSatellite,"new mods pass: Vanguard fairing (1957), not start"
+CapellaAdaptor,start,new mods: WAC Corporal (1945): Wacapella/CNAR starter sounding rocket
+CapellaFin1,start,new mods: WAC Corporal (1945): Wacapella/CNAR starter sounding rocket
+TitovEngine1,rocketryTesting,"new mods: V-2 replica (CNAR Titov), with the Bumper V-2"
+TitovFin1,rocketryTesting,"new mods: V-2 replica (CNAR Titov), with the Bumper V-2"
+TitovNoseCone,rocketryTesting,"new mods: V-2 replica (CNAR Titov), with the Bumper V-2"
+TitovProbeCore,rocketryTesting,"new mods: V-2 replica (CNAR Titov), with the Bumper V-2"
+TitovTank1,rocketryTesting,"new mods: V-2 replica (CNAR Titov), with the Bumper V-2"
+TitovTank2,rocketryTesting,"new mods: V-2 replica (CNAR Titov), with the Bumper V-2"
+trussPiece1x,materialsScienceHuman,start-node cleanup: Modular Girder: early-60s structure
+trussAdapter,materialsScienceHuman,start-node cleanup: girder adapter
+trussPiece3x,materialsScienceLunar,start-node cleanup: long girder
+truss-micro-01,materialsScienceHuman,start-node cleanup: micro truss
+truss-micro-02,materialsScienceHuman,start-node cleanup: micro truss
+structuralIBeam1,postWarMaterialsScience,start-node cleanup: I-beam
+structuralIBeam2,postWarMaterialsScience,start-node cleanup: I-beam
+structuralIBeam3,postWarMaterialsScience,start-node cleanup: I-beam
+structuralPanel1,postWarMaterialsScience,start-node cleanup: structural panel
+structuralPanel2,postWarMaterialsScience,start-node cleanup: structural panel
+structuralMiniNode,earlyMaterialsScience,start-node cleanup: mini node
+strutCube,earlyMaterialsScience,start-node cleanup: cubic strut
+strutOcto,earlyMaterialsScience,start-node cleanup: octagonal strut
+smallHardpoint,postWarMaterialsScience,start-node cleanup: hardpoint
+structuralPylon,postWarMaterialsScience,start-node cleanup: pylon
+strutConnector,postWarMaterialsScience,start-node cleanup: EAS-4 strut
+fairingSize1,earlyMaterialsScience,start-node cleanup: 1.25 m fairing
+fairingSize2,materialsScienceHuman,start-node cleanup: 2.5 m fairing
+fairingSize3,materialsScienceLunar,start-node cleanup: 3.75 m fairing
+restock-fairing-base-0625-1,postWarMaterialsScience,start-node cleanup: 0.625 m fairing
+restock-fairing-base-1875-1,materialsScienceHuman,start-node cleanup: 1.875 m fairing
+bluedog.FairingBase.0p625m,postWarMaterialsScience,start-node cleanup: 0.625 m fairing
+bluedog.FairingBase.0p625m.SAF,postWarMaterialsScience,start-node cleanup: 0.625 m fairing
+rocketNoseCone.v2,orbitalRocketry1962,start-node cleanup: 2.5 m nose cone
+pointyNoseConeA,earlyRocketry,start-node cleanup: 1.25 m nose cone
+pointyNoseConeB,earlyRocketry,start-node cleanup: 1.25 m nose cone
+noseConeAdapter,rocketryTesting,start-node cleanup: nose cone adapter
+ladder1,materialsScienceHuman,start-node cleanup: ladder: crewed era
+telescopicLadder,materialsScienceLunar,start-node cleanup: telescopic ladder ~ LM
+telescopicLadderBay,materialsScienceLunar,start-node cleanup: telescopic ladder ~ LM
+evaChute,earlyLifeSupport,"start-node cleanup: EVA parachute, with EVA"
+groundAnchor,surfaceScience,"start-node cleanup: ground anchor, with deployables"
+groundLight1,surfaceScience,start-node cleanup: deployable light
+groundLight2,surfaceScience,start-node cleanup: deployable light
+spotLight1,electronicsHuman,start-node cleanup: spotlight
+spotLight1.v2,electronicsHuman,start-node cleanup: spotlight
+spotLight2,electronicsHuman,start-node cleanup: spotlight
+spotLight2.v2,electronicsHuman,start-node cleanup: spotlight
+spotLight3,electronicsHuman,start-node cleanup: spotlight
+domeLight1,electronicsHuman,start-node cleanup: dome light
+stripLight1,electronicsHuman,start-node cleanup: strip light
+sweptWing,supersonicDev,start-node cleanup: swept wing ~ jets
+sweptWing1,supersonicDev,start-node cleanup: swept wing
+sweptWing2,supersonicDev,start-node cleanup: swept wing
+deltaWing,matureSupersonic,start-node cleanup: delta wing
+delta.small,matureSupersonic,start-node cleanup: delta wing
+CanardController,matureSupersonic,start-node cleanup: canard
+R8winglet,supersonicFlightRP0,start-node cleanup: R8 winglet
+wingStrake,supersonicFlightRP0,start-node cleanup: strake
+airplaneTail,supersonicDev,start-node cleanup: Mk1 tail ~ jets
+airplaneTailB,supersonicDev,start-node cleanup: Mk1 tail
+CircularIntake,supersonicDev,start-node cleanup: jet intake
+miniIntake,supersonicDev,start-node cleanup: jet intake
+airScoop,supersonicDev,start-node cleanup: jet intake
+GearSmall,supersonicDev,start-node cleanup: retractable gear
+SmallGearBay,supersonicDev,start-node cleanup: retractable gear bay
+ca.RM01,earlyFlightControl,start-node cleanup: RCS block
+ca.rs01,earlyFlightControl,start-node cleanup: RCS block
+ca.rs04,earlyFlightControl,start-node cleanup: RCS block
+ca.rst,earlyFlightControl,start-node cleanup: RCS block
+nfex-antenna-rover-2,digitalComms,start-node cleanup: small rover antenna
+bluedog.SpinDecoupler.p3125m,solids1958,start-node cleanup: spin table ~ Juno/Explorer (1958)
+bluedog.Spintable.0p625,solids1958,start-node cleanup: spin table (1958)
+bluedog.Spintable.0p9375,solids1958,start-node cleanup: spin table (1958)
+BDB.FASAlaunchClamp125,materialsScienceHuman,start-node cleanup: Redstone launch clamp (1960)
+bluedog.AtlasV.RD180,stagedCombustion1998,"engine era pass: RD-180, oxidizer-rich staged combustion (1999)"
+bluedog.AtlasV.RD180engine,stagedCombustion1998,engine era pass: RD-180 (1999)
+bluedog.CentaurD.RL10A4N,hydrolox1992,engine era pass: RL10A-4 (1991)
+bluedog.CentaurD.RL10B2,hydrolox1998,engine era pass: RL10B-2 (1998)
+ca.lahar,orbitalRocketry1998,engine era pass: Fregat-class upper stage engine (2000)
+mer.engine,orbitalRocketry1998,engine era pass: MER cruise stage (2003)
+bluedog.Keyhole.OCV.KH7,improvedFlightControl,engine era pass: KH-7 orbital control vehicle thrusters (1963)
+bluedog.probeRCSblockE,stabilityRP0,engine era pass: probe RCS
+grus.adapter.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_almaz (1973)
+grus.adapter.s1.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_almaz (1973)
+grus.adapter.s2.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_almaz (1973)
+grus.adapter.s2.s1.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s1p5.1,matureCapsules,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s1.1,deepSpaceScience,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s1.2,deepSpaceScience,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s1.3,deepSpaceScience,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s2.1,deepSpaceScience,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s2.2,deepSpaceScience,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s2.s1p5.1,earlySpaceStations,new mods pass 2: Tantares core_almaz (1973)
+grus.crew.s2.s1.1,earlySpaceStations,new mods pass 2: Tantares core_almaz (1973)
+grus.fuselage.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_almaz (1973)
+aquila.adapter.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+aquila.adapter.s2.s0p5.1,advancedAvionics,new mods pass 2: Tantares core_fgb (1977)
+aquila.adapter.s2.s1p5.1,advancedAvionics,new mods pass 2: Tantares core_fgb (1977)
+aquila.control.s2.1,advancedAvionics,new mods pass 2: Tantares core_fgb (1977)
+aquila.crew.s1p5.1,deepSpaceScience,new mods pass 2: Tantares core_fgb (1977)
+aquila.crew.s1p5.2,deepSpaceScience,new mods pass 2: Tantares core_fgb (1977)
+aquila.crew.s1.1,deepSpaceScience,new mods pass 2: Tantares core_fgb (1977)
+aquila.crew.s1.3,improvedCapsules,new mods pass 2: Tantares core_fgb (1977)
+aquila.experiment.rack.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+aquila.fuselage.s1.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+aquila.lab.s1p5.1,deepSpaceScience,new mods pass 2: Tantares core_fgb (1977)
+aquila.lab.s1p5.2,deepSpaceScience,new mods pass 2: Tantares core_fgb (1977)
+aquila.lab.s1.1,deepSpaceScience,new mods pass 2: Tantares core_fgb (1977)
+aquila.node.adapter.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+aquila.node.adapter.s1.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+aquila.node.cap.s0p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+aquila.node.s0p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+aquila.node.s0p5.2,improvedCapsules,new mods pass 2: Tantares core_fgb (1977)
+aquila.structural.cone.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_fgb (1977)
+sargas.control.s1p5.1,nextGenAvionics,new mods pass 2: Tantares core_fgb_tug (1981)
+sargas.decoupler.s1p5.1,materialsScienceSpaceplanes,new mods pass 2: Tantares core_fgb_tug (1981)
+libra.crew.s0p5.1,matureCapsules,new mods pass 2: Tantares core_lk (1969)
+libra.engine.s1.1,orbitalRocketry1969,new mods pass 2: Tantares core_lk (1969)
+libra.fuel.tank.s1.s0p5.1,orbitalRocketry1969,new mods pass 2: Tantares core_lk (1969)
+libra.fuel.tank.s1.s0p5.2,orbitalRocketry1969,new mods pass 2: Tantares core_lk (1969)
+libra.monopropellant.tank.s0.1,orbitalRocketry1969,new mods pass 2: Tantares core_lk (1969)
+libra.monopropellant.tank.s0.2,orbitalRocketry1969,new mods pass 2: Tantares core_lk (1969)
+libra.rcs.srf.2,improvedFlightControl,new mods pass 2: Tantares core_lk (1969)
+libra.structure.s1.1,materialsScienceLunar,new mods pass 2: Tantares core_lk (1969)
+Auriga.DrogueParachute.1,lunarRatedHeatshields,new mods pass 2: Tantares core_lk_1 (1968)
+Auriga.Engine.1,orbitalRocketry1968,new mods pass 2: Tantares core_lk_1 (1968)
+Auriga.Fuselage.1,materialsScienceLunar,new mods pass 2: Tantares core_lk_1 (1968)
+Auriga.Parachute.1,lunarRatedHeatshields,new mods pass 2: Tantares core_lk_1 (1968)
+aquarius.crew.s1p5.1,secondGenCapsules,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.drogue.parachute.s0.1,humanRatedEDL,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.engine.mount.s1p5.1,materialsScienceLunar,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.fuselage.s1p5.1,materialsScienceLunar,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.fuselage.s1p5.2,materialsScienceLunar,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.heatshield.s1p5.1,humanRatedEDL,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.parachute.s0p5.1,humanRatedEDL,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.service.module.s1p5.1,orbitalRocketry1965,new mods pass 2: Tantares core_lk_700 (1965)
+aquarius.service.module.s1p5.2,orbitalRocketry1965,new mods pass 2: Tantares core_lk_700 (1965)
+lk.v2.crew.s0p5.1,matureCapsules,new mods pass 2: Tantares core_lk_v2 (1969)
+lk.v2.fuel.tank.s0.1,orbitalRocketry1969,new mods pass 2: Tantares core_lk_v2 (1969)
+lk.v2.fuel.tank.s1.1,orbitalRocketry1969,new mods pass 2: Tantares core_lk_v2 (1969)
+lk.v2.fuselage.s0.1,materialsScienceLunar,new mods pass 2: Tantares core_lk_v2 (1969)
+virgo.crew.s1.1,matureCapsules,new mods pass 2: Tantares core_lok (1969)
+virgo.engine.s1.1,orbitalRocketry1967,new mods pass 2: Soyuz service module (1967)
+virgo.fuel.tank.s1.1,orbitalRocketry1969,new mods pass 2: Tantares core_lok (1969)
+virgo.fuel.tank.s1.2,orbitalRocketry1969,new mods pass 2: Tantares core_lok (1969)
+virgo.orbital.module.s1.1,improvedFlightControl,new mods pass 2: Tantares core_lok (1969)
+virgo.radiator.fuel.tank.s1.1,orbitalRocketry1969,new mods pass 2: Tantares core_lok (1969)
+virgo.radiator.fuel.tank.s1.2,orbitalRocketry1969,new mods pass 2: Tantares core_lok (1969)
+mek.fgb.adapter.s2.s0p5.1,materialsScienceNF,new mods pass 2: Tantares core_mek_fgb (2035)
+mek.fgb.avionics.s2.1,avionicsNF,new mods pass 2: Tantares core_mek_fgb (2035)
+mek.fgb.electric.fuel.tank.s1p5.1,elecPropulsionNF,new mods pass 2: Tantares core_mek_fgb (2035)
+mek.fgb.electric.fuel.tank.s2.1,elecPropulsionNF,new mods pass 2: Tantares core_mek_fgb (2035)
+mek.fgb.engine.mount.s0p5.1,materialsScienceNF,new mods pass 2: Tantares core_mek_fgb (2035)
+mek.fgb.piston.s2.1,materialsScienceNF,new mods pass 2: Tantares core_mek_fgb (2035)
+mek.fgb.service.module.s2.1,orbitalRocketryNF,new mods pass 2: Tantares core_mek_fgb (2035)
+mek.mav.crew.s0.1,capsulesNF,new mods pass 2: Tantares core_mek_mav (2035)
+mek.mav.fuel.tank.s0.1,orbitalRocketryNF,new mods pass 2: Tantares core_mek_mav (2035)
+mek.mok.airlock.s2.1,advancedHabitats,new mods pass 2: Tantares core_mek_mok (2035)
+mek.mok.crew.s2.1,scienceNF,new mods pass 2: Tantares core_mek_mok (2035)
+mek.mok.docking.adapter.s1.1,electronicsNF,new mods pass 2: Tantares core_mek_mok (2035)
+mek.mok.lab.s2.1,scienceNF,new mods pass 2: Tantares core_mek_mok (2035)
+mek.mok.node.s1p5.1,materialsScienceNF,new mods pass 2: Tantares core_mek_mok (2035)
+mek.mok.pilot.station.s2.1,capsulesNF,new mods pass 2: Tantares core_mek_mok (2035)
+dalim.adapter.s0p5.s0.1,materialsScienceLunar,new mods pass 2: Tantares core_meteor (1969)
+dalim.control.s0p5.1,largeScaleAvionics,new mods pass 2: Tantares core_meteor (1969)
+dalim.materials.bay.s0p5.1,surfaceScience,new mods pass 2: Tantares core_meteor (1969)
+dalim.sensor.radiometer.s0.1,surfaceScience,new mods pass 2: Tantares core_meteor (1969)
+dalim.solar.srf.1.1,lunarRatedPower,new mods pass 2: Tantares core_meteor (1969)
+dalim.solar.srf.1.2,lunarRatedPower,new mods pass 2: Tantares core_meteor (1969)
+eridani.crew.s1p5.1,advancedCapsules,new mods pass 2: Tantares core_mir (1986)
+eridani.crew.s2.1,sampleReturnScience,new mods pass 2: Tantares core_mir (1986)
+eridani.crew.s2.s1p5.1,modularSpaceStations,new mods pass 2: Tantares core_mir (1986)
+eridani.node.adapter.s1p5.s0p5.1,advancedCapsules,new mods pass 2: Tantares core_mir (1986)
+eridani.node.s0p5.1,modularSpaceStations,new mods pass 2: Tantares core_mir (1986)
+acamar.adapter.s2.s0p5.1,electronicsSpaceplanes,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.adapter.s2.s0p5.2,electronicsSpaceplanes,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.adapter.s2.s1p5.1,electronicsSpaceplanes,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.adapter.s2.s1p5.2,electronicsSpaceplanes,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.adapter.s2.s1.1,electronicsSpaceplanes,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.adapter.s2.s1.2,electronicsSpaceplanes,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.crew.s2.1,largeSpaceplaneControl,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.crew.s2.2,largeSpaceplaneControl,new mods pass 2: Tantares core_mir_37k (1983)
+acamar.science.processor.s2.1,scienceExploration,new mods pass 2: Tantares core_mir_37k (1983)
+nashira.crew.s1.1,improvedHabitats,new mods pass 2: Tantares core_nep (2019)
+nashira.crew.s1.2,improvedHabitats,new mods pass 2: Tantares core_nep (2019)
+nashira.cupola.s1.1,commercialCapsules,new mods pass 2: Tantares core_nep (2019)
+nashira.truss.s1.1,electronicsMatureCommercial,new mods pass 2: Tantares core_nep (2019)
+nashira.truss.s1.2,electronicsMatureCommercial,new mods pass 2: Tantares core_nep (2019)
+hadar.adapter.s1.s0p5.1,materialsScienceInternational,new mods pass 2: Tantares core_pirs (2001)
+hadar.adapter.s1.s0p5.2,materialsScienceInternational,new mods pass 2: Tantares core_pirs (2001)
+hadar.crew.s1.1,advancedCapsules,new mods pass 2: Tantares core_pirs (2001)
+hadar.crew.s1.2,advancedCapsules,new mods pass 2: Tantares core_pirs (2001)
+hadar.fuselage.s1.1,materialsScienceInternational,new mods pass 2: Tantares core_pirs (2001)
+mira.crew.s1.1,advancedCapsules,new mods pass 2: Tantares core_pirs (2001)
+pirs.v2.adapter.s1.s0p5.1,materialsScienceInternational,new mods pass 2: Tantares core_pirs_v2 (2001)
+pirs.v2.crew.s1.1,advancedCapsules,new mods pass 2: Tantares core_pirs_v2 (2001)
+pirs.v2.interstage.s1.1,materialsScienceInternational,new mods pass 2: Tantares core_pirs_v2 (2001)
+pirs.v2.service.module.s1.1,electronicsInternational,new mods pass 2: Tantares core_pirs_v2 (2001)
+rotanev.aeroshell.s2.1,materialsScienceLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.aeroshell.s2.2,materialsScienceLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.battery.s2.1,electronicsLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.battery.s2.2,electronicsLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.cap.s0p5.1,materialsScienceLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.cap.s1p5.1,materialsScienceLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.cap.s1.1,materialsScienceLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.control.s2.1,longTermAvionics,new mods pass 2: Tantares core_polyus (1987)
+rotanev.crew.s2.1,sampleReturnScience,new mods pass 2: Tantares core_polyus (1987)
+rotanev.fuel.tank.s0p5.1,orbitalRocketry1986,new mods pass 2: Tantares core_polyus (1987)
+rotanev.fuel.tank.s0p5.2,orbitalRocketry1986,new mods pass 2: Tantares core_polyus (1987)
+rotanev.fuselage.s2.1,materialsScienceLongTerm,new mods pass 2: Tantares core_polyus (1987)
+rotanev.nose.cone.s0p5.1,refinedTurbofans,new mods pass 2: Tantares core_polyus (1987)
+rotanev.rcs.srf.1,largeSpaceplaneControl,new mods pass 2: Tantares core_polyus (1987)
+rotanev.service.bay.s2.1,materialsScienceLongTerm,new mods pass 2: Tantares core_polyus (1987)
+hamal.adapter.s1.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_progress (1978)
+hamal.aeroshell.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_progress (1978)
+hamal.aeroshell.s1p5.2,materialsScienceSpaceStation,new mods pass 2: Tantares core_progress (1978)
+hamal.avionics.s1.1,advancedAvionics,new mods pass 2: Tantares core_progress (1978)
+hamal.cargo.module.s1p5.1,earlySpaceStations,new mods pass 2: Tantares core_progress (1978)
+hamal.cargo.module.s1p5.2,earlySpaceStations,new mods pass 2: Tantares core_progress (1978)
+hamal.fuel.tank.s1.1,orbitalRocketry1976,new mods pass 2: Tantares core_progress (1978)
+hamal.fuel.tank.s1.2,orbitalRocketry1976,new mods pass 2: Tantares core_progress (1978)
+hamal.gyro.s1.1,spaceStationControl,new mods pass 2: Tantares core_progress (1978)
+hamal.orbital.module.s1.1,earlySpaceStations,new mods pass 2: Tantares core_progress (1978)
+mira.crew.s1p2.1,modernCapsules,new mods pass 2: Tantares core_rassvet (2010)
+tucana.adapter.s1p5.s0p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s1p5.s0.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s1p5.s1.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s1.s0p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s1.s0.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s2.s0p5.2,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s2.s1p5.1,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s2.s1p5.2,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.adapter.s2.s1.2,materialsScienceSpaceStation,new mods pass 2: Tantares core_salyut (1971)
+tucana.crew.s1p5.1,matureCapsules,new mods pass 2: Tantares core_salyut (1971)
+tucana.crew.s1p5.2,matureCapsules,new mods pass 2: Tantares core_salyut (1971)
+tucana.crew.s1.1,surfaceScience,new mods pass 2: Tantares core_salyut (1971)
+tucana.crew.s2.1,surfaceScience,new mods pass 2: Tantares core_salyut (1971)
+tucana.crew.s2.2,surfaceScience,new mods pass 2: Tantares core_salyut (1971)
+rana.control.srf.1,longTermAvionics,new mods pass 2: Tantares core_sofora (1991)
+rana.mount.srf.1,materialsScienceLongTerm,new mods pass 2: Tantares core_sofora (1991)
+rana.truss.srf.1,materialsScienceLongTerm,new mods pass 2: Tantares core_sofora (1991)
+rana.truss.srf.2,materialsScienceLongTerm,new mods pass 2: Tantares core_sofora (1991)
+tantares.engine.s5.60.srf.1,orbitalRocketry1967,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.engine.s5.80.srf.1,orbitalRocketry1967,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.basic.fuel.tank.s1.1,orbitalRocketry1967,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.basic.service.module.s1.1,orbitalRocketry1967,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.crew.s1.1,matureCapsules,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.decoupler.s1.1,materialsScienceLunar,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.fuel.tank.s1.1,orbitalRocketry1967,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.heatshield.s1.1,lunarRatedHeatshields,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.orbital.module.s1.1,improvedFlightControl,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.orbital.module.s1.2,improvedFlightControl,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.orbital.module.s1.3,improvedFlightControl,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.orbital.module.s1.4,improvedFlightControl,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.parachute.s0.1,lunarRatedHeatshields,new mods pass 2: Tantares core_soyuz_v2 (1967)
+tantares.v2.service.module.s1.1,improvedFlightControl,new mods pass 2: Tantares core_soyuz_v2 (1967)
+alnair.v2.avionics.s0.1,advancedAvionics,new mods pass 2: Tantares core_va_v2 (1976)
+alnair.v2.crew.s1p5.1,improvedCapsules,new mods pass 2: Tantares core_va_v2 (1976)
+alnair.v2.crew.s2.1,improvedCapsules,new mods pass 2: Tantares core_va_v2 (1976)
+alnair.v2.engine.s0p5.1,orbitalRocketry1976,new mods pass 2: Tantares core_va_v2 (1976)
+alnair.v2.heatshield.s1p5.1,lunarRatedHeatshields,new mods pass 2: Tantares core_va_v2 (1976)
+alnair.v2.heatshield.s2.1,lunarRatedHeatshields,new mods pass 2: Tantares core_va_v2 (1976)
+alnair.v2.parachute.s0p5.1,lunarRatedHeatshields,new mods pass 2: Tantares core_va_v2 (1976)
+andromeda.airlock.s0.1,materialsScienceHuman,new mods pass 2: Tantares core_vostok (1961)
+andromeda.avionics.s1.1,interplanetaryProbes,new mods pass 2: Tantares core_vostok (1961)
+andromeda.control.core.s1.1,interplanetaryProbes,new mods pass 2: Tantares core_vostok (1961)
+andromeda.crew.s1.1,basicCapsules,new mods pass 2: Tantares core_vostok (1961)
+andromeda.crew.s1.2,basicCapsules,new mods pass 2: Tantares core_vostok (1961)
+andromeda.decoupler.s0p5.1,materialsScienceHuman,new mods pass 2: Tantares core_vostok (1961)
+andromeda.engine.s0.1,orbitalRocketry1961,new mods pass 2: Vostok retro (1961)
+andromeda.engine.s1.1,orbitalRocketry1961,new mods pass 2: Vostok TDU-1 retro (1961)
+andromeda.gyro.s1.1,stabilityRP0,new mods pass 2: Tantares core_vostok (1961)
+andromeda.parachute.s0.1,humanRatedEDL,new mods pass 2: Tantares core_vostok (1961)
+AndromedaUS.Decoupler.1,materialsScienceSatellite,new mods pass 2: Tantares BLOK_E (1959)
+AndromedaUS.Engine.1,orbitalRocketry1959,new mods pass 2: Blok E / RD-0105 (1959)
+AndromedaUS.LFO.1,orbitalRocketry1959,new mods pass 2: Tantares BLOK_E (1959)
+AndromedaUS.VernierEngine.1,orbitalRocketry1959,new mods pass 2: Blok E vernier (1959)
+delphini.us.fuel.tank.s1.1,orbitalRocketry1998,new mods pass 2: Tantares BRIZ (1999)
+delphini.us.structure.s1.1,orbitalRocketry1998,new mods pass 2: Tantares BRIZ (1999)
+blok.d.v2.avionics.s1.1,largeScaleAvionics,new mods pass 2: Tantares CORE_BLOK_D_V2 (1967)
+blok.d.v2.fuel.tank.s2.1,orbitalRocketry1967,new mods pass 2: Tantares CORE_BLOK_D_V2 (1967)
+blok.d.v2.interstage.s2.1,materialsScienceLunar,new mods pass 2: Tantares CORE_BLOK_D_V2 (1967)
+proton.v2.stage.1.fuel.tank.s2.1,orbitalRocketry1998,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.1.fuel.tank.s2.2,orbitalRocketry1998,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.2.fuel.tank.s2.1,orbitalRocketry1998,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.2.interstage.s2.1,materialsScienceInternational,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.2.interstage.s2.2,materialsScienceInternational,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.2.mount.s2.1,materialsScienceInternational,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.3.fuel.tank.s2.1,orbitalRocketry1998,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.3.interstage.s2.1,materialsScienceInternational,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+proton.v2.stage.3.mount.s2.1,materialsScienceInternational,new mods pass 2: Tantares CORE_PROTON_V2 (2001)
+TUS.Engine.1,orbitalRocketry1960,new mods pass 2: upper stage engine (1960)
+TUS.LFO.1,orbitalRocketry1998,new mods pass 2: Tantares FREGAT (2000)
+corvus.lv.bare.engine.s1.2,orbitalRocketry1961,new mods pass 2: Tantares KOSMOS (1961)
+corvus.lv.fuel.tank.s1.1,orbitalRocketry1961,new mods pass 2: Tantares KOSMOS (1961)
+corvus.lv.fuel.tank.s1.2,orbitalRocketry1961,new mods pass 2: Tantares KOSMOS (1961)
+corvus.lv.fuel.tank.s1.3,orbitalRocketry1961,new mods pass 2: Tantares KOSMOS (1961)
+corvus.lv.fuel.tank.s1.4,orbitalRocketry1961,new mods pass 2: Tantares KOSMOS (1961)
+chara.lv.fuel.tank.s0p5.1,orbitalRocketry1964,new mods pass 2: Tantares KOSMOS_2I (1964)
+chara.lv.fuel.tank.s0p5.2,orbitalRocketry1964,new mods pass 2: Tantares KOSMOS_2I (1964)
+chara.lv.fuel.tank.s0p5.3,orbitalRocketry1964,new mods pass 2: Tantares KOSMOS_2I (1964)
+chara.lv.fuel.tank.s0p5.4,orbitalRocketry1964,new mods pass 2: Tantares KOSMOS_2I (1964)
+ALV.LFO.A,orbitalRocketry1965,new mods pass 2: Tantares PROTON (1965)
+ALV.1.Engine.1,stagedCombustion1969,"new mods pass 2: NK-15 cluster, N1 first stage (1969)"
+ALV.1.Engine.2,stagedCombustion1969,"new mods pass 2: NK-15, N1 (1969)"
+ALV.2.LFO.1,orbitalRocketry1965,new mods pass 2: Tantares PROTON (1965)
+ALV.3.LFO.1,orbitalRocketry1965,new mods pass 2: Tantares PROTON (1965)
+tantares.lv.booster.fuel.tank.s1p5.1,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.booster.fuel.tank.s1p5.2,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.1,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.2,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.3,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.4,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.s1.1,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.s1.2,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.s1.3,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1p5.s1.4,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1.1,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1.2,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1.3,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.fuel.tank.s1.4,orbitalRocketry1966,new mods pass 2: Tantares SOYUZ (1966)
+tantares.lv.r7.tank.s2C,orbitalRocketry2004,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.tank.s2M,orbitalRocketry2004,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.tank.s2M.short,orbitalRocketry2004,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.tank.s2T,orbitalRocketry2004,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.tank.s2,orbitalRocketry2004,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.tank.s3,orbitalRocketry2004,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.s3.engine.mount,materialsScienceInternational,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.s3.interstage,materialsScienceInternational,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.r7.s3.soyuz.adapter,materialsScienceInternational,new mods pass 2: Tantares SOYUZ_V2 (2004)
+tantares.lv.engine.rd.0110,orbitalRocketry1960,new mods pass 2: RD-0110 Soyuz/Vostok upper stage (1960)
+tantares.lv.engine.rd.0210.s0.1,stagedCombustion1965,"new mods pass 2: RD-0210 Proton 2nd stage, staged combustion (1965)"
+tantares.lv.engine.rd.0213.s0.1,stagedCombustion1965,new mods pass 2: RD-0213 Proton (1965)
+tantares.lv.engine.rd.0214.s0.1,stagedCombustion1965,new mods pass 2: RD-0214 Proton vernier (1965)
+tantares.lv.engine.rd.253.s0.1,stagedCombustion1965,"new mods pass 2: RD-253 Proton first stage, staged combustion (1965)"
+tantares.lv.engine.rd.58.s0.1,stagedCombustion1967,"new mods pass 2: RD-58 Blok D, staged combustion (1967)"
+libra.lv.engine.s7p5.1,stagedCombustion1969,new mods pass 2: N1 30-engine cluster (1969)
+tantares.engine.rd.858.s0.1,lunarLanding,new mods pass 2: LK lander engine (1969)
+cryoengine-compsognathus-1,orbitalRocketry2019,"new mods pass 2: methalox, modern era"
+cryoengine-harrier-1,orbitalRocketry2019,"new mods pass 2: methalox vacuum, modern era"
+cryoengine-vulture-1,orbitalRocketry2019,"new mods pass 2: methalox, modern era"
+ntr-sc-0625-1,basicNuclearPropulsion,new mods pass 2: small solid-core NTR
+ntr-sc-375-1,efficientNuclearPropulsion,new mods pass 2: NTR aerospike
+ntr-gc-25-2,nuclearPropulsionNF2,new mods pass 2: open-cycle gas-core NTR
+ntr-gc-25-3,colonization2051NuclearProp,new mods pass 2: gas-core aerospike
+fft-ffre-solid-1,colonization2051NuclearProp,new mods pass 2: fission-fragment rocket
+fft-nswr-1,colonization2051NuclearProp,new mods pass 2: nuclear salt-water rocket
+fft-fusion-axial-zpinch-1,colonization2100NuclearProp,new mods pass 2: fusion
+fft-fusion-inertial-laser-1,colonization2100NuclearProp,new mods pass 2: fusion
+fft-fusion-magnetic-mirror-1,colonization2100NuclearProp,new mods pass 2: fusion
+fft-fusion-magnetic-tokamak-1,colonization2100NuclearProp,new mods pass 2: fusion
+fft-fusion-magnetic-tokamak-aerospike-1,colonization2100NuclearProp,new mods pass 2: fusion
+fft-fusion-inertial-magnetic-1,colonization2100ElecProp,new mods pass 2: magneto-inertial fusion
+fft-antimatter-beam-1,colonization2150NuclearProp,new mods pass 2: antimatter
+fft-antimatter-microfission-1,colonization2150NuclearProp,new mods pass 2: antimatter
+fft-antimatter-microfusion-1,colonization2150NuclearProp,new mods pass 2: antimatter
+nfa-atomic-jet-25-1,experimentalAircraft,new mods pass 2: nuclear air-breathing jet
+nfa-atomic-multimode-25-1,colonization2051Flight,new mods pass 2: nuclear multimode
+nfa-multimodal-125-1,highTechSpaceplanes,new mods pass 2: precooled multimode ~ SABRE
+nfa-multimodal-25-2,experimentalSpaceplanes,new mods pass 2: precooled multimode
+nfa-multimodal-25-1,sstoSpaceplanes,new mods pass 2: SSTO multimode
+nfa-liftfan-25-1,advancedTurbofans,new mods pass 2: lift fan ~ F-35 (2006)
+nfa-liftfan-375-1,advancedTurbofans,new mods pass 2: lift fan
+nfa-liftfan-10-1,experimentalAircraft,new mods pass 2: ultra-heavy lift fan
+fft-rcs-arcjet-1,colonization2051Control,new mods pass 2: Far Future Technologies part
+fft-rcs-arcjet-large-1,colonization2051Control,new mods pass 2: Far Future Technologies part
+fft-fusion-reactor-25-1,colonization2051NuclearPower,new mods pass 2: Far Future Technologies part
+fft-fusion-reactor-375-1,colonization2051NuclearPower,new mods pass 2: Far Future Technologies part
+fft-antimatter-factory-1,colonization2051LifeSupport,new mods pass 2: Far Future Technologies part
+fft-atmosphere-scoop-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-exosphere-scoop-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-nuclear-smelter-375-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-regolith-scoop-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-regolith-scoop-2,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-scanner-antimatter-1,colonization2051Science,new mods pass 2: Far Future Technologies part
+fft-scanner-gas-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-antimatter-ring-75-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-antimatter-tank-25-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-antimatter-tank-25-2,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-antimatter-tank-5-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-antimatter-tank-5-2,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-antimatter-tank-5-3,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-antimatter-tank-5-4,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-fusion-10-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-fusion-25-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-fusion-25-2,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-fusion-375-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-fusion-375-2,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-fusion-5-1,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+fft-fueltank-lithium-25-1,colonization2051ElecProp,new mods pass 2: Far Future Technologies part
+fft-fueltank-lithium-25-2,colonization2051ElecProp,new mods pass 2: Far Future Technologies part
+fft-fueltank-lithium-25-3,colonization2051ElecProp,new mods pass 2: Far Future Technologies part
+fft-fueltank-lithium-radial-0625-1,colonization2051ElecProp,new mods pass 2: Far Future Technologies part
+fft-fueltank-lithium-radial-125-1,colonization2051ElecProp,new mods pass 2: Far Future Technologies part
+fft-fueltank-targets-5-2,materialsScienceColonization,new mods pass 2: Far Future Technologies part
+spacedust-atmosphere-processor-125-1,materialsScienceNF,new mods pass 2: SpaceDust resource scanner/harvester
+spacedust-atmosphere-processor-25-1,materialsScienceNF,new mods pass 2: SpaceDust resource scanner/harvester
+spacedust-gas-analyzer-1,materialsScienceNF,new mods pass 2: SpaceDust resource scanner/harvester
+spacedust-spectrometer-1,materialsScienceNF,new mods pass 2: SpaceDust resource scanner/harvester
+spacedust-telescope-1,materialsScienceNF,new mods pass 2: SpaceDust resource scanner/harvester
+1mv.high.gain.antenna.srf.1,interplanetaryComms,TantaresSP: 1MV / Venera 1 (1961)
+3mv.high.gain.antenna.srf.1,improvedComms,TantaresSP: 3MV / Zond-Venera (1964)
+4mv.v.high.gain.antenna.srf.1,advancedComms,TantaresSP: 4MV / Venera 4-8 (1967)
+ye2a.low.gain.antenna.srf.1,lunarRangeComms,TantaresSP: Ye-2A / Luna 3 (1959)
+ye2a.low.gain.ribbon.antenna.srf.1,lunarRangeComms,TantaresSP: Ye-2A / Luna 3 (1959)
+ye8.high.gain.antenna.srf.2,advancedComms,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.low.gain.antenna.srf.1,advancedComms,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.low.gain.antenna.srf.2,advancedComms,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.low.gain.antenna.srf.3,advancedComms,TantaresSP: Ye-8 / Lunokhod (1970)
+4mv.battery.srf.1,electronicsLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.battery.srf.2,electronicsLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+sp.decoupler.s00.1,materialsScienceHuman,TantaresSP: Soviet probe generic (1961)
+4mv.engine.s0.1,orbitalRocketry1967,TantaresSP: 4MV / Venera 4-8 (1967)
+sp.engine.s5.17.s0.1,orbitalRocketry1961,"TantaresSP: S5.17 (1MV, 1961)"
+sp.engine.s5.417.s0.1,orbitalRocketry1970,"TantaresSP: KTDU-417 (Ye-8, 1970)"
+sp.engine.s5.45.s0.1,orbitalRocketry1964,"TantaresSP: S5.45 (3MV, 1964)"
+sp.engine.s5.61.s0.1,orbitalRocketry1970,"TantaresSP: S5.61 (Luna 16 ascent, 1970)"
+1f.fuel.tank.srf.1,orbitalRocketry1986,TantaresSP: 1F / Fobos (1988)
+1f.fuel.tank.srf.2,orbitalRocketry1986,TantaresSP: 1F / Fobos (1988)
+4mv.fuel.tank.srf.1,orbitalRocketry1967,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.fuel.tank.srf.2,orbitalRocketry1967,TantaresSP: 4MV / Venera 4-8 (1967)
+ye85.fuel.tank.srf.1,orbitalRocketry1970,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.fuel.tank.srf.2,orbitalRocketry1970,TantaresSP: Ye-8 / Lunokhod (1970)
+4mv.bucket.heatshield.s0.1,lunarRatedHeatshields,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.hemisphere.heatshield.s1.1,lunarRatedHeatshields,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.hemisphere.heatshield.s1.2,lunarRatedHeatshields,TantaresSP: 4MV / Venera 4-8 (1967)
+ye85.landing.leg.srf.1,materialsScienceLunar,TantaresSP: Ye-8 / Lunokhod (1970)
+1f.radiator.srf.1,materialsScienceLongTerm,TantaresSP: 1F / Fobos (1988)
+sp.rcs.linear.srf.1,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.1,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.1.ex,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.2,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.2.ex,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.3,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.3.ex,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.4,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.rcs.srf.4.ex,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+ye85.rcs.arm.srf.2,improvedFlightControl,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.rcs.linear.srf.1,improvedFlightControl,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.rcs.srf.1,improvedFlightControl,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.rcs.srf.2,improvedFlightControl,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.rtg.srf.1,improvedRTG,TantaresSP: Ye-8 / Lunokhod (1970)
+1f.sensor.array.srf.1,sampleReturnScience,TantaresSP: 1F / Fobos (1988)
+1f.sensor.gamma.ray.spectrometer.srf.1,sampleReturnScience,TantaresSP: 1F / Fobos (1988)
+1f.sensor.photometer.srf.1,sampleReturnScience,TantaresSP: 1F / Fobos (1988)
+1f.sensor.visible.light.camera.srf.1,sampleReturnScience,TantaresSP: 1F / Fobos (1988)
+1mv.sensor.accelerometer.srf.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.barometer.srf.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.cosmic.ray.detector.srf.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.gravimeter.srf.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.ion.trap.srf.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.magnetometer.srf.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.thermometer.srf.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+4mv.sensor.infrared.light.camera.srf.1,scienceLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.sensor.magnetometer.srf.1,scienceLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.sensor.visible.light.camera.srf.1,scienceLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.vl.sensor.accelerometer.srf.1,scienceLunar,TantaresSP: 4MV lander / Venera 4 (1967)
+4mv.vl.sensor.thermometer.srf.1,scienceLunar,TantaresSP: 4MV lander / Venera 4 (1967)
+4mv.vl.sensor.visible.light.camera.srf.1,scienceLunar,TantaresSP: 4MV lander / Venera 4 (1967)
+ye1a.sensor.magnetometer.srf.1,scienceSatellite,TantaresSP: Ye-1A / Luna 1-2 (1959)
+ye1a.sensor.micrometeoroid.srf.1,scienceSatellite,TantaresSP: Ye-1A / Luna 1-2 (1959)
+ye8.sensor.laser.reflector.srf.1,surfaceScience,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.sensor.visible.light.camera.srf.1,surfaceScience,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.sensor.visible.light.camera.srf.2,surfaceScience,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.sensor.xray.spectrometer.srf.1,surfaceScience,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.sensor.surface.sample.srf.1,surfaceScience,TantaresSP: Ye-8 / Lunokhod (1970)
+1f.solar.srf.1,largeScaleSolarArrays,TantaresSP: 1F / Fobos (1988)
+1mv.solar.srf.1,earlyPower,TantaresSP: 1MV / Venera 1 (1961)
+3mv.solar.srf.1,improvedPower,TantaresSP: 3MV / Zond-Venera (1964)
+4mv.solar.srf.1,lunarRatedPower,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.star.tracker.srf.1,improvedFlightControl,TantaresSP: 4MV / Venera 4-8 (1967)
+sp.star.tracker.srf.1,stabilityRP0,TantaresSP: Soviet probe generic (1961)
+sp.star.tracker.srf.2,improvedFlightControl,TantaresSP: Soviet probe star tracker (1970)
+ye8.rover.wheel.srf.1,interplanetaryRovers,TantaresSP: Ye-8 / Lunokhod (1970)
+1f.avionics.s0.1,longTermAvionics,TantaresSP: 1F / Fobos (1988)
+1f.high.gain.antenna.s0.1,massiveScaleComms,TantaresSP: 1F / Fobos (1988)
+1f.science.container.s0.1,materialsScienceLongTerm,TantaresSP: 1F / Fobos (1988)
+1mv.avionics.s0.1,interplanetaryProbes,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.ultraviolet.light.camera.s0.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+1mv.sensor.visible.light.camera.s0.1,scienceHuman,TantaresSP: 1MV / Venera 1 (1961)
+3mv.avionics.s0.1,matureAvionics,TantaresSP: 3MV / Zond-Venera (1964)
+3mv.parachute.s0.1,improvedComms,TantaresSP: 3MV / Zond-Venera (1964)
+3mv.probe.s0.1,matureAvionics,TantaresSP: 3MV / Zond-Venera (1964)
+3mv.science.container.s0.1,materialsScienceAdvCapsules,TantaresSP: 3MV / Zond-Venera (1964)
+3mv.service.module.s0.1,orbitalRocketry1964,TantaresSP: 3MV / Zond-Venera (1964)
+4mv.avionics.s0.1,largeScaleAvionics,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.battery.s0.1,electronicsLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.battery.s0.2,electronicsLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.science.container.s0.1,materialsScienceLunar,TantaresSP: 4MV / Venera 4-8 (1967)
+4mv.vl.avionics.s0p5.1,largeScaleAvionics,TantaresSP: 4MV lander / Venera 4 (1967)
+4mv.vl.parachute.s0.1,advancedComms,TantaresSP: 4MV lander / Venera 4 (1967)
+ps1.avionics.s00.1,earlyAvionics,TantaresSP: PS-1 / Sputnik 1 (1957)
+ye1a.avionics.s0.1,basicAvionics,TantaresSP: Ye-1A / Luna 1-2 (1959)
+ye2a.avionics.s0.1,basicAvionics,TantaresSP: Ye-2A / Luna 3 (1959)
+ye2a.service.module.s0.1,earlyFlightControl,TantaresSP: Ye-2A / Luna 3 (1959)
+ye8.avionics.s1.1,largeScaleAvionics,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.rover.platform.s0.1,materialsScienceLunar,TantaresSP: Ye-8 / Lunokhod (1970)
+ye8.solar.s1.1,lunarRatedPower,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.avionics.s00.1,largeScaleAvionics,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.avionics.s0.1,largeScaleAvionics,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.fuel.tank.s00.1,orbitalRocketry1970,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.fuel.tank.s0.1,orbitalRocketry1970,TantaresSP: Ye-8 / Lunokhod (1970)
+ye85.science.container.s00.1,largeScaleAvionics,TantaresSP: Ye-8 / Lunokhod (1970)
+AM.MLP.FlatLaunchBaseMini,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.GeneralFallbackUmbilicalTower,materialsScienceSatellite,start cleanup: IRBM pad hardware (1957)
+AM.MLP.GenBaseMicro,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.GeneralUmbilicalDroopB,materialsScienceSatellite,start cleanup: IRBM pad hardware (1957)
+AM.MLP.LaunchPlateRnd1,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.AerobeeLaunchStand,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.AtlasLaunchStand,materialsScienceSatellite,start cleanup: Atlas pad (1959)
+AM.MLP.AtlasUmbilicalArmAgena,materialsScienceSatellite,start cleanup: Atlas pad (1959)
+AM.MLP.AtlasUmbilicalArmCentaur,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+AM.MLP.CrewElevatorAtlasUmbilical,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+AM.MLP.LaunchStandCrewElevatorAtlas,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+AM.MLP.LaunchStandCrewElevatorGemini,materialsScienceAdvCapsules,start cleanup: Gemini crew access (1964)
+AM.MLP.LaunchStandCrewElevatorMercury,materialsScienceSatellite,start cleanup: Mercury-Redstone crew access (1960)
+AM.MLP.LaunchStandCrewWalkwayMercury,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+AM.MLP.SmallLaunchStandRect,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.SmallLaunchStand,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.JupiterPetalCover,materialsScienceSatellite,start cleanup: IRBM pad hardware (1957)
+AM.MLP.LaunchRailLarge,materialsScienceSatellite,"start cleanup: large launch rail (Nike-Hercules, 1955)"
+AM.MLP.LaunchRailMedium,earlyMaterialsScience,start cleanup: Redstone era pad hardware (1953)
+AM.MLP.LaunchRailMini,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.LaunchRailSmall,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.MilkstoolLaunchStand1,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.MilkstoolMini1S,start,"craft-fix pass: ModularLaunchPads: ground support / range safety, available from start"
+AM.MLP.LaunchStandServiceTower1,materialsScienceSatellite,start cleanup: IRBM pad hardware (1957)
+AM.MLP.LaunchStandServiceTower4,materialsScienceSatellite,start cleanup: IRBM pad hardware (1957)
+AM.MLP.RedstoneLaunchStand,earlyMaterialsScience,start cleanup: Redstone era pad hardware (1953)
+AM.MLP.ThorLaunchStand,materialsScienceSatellite,start cleanup: IRBM pad hardware (1957)
+AM.MLP.ThorServiceTowerFallback,materialsScienceSatellite,start cleanup: IRBM pad hardware (1957)
+AM.MLP.TitanIILaunchStand,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+AM.MLP.TitanIIServiceTowerMast,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+AM.MLP.TitanIIServiceTowerSingle,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+AM.MLP.TitanIIServiceTowerUmbilicalGem2,materialsScienceAdvCapsules,start cleanup: Gemini crew access (1964)
+AM.MLP.TitanIIServiceTowerUmbilical2,materialsScienceHuman,start cleanup: Mercury-Atlas / Titan II pads (1962)
+blue.streak.engine.s1.2,orbitalRocketry1958,craft-fix pass: CRE: Blue Streak / Black Knight era (1958)
+red.herald.probe.core.s0.1,earlyAvionics,craft-fix pass: CRE: Blue Streak / Black Knight era (1958)
+blue.steel.winglet.srf.1,highSpeedFlight,craft-fix pass: BlueSteel: Blue Steel (1958)
+blue.steel.winglet.srf.4,highSpeedFlight,craft-fix pass: BlueSteel: Blue Steel (1958)
+blue.steel.engine.s0.1,orbitalRocketry1958,craft-fix pass: BlueSteel: Blue Steel (1958)
+blue.steel.engine.sabre.s00,highSpeedFlight,craft-fix pass: BlueSteel: Blue Steel (1958)
+B9.Structure.P1.Surface.Half,materialsScienceSatellite,craft-fix pass: B9_Aerospace: B9 structural panel
+B9.Structure.P1.Surface,materialsScienceSatellite,craft-fix pass: B9_Aerospace: B9 structural panel
+TE.F9.Fairing.Adapter,materialsScienceCommercial,craft-fix pass: Falcon 9 fairing adapter (2010)
+SR.Battery,electronicsSatellite,craft-fix pass: SoundingRockets: USI Sounding Rockets (late 1940s)
+SR.LaunchStick,start,"craft-fix pass: launch rail, ground support"
+SR.ProbeCore,earlyAvionics,"craft-fix pass: sounding-rocket probe core, early avionics"
+SR.Stack.Battery,electronicsSatellite,craft-fix pass: SoundingRockets: USI Sounding Rockets (late 1940s)
+SR.Tank.35.01,rocketryTesting,craft-fix pass: SoundingRockets: USI Sounding Rockets (late 1940s)
+SR.Wing.02,supersonicDev,craft-fix pass: SoundingRockets: USI Sounding Rockets (late 1940s)
+CAFuelCell,improvedPower,"craft-fix pass: Shuttle fuel cell, with the stock fuel cells"
+Mk1JuniorStructural,postWarMaterialsScience,craft-fix pass: AirplanePlus: aircraft structural
+TacSelfDestruct,start,"craft-fix pass: TacSelfDestruct: ground support / range safety, available from start"
+lrtr-sciencecanister-625-1A,postWarMaterialsScience,craft-fix pass: RP-Stock: LRTR-style sounding canister (1946)
+lrtr-sciencecanister-625-1B,postWarMaterialsScience,craft-fix pass: RP-Stock: LRTR-style sounding canister (1946)
+bluedog.Decoupler.0p625m,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+bluedog.cameraLowTech,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+FS.BiplaneCockpit,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSlancasterEngine,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSlancasterEngineGear,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+FSnoseEngine,supersonicDev,"start cleanup: pre-jet aviation, first flight node"
+restock-decoupler-radial-tiny-1,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+RC.cone,entryDescentLanding,"start cleanup: RealChute, early recovery systems"
+RC.cone.double,entryDescentLanding,"start cleanup: RealChute, early recovery systems"
+RC.radial,entryDescentLanding,"start cleanup: RealChute, early recovery systems"
+RC.stack,entryDescentLanding,"start cleanup: RealChute, early recovery systems"
+Decoupler.0,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+GearFixed,supersonicDev,"start cleanup: aircraft structure, first flight node"
+GearFree,supersonicDev,"start cleanup: aircraft structure, first flight node"
+ReleaseValve,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+StandardCtrlSrf,supersonicDev,"start cleanup: aircraft structure, first flight node"
+SurfAntenna,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+elevon2,supersonicDev,"start cleanup: aircraft structure, first flight node"
+elevon3,supersonicDev,"start cleanup: aircraft structure, first flight node"
+elevon5,supersonicDev,"start cleanup: aircraft structure, first flight node"
+navLight1,supersonicDev,"start cleanup: aircraft structure, first flight node"
+parachuteSingle,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+radialDecoupler,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+smallCtrlSrf,supersonicDev,"start cleanup: aircraft structure, first flight node"
+standardNoseCone,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+structuralWing,supersonicDev,"start cleanup: aircraft structure, first flight node"
+structuralWing2,supersonicDev,"start cleanup: aircraft structure, first flight node"
+structuralWing3,supersonicDev,"start cleanup: aircraft structure, first flight node"
+structuralWing4,supersonicDev,"start cleanup: aircraft structure, first flight node"
+tailfin,rocketryTesting,"start cleanup: V-2 test era (1946): staging, recovery, telemetry, film"
+wingConnector,supersonicDev,"start cleanup: aircraft structure, first flight node"
+wingConnector2,supersonicDev,"start cleanup: aircraft structure, first flight node"
+wingConnector3,supersonicDev,"start cleanup: aircraft structure, first flight node"
+wingConnector4,supersonicDev,"start cleanup: aircraft structure, first flight node"
+wingConnector5,supersonicDev,"start cleanup: aircraft structure, first flight node"
+winglet,supersonicDev,"start cleanup: aircraft structure, first flight node"
+winglet3,supersonicDev,"start cleanup: aircraft structure, first flight node"
+andromeda.low.gain.antenna.srf.1,interplanetaryComms,start cleanup: Tantares Vostok-era hardware (1961)
+andromeda.sphere.fuel.tank.srf.1,orbitalRocketry1961,start cleanup: Tantares Vostok-era hardware (1961)
+andromeda.sphere.fuel.tank.srf.2,orbitalRocketry1961,start cleanup: Tantares Vostok-era hardware (1961)
+lk.v2.fuel.cell.srf.1,lifeSupportISRU,start cleanup: N1-L3 / LK hardware (1969)
+lk.v2.sphere.fuel.tank.srf.1,orbitalRocketry1969,start cleanup: N1-L3 / LK hardware (1969)
+lk.v2.sphere.fuel.tank.srf.2,orbitalRocketry1969,start cleanup: N1-L3 / LK hardware (1969)
+lk.v2.sphere.fuel.tank.srf.3,orbitalRocketry1969,start cleanup: N1-L3 / LK hardware (1969)
+petra.docking.port.s0p5.1.female,dockingCrewTransfer,start cleanup: Soyuz-era docking (1967)
+petra.docking.port.s0p5.1.male,dockingCrewTransfer,start cleanup: Soyuz-era docking (1967)
+canopus.basic.fin.srf.1,matureSupersonic,start cleanup: Tantares LV small fairings/fins (1957)
+canopus.basic.fin.srf.2,matureSupersonic,start cleanup: Tantares LV small fairings/fins (1957)
+canopus.fairing.s0p5.1,materialsScienceSatellite,start cleanup: Tantares LV small fairings/fins (1957)
+canopus.fairing.s1.1,materialsScienceSatellite,start cleanup: Tantares LV small fairings/fins (1957)
+canopus.fairing.s1p5.1,materialsScienceSatellite,start cleanup: Tantares LV fairing (1960)
+canopus.fairing.s2.1,materialsScienceLunar,start cleanup: Tantares LV fairing (1965)
+canopus.fairing.s3.1,materialsScienceLunar,start cleanup: Tantares LV fairing (1967)
+castor.decoupler.s0.1,rocketryTesting,"start cleanup: small decoupler, V-2 era"
+castor.decoupler.s0p5.1,rocketryTesting,"start cleanup: small decoupler, V-2 era"
+castor.decoupler.s1.1,materialsScienceSatellite,start cleanup: Tantares decoupler (1957)
+castor.decoupler.s1p5.1,materialsScienceSatellite,start cleanup: Tantares decoupler (1957)
+castor.decoupler.s2.1,materialsScienceLunar,start cleanup: Tantares decoupler (1965)
+castor.decoupler.s3.1,materialsScienceLunar,start cleanup: Tantares decoupler (1967)
+castor.decoupler.s4.1,materialsScienceLunar,"start cleanup: Tantares decoupler (N1, 1969)"
+castor.decoupler.s6.1,materialsScienceLunar,"start cleanup: Tantares decoupler (N1, 1969)"
+hydra.lv.recovery.bay.srf.1,advancedJetEngines,start cleanup: Proton hardware (1967)
+hydra.lv.recovery.bay.srf.2,advancedJetEngines,start cleanup: Proton hardware (1967)
+libra.lv.basic.grid.fin.srf.2,advancedJetEngines,start cleanup: N1-L3 / LK hardware (1969)

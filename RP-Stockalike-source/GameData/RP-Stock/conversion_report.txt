@@ -1,0 +1,636 @@
+Converted contracts: 264
+
+== DATA lengths scaled (48)
+Early Lunar Probes/LunarOrbiter.cfg:LunarOrbiter: maxApList: [5000000] -> [ 575600 ]
+Early Lunar Probes/LunarOrbiter.cfg:LunarOrbiter: minPeList: [20000] -> [ 2302 ]
+Early Lunar Probes/LunarOrbiterOptional.cfg:LunarOrbiterOptional: maxApList: [500000] -> [ 57557 ]
+Early Lunar Probes/LunarOrbiterOptional.cfg:LunarOrbiterOptional: minPeList: [20000] -> [ 2302 ]
+Earth Crewed Adv/OrbitalFlight2.cfg:OrbitalFlight2: endApA: @startApA + Round(Random(150000, 800000), 25000)  ->  int(Round(((@startApA + Round(Random(150000, 800000), 25000)) <= 100000 ? (@startApA + Round(Random(150000, 800000), 25000)) * 0.7 : 70000 + ((@startApA + Round(Random(150000, 800000), 25000)) - 100000) * 0.07827), 100))
+Earth Crewed Adv/OrbitalFlight2.cfg:OrbitalFlight2: startApA: 225000 + Round(Random(0, 105000), 25000)  ->  int(Round(((225000 + Round(Random(0, 105000), 25000)) <= 100000 ? (225000 + Round(Random(0, 105000), 25000)) * 0.7 : 70000 + ((225000 + Round(Random(0, 105000), 25000)) - 100000) * 0.07827), 100))
+Earth Crewed Adv/OrbitalFlight2.cfg:OrbitalFlight2: startPeA: 150000 + Round(Random(0, 55000), 10000)  ->  int(Round(((150000 + Round(Random(0, 55000), 10000)) <= 100000 ? (150000 + Round(Random(0, 55000), 10000)) * 0.7 : 70000 + ((150000 + Round(Random(0, 55000), 10000)) - 100000) * 0.07827), 100))
+Earth Crewed Adv/OrbitalFlight3.cfg:OrbitalFlight3: startPeA: 200000 + Round(Random(0, 100000), 25000)  ->  int(Round(((200000 + Round(Random(0, 100000), 25000)) <= 100000 ? (200000 + Round(Random(0, 100000), 25000)) * 0.7 : 70000 + ((200000 + Round(Random(0, 100000), 25000)) - 100000) * 0.07827), 100))
+Human Records/CrewedAltRecord.cfg:recordCrewedAlt: crewedAlts: [ 15000, 20000, 25000, 30000, 40000, 50000, 60000, 70000, 80000, 100000, 120000, 150000, 175000, 200000, 500000, 1000000, 10000000 ] -> [ 10500, 14000, 17500, 21000, 28000, 35000, 42000, 49000, 56000, 70000, 71565, 73914, 75870, 77827, 101300, 140400, 844900 ]
+Lunar Crewed/CrewedLunarOrbitRepeat.cfg:CrewedLunarOrbitRepeat: startApA: 75000 + Round(Random(0, 225000), 25000)  ->  int(Round((75000 + Round(Random(0, 225000), 25000)) * 0.11511, 100))
+Lunar Crewed/CrewedLunarOrbitRepeat.cfg:CrewedLunarOrbitRepeat: startPeA: 30000  ->  int(Round((30000) * 0.11511, 100))
+Lunar Surface Probes/MoonOrbiter.cfg:MoonOrbiter: maxAp: 500000  ->  (500000) * 0.11511
+Lunar Surface Probes/MoonOrbiter.cfg:MoonOrbiter: maxPe: 250000  ->  (250000) * 0.11511
+Lunar Surface Probes/MoonOrbiter.cfg:MoonOrbiter: minPe: 20000  ->  (20000) * 0.11511
+Lunar Surface Probes/MoonOrbiterOptional.cfg:MoonOrbiterOptional: maxAp: 500000  ->  (500000) * 0.11511
+Lunar Surface Probes/MoonOrbiterOptional.cfg:MoonOrbiterOptional: maxPe: 250000  ->  (250000) * 0.11511
+Lunar Surface Probes/MoonOrbiterOptional.cfg:MoonOrbiterOptional: minPe: 20000  ->  (20000) * 0.11511
+Mars/MarsOrbit.cfg:orbitMars: orbitKM: 140000  ->  Round((((140000) * 1000) * 0.094409) / 1000, 1)
+Mars/MarsOrbitRepeat.cfg:MarsOrbitRepeatable: orbitKM: 34000  ->  Round((((34000) * 1000) * 0.094409) / 1000, 1)
+Records/AltRecord.cfg:recordUncrewedAlt: soundingAlts: [ 40000, 60000, 100000, 140000, 180000, 250000, 500000, 750000, 1000000, 2000000, 10000000, 35786000 ] -> [ 28000, 42000, 70000, 73131, 76262, 81740, 101300, 120900, 140400, 218700, 844900, 2863100 ]
+Sounding Rockets/DistanceSoundingDifficult.cfg:DistanceSoundingDifficult: missionDistance: int(Round(@calcDistance, 10))  ->  int(Round(((((int(Round(@calcDistance, 10))) * 1000) <= 100000 ? ((int(Round(@calcDistance, 10))) * 1000) * 0.7 : 70000 + (((int(Round(@calcDistance, 10))) * 1000) - 100000) * 0.07827)) / 1000, 1))
+Sounding Rockets/DistanceSoundingIntermediate.cfg:DownrangeSoundingIntermediate: missionDistance: int(Round(@calcDistance, 10))  ->  int(Round(((((int(Round(@calcDistance, 10))) * 1000) <= 100000 ? ((int(Round(@calcDistance, 10))) * 1000) * 0.7 : 70000 + (((int(Round(@calcDistance, 10))) * 1000) - 100000) * 0.07827)) / 1000, 1))
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: minimumDistance: 800  ->  int(Round(((((800) * 1000) <= 100000 ? ((800) * 1000) * 0.7 : 70000 + (((800) * 1000) - 100000) * 0.07827)) / 1000, 1))
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: minimumDistance: 1200  ->  int(Round(((((1200) * 1000) <= 100000 ? ((1200) * 1000) * 0.7 : 70000 + (((1200) * 1000) - 100000) * 0.07827)) / 1000, 1))
+Sounding Rockets/SoundingDifficult.cfg:SoundingDifficult: missionAltitude: @RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )  ->  int(Round(((((@RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )) * 1000) <= 100000 ? ((@RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )) * 1000) * 0.7 : 70000 + (((@RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )) * 1000) - 100000) * 0.07827)) / 1000, 1))
+Sounding Rockets/SoundingIntermediate.cfg:SoundingIntermediate: missionAltitude: @RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )  ->  int(Round(((((@RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )) * 1000) <= 100000 ? ((@RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )) * 1000) * 0.7 : 70000 + (((@RP0:SRBaseAltitude + ( @soundingDifficultyLevel * @RP0:SRAltitudeIncrement )) * 1000) - 100000) * 0.07827)) / 1000, 1))
+Sounding Rockets/SoundingRocketAdvancedBio.cfg:SoundingRocketAdvancedBio: altitudeKm: 140  ->  Round(((((140) * 1000) <= 100000 ? ((140) * 1000) * 0.7 : 70000 + (((140) * 1000) - 100000) * 0.07827)) / 1000, 1)
+Sounding Rockets/SoundingRocketAdvancedBioOptional.cfg:SoundingRocketAdvancedBioOptional: altitudeKm: 140  ->  Round(((((140) * 1000) <= 100000 ? ((140) * 1000) * 0.7 : 70000 + (((140) * 1000) - 100000) * 0.07827)) / 1000, 1)
+Sounding Rockets/SoundingRocketBio.cfg:SoundingRocketBio: altitudeKm: 100  ->  Round(((((100) * 1000) <= 100000 ? ((100) * 1000) * 0.7 : 70000 + (((100) * 1000) - 100000) * 0.07827)) / 1000, 1)
+Sounding Rockets/SoundingRocketBioOptional.cfg:SoundingRocketBioOptional: altitudesKm: [ 120, 140 ] -> [ 71.57, 73.13 ]
+Sounding Rockets/SoundingRocketFilm.cfg:SoundingRocketFilm: altitudeKm: 100  ->  Round(((((100) * 1000) <= 100000 ? ((100) * 1000) * 0.7 : 70000 + (((100) * 1000) - 100000) * 0.07827)) / 1000, 1)
+Sounding Rockets/SoundingRocketFilm.cfg:SoundingRocketFilm: targetDistanceKM: 200  ->  Round(((((200) * 1000) <= 100000 ? ((200) * 1000) * 0.7 : 70000 + (((200) * 1000) - 100000) * 0.07827)) / 1000, 1)
+Sounding Rockets/SoundingRocketFilmOptional.cfg:SoundingRocketFilmOptional: altitudesKm: [ 150, 200 ] -> [ 73.91, 77.83 ]
+Sounding Rockets/SoundingRocketFilmOptional.cfg:SoundingRocketFilmOptional: distanceKm: [ 400, 600 ] -> [ 93.48, 109.1 ]
+Spaceplanes/OrbitalPlane2.cfg:OrbitalSpaceplane2: endApA: @startApA + Round(Random(150000, 800000), 25000)  ->  int(Round(((@startApA + Round(Random(150000, 800000), 25000)) <= 100000 ? (@startApA + Round(Random(150000, 800000), 25000)) * 0.7 : 70000 + ((@startApA + Round(Random(150000, 800000), 25000)) - 100000) * 0.07827), 100))
+Spaceplanes/OrbitalPlane2.cfg:OrbitalSpaceplane2: startApA: 225000 + Round(Random(0, 105000), 25000)  ->  int(Round(((225000 + Round(Random(0, 105000), 25000)) <= 100000 ? (225000 + Round(Random(0, 105000), 25000)) * 0.7 : 70000 + ((225000 + Round(Random(0, 105000), 25000)) - 100000) * 0.07827), 100))
+Spaceplanes/OrbitalPlane2.cfg:OrbitalSpaceplane2: startPeA: 150000 + Round(Random(0, 55000), 10000)  ->  int(Round(((150000 + Round(Random(0, 55000), 10000)) <= 100000 ? (150000 + Round(Random(0, 55000), 10000)) * 0.7 : 70000 + ((150000 + Round(Random(0, 55000), 10000)) - 100000) * 0.07827), 100))
+Spaceplanes/OrbitalPlane3.cfg:OrbitalSpaceplane3: startApA: 300000 + Round(Random(0, 200000), 25000)  ->  int(Round(((300000 + Round(Random(0, 200000), 25000)) <= 100000 ? (300000 + Round(Random(0, 200000), 25000)) * 0.7 : 70000 + ((300000 + Round(Random(0, 200000), 25000)) - 100000) * 0.07827), 100))
+Spaceplanes/OrbitalPlane3.cfg:OrbitalSpaceplane3: startPeA: 200000 + Round(Random(0, 100000), 25000)  ->  int(Round(((200000 + Round(Random(0, 100000), 25000)) <= 100000 ? (200000 + Round(Random(0, 100000), 25000)) * 0.7 : 70000 + ((200000 + Round(Random(0, 100000), 25000)) - 100000) * 0.07827), 100))
+Venus/VenusOrbit.cfg:orbitVenus: orbitKM: 278000  ->  Round((((278000) * 1000) * 0.11567) / 1000, 1)
+Venus/VenusOrbitRepeat.cfg:VenusOrbitRepeatable: orbitKM: 68000  ->  Round((((68000) * 1000) * 0.11567) / 1000, 1)
+X-Plane Research/RocketPlaneDevelopmentOptional.cfg:RocketPlaneDevelopmentOptional: altitudesKm: [ 12.5, 20, 28 ] -> [ 8.75, 14, 19.6 ]
+X-Plane Research/XPlanesHighAltitude.cfg:XPlanesHighAltitude: altitudeKm: 40  ->  Round(((((40) * 1000) <= 100000 ? ((40) * 1000) * 0.7 : 70000 + (((40) * 1000) - 100000) * 0.07827)) / 1000, 1)
+X-Plane Research/XPlanesHighAltitudeOptional.cfg:XPlanesHighAltitudeOptional: altitudesKm: [ 55, 70, 85 ] -> [ 38.5, 49, 59.5 ]
+X-Plane Research/XPlanesKarman.cfg:XPlanesKarman: altitudesKm: [ 100 ] -> [ 70 ]
+X-Plane Research/XPlanesStratosphericResearch.cfg:XPlanesStratosphericResearch: minAltitudeKm: 22  ->  Round(((((22) * 1000) <= 100000 ? ((22) * 1000) * 0.7 : 70000 + (((22) * 1000) - 100000) * 0.07827)) / 1000, 1)
+X-Plane Research/XPlanesStratosphericResearchOptional.cfg:XPlanesStratosphericResearchOptional: minAltitudeKm: [ 25, 30] -> [ 17.5, 21 ]
+X-Plane Research/XPlanesSuborbital.cfg:XPlanesSuborbital: altitudesKm: [ 110, 120 ] -> [ 70.78, 71.57 ]
+
+== contracts removed (body not in stock+OPM) (9)
+Mars Crewed/DeimosLandingCrew.cfg:DeimosLandingCrew (Deimos)
+Mars/Deimos Flyby.cfg:flybyDeimos (Deimos)
+Mars/Deimos Landing.cfg:landingDeimos (Deimos)
+Outer Gas Giant Survey/Miranda Flyby.cfg:flybyMiranda (Miranda)
+Saturn Observation/Mimas Flyby.cfg:flybyMimas (Mimas)
+Saturn Observation/Tethys Flyby.cfg:flybyTethys (Tethys)
+Saturnine Moon Landings/Mimas Landing.cfg:landingMimas (Mimas)
+Saturnine Moon Landings/Tethys Landing.cfg:landingTethys (Tethys)
+Uranian Moon Landings/Miranda Landing.cfg:landingMiranda (Miranda)
+
+== dropped behaviours (2)
+Early Satellites (Heavy)/FirstScienceSat-Heavy.cfg:FirstScienceSat-Heavy: AcceptContractBehaviour
+Early Satellites (Light)/FirstScienceSat.cfg:FirstScienceSat: AcceptContractBehaviour
+
+== dropped parameters (53)
+Early Satellites (Heavy)/Downrange6000-Heavy.cfg:Downrange6000-Heavy: AvionicsCheck
+Early Satellites (Heavy)/Downrange7500-Heavy.cfg:Downrange7500-Heavy: AvionicsCheck
+Early Satellites (Light)/Downrange6000.cfg:Downrange6000: AvionicsCheck
+Early Satellites (Light)/Downrange7500.cfg:Downrange7500: AvionicsCheck
+Lunar Crewed/FirstMoonLandingCrewedDirect.cfg:first_MoonLandingCrewedDirect: RP1NoDocking
+Sounding Rockets/DistanceSoundingDifficult.cfg:DistanceSoundingDifficult: AvionicsCheck
+Sounding Rockets/DistanceSoundingDifficult.cfg:DistanceSoundingDifficult: VesselBuiltAt
+Sounding Rockets/DistanceSoundingIntermediate.cfg:DownrangeSoundingIntermediate: AvionicsCheck
+Sounding Rockets/DistanceSoundingIntermediate.cfg:DownrangeSoundingIntermediate: VesselBuiltAt
+Sounding Rockets/Downrange.cfg:Downrange: AvionicsCheck
+Sounding Rockets/Downrange.cfg:Downrange: VesselBuiltAt
+Sounding Rockets/DownrangeEarly.cfg:DownrangeEarly: AvionicsCheck
+Sounding Rockets/DownrangeEarly.cfg:DownrangeEarly: VesselBuiltAt
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: AvionicsCheck
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: DeltaVExpended
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: HoldAttitude
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: VesselBuiltAt
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: AvionicsCheck
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: DeltaVExpended
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: HoldAttitude
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: VesselBuiltAt
+Sounding Rockets/KarmanLine.cfg:KarmanLine: VesselBuiltAt
+Sounding Rockets/SoundingDifficult.cfg:SoundingDifficult: VesselBuiltAt
+Sounding Rockets/SoundingIntermediate.cfg:SoundingIntermediate: VesselBuiltAt
+Sounding Rockets/SoundingRocketAdvancedBio.cfg:SoundingRocketAdvancedBio: AvionicsCheck
+Sounding Rockets/SoundingRocketAdvancedBio.cfg:SoundingRocketAdvancedBio: VesselBuiltAt
+Sounding Rockets/SoundingRocketAdvancedBioOptional.cfg:SoundingRocketAdvancedBioOptional: AvionicsCheck
+Sounding Rockets/SoundingRocketAdvancedBioOptional.cfg:SoundingRocketAdvancedBioOptional: VesselBuiltAt
+Sounding Rockets/SoundingRocketBio.cfg:SoundingRocketBio: VesselBuiltAt
+Sounding Rockets/SoundingRocketBioOptional.cfg:SoundingRocketBioOptional: VesselBuiltAt
+Sounding Rockets/SoundingRocketFilm.cfg:SoundingRocketFilm: AvionicsCheck
+Sounding Rockets/SoundingRocketFilm.cfg:SoundingRocketFilm: VesselBuiltAt
+Sounding Rockets/SoundingRocketFilmOptional.cfg:SoundingRocketFilmOptional: AvionicsCheck
+Sounding Rockets/SoundingRocketFilmOptional.cfg:SoundingRocketFilmOptional: VesselBuiltAt
+Sounding Rockets/SuborbitalReturn.cfg:SuborbitalReturn: VesselBuiltAt
+X-Plane Research/BreakSoundBarrier.cfg:BreakSoundBarrier: VesselBuiltAt
+X-Plane Research/RocketPlaneDevelopmentOptional.cfg:RocketPlaneDevelopmentOptional: VesselBuiltAt
+X-Plane Research/XPlanesHighAltitude.cfg:XPlanesHighAltitude: VesselBuiltAt
+X-Plane Research/XPlanesHighAltitudeOptional.cfg:XPlanesHighAltitudeOptional: VesselBuiltAt
+X-Plane Research/XPlanesHypersonic.cfg:XPlanesHypersonic: VesselBuiltAt
+X-Plane Research/XPlanesHypersonicOptional.cfg:XPlanesHypersonicOptional: VesselBuiltAt
+X-Plane Research/XPlanesKarman.cfg:XPlanesKarman: VesselBuiltAt
+X-Plane Research/XPlanesStratosphericResearch.cfg:XPlanesStratosphericResearch: VesselBuiltAt
+X-Plane Research/XPlanesStratosphericResearchOptional.cfg:XPlanesStratosphericResearchOptional: VesselBuiltAt
+X-Plane Research/XPlanesSuborbital.cfg:XPlanesSuborbital: VesselBuiltAt
+X-Plane Research/XPlanesSupersonicMach2.cfg:XPlanesSupersonicMach2: VesselBuiltAt
+X-Plane Research/XPlanesSupersonicOptionalHigh.cfg:XPlanesSupersonicOptionalHigh: VesselBuiltAt
+X-Plane Research/XPlanesSupersonicOptionalLow.cfg:XPlanesSupersonicOptionalLow: VesselBuiltAt
+
+== dropped requirements (10)
+Earth Crewed Adv/Docking.cfg:first_Docking: TechResearched earlyDocking
+Earth Crewed Adv/FirstEVA.cfg:first_EVA: TechResearched secondGenCapsules
+Lunar Surface Probes/MoonRover.cfg:MoonRover: TechResearched lunarRatedHeatshields
+Mars/Mars Rover.cfg:roverMars: TechResearched lunarRatedHeatshields
+Mars/Mars RoverRepeat.cfg:roverMarsRepeatable: TechResearched lunarRatedHeatshields
+Mercury Exploration/Mercury Rover.cfg:roverMercury: TechResearched lunarRatedHeatshields
+Plutonian Landings/Charon Rover.cfg:roverCharon: TechResearched lunarRatedHeatshields
+Plutonian Landings/Pluto Rover.cfg:roverPluto: TechResearched lunarRatedHeatshields
+Saturn Observation/Titan Rover.cfg:roverTitan: TechResearched lunarRatedHeatshields
+Spaceplanes/DockingPlane.cfg:first_SpaceplaneDocking: TechResearched earlyDocking
+
+== duplicate contract names removed (kept first) (2)
+Earth Satellites/FirstTundraSat.cfg:FirstTundraSat
+Outer Gas Giant Survey/Triton Landing.cfg:landingTriton
+
+== expression lengths wrapped (28)
+Commercial Applications 1/EarlyComSat-CA.cfg:EarlyComSat-CA: maxApA = Round(Random(10000000, 30000000), 10000)
+Commercial Applications 1/EarlyComSat-CA.cfg:EarlyComSat-CA: minApA = Round(Random(3000000, 10000000), 10000)
+Commercial Applications 1/EarlyNavSat-CA.cfg:EarlyNavSat-CA: maxApA = @minApA + 50000
+Commercial Applications 1/EarlyNavSat-CA.cfg:EarlyNavSat-CA: minApA = Round(Random(500000, 1000000), 10000)
+Commercial Applications 1/EarlyNavSat-CA.cfg:EarlyNavSat-CA: minPeA = Round(Random(300000, 400000), 10000)
+Earth Crewed Adv/OrbitalFlight2.cfg:OrbitalFlight2: maxApA = @minApA + 100000
+Earth Crewed Adv/OrbitalFlight2.cfg:OrbitalFlight2: maxApA = @minApA + 200000
+Earth Crewed/OrbitalFlight1.cfg:OrbitalFlight1: maxApA = 400000 + Round(Random(-100000, 200000), 1000)
+Earth Crewed/OrbitalFlight1.cfg:OrbitalFlight1: minPeA = 150000 + Round(Random(0, 55000), 10000)
+Earth Crewed/SuborbitalCrewed.cfg:CrewedSuborbital: minAltitude = Round(Random(140000, 200000), 10000)
+Earth Crewed/SuborbitalTestFlight.cfg:SuborbitalTestFlight: minAltitude = Round(Random(140000, 200000), 10000)
+Earth Satellites/ComTestSat.cfg:ComTestSat: maxApA = Round(Random(7000000, 9000000), 1000)
+Earth Satellites/ComTestSat.cfg:ComTestSat: minApA = Round(Random(4000000, 5000000), 1000)
+Earth Satellites/ComTestSat.cfg:ComTestSat: minPeA = Round(Random(700000, 1000000), 1000)
+Earth Satellites/EarlyComSat.cfg:EarlyComSat: maxApA = Round(Random(10000000, 30000000), 1000)
+Earth Satellites/EarlyComSat.cfg:EarlyComSat: minApA = Round(Random(3000000, 10000000), 1000)
+Earth Satellites/EarlyComSat.cfg:EarlyComSat: minPeA = Round(Random(700000, 1000000), 1000)
+Sounding Rockets/DistanceSoundingDifficult.cfg:DistanceSoundingDifficult: downrange distance = @/missionDistanceMeters
+Sounding Rockets/DistanceSoundingIntermediate.cfg:DownrangeSoundingIntermediate: downrange distance = @/missionDistanceMeters
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: downrange distance = @/minimumDistance * 1000
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: downrange distance = @/minimumDistance * 1000
+Sounding Rockets/SoundingRocketFilm.cfg:SoundingRocketFilm: downrange distance = @/targetDistanceKM * 1000
+Sounding Rockets/SoundingRocketFilmOptional.cfg:SoundingRocketFilmOptional: downrange distance = @/targetDistanceKM * 1000
+Spaceplanes/OrbitalPlane1.cfg:OrbitalSpaceplane1: maxApA = 400000 + Round(Random(-100000, 200000), 1000)
+Spaceplanes/OrbitalPlane1.cfg:OrbitalSpaceplane1: minPeA = 150000 + Round(Random(0, 55000), 10000)
+Spaceplanes/OrbitalPlane2.cfg:OrbitalSpaceplane2: maxApA = @minApA + 100000
+Spaceplanes/OrbitalPlane2.cfg:OrbitalSpaceplane2: maxApA = @minApA + 200000
+Spaceplanes/SuborbitalPlaneCrewed.cfg:CrewedSpaceplaneSuborbital: minAltitude = Round(Random(140000, 200000), 10000)
+
+== payload amounts scaled to kerbal size (26)
+Commercial Applications 1/EarlyComSat-CA.cfg:EarlyComSat-CA: payload: Round(Random(100,300),10) -> Round((Round(Random(100,300),10)) * 0.25, 1)
+Commercial Applications 1/EarlyMolniyaSat.cfg:EarlyMolniyaSat: payload: 25 -> 6.25
+Commercial Applications 1/EarlyNavSat-CA.cfg:EarlyNavSat-CA: payload: Round(Random(60,120),10) -> Round((Round(Random(60,120),10)) * 0.25, 1)
+Commercial Applications 1/FirstComSat-CA.cfg:FirstComSat-CA: payload: 80 -> 20
+Commercial Applications 1/FirstMolniyaSat-CA.cfg:FirstMolniyaSat-CA: payload: 15 -> 3.75
+Commercial Applications 2/GEORepeatComSats.cfg:GEORepeatComSats: payload: Round(RP1CommsPayload() * (0.25 + ( $GEORepeatComSats_Count / 8)), 25) -> Round((Round(RP1CommsPayload() * (0.25 + ( $GEORepeatComSats_Count / 8)), 25)) * 0.25, 1)
+Commercial Applications 2/MolniyaRepeatComSats.cfg:MolniyaRepeatComSats: payload: Round(RP1CommsPayload() * (0.75 + ( $MolniyaRepeatComSats_Count / 8)), 25) -> Round((Round(RP1CommsPayload() * (0.75 + ( $MolniyaRepeatComSats_Count / 8)), 25)) * 0.25, 1)
+Commercial Applications 2/TundraRepeatComSats.cfg:TundraRepeatComSats: payload: Round(RP1CommsPayload() * (0.5 + ( $TundraRepeatComSats_Count / 8)), 25) -> Round((Round(RP1CommsPayload() * (0.5 + ( $TundraRepeatComSats_Count / 8)), 25)) * 0.25, 1)
+Early Satellites (Heavy)/Downrange6000-Heavy.cfg:Downrange6000-Heavy: missionPayload: 1000 -> 250
+Early Satellites (Heavy)/Downrange7500-Heavy.cfg:Downrange7500-Heavy: missionPayload: 1000 -> 250
+Early Satellites (Light)/Downrange6000.cfg:Downrange6000: missionPayload: 50 -> 12.5
+Early Satellites (Light)/Downrange7500.cfg:Downrange7500: missionPayload: 50 -> 12.5
+Earth Satellites/ComTestSat.cfg:ComTestSat: payload: Round(Random(80,140),1) -> Round((Round(Random(80,140),1)) * 0.25, 1)
+Earth Satellites/EarlyComSat.cfg:EarlyComSat: payload: Round(Random(150,500),1) -> Round((Round(Random(150,500),1)) * 0.25, 1)
+Earth Satellites/FirstComSat.cfg:FirstComSat: payload: 80 -> 20
+Earth Satellites/FirstMolniyaSat.cfg:FirstMolniyaSat: payload: 85 -> 21.25
+Earth Satellites/FirstWeatherSat.cfg:FirstWeatherSat: payload: 20 -> 5
+Sounding Rockets/DistanceSoundingDifficult.cfg:DistanceSoundingDifficult: missionPayload: int(@totalPayload) -> int(Round((int(@totalPayload)) * 0.25, 1))
+Sounding Rockets/DistanceSoundingIntermediate.cfg:DownrangeSoundingIntermediate: missionPayload: int(@totalPayload) -> int(Round((int(@totalPayload)) * 0.25, 1))
+Sounding Rockets/Downrange.cfg:Downrange: missionPayload: 50 -> 12.5
+Sounding Rockets/SoundingDifficult.cfg:SoundingDifficult: totalPayload: @RP0:SRPayload -> int(Round((@RP0:SRPayload) * 0.25, 1))
+Sounding Rockets/SoundingIntermediate.cfg:SoundingIntermediate: totalPayload: @RP0:SRPayload -> int(Round((@RP0:SRPayload) * 0.25, 1))
+Sounding Rockets/SoundingRocketAdvancedBio.cfg:SoundingRocketAdvancedBio: payload: 200 -> 50
+Sounding Rockets/SoundingRocketAdvancedBioOptional.cfg:SoundingRocketAdvancedBioOptional: payload: 200 -> 50
+Sounding Rockets/SoundingRocketBio.cfg:SoundingRocketBio: payload: 35 -> 8.75
+Sounding Rockets/SoundingRocketBioOptional.cfg:SoundingRocketBioOptional: payloads: [ 75, 115 ] -> [ 18.75, 28.75 ]
+
+== program gates converted (284)
+Asteroid Exploration/Ceres Landing.cfg:landingCeres: AsteroidExploration -> 1 requirement(s)
+Asteroid Exploration/Ceres Orbit.cfg:orbitCeres: AsteroidExploration -> 1 requirement(s)
+Asteroid Exploration/Ceres Orbit_Rep.cfg:orbitCeres_Rep: AsteroidExploration -> 1 requirement(s)
+Asteroid Exploration/Ceres Robotic Sample Return.cfg:CeresRoboticSampleReturn: AsteroidExploration -> 1 requirement(s)
+Asteroid Exploration/Vesta Landing.cfg:landingVesta: AsteroidExploration -> 1 requirement(s)
+Asteroid Exploration/Vesta Orbit.cfg:orbitVesta: AsteroidExploration -> 1 requirement(s)
+Asteroid Exploration/Vesta Orbit_Rep.cfg:orbitVesta_Rep: AsteroidExploration -> 1 requirement(s)
+Asteroid Exploration/Vesta Robotic Sample Return.cfg:VestaRoboticSampleReturn: AsteroidExploration -> 1 requirement(s)
+Commercial Applications 1/EarlyComNetwork3-CA.cfg:EarlyComNetwork3-CA: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/EarlyComNetwork4-CA.cfg:EarlyComNetwork4-CA: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/EarlyComSat-CA.cfg:EarlyComSat-CA: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/EarlyMolniyaSat.cfg:EarlyMolniyaSat: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/EarlyNavNetwork3.cfg:EarlyNavNetwork3: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/EarlyNavNetwork4.cfg:EarlyNavNetwork4: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/EarlyNavSat-CA.cfg:EarlyNavSat-CA: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/FirstComSat-CA.cfg:FirstComSat-CA: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/FirstMolniyaSat-CA.cfg:FirstMolniyaSat-CA: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 1/FirstNavSat-CA.cfg:FirstNavSat-CA: CommercialApplications1 -> 1 requirement(s)
+Commercial Applications 2/FirstGEOSat.cfg:FirstGEOSat: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/FirstGEOSat.cfg:FirstGEOSat: GEOCommNetwork -> 1 requirement(s)
+Commercial Applications 2/FirstGeosync.cfg:FirstGeosync: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/FirstTargetedGeo.cfg:FirstTargetedGeo: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/FirstTargetedGeo.cfg:FirstTargetedGeo: GEOCommNetwork -> 1 requirement(s)
+Commercial Applications 2/FirstTargetedMolniya.cfg:FirstTargetedMolniya: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/FirstTargetedTundra.cfg:FirstTargetedTundra: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/FirstTundraSat.cfg:FirstTundraSat: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/GEORepeatComSats.cfg:GEORepeatComSats: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/GeoComSatNetwork3.cfg:GeoComSatNetwork3: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/GeoComSatNetwork3.cfg:GeoComSatNetwork3: GEOCommNetwork -> 1 requirement(s)
+Commercial Applications 2/GeoComSatNetwork4.cfg:GeoComSatNetwork4: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/GeoComSatNetwork4.cfg:GeoComSatNetwork4: GEOCommNetwork -> 1 requirement(s)
+Commercial Applications 2/MolniyaNetwork3.cfg:MolniyaNetwork3: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/MolniyaRepeatComSats.cfg:MolniyaRepeatComSats: CommercialApplications2 -> 1 requirement(s)
+Commercial Applications 2/TundraRepeatComSats.cfg:TundraRepeatComSats: CommercialApplications2 -> 1 requirement(s)
+Early Lunar Habitation/MoonLandingCrew1Month.cfg:MoonLandingCrew1Month: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonLandingCrew1Year.cfg:MoonLandingCrew1Year: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonLandingCrew2Week.cfg:MoonLandingCrew2Week: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonLandingCrew3Month.cfg:MoonLandingCrew3Month: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonLandingCrew6Month.cfg:MoonLandingCrew6Month: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonOrbitCrewedPolar.cfg:MoonOrbitCrewedPolar: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonSpaceStation.cfg:MoonSpaceStation: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonSpaceStation12Month.cfg:MoonSpaceStation12Month: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonSpaceStation3Month.cfg:MoonSpaceStation3Month: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Habitation/MoonSpaceStation6Month.cfg:MoonSpaceStation6Month: EarlyLunarHabitation -> 2 requirement(s)
+Early Lunar Probes/LunarFlyby.cfg:LunarFlyby: EarlyLunarProbes -> 1 requirement(s)
+Early Lunar Probes/LunarImpactor.cfg:LunarImpactor: EarlyLunarProbes -> 1 requirement(s)
+Early Lunar Probes/LunarImpactorOptional.cfg:LunarImpactorOptional: EarlyLunarProbes -> 1 requirement(s)
+Early Lunar Probes/LunarOrbiter.cfg:LunarOrbiter: EarlyLunarProbes -> 1 requirement(s)
+Early Lunar Probes/LunarOrbiterOptional.cfg:LunarOrbiterOptional: EarlyLunarProbes -> 1 requirement(s)
+Early Satellites (Heavy)/Downrange6000-Heavy.cfg:Downrange6000-Heavy: EarlySatellites-Heavy -> 1 requirement(s)
+Early Satellites (Heavy)/Downrange7500-Heavy.cfg:Downrange7500-Heavy: EarlySatellites-Heavy -> 1 requirement(s)
+Early Satellites (Heavy)/FirstBioSat-Heavy.cfg:FirstBioSat-Heavy: EarlySatellites-Heavy -> 1 requirement(s)
+Early Satellites (Heavy)/FirstPolarSat-Heavy.cfg:FirstPolarSat-Heavy: EarlySatellites-Heavy -> 1 requirement(s)
+Early Satellites (Heavy)/FirstSatellite-Heavy.cfg:FirstSatellite-Heavy: EarlySatellites-Heavy -> 1 requirement(s)
+Early Satellites (Heavy)/FirstScienceSat-Heavy.cfg:FirstScienceSat-Heavy: EarlySatellites-Heavy -> 1 requirement(s)
+Early Satellites (Light)/AtmosphereAnalysis.cfg:AtmoSat: EarlySatellites -> 1 requirement(s)
+Early Satellites (Light)/Downrange6000.cfg:Downrange6000: EarlySatellites -> 1 requirement(s)
+Early Satellites (Light)/Downrange7500.cfg:Downrange7500: EarlySatellites -> 1 requirement(s)
+Early Satellites (Light)/FirstPolarSat.cfg:FirstPolarSat: EarlySatellites -> 1 requirement(s)
+Early Satellites (Light)/FirstSatellite.cfg:FirstSatellite: EarlySatellites -> 1 requirement(s)
+Early Satellites (Light)/FirstScienceSat.cfg:FirstScienceSat: EarlySatellites -> 1 requirement(s)
+Early Satellites (Light)/FirstSolarSat.cfg:FirstSolarSat: EarlySatellites -> 1 requirement(s)
+Early Satellites (Light)/FirstSunSyncSat.cfg:FirstSunSyncSat: EarlySatellites -> 1 requirement(s)
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: EarlyEarthSpaceStation -> 1 requirement(s)
+Early Space Stations/Early Station Supply.cfg:supplySecondGenerationStation: EarlyEarthSpaceStation -> 1 requirement(s)
+Early Space Stations/First Space Station.cfg:first_spaceStation: EarlyEarthSpaceStation -> 1 requirement(s)
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: EarlyEarthSpaceStation -> 1 requirement(s)
+Early Space Stations/Proto Station Supply.cfg:supplyProtoStation: EarlyEarthSpaceStation -> 1 requirement(s)
+Early Space Stations/Repeat Prototype Space Station.cfg:prototype_spaceStation_launch: EarlyEarthSpaceStation -> 1 requirement(s)
+Early Space Stations/Second Generation Space Station.cfg:secondGen_spaceStation: EarlyEarthSpaceStation -> 1 requirement(s)
+Earth Crewed Adv/Docking.cfg:first_Docking: CrewedOrbit -> 1 requirement(s)
+Earth Crewed Adv/Docking.cfg:first_Docking: CrewedOrbitAdv -> 4 requirement(s)
+Earth Crewed Adv/FirstEVA.cfg:first_EVA: CrewedOrbit -> 1 requirement(s)
+Earth Crewed Adv/FirstEVA.cfg:first_EVA: CrewedOrbitAdv -> 4 requirement(s)
+Earth Crewed Adv/OrbitalFlight2.cfg:OrbitalFlight2: CrewedOrbit -> 1 requirement(s)
+Earth Crewed Adv/OrbitalFlight2.cfg:OrbitalFlight2: CrewedOrbitAdv -> 4 requirement(s)
+Earth Crewed Adv/OrbitalFlight3.cfg:OrbitalFlight3: CrewedOrbit -> 1 requirement(s)
+Earth Crewed Adv/OrbitalFlight3.cfg:OrbitalFlight3: CrewedOrbitAdv -> 4 requirement(s)
+Earth Crewed Adv/Rendezvous.cfg:Rendezvous: CrewedOrbit -> 1 requirement(s)
+Earth Crewed Adv/Rendezvous.cfg:Rendezvous: CrewedOrbitAdv -> 4 requirement(s)
+Earth Crewed/CrewedScienceBasic.cfg:CollectCrewedScienceBasic: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/CrewedScienceBasic.cfg:CollectCrewedScienceBasic: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/FirstOrbitCrewed.cfg:first_OrbitCrewed: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/FirstOrbitCrewed.cfg:first_OrbitCrewed: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/FirstOrbitRecovery.cfg:first_OrbitRecover: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/FirstOrbitRecovery.cfg:first_OrbitRecover: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/FirstOrbitRecovery.cfg:first_OrbitRecover: EarthObservationScience1 -> 1 requirement(s)
+Earth Crewed/OrbitRecovery.cfg:OrbitRecovery: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/OrbitRecovery.cfg:OrbitRecovery: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/OrbitalFlight1.cfg:OrbitalFlight1: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/OrbitalFlight1.cfg:OrbitalFlight1: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/OrbitalTestFlight.cfg:OrbitalTestFlight: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/OrbitalTestFlight.cfg:OrbitalTestFlight: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/OrbitalTestFlightAnimal.cfg:OrbitalTestFlightAnimal: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/OrbitalTestFlightAnimal.cfg:OrbitalTestFlightAnimal: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/SuborbitalCrewed.cfg:CrewedSuborbital: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/SuborbitalCrewed.cfg:CrewedSuborbital: CrewedOrbitEarly -> 1 requirement(s)
+Earth Crewed/SuborbitalTestFlight.cfg:SuborbitalTestFlight: CrewedOrbit -> 1 requirement(s)
+Earth Crewed/SuborbitalTestFlight.cfg:SuborbitalTestFlight: CrewedOrbitEarly -> 1 requirement(s)
+Earth Observation 1/EOSCherenkov.cfg:EOSCherenkov: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSCorona.cfg:EOSCorona: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSCoronaRep.cfg:EOSCoronaRep: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSCosmicRay1.cfg:EOSCosmicRay1: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSGrav1.cfg:EOSGrav1: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSIRRad1.cfg:EOSIRRad1: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSIRRad2.cfg:EOSIRRad2: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSIRRad3.cfg:EOSIRRad3: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 1/EOSMagScan1.cfg:EOSMagScan1: EarthObservationScience1 -> 1 requirement(s)
+Earth Observation 2/EOS2ATS1.cfg:EOS2ATS1: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2Hexagon.cfg:EOS2Hexagon: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2HexagonRep.cfg:EOS2HexagonRep: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2Midas1.cfg:EOS2Midas1: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2MidasRep.cfg:EOS2MidasRep: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2Nimbus1.cfg:EOS2Nimbus1: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2NimbusRep.cfg:EOS2NimbusRep: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2OGO1.cfg:EOS2OGO1: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2OGORep.cfg:EOS2OGORep: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2Vela1.cfg:EOS2Vela1: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 2/EOS2VelaRep.cfg:EOS2VelaRep: EarthObservationScience2 -> 1 requirement(s)
+Earth Observation 3/EOS3ERTS.cfg:EOS3ERTS: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3GEOS.cfg:EOS3GEOS: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3GEOSRep.cfg:EOS3GEOSRep: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3GOES.cfg:EOS3GOES: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3GOESRep.cfg:EOS3GOESRep: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3Kennen.cfg:EOS3Kennen: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3KennenRep.cfg:EOS3KennenRep: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3Magsat.cfg:EOS3Magsat: EarthObservationScience3 -> 1 requirement(s)
+Earth Observation 3/EOS3Nimbus7.cfg:EOS3Nimbus7: EarthObservationScience3 -> 1 requirement(s)
+Earth Satellites/ComTestSat.cfg:ComTestSat: CommNetwork -> 1 requirement(s)
+Earth Satellites/ComTestSat.cfg:ComTestSat: TargetedSats -> 1 requirement(s)
+Earth Satellites/EarlyComNetwork3.cfg:EarlyComNetwork3: CommNetwork -> 1 requirement(s)
+Earth Satellites/EarlyComNetwork4.cfg:EarlyComNetwork4: CommNetwork -> 1 requirement(s)
+Earth Satellites/EarlyComSat.cfg:EarlyComSat: CommNetwork -> 1 requirement(s)
+Earth Satellites/EarlyComSat.cfg:EarlyComSat: TargetedSats -> 1 requirement(s)
+Earth Satellites/FirstComSat.cfg:FirstComSat: CommNetwork -> 1 requirement(s)
+Earth Satellites/FirstComSat.cfg:FirstComSat: TargetedSats -> 1 requirement(s)
+Earth Satellites/FirstMolniyaSat.cfg:FirstMolniyaSat: TargetedSats -> 1 requirement(s)
+Earth Satellites/FirstNavSat.cfg:FirstNavSat: TargetedSats -> 1 requirement(s)
+Earth Satellites/FirstWeatherSat.cfg:FirstWeatherSat: TargetedSats -> 1 requirement(s)
+Jovian Moon Landings/Callisto Landing.cfg:landingCallisto: JupiterMoonLandings -> 2 requirement(s)
+Jovian Moon Landings/Europa Landing.cfg:landingEuropa: JupiterMoonLandings -> 2 requirement(s)
+Jovian Moon Landings/Ganymede Landing.cfg:landingGanymede: JupiterMoonLandings -> 2 requirement(s)
+Jovian Moon Landings/Io Landing.cfg:landingIo: JupiterMoonLandings -> 2 requirement(s)
+Jupiter Observation/Callisto Flyby.cfg:flybyCallisto: JupiterObservation -> 4 requirement(s)
+Jupiter Observation/Europa Flyby.cfg:flybyEuropa: JupiterObservation -> 4 requirement(s)
+Jupiter Observation/Ganymede Flyby.cfg:flybyGanymede: JupiterObservation -> 4 requirement(s)
+Jupiter Observation/Io Flyby.cfg:flybyIo: JupiterObservation -> 4 requirement(s)
+Jupiter Observation/Jupiter Orbit.cfg:orbitJupiter: JupiterObservation -> 4 requirement(s)
+Jupiter Observation/Jupiter Orbit_Rep.cfg:orbitJupiter_Rep: JupiterMoonLandings -> 2 requirement(s)
+Jupiter Observation/Jupiter Orbit_Rep.cfg:orbitJupiter_Rep: JupiterObservation -> 4 requirement(s)
+Jupiter Observation/Jupiter Probe.cfg:probeJupiter: JupiterObservation -> 4 requirement(s)
+Lunar Crewed/CrewedLunarFlyby.cfg:first_MoonFlybyCrewed: CrewedLunar -> 2 requirement(s)
+Lunar Crewed/CrewedLunarOrbitRepeat.cfg:CrewedLunarOrbitRepeat: CrewedLunar -> 2 requirement(s)
+Lunar Crewed/CrewedMoonLandingRover.cfg:MoonExtendedStayCrew: CrewedLunar -> 2 requirement(s)
+Lunar Crewed/CrewedMoonLandingTargeted.cfg:RepeatMoonLandingCrew: CrewedLunar -> 2 requirement(s)
+Lunar Crewed/FirstCrewedLunarOrbit.cfg:FirstCrewedLunarOrbit: CrewedLunar -> 2 requirement(s)
+Lunar Crewed/FirstMoonLandingCrewed.cfg:first_MoonLandingCrewed: CrewedLunar -> 2 requirement(s)
+Lunar Crewed/FirstMoonLandingCrewedDirect.cfg:first_MoonLandingCrewedDirect: CrewedLunar -> 2 requirement(s)
+Lunar Surface Probes/MoonLanding.cfg:MoonLanding: UncrewedLunarSurface -> 3 requirement(s)
+Lunar Surface Probes/MoonLandingFarSide.cfg:MoonLandingFarSide: UncrewedLunarSurface -> 3 requirement(s)
+Lunar Surface Probes/MoonLandingFarSideOptional.cfg:MoonLandingFarSideOptional: UncrewedLunarSurface -> 3 requirement(s)
+Lunar Surface Probes/MoonLandingOptional.cfg:MoonLandingOptional: UncrewedLunarSurface -> 3 requirement(s)
+Lunar Surface Probes/MoonLandingReturn.cfg:MoonLandingReturn: UncrewedLunarSurface -> 3 requirement(s)
+Lunar Surface Probes/MoonOrbiter.cfg:MoonOrbiter: UncrewedLunarSurface -> 3 requirement(s)
+Lunar Surface Probes/MoonOrbiterOptional.cfg:MoonOrbiterOptional: UncrewedLunarSurface -> 3 requirement(s)
+Lunar Surface Probes/MoonRover.cfg:MoonRover: UncrewedLunarSurface -> 3 requirement(s)
+Mars Crewed/CrewedMarsLandingRepeat.cfg:CrewedMarsLandingRepeat: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/FirstCrewedMarsLanding.cfg:FirstCrewedMarsLanding: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/FirstCrewedMarsOrbit.cfg:FirstCrewedMarsOrbit: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/Mars Crewed Surface Science.cfg:CollectCrewedMarsSurfaceScience: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/Mars Robotic Sample Return.cfg:MarsRoboticSampleReturn: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/MarsFlybyCrew.cfg:first_MarsFlybyCrewed: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/MarsVenusFlybyCrew.cfg:MarsVenusFlybyCrewed: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/Phobos Crewed Landing Surface Science.cfg:CrewedPhobosLandingSurfaceScience: CrewedMarsExp -> 5 requirement(s)
+Mars Crewed/PhobosLandingCrew.cfg:PhobosLandingCrew: CrewedMarsExp -> 5 requirement(s)
+Mars/Mars Landing.cfg:landingMars: MarsSurfaceExp -> 4 requirement(s)
+Mars/Mars LandingRepeat.cfg:landingMarsRepeatable: MarsSurfaceExp -> 4 requirement(s)
+Mars/Mars Probe.cfg:probeMars: MarsSurfaceExp -> 4 requirement(s)
+Mars/Mars Rover.cfg:roverMars: MarsSurfaceExp -> 4 requirement(s)
+Mars/Mars RoverRepeat.cfg:roverMarsRepeatable: MarsSurfaceExp -> 4 requirement(s)
+Mars/MarsFlyby.cfg:flybyMars: EarlyInnerPlanetProbes -> 3 requirement(s)
+Mars/MarsOrbit.cfg:orbitMars: EarlyInnerPlanetProbes -> 3 requirement(s)
+Mars/MarsOrbitRepeat.cfg:MarsOrbitRepeatable: EarlyInnerPlanetProbes -> 3 requirement(s)
+Mars/MarsOrbitRepeat.cfg:MarsOrbitRepeatable: MarsSurfaceExp -> 4 requirement(s)
+Mars/Phobos Flyby.cfg:flybyPhobos: MarsSurfaceExp -> 4 requirement(s)
+Mars/Phobos Landing.cfg:landingPhobos: MarsSurfaceExp -> 4 requirement(s)
+Mars/Phobos Sample Return.cfg:samplesPhobos: MarsSurfaceExp -> 4 requirement(s)
+Mercury Exploration/Mercury Landing.cfg:landingMercury: MercuryExploration -> 1 requirement(s)
+Mercury Exploration/Mercury LandingRepeat.cfg:landingMercuryRepeatable: MercuryExploration -> 1 requirement(s)
+Mercury Exploration/Mercury Orbit.cfg:orbitMercury: MercuryExploration -> 1 requirement(s)
+Mercury Exploration/Mercury Orbit_Rep.cfg:orbitMercury_Rep: MercuryExploration -> 1 requirement(s)
+Mercury Exploration/Mercury Rover.cfg:roverMercury: MercuryExploration -> 1 requirement(s)
+Neptunian Moon Landings/Triton Landing.cfg:landingTriton: NeptuneMoonLandings -> 4 requirement(s)
+Outer Gas Giant Survey/Ariel Flyby.cfg:flybyAriel: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Neptune Orbit.cfg:orbitNeptune: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Neptune Orbit_Rep.cfg:orbitNeptune_Rep: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Neptune Probe.cfg:probeNeptune: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Oberon Flyby.cfg:flybyOberon: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Titania Flyby.cfg:flybyTitania: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Triton Flyby.cfg:flybyTriton: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Umbriel Flyby.cfg:flybyUmbriel: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Uranus Orbit.cfg:orbitUranus: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Uranus Orbit_Rep.cfg:orbitUranus_Rep: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Gas Giant Survey/Uranus Probe.cfg:probeUranus: OuterGasGiantSurvey -> 1 requirement(s)
+Outer Planet Flyby/Charon Flyby.cfg:flybyCharon: OuterPlanetFlyby -> 4 requirement(s)
+Outer Planet Flyby/Jupiter Flyby.cfg:flybyJupiter: OuterPlanetFlyby -> 4 requirement(s)
+Outer Planet Flyby/Neptune Flyby.cfg:flybyNeptune: OuterPlanetFlyby -> 4 requirement(s)
+Outer Planet Flyby/Pluto Flyby.cfg:flybyPluto: OuterPlanetFlyby -> 4 requirement(s)
+Outer Planet Flyby/Saturn Flyby.cfg:flybySaturn: OuterPlanetFlyby -> 4 requirement(s)
+Outer Planet Flyby/Uranus Flyby.cfg:flybyUranus: OuterPlanetFlyby -> 4 requirement(s)
+Plutonian Landings/Charon Landing.cfg:landingCharon: PlutoLandings -> 1 requirement(s)
+Plutonian Landings/Charon LandingRepeatable.cfg:landingCharonRepeat: PlutoLandings -> 1 requirement(s)
+Plutonian Landings/Charon Rover.cfg:roverCharon: PlutoLandings -> 1 requirement(s)
+Plutonian Landings/Pluto Landing.cfg:landingPluto: PlutoLandings -> 1 requirement(s)
+Plutonian Landings/Pluto LandingRepeatable.cfg:landingPlutoRepeat: PlutoLandings -> 1 requirement(s)
+Plutonian Landings/Pluto Orbit.cfg:orbitPluto: PlutoLandings -> 1 requirement(s)
+Plutonian Landings/Pluto Rover.cfg:roverPluto: PlutoLandings -> 1 requirement(s)
+Saturn Observation/Dione Flyby.cfg:flybyDione: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Enceladus Flyby.cfg:flybyEnceladus: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Iapetus Flyby.cfg:flybyIapetus: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Rhea Flyby.cfg:flybyRhea: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Saturn Orbit.cfg:orbitSaturn: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Saturn Orbit_Rep.cfg:orbitSaturn_Rep: SaturnMoonLandings -> 4 requirement(s)
+Saturn Observation/Saturn Orbit_Rep.cfg:orbitSaturn_Rep: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Saturn Probe.cfg:probeSaturn: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Titan Flyby.cfg:flybyTitan: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Titan Probe.cfg:probeTitan: SaturnObservation -> 4 requirement(s)
+Saturn Observation/Titan Rover.cfg:roverTitan: SaturnMoonLandings -> 4 requirement(s)
+Saturnine Moon Landings/Dione Landing.cfg:landingDione: SaturnMoonLandings -> 4 requirement(s)
+Saturnine Moon Landings/Enceladus Landing.cfg:landingEnceladus: SaturnMoonLandings -> 4 requirement(s)
+Saturnine Moon Landings/Iapetus Landing.cfg:landingIapetus: SaturnMoonLandings -> 4 requirement(s)
+Saturnine Moon Landings/Rhea Landing.cfg:landingRhea: SaturnMoonLandings -> 4 requirement(s)
+Saturnine Moon Landings/Titan Landing.cfg:landingTitan: SaturnMoonLandings -> 4 requirement(s)
+Small Bodies Flyby/Ceres Flyby.cfg:flybyCeres: SmallBodiesFlyby -> 4 requirement(s)
+Small Bodies Flyby/Mercury Flyby.cfg:flybyMercury: SmallBodiesFlyby -> 4 requirement(s)
+Small Bodies Flyby/Vesta Flyby.cfg:flybyVesta: SmallBodiesFlyby -> 4 requirement(s)
+Sounding Rockets/DistanceSoundingDifficult.cfg:DistanceSoundingDifficult: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/DistanceSoundingIntermediate.cfg:DownrangeSoundingIntermediate: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/Downrange.cfg:Downrange: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/DownrangeEarly.cfg:DownrangeEarly: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/First Flight.cfg:first_FirstFlight: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/KarmanLine.cfg:KarmanLine: SuborbRocketDev -> 0 requirement(s)
+Sounding Rockets/SoundingDifficult.cfg:SoundingDifficult: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SoundingIntermediate.cfg:SoundingIntermediate: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SoundingRocketAdvancedBio.cfg:SoundingRocketAdvancedBio: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SoundingRocketAdvancedBioOptional.cfg:SoundingRocketAdvancedBioOptional: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SoundingRocketBio.cfg:SoundingRocketBio: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SoundingRocketBioOptional.cfg:SoundingRocketBioOptional: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SoundingRocketFilm.cfg:SoundingRocketFilm: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SoundingRocketFilmOptional.cfg:SoundingRocketFilmOptional: SuborbRocketResearch -> 0 requirement(s)
+Sounding Rockets/SuborbitalReturn.cfg:SuborbitalReturn: SuborbRocketDev -> 0 requirement(s)
+Spaceplanes/DockingPlane.cfg:first_SpaceplaneDocking: CrewedSpaceplaneDev -> 7 requirement(s)
+Spaceplanes/FirstPlaneOrbit.cfg:first_SpaceplaneOrbit: CrewedSpaceplaneDev -> 7 requirement(s)
+Spaceplanes/OrbitalPlane1.cfg:OrbitalSpaceplane1: CrewedSpaceplaneDev -> 7 requirement(s)
+Spaceplanes/OrbitalPlane2.cfg:OrbitalSpaceplane2: CrewedSpaceplaneDev -> 7 requirement(s)
+Spaceplanes/OrbitalPlane3.cfg:OrbitalSpaceplane3: CrewedSpaceplaneDev -> 7 requirement(s)
+Spaceplanes/RendezvousPlane.cfg:SpaceplaneRendezvous: CrewedSpaceplaneDev -> 7 requirement(s)
+Spaceplanes/SuborbitalPlaneCrewed.cfg:CrewedSpaceplaneSuborbital: CrewedSpaceplaneDev -> 7 requirement(s)
+Uranian Moon Landings/Ariel Landing.cfg:landingAriel: UranusMoonLandings -> 4 requirement(s)
+Uranian Moon Landings/Oberon Landing.cfg:landingOberon: UranusMoonLandings -> 4 requirement(s)
+Uranian Moon Landings/Titania Landing.cfg:landingTitania: UranusMoonLandings -> 4 requirement(s)
+Uranian Moon Landings/Umbriel Landing.cfg:landingUmbriel: UranusMoonLandings -> 4 requirement(s)
+Venus/Venus Landing.cfg:landingVenus: VenusSurfaceExp -> 4 requirement(s)
+Venus/Venus LandingRepeat.cfg:landingVenusRepeatable: VenusSurfaceExp -> 4 requirement(s)
+Venus/Venus Probe.cfg:probeVenus: VenusSurfaceExp -> 4 requirement(s)
+Venus/VenusFlyby.cfg:flybyVenus: EarlyInnerPlanetProbes -> 3 requirement(s)
+Venus/VenusOrbit.cfg:orbitVenus: EarlyInnerPlanetProbes -> 3 requirement(s)
+Venus/VenusOrbitRepeat.cfg:VenusOrbitRepeatable: EarlyInnerPlanetProbes -> 3 requirement(s)
+Venus/VenusOrbitRepeat.cfg:VenusOrbitRepeatable: VenusSurfaceExp -> 4 requirement(s)
+X-Plane Research/BreakSoundBarrier.cfg:BreakSoundBarrier: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/RocketPlaneDevelopmentOptional.cfg:RocketPlaneDevelopmentOptional: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesHighAltitude.cfg:XPlanesHighAltitude: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesHighAltitudeOptional.cfg:XPlanesHighAltitudeOptional: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesHypersonic.cfg:XPlanesHypersonic: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesHypersonicOptional.cfg:XPlanesHypersonicOptional: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesKarman.cfg:XPlanesKarman: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesStratosphericResearch.cfg:XPlanesStratosphericResearch: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesStratosphericResearchOptional.cfg:XPlanesStratosphericResearchOptional: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesSuborbital.cfg:XPlanesSuborbital: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesSupersonicMach2.cfg:XPlanesSupersonicMach2: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesSupersonicOptionalHigh.cfg:XPlanesSupersonicOptionalHigh: EarlyXPlanes -> 0 requirement(s)
+X-Plane Research/XPlanesSupersonicOptionalLow.cfg:XPlanesSupersonicOptionalLow: EarlyXPlanes -> 0 requirement(s)
+
+== replaced parameters (40)
+Early Lunar Probes/LunarImpactor.cfg:LunarImpactor: ImpactCB -> VesselDestroyed(mustImpactTerrain) (speed check dropped)
+Early Lunar Probes/LunarImpactorOptional.cfg:LunarImpactorOptional: ImpactCB -> VesselDestroyed(mustImpactTerrain) (speed check dropped)
+Early Satellites (Heavy)/Downrange6000-Heavy.cfg:Downrange6000-Heavy: DownrangeDistance -> VisitWaypoint east of KSC
+Early Satellites (Heavy)/Downrange7500-Heavy.cfg:Downrange7500-Heavy: DownrangeDistance -> VisitWaypoint east of KSC
+Early Satellites (Light)/Downrange6000.cfg:Downrange6000: DownrangeDistance -> VisitWaypoint east of KSC
+Early Satellites (Light)/Downrange7500.cfg:Downrange7500: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/DistanceSoundingDifficult.cfg:DistanceSoundingDifficult: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/DistanceSoundingIntermediate.cfg:DownrangeSoundingIntermediate: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/Downrange.cfg:Downrange: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/DownrangeEarly.cfg:DownrangeEarly: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/DownrangeInSpaceControl.cfg:DownrangeInSpaceControl: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/DownrangeInSpaceIgnition.cfg:DownrangeInSpaceIgnition: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/SoundingRocketFilm.cfg:SoundingRocketFilm: DownrangeDistance -> VisitWaypoint east of KSC
+Sounding Rockets/SoundingRocketFilmOptional.cfg:SoundingRocketFilmOptional: DownrangeDistance -> VisitWaypoint east of KSC
+Spaceplanes/DockingPlane.cfg:first_SpaceplaneDocking: HorizontalLanding -> ReachState LANDED
+Spaceplanes/FirstPlaneOrbit.cfg:first_SpaceplaneOrbit: HorizontalLanding -> ReachState LANDED
+Spaceplanes/OrbitalPlane1.cfg:OrbitalSpaceplane1: HorizontalLanding -> ReachState LANDED
+Spaceplanes/OrbitalPlane2.cfg:OrbitalSpaceplane2: HorizontalLanding -> ReachState LANDED
+Spaceplanes/OrbitalPlane3.cfg:OrbitalSpaceplane3: HorizontalLanding -> ReachState LANDED
+Spaceplanes/RendezvousPlane.cfg:SpaceplaneRendezvous: HorizontalLanding -> ReachState LANDED
+Spaceplanes/SuborbitalPlaneCrewed.cfg:CrewedSpaceplaneSuborbital: HorizontalLanding -> ReachState LANDED
+X-Plane Research/BreakSoundBarrier.cfg:BreakSoundBarrier: ReachMach -> ReachState minSpeed
+X-Plane Research/RocketPlaneDevelopmentOptional.cfg:RocketPlaneDevelopmentOptional: HorizontalLanding -> ReachState LANDED
+X-Plane Research/RocketPlaneDevelopmentOptional.cfg:RocketPlaneDevelopmentOptional: RealFuels engine PartValidation -> no Oxidizer/SolidFuel
+X-Plane Research/XPlanesHighAltitude.cfg:XPlanesHighAltitude: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesHighAltitudeOptional.cfg:XPlanesHighAltitudeOptional: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesHypersonic.cfg:XPlanesHypersonic: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesHypersonicOptional.cfg:XPlanesHypersonicOptional: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesKarman.cfg:XPlanesKarman: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesStratosphericResearch.cfg:XPlanesStratosphericResearch: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesStratosphericResearch.cfg:XPlanesStratosphericResearch: RealFuels engine PartValidation -> no Oxidizer/SolidFuel
+X-Plane Research/XPlanesStratosphericResearchOptional.cfg:XPlanesStratosphericResearchOptional: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesStratosphericResearchOptional.cfg:XPlanesStratosphericResearchOptional: RealFuels engine PartValidation -> no Oxidizer/SolidFuel
+X-Plane Research/XPlanesSuborbital.cfg:XPlanesSuborbital: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesSupersonicMach2.cfg:XPlanesSupersonicMach2: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesSupersonicMach2.cfg:XPlanesSupersonicMach2: RealFuels engine PartValidation -> no Oxidizer/SolidFuel
+X-Plane Research/XPlanesSupersonicOptionalHigh.cfg:XPlanesSupersonicOptionalHigh: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesSupersonicOptionalHigh.cfg:XPlanesSupersonicOptionalHigh: RealFuels engine PartValidation -> no Oxidizer/SolidFuel
+X-Plane Research/XPlanesSupersonicOptionalLow.cfg:XPlanesSupersonicOptionalLow: HorizontalLanding -> ReachState LANDED
+X-Plane Research/XPlanesSupersonicOptionalLow.cfg:XPlanesSupersonicOptionalLow: RealFuels engine PartValidation -> no Oxidizer/SolidFuel
+
+== science durations added (5)
+Early Lunar Habitation/MoonLandingCrew1Month.cfg:MoonLandingCrew1Month: RP0LunarHabit2 needs 30 days
+Early Lunar Habitation/MoonLandingCrew1Year.cfg:MoonLandingCrew1Year: RP0LunarHabit2 needs 360 days
+Early Lunar Habitation/MoonLandingCrew2Week.cfg:MoonLandingCrew2Week: RP0LunarHabit1 needs 14 days
+Early Lunar Habitation/MoonLandingCrew3Month.cfg:MoonLandingCrew3Month: RP0LunarHabit2 needs 90 days
+Early Lunar Habitation/MoonLandingCrew6Month.cfg:MoonLandingCrew6Month: RP0LunarHabit2 needs 180 days
+
+== science experiments expanded (117)
+Asteroid Exploration/Ceres Robotic Sample Return.cfg:CeresRoboticSampleReturn: surfaceSample -> surfaceSample, bd_drill [Bluedog_DB], bd_soilScoop [Bluedog_DB], bd_poke [Bluedog_DB], dmbiodrillscan [DMagicOrbitalScience], dmXRayDiffract [DMagicOrbitalScience], dmlaserblastscan [DMagicOrbitalScience], dmNAlbedoScan [DMagicOrbitalScience]
+Asteroid Exploration/Vesta Robotic Sample Return.cfg:VestaRoboticSampleReturn: surfaceSample -> surfaceSample, bd_drill [Bluedog_DB], bd_soilScoop [Bluedog_DB], bd_poke [Bluedog_DB], dmbiodrillscan [DMagicOrbitalScience], dmXRayDiffract [DMagicOrbitalScience], dmlaserblastscan [DMagicOrbitalScience], dmNAlbedoScan [DMagicOrbitalScience]
+Early Lunar Habitation/MoonLandingCrew1Month.cfg:MoonLandingCrew1Month: RP0LunarHabit2 -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonLandingCrew1Year.cfg:MoonLandingCrew1Year: RP0LunarHabit2 -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonLandingCrew2Week.cfg:MoonLandingCrew2Week: RP0LunarHabit1 -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonLandingCrew3Month.cfg:MoonLandingCrew3Month: RP0LunarHabit2 -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonLandingCrew6Month.cfg:MoonLandingCrew6Month: RP0LunarHabit2 -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonSpaceStation.cfg:MoonSpaceStation: RP0LunarOrbitHabit -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonSpaceStation12Month.cfg:MoonSpaceStation12Month: RP0LunarOrbitHabit -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonSpaceStation3Month.cfg:MoonSpaceStation3Month: RP0LunarOrbitHabit -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Lunar Habitation/MoonSpaceStation6Month.cfg:MoonSpaceStation6Month: RP0LunarOrbitHabit -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Satellites (Heavy)/FirstScienceSat-Heavy.cfg:FirstScienceSat-Heavy: RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay [Bluedog_DB], bd_GeigerCounter [Bluedog_DB], bd_TrappedRadiation [Bluedog_DB], bd_gammaRay [Bluedog_DB], dmSolarParticles [DMagicOrbitalScience]
+Early Satellites (Light)/FirstScienceSat.cfg:FirstScienceSat: RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay [Bluedog_DB], bd_GeigerCounter [Bluedog_DB], bd_TrappedRadiation [Bluedog_DB], bd_gammaRay [Bluedog_DB], dmSolarParticles [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0compositeCasting -> mobileMaterialsLab, rocketFuels [StationScience], advFuels [StationScience], progradeKuarqs [StationScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0earthResourcesExperimentPackage -> temperatureScan, bd_weather [Bluedog_DB], bd_multiSpec [Bluedog_DB], bd_Scatterometer [Bluedog_DB], bd_SoilMoisture [Bluedog_DB], bd_microwaveSpec [Bluedog_DB], dmImagingPlatform [DMagicOrbitalScience], dmSoilMoisture [DMagicOrbitalScience], SCANsatBiomeAnomaly [SCANsat], SCANsatResources [SCANsat]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0galacticXRayMapping -> mysteryGoo, bd_XrayImaging [Bluedog_DB], bd_oso [Bluedog_DB], bd_atm [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0galliumArsenideCrystalGrowth -> mobileMaterialsLab, rocketFuels [StationScience], advFuels [StationScience], progradeKuarqs [StationScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0gnatMiceCircadianRhythm -> mysteryGoo, bd_bioexp [Bluedog_DB], zoologyBay [StationScience], plantGrowth [StationScience], bioproducts [StationScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0longDurationHabit2 -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0nuclearEmulsion -> mysteryGoo, bd_cosmicRay [Bluedog_DB], bd_GeigerCounter [Bluedog_DB], bd_TrappedRadiation [Bluedog_DB], bd_gammaRay [Bluedog_DB], dmSolarParticles [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0particleCollection -> mysteryGoo, bd_cosmicRay [Bluedog_DB], bd_GeigerCounter [Bluedog_DB], bd_TrappedRadiation [Bluedog_DB], bd_gammaRay [Bluedog_DB], dmSolarParticles [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0uvAirglowHorizonPhotography -> mysteryGoo, bd_UVscope [Bluedog_DB], bd_UVspec [Bluedog_DB], bd_Photometer [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0uvPanorama -> mysteryGoo, bd_UVscope [Bluedog_DB], bd_UVspec [Bluedog_DB], bd_Photometer [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0uvStellarAstronomy -> mysteryGoo, bd_UVscope [Bluedog_DB], bd_UVspec [Bluedog_DB], bd_Photometer [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0uvXRayStellarPhotography -> mysteryGoo, bd_XrayImaging [Bluedog_DB], bd_oso [Bluedog_DB], bd_atm [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Early Station Science.cfg:CollectSecondGenerationStationScience: RP0zeroGFlammability -> mobileMaterialsLab, rocketFuels [StationScience], advFuels [StationScience], progradeKuarqs [StationScience]
+Early Space Stations/Early Station Supply.cfg:supplySecondGenerationStation: RP0longDurationHabit2 -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Space Stations/First Space Station.cfg:first_spaceStation: RP0longDurationHabit1 -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0airglowHorizonSpectroscopy -> mysteryGoo, bd_UVscope [Bluedog_DB], bd_UVspec [Bluedog_DB], bd_Photometer [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0longDurationHabit1 -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0narrowBeamLaserCommunication -> mysteryGoo, bd_camera [Bluedog_DB], bd_SIGINT [Bluedog_DB], dmSIGINT [DMagicOrbitalScience]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0narrowBeamRadioCommunication -> mysteryGoo, bd_camera [Bluedog_DB], bd_SIGINT [Bluedog_DB], dmSIGINT [DMagicOrbitalScience]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0oceanSurveillance -> temperatureScan, bd_weather [Bluedog_DB], bd_multiSpec [Bluedog_DB], bd_Scatterometer [Bluedog_DB], bd_SoilMoisture [Bluedog_DB], bd_microwaveSpec [Bluedog_DB], dmImagingPlatform [DMagicOrbitalScience], dmSoilMoisture [DMagicOrbitalScience], SCANsatBiomeAnomaly [SCANsat], SCANsatResources [SCANsat]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0solarXRayDetection -> mysteryGoo, bd_XrayImaging [Bluedog_DB], bd_oso [Bluedog_DB], bd_atm [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0ultravioletRadiationOrthicon -> mysteryGoo, bd_UVscope [Bluedog_DB], bd_UVspec [Bluedog_DB], bd_Photometer [Bluedog_DB], scopeScan [DMagicOrbitalScience]
+Early Space Stations/Proto Station Science.cfg:CollectProtoStationScience: RP0vaporDistillationWaterPurification -> mobileMaterialsLab, rocketFuels [StationScience], advFuels [StationScience], progradeKuarqs [StationScience]
+Early Space Stations/Proto Station Supply.cfg:supplyProtoStation: RP0longDurationHabit1 -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Space Stations/Repeat Prototype Space Station.cfg:prototype_spaceStation_launch: RP0longDurationHabit1 -> mysteryGoo, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Early Space Stations/Second Generation Space Station.cfg:secondGen_spaceStation: RP0longDurationHabit2 -> crewReport, plantGrowth [StationScience], bioproducts [StationScience], bd_bioexp [Bluedog_DB]
+Earth Crewed Adv/FirstEVA.cfg:first_EVA: evaReport -> evaReport
+Earth Crewed/CrewedScienceBasic.cfg:CollectCrewedScienceBasic: RP0EarthPhotography -> temperatureScan, bd_weather [Bluedog_DB], bd_multiSpec [Bluedog_DB], bd_Scatterometer [Bluedog_DB], bd_SoilMoisture [Bluedog_DB], bd_microwaveSpec [Bluedog_DB], dmImagingPlatform [DMagicOrbitalScience], dmSoilMoisture [DMagicOrbitalScience], SCANsatBiomeAnomaly [SCANsat], SCANsatResources [SCANsat]
+Earth Crewed/CrewedScienceBasic.cfg:CollectCrewedScienceBasic: RP0FlightControl -> crewReport, bd_bioexp [Bluedog_DB]
+Earth Crewed/CrewedScienceBasic.cfg:CollectCrewedScienceBasic: RP0LiquidsMicrogravity -> mobileMaterialsLab, rocketFuels [StationScience], advFuels [StationScience], progradeKuarqs [StationScience]
+Earth Crewed/CrewedScienceBasic.cfg:CollectCrewedScienceBasic: RP0VisualTracking -> crewReport, bd_bioexp [Bluedog_DB]
+Earth Observation 1/EOSCherenkov.cfg:EOSCherenkov: RP0Cherenkov -> mysteryGoo, bd_cosmicRay [Bluedog_DB], bd_GeigerCounter [Bluedog_DB], bd_TrappedRadiation [Bluedog_DB], bd_gammaRay [Bluedog_DB], dmSolarParticles [DMagicOrbitalScience]
+Earth Observation 1/EOSCorona.cfg:EOSCorona: has RP0photos1a -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 1/EOSCoronaRep.cfg:EOSCoronaRep: has RP0photos2 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 1/EOSCosmicRay1.cfg:EOSCosmicRay1: RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay [Bluedog_DB], bd_GeigerCounter [Bluedog_DB], bd_TrappedRadiation [Bluedog_DB], bd_gammaRay [Bluedog_DB], dmSolarParticles [DMagicOrbitalScience]
+Earth Observation 1/EOSCosmicRay1.cfg:EOSCosmicRay1: RP0visibleImaging1 -> mysteryGoo, bd_camera [Bluedog_DB], bd_orbitalScope [Bluedog_DB], bd_multiSpec [Bluedog_DB], dmImagingPlatform [DMagicOrbitalScience], scopeScan [DMagicOrbitalScience], SCANsatVisual [SCANsat], SCANsatAltimetryLoRes [SCANsat]
+Earth Observation 1/EOSGrav1.cfg:EOSGrav1: RP0orbitalPurturbation1 -> gravityScan
+Earth Observation 1/EOSIRRad1.cfg:EOSIRRad1: RP0infraredRad1 -> temperatureScan, bd_IRradiometer [Bluedog_DB], bd_IRspec [Bluedog_DB]
+Earth Observation 1/EOSIRRad1.cfg:EOSIRRad1: RP0visibleImaging1 -> mysteryGoo, bd_camera [Bluedog_DB], bd_orbitalScope [Bluedog_DB], bd_multiSpec [Bluedog_DB], bd_mapping [Bluedog_DB], dmImagingPlatform [DMagicOrbitalScience], scopeScan [DMagicOrbitalScience], SCANsatVisual [SCANsat], SCANsatAltimetryLoRes [SCANsat]
+Earth Observation 1/EOSIRRad2.cfg:EOSIRRad2: RP0infraredRad1 -> temperatureScan, bd_IRradiometer [Bluedog_DB], bd_IRspec [Bluedog_DB]
+Earth Observation 1/EOSIRRad2.cfg:EOSIRRad2: has RP0visibleImaging1 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 1/EOSIRRad3.cfg:EOSIRRad3: RP0infraredRad1 -> temperatureScan, bd_IRradiometer [Bluedog_DB], bd_IRspec [Bluedog_DB]
+Earth Observation 1/EOSIRRad3.cfg:EOSIRRad3: has RP0visibleImaging1 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 1/EOSMagScan1.cfg:EOSMagScan1: RP0magScan1 -> temperatureScan, magScan [DMagicOrbitalScience], bd_magScan [Bluedog_DB]
+Earth Observation 2/EOS2ATS1.cfg:EOS2ATS1: has RP0cosmicRay2 -> mysteryGoo, bd_cosmicRay, bd_GeigerCounter, bd_TrappedRadiation, bd_gammaRay, dmSolarParticles
+Earth Observation 2/EOS2ATS1.cfg:EOS2ATS1: has RP0magScan2 -> temperatureScan, magScan, bd_magScan
+Earth Observation 2/EOS2ATS1.cfg:EOS2ATS1: has RP0massSpec2 -> atmosphereAnalysis, mysteryGoo, bd_massSpec, bd_dust
+Earth Observation 2/EOS2ATS1.cfg:EOS2ATS1: has RP0visibleImaging2 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 2/EOS2Hexagon.cfg:EOS2Hexagon: has RP0photos3 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 2/EOS2HexagonRep.cfg:EOS2HexagonRep: has RP0photos3 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 2/EOS2Midas1.cfg:EOS2Midas1: has RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay, bd_GeigerCounter, bd_TrappedRadiation, bd_gammaRay, dmSolarParticles
+Earth Observation 2/EOS2Midas1.cfg:EOS2Midas1: has RP0infraredRad2 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 2/EOS2Midas1.cfg:EOS2Midas1: has micrometeoriteDetect -> mysteryGoo, bd_pegasus, logmmImpacts, bd_dust
+Earth Observation 2/EOS2MidasRep.cfg:EOS2MidasRep: has RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay, bd_GeigerCounter, bd_TrappedRadiation, bd_gammaRay, dmSolarParticles
+Earth Observation 2/EOS2MidasRep.cfg:EOS2MidasRep: has RP0infraredRad2 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 2/EOS2MidasRep.cfg:EOS2MidasRep: has micrometeoriteDetect -> mysteryGoo, bd_pegasus, logmmImpacts, bd_dust
+Earth Observation 2/EOS2Nimbus1.cfg:EOS2Nimbus1: RP0infraredRad2 -> temperatureScan, bd_IRradiometer [Bluedog_DB], bd_IRspec [Bluedog_DB]
+Earth Observation 2/EOS2Nimbus1.cfg:EOS2Nimbus1: has RP0infraredRad2 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 2/EOS2Nimbus1.cfg:EOS2Nimbus1: has RP0visibleImaging2 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 2/EOS2NimbusRep.cfg:EOS2NimbusRep: has RP0infraredRad2 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 2/EOS2NimbusRep.cfg:EOS2NimbusRep: has RP0visibleImaging2 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 2/EOS2OGO1.cfg:EOS2OGO1: has RP0RPWS1 -> temperatureScan, rpwsScan, bd_rpws, bd_solarWind, logIonTrap, bd_ionElec
+Earth Observation 2/EOS2OGO1.cfg:EOS2OGO1: has RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay, bd_GeigerCounter, bd_TrappedRadiation, bd_gammaRay, dmSolarParticles
+Earth Observation 2/EOS2OGO1.cfg:EOS2OGO1: has RP0magScan2 -> temperatureScan, magScan, bd_magScan
+Earth Observation 2/EOS2OGO1.cfg:EOS2OGO1: has RP0massSpec1 -> atmosphereAnalysis, mysteryGoo, bd_massSpec, bd_dust
+Earth Observation 2/EOS2OGORep.cfg:EOS2OGORep: has RP0RPWS1 -> temperatureScan, rpwsScan, bd_rpws, bd_solarWind, logIonTrap, bd_ionElec
+Earth Observation 2/EOS2OGORep.cfg:EOS2OGORep: has RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay, bd_GeigerCounter, bd_TrappedRadiation, bd_gammaRay, dmSolarParticles
+Earth Observation 2/EOS2OGORep.cfg:EOS2OGORep: has RP0magScan2 -> temperatureScan, magScan, bd_magScan
+Earth Observation 2/EOS2OGORep.cfg:EOS2OGORep: has RP0massSpec1 -> atmosphereAnalysis, mysteryGoo, bd_massSpec, bd_dust
+Earth Observation 2/EOS2Vela1.cfg:EOS2Vela1: has RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay, bd_GeigerCounter, bd_TrappedRadiation, bd_gammaRay, dmSolarParticles
+Earth Observation 2/EOS2Vela1.cfg:EOS2Vela1: has RP0infraredRad2 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 2/EOS2VelaRep.cfg:EOS2VelaRep: has RP0cosmicRay1 -> mysteryGoo, bd_cosmicRay, bd_GeigerCounter, bd_TrappedRadiation, bd_gammaRay, dmSolarParticles
+Earth Observation 2/EOS2VelaRep.cfg:EOS2VelaRep: has RP0infraredRad2 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 3/EOS3ERTS.cfg:EOS3ERTS: has RP0visibleImaging3 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 3/EOS3GEOS.cfg:EOS3GEOS: has RP0orbitalPurturbation1 -> gravityScan, bd_ALSEP_Gravimeter
+Earth Observation 3/EOS3GEOSRep.cfg:EOS3GEOSRep: has RP0orbitalPurturbation1 -> gravityScan, bd_ALSEP_Gravimeter
+Earth Observation 3/EOS3GOES.cfg:EOS3GOES: has RP0infraredRad3 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 3/EOS3GOES.cfg:EOS3GOES: has RP0visibleImaging3 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 3/EOS3GOESRep.cfg:EOS3GOESRep: has RP0infraredRad3 -> temperatureScan, infraredTelescope, bd_IRradiometer, bd_IRspec, dmRadiometerScan
+Earth Observation 3/EOS3GOESRep.cfg:EOS3GOESRep: has RP0visibleImaging3 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 3/EOS3Kennen.cfg:EOS3Kennen: has RP0photos4 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 3/EOS3KennenRep.cfg:EOS3KennenRep: has RP0photos4 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 3/EOS3Magsat.cfg:EOS3Magsat: has RP0magScan2 -> temperatureScan, magScan, bd_magScan
+Earth Observation 3/EOS3Nimbus7.cfg:EOS3Nimbus7: has RP0imageSpec2 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Earth Observation 3/EOS3Nimbus7.cfg:EOS3Nimbus7: has RP0massSpec4 -> atmosphereAnalysis, mysteryGoo, bd_massSpec, bd_dust
+Earth Observation 3/EOS3Nimbus7.cfg:EOS3Nimbus7: has RP0visibleImaging3 -> mysteryGoo, bd_camera, bd_orbitalScope, bd_multiSpec, bd_mapping, bd_SiteSurvey, dmImagingPlatform, scopeScan, SCANsatVisual, SCANsatAltimetryLoRes
+Lunar Crewed/FirstCrewedLunarOrbit.cfg:FirstCrewedLunarOrbit: RP0TelevisionBroadcast -> crewReport, bd_camera [Bluedog_DB]
+Lunar Crewed/FirstMoonLandingCrewed.cfg:first_MoonLandingCrewed: RP0LunarLandingTelevisionBroadcast -> crewReport, bd_camera [Bluedog_DB], bd_ALSEP_Camera [Bluedog_DB]
+Lunar Crewed/FirstMoonLandingCrewedDirect.cfg:first_MoonLandingCrewedDirect: RP0LunarLandingTelevisionBroadcast -> crewReport, bd_camera [Bluedog_DB], bd_ALSEP_Camera [Bluedog_DB]
+Lunar Surface Probes/MoonOrbiter.cfg:MoonOrbiter: RP0visibleImaging2 -> mysteryGoo, bd_camera [Bluedog_DB], bd_orbitalScope [Bluedog_DB], bd_multiSpec [Bluedog_DB], bd_mapping [Bluedog_DB], dmImagingPlatform [DMagicOrbitalScience], scopeScan [DMagicOrbitalScience], SCANsatVisual [SCANsat], SCANsatAltimetryLoRes [SCANsat]
+Lunar Surface Probes/MoonOrbiterOptional.cfg:MoonOrbiterOptional: RP0visibleImaging2 -> mysteryGoo, bd_camera [Bluedog_DB], bd_orbitalScope [Bluedog_DB], bd_multiSpec [Bluedog_DB], bd_mapping [Bluedog_DB], dmImagingPlatform [DMagicOrbitalScience], scopeScan [DMagicOrbitalScience], SCANsatVisual [SCANsat], SCANsatAltimetryLoRes [SCANsat]
+Mars Crewed/Mars Crewed Surface Science.cfg:CollectCrewedMarsSurfaceScience: surfaceSample2 -> surfaceSample, bd_drill [Bluedog_DB], bd_soilScoop [Bluedog_DB], bd_poke [Bluedog_DB], dmbiodrillscan [DMagicOrbitalScience], dmXRayDiffract [DMagicOrbitalScience], dmlaserblastscan [DMagicOrbitalScience], dmNAlbedoScan [DMagicOrbitalScience]
+Mars Crewed/Mars Crewed Surface Science.cfg:CollectCrewedMarsSurfaceScience: surfaceSample3 -> surfaceSample, bd_drill [Bluedog_DB], bd_soilScoop [Bluedog_DB], bd_poke [Bluedog_DB], dmbiodrillscan [DMagicOrbitalScience], dmXRayDiffract [DMagicOrbitalScience], dmlaserblastscan [DMagicOrbitalScience], dmNAlbedoScan [DMagicOrbitalScience]
+Mars Crewed/Mars Robotic Sample Return.cfg:MarsRoboticSampleReturn: surfaceSample -> surfaceSample, bd_drill [Bluedog_DB], bd_soilScoop [Bluedog_DB], bd_poke [Bluedog_DB], dmbiodrillscan [DMagicOrbitalScience], dmXRayDiffract [DMagicOrbitalScience], dmlaserblastscan [DMagicOrbitalScience], dmNAlbedoScan [DMagicOrbitalScience]
+Mars Crewed/Phobos Crewed Landing Surface Science.cfg:CrewedPhobosLandingSurfaceScience: surfaceSample2 -> surfaceSample, bd_drill [Bluedog_DB], bd_soilScoop [Bluedog_DB], bd_poke [Bluedog_DB], dmbiodrillscan [DMagicOrbitalScience], dmXRayDiffract [DMagicOrbitalScience], dmlaserblastscan [DMagicOrbitalScience], dmNAlbedoScan [DMagicOrbitalScience]
+Mars Crewed/Phobos Crewed Landing Surface Science.cfg:CrewedPhobosLandingSurfaceScience: surfaceSample3 -> surfaceSample, bd_drill [Bluedog_DB], bd_soilScoop [Bluedog_DB], bd_poke [Bluedog_DB], dmbiodrillscan [DMagicOrbitalScience], dmXRayDiffract [DMagicOrbitalScience], dmlaserblastscan [DMagicOrbitalScience], dmNAlbedoScan [DMagicOrbitalScience]

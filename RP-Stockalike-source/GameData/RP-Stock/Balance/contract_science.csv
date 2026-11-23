@@ -1,0 +1,630 @@
+contract,group,year,era,body,crewed,landed,return,weight,science,was
+first_FirstFlight,SuborbRocketDev,1945,1945-1952,HomeWorld(),False,False,False,0.8,1,2
+KarmanLine,SuborbRocketDev,1946,1945-1952,HomeWorld(),False,False,False,1.0,1,5
+SoundingRocketFilm,SuborbRocketResearch,1946,1945-1952,HomeWorld(),False,False,True,1.3,1,7
+Hermes-A-1,USA_Early_Missions,1946,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+X001,USAaeroMission,1946,1945-1952,HomeWorld(),True,False,True,2.08,1,1.0
+soundingRocket,SL_SuborbRocketResearch,1946,1945-1952,HomeWorld(),False,False,False,0.48,1,0.5
+MGM-5-Corporal,USA_Early_Missions,1946,1945-1952,HomeWorld(),False,False,True,1.04,1,1
+Hermes-A-2,USA_Early_Missions,1947,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+SuborbitalReturn,SuborbRocketDev,1947,1945-1952,HomeWorld(),False,False,True,1.3,1,7
+BreakSoundBarrier,EarlyXPlanes,1947,1945-1952,HomeWorld(),True,False,True,2.6,2,8
+Hermes-A-3a,USA_Early_Missions,1947,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+SoundingRocketFilmOptional,SuborbRocketResearch,1947,1945-1952,HomeWorld(),False,False,True,1.04,1,7
+Hermes-A-3b,USA_Early_Missions,1947,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+X001A,USAaeroMission,1948,1945-1952,HomeWorld(),True,False,True,2.6,2,5
+DownrangeEarly,SuborbRocketDev,1948,1945-1952,HomeWorld(),False,False,False,0.8,1,2
+Hermes-II,USA_Early_Missions,1948,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+PGM-11-Redstone,USA_Early_Missions,1948,1945-1952,HomeWorld(),False,False,True,1.3,1,1
+XPlanesSupersonicMach2,EarlyXPlanes,1948,1945-1952,HomeWorld(),True,True,True,3.9,3,8
+DownrangeInSpaceControl,SuborbRocketDev,1948,1945-1952,HomeWorld(),False,False,False,1.0,1,2
+Aerobee-Hi,USA_Early_Missions,1949,1945-1952,HomeWorld(),False,False,True,1.04,1,1
+SoundingRocketBio,SuborbRocketResearch,1949,1945-1952,HomeWorld(),False,False,True,1.3,1,7
+X-17,USA_Early_Missions,1949,1945-1952,HomeWorld(),False,False,False,1.0,1,1
+X002,USAaeroMission,1949,1945-1952,HomeWorld(),True,False,True,2.08,2,1.0
+ASP,USA_Early_Missions,1949,1945-1952,HomeWorld(),False,False,True,1.04,1,1
+Downrange,SuborbRocketDev,1949,1945-1952,HomeWorld(),False,False,False,0.8,1,2
+XPlanesSupersonicOptionalLow,EarlyXPlanes,1950,1945-1952,HomeWorld(),True,True,True,3.12,3,8
+MGM-29-Sergeant,USA_Early_Missions,1950,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+SoundingRocketBioOptional,SuborbRocketResearch,1950,1945-1952,HomeWorld(),False,False,True,1.04,1,7
+Cajun,USA_Early_Missions,1950,1945-1952,HomeWorld(),False,False,True,1.04,1,1
+DownrangeInSpaceIgnition,SuborbRocketDev,1950,1945-1952,HomeWorld(),False,False,False,1.3,1,2
+WAC-Corporal,USA_Early_Missions,1950,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+X004,USAaeroMission,1951,1945-1952,HomeWorld(),True,False,True,2.08,2,1.0
+Nike-Cajun,USA_Early_Missions,1951,1945-1952,HomeWorld(),False,False,True,1.04,1,1
+RocketPlaneDevelopmentOptional,EarlyXPlanes,1951,1945-1952,HomeWorld(),True,True,True,3.12,3,8
+Jupiter-C,USA_Early_Missions,1951,1945-1952,HomeWorld(),False,False,False,1.0,2,5
+DownrangeSoundingIntermediate,SuborbRocketDev,1951,1945-1952,HomeWorld(),False,False,False,0.48,1,"Max(1, Round(1 * Max(@rewardFactor, 0.25)))"
+SoundingRocketAdvancedBio,SuborbRocketResearch,1951,1945-1952,HomeWorld(),False,False,True,1.69,3,7
+Terrapin,USA_Early_Missions,1951,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+PGM-17-Thor,USA_Early_Missions,1952,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+XPlanesSupersonicOptionalHigh,EarlyXPlanes,1952,1945-1952,HomeWorld(),True,True,True,3.12,4,"Max(1, Round(8 * Max(@rewardFactor, 0.25)))"
+DistanceSoundingDifficult,SuborbRocketDev,1952,1945-1952,HomeWorld(),False,False,False,0.48,1,"Max(1, Round(1 * Max(@rewardFactor, 0.25)))"
+PGM-19-Jupiter,USA_Early_Missions,1952,1945-1952,HomeWorld(),False,False,False,0.8,1,1
+X005,USAaeroMission,1952,1945-1952,HomeWorld(),True,False,True,2.08,3,1
+SoundingRocketAdvancedBioOptional,SuborbRocketResearch,1952,1945-1952,HomeWorld(),False,False,True,1.04,1,7
+Nike-Hercules,USA_Early_Missions,1953,1953-1957,HomeWorld(),False,False,False,0.8,1,1
+SM-65A-Atlas,USA_Early_Missions,1953,1953-1957,HomeWorld(),False,False,True,1.3,2,1
+AS-201,LauncherMissions,1953,1953-1957,Kerbin,False,False,True,1.3,3,5
+XPlanesStratosphericResearch,EarlyXPlanes,1953,1953-1957,HomeWorld(),True,True,True,3.9,8,8
+Nike-Apache,USA_Early_Missions,1953,1953-1957,HomeWorld(),False,False,True,1.04,2,1
+AS-202,LauncherMissions,1954,1953-1957,Kerbin,False,False,True,1.04,2,5
+AM-18-Jupiter,USA_Early_Missions,1954,1953-1957,HomeWorld(),False,False,True,1.3,3,1
+SoundingIntermediate,SuborbRocketResearch,1954,1953-1957,HomeWorld(),False,False,False,0.48,1,"Max(1, Round(1 * Max(@rewardFactor, 0.25)))"
+X007,USAaeroMission,1954,1953-1957,HomeWorld(),True,False,True,2.08,4,2.0
+V-2 No 13,USA_Early_Missions,1954,1953-1957,HomeWorld(),False,False,True,1.04,3,3
+AS-203,LauncherMissions,1954,1953-1957,Kerbin,False,False,False,0.8,2,5
+V-2 Blossom-1,USA_Early_Missions,1954,1953-1957,HomeWorld(),False,False,True,1.04,3,3
+XPlanesStratosphericResearchOptional,EarlyXPlanes,1954,1953-1957,HomeWorld(),True,True,True,3.12,8,8
+Atlas-Centaur-2,LauncherMissions,1955,1953-1957,Kerbin,False,False,False,1.0,3,3
+V-2 Bumper-5,USA_Early_Missions,1955,1953-1957,HomeWorld(),False,False,False,1.0,3,3
+SoundingDifficult,SuborbRocketResearch,1955,1953-1957,HomeWorld(),False,False,False,0.48,2,"Max(1, Round(1 * Max(@rewardFactor, 0.25)))"
+BiosatTest,SL_SuborbRocketResearch,1955,1953-1957,HomeWorld(),False,True,False,1.2,4,0.5
+Atlas-Centaur-3,LauncherMissions,1955,1953-1957,Kerbin,False,False,False,0.8,3,1
+V-2 Blossom-4,USA_Early_Missions,1955,1953-1957,HomeWorld(),False,False,True,1.04,3,3
+X008,USAaeroMission,1955,1953-1957,HomeWorld(),True,False,True,2.08,6,2
+V-2 Bumper-8,USA_Early_Missions,1955,1953-1957,HomeWorld(),False,False,False,0.8,2,3
+Atlas-Centaur-8,LauncherMissions,1956,1953-1957,Kerbin,False,False,False,0.8,3,5
+XPlanesHighAltitude,EarlyXPlanes,1956,1953-1957,HomeWorld(),True,True,True,3.9,12,8
+Deacon,USA_Early_Missions,1956,1953-1957,HomeWorld(),False,False,True,1.04,3,1
+Atlas-Centaur-9,LauncherMissions,1956,1953-1957,Kerbin,False,False,False,0.8,3,5
+Corporal-E,USA_Early_Missions,1956,1953-1957,HomeWorld(),False,False,True,1.3,6,1
+Aerobee,USA_Early_Missions,1957,1953-1957,HomeWorld(),False,False,True,1.04,4,1
+Atlas-V-551,LauncherMissions,1957,1953-1957,Kerbin,False,False,False,1.0,4,5
+RTV-A-3-NATIV,USA_Early_Missions,1957,1953-1957,HomeWorld(),False,False,True,1.04,4,1
+XPlanesHighAltitudeOptional,EarlyXPlanes,1957,1953-1957,HomeWorld(),True,True,True,3.12,13,8
+recordUncrewedAlt,Records,1957,1953-1957,HomeWorld(),False,False,False,0.48,2,2
+X009,USAaeroMission,1957,1953-1957,HomeWorld(),True,False,True,2.08,9,2.0
+Downrange6000,EarlySatellites,1957,1953-1957,HomeWorld(),False,False,False,0.8,3,2
+FirstScienceSatellite,SL_EarlySatellites,1957,1953-1957,HomeWorld(),False,False,False,1.3,6,0
+Delta-II-7925H,LauncherMissions,1957,1953-1957,Kerbin,False,False,False,1.0,4,5
+Viking,USA_Early_Missions,1957,1953-1957,HomeWorld(),False,False,True,1.04,4,2
+Nike-Ajax,USA_Early_Missions,1958,1958-1962,HomeWorld(),False,False,False,0.8,3,1
+LGM-25C-Titan-II,LauncherMissions,1958,1958-1962,Kerbin,False,False,False,1.0,4,5
+Downrange7500,EarlySatellites,1958,1958-1962,HomeWorld(),False,False,False,0.8,3,2
+Downrange6000-Heavy,EarlySatellites-Heavy,1958,1958-1962,HomeWorld(),False,False,False,0.8,4,2
+Vanguard-TV3,USA_Early_Missions,1958,1958-1962,Kerbin,False,False,False,0.8,4,1
+Genesis,ProbeMission,1958,1958-1962,Sun,False,False,True,4.34,19,30
+Pioneer-1,PioneerMission,1958,1958-1962,Kerbin,False,False,False,0.8,4,5
+HeavyBiosatellite,SL_ScienceSatellites,1958,1958-1962,HomeWorld(),False,True,False,1.2,5,5
+LGM-30A-Minuteman,LauncherMissions,1958,1958-1962,Kerbin,False,False,False,0.8,3,1
+XPlanesKarman,EarlyXPlanes,1958,1958-1962,HomeWorld(),True,True,True,5.07,22,8
+FirstSatellite,EarlySatellites,1958,1958-1962,HomeWorld(),False,False,False,1.0,4,8
+X010,USAaeroMission,1959,1958-1962,HomeWorld(),True,False,True,2.6,12,2
+LGM-30F-Minuteman-II,LauncherMissions,1959,1958-1962,Kerbin,False,False,False,0.8,4,5
+LightBiosatellite,SL_ScienceSatellites,1959,1958-1962,HomeWorld(),False,True,False,1.2,5,5
+Downrange7500-Heavy,EarlySatellites-Heavy,1959,1958-1962,HomeWorld(),False,False,False,0.8,5,2
+EOSIRRad1,EOS,1959,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+OrbitDunaMoons,UncrewedOrbits,1959,1958-1962,Duna,False,False,False,4.17,25,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Aurora-7,MercuryMission,1959,1958-1962,Kerbin,True,False,True,2.08,13,5
+LunarFlyby,EarlyLunarProbes,1959,1958-1962,Mun,False,False,False,2.46,15,(10) / @/targetBody.Multiplier()
+HeavyFerret,Surveillance,1959,1958-1962,HomeWorld(),False,False,False,0.48,3,0
+MinmusImpactor,SL_EarlyLunarProbes,1959,1958-1962,Minmus,False,False,False,2.46,15,5
+JWST,ProbeMission,1959,1958-1962,HomeWorld(),False,False,False,1.3,8,10
+FirstScienceSat,EarlySatellites,1959,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+LV-3-Atlas-Agena-B,LauncherMissions,1959,1958-1962,Kerbin,False,False,False,0.8,5,1
+Faith-7,MercuryMission,1959,1958-1962,Kerbin,True,False,True,2.08,12,5
+XPlanesSuborbital,EarlyXPlanes,1960,1958-1962,HomeWorld(),True,True,True,3.12,18,8
+LV-3-Atlas-Agena-D,LauncherMissions,1960,1958-1962,Kerbin,False,False,False,0.8,5,1
+EOSCherenkov,EOS,1960,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+FirstImagingWeatherSat,SL_ScienceSatellites,1960,1958-1962,HomeWorld(),False,False,False,0.8,5,5
+MinmusImpactorOptional,SL_EarlyLunarProbes,1960,1958-1962,Minmus,False,False,False,2.46,14,5
+Liberty-Bell-7,MercuryMission,1960,1958-1962,Kerbin,True,False,True,2.08,12,5
+FirstPolarSat,EarlySatellites,1960,1958-1962,HomeWorld(),False,False,False,1.0,5,8
+FirstPolarSat-Heavy,EarlySatellites-Heavy,1960,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+OAO-1,USAMiscMissions,1960,1958-1962,Kerbin,False,False,False,0.8,5,5
+X010a,USAaeroMission,1960,1958-1962,HomeWorld(),True,False,True,2.08,12,1.0
+Mercury-Atlas-1,MercuryMission,1960,1958-1962,Kerbin,False,False,False,0.8,5,1
+SM-65B-Atlas,LauncherMissions,1960,1958-1962,Kerbin,False,False,False,0.8,5,5
+Juno,ProbeMission,1960,1958-1962,Jool,False,False,False,7.88,46,10
+EOSCorona,EOS,1960,1958-1962,HomeWorld(),False,False,True,1.3,7,13
+MinmusOrbiter,SL_EarlyLunarProbes,1961,1958-1962,Minmus,False,False,False,2.46,14,5
+FirstSolarSat,EarlySatellites,1961,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+Mercury-Atlas-2,MercuryMission,1961,1958-1962,Kerbin,False,False,True,1.04,6,2
+EarlyWeatherSatellite,SL_ScienceSatellites,1961,1958-1962,HomeWorld(),False,False,False,0.8,4,0
+GRAB,Surveillance,1961,1958-1962,HomeWorld(),False,False,False,0.8,4,0
+XPlanesHypersonic,EarlyXPlanes,1961,1958-1962,HomeWorld(),True,True,True,3.9,21,8
+LunarImpactor,EarlyLunarProbes,1961,1958-1962,Mun,False,False,False,2.46,13,(12) / @/targetBody.Multiplier()
+SM-65D-Atlas,LauncherMissions,1961,1958-1962,Kerbin,False,False,False,0.8,4,5
+recordCrewedAlt,HumanRecords,1961,1958-1962,HomeWorld(),True,False,False,0.96,5,2
+FirstSatellite-Heavy,EarlySatellites-Heavy,1961,1958-1962,HomeWorld(),False,False,False,1.0,5,8
+flybyVenus,EarlyInnerPlanetProbes,1961,1958-1962,Eve,False,False,False,4.17,23,(25) / @/targetBody.Multiplier()
+Mercury-Atlas-3,MercuryMission,1961,1958-1962,Kerbin,False,False,False,0.8,4,0
+Ranger-1,RangerMission,1961,1958-1962,Kerbin,False,False,False,0.8,4,0
+first_OrbitRecover,CrewedOrbit,1961,1958-1962,HomeWorld(),False,False,True,1.3,7,13
+flybyDuna,SL_EarlyInnerPlanetProbes,1961,1958-1962,Duna,False,False,False,4.17,23,0
+EOSCosmicRay1,EOS,1961,1958-1962,HomeWorld(),False,False,False,1.0,5,8
+FirstSunSyncSat,EarlySatellites,1961,1958-1962,HomeWorld(),False,False,False,0.8,4,8
+SM-65E-Atlas,LauncherMissions,1961,1958-1962,Kerbin,False,False,False,0.8,4,5
+MunFlyby,SL_EarlyLunarProbes,1961,1958-1962,Mun,False,False,False,2.46,13,5
+Mercury-Redstone-1,MercuryMission,1961,1958-1962,Kerbin,False,False,False,0.8,4,0
+Kepler,ProbeMission,1961,1958-1962,HomeWorld(),False,False,False,1.3,7,10
+OrbitRecovery,CrewedOrbit,1962,1958-1962,HomeWorld(),False,False,True,1.04,5,13
+SecondGenWeather,SL_ScienceSatellites,1962,1958-1962,HomeWorld(),False,False,False,0.8,4,5
+X011,USAaeroMission,1962,1958-1962,HomeWorld(),True,False,True,2.6,14,3
+Mercury-Redstone-1A,MercuryMission,1962,1958-1962,Kerbin,False,False,True,1.04,5,5
+SM-68A-Titan-I,LauncherMissions,1962,1958-1962,Kerbin,False,False,False,0.8,4,5
+XPlanesHypersonicOptional,EarlyXPlanes,1962,1958-1962,HomeWorld(),True,True,True,3.12,20,8
+FirstScienceSat-Heavy,EarlySatellites-Heavy,1962,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+EOSGrav1,EOS,1962,1958-1962,HomeWorld(),False,False,False,0.8,5,8
+Mariner-3,MarinerMission,1962,1958-1962,Sun,False,False,False,3.34,21,5
+AtmoSat,EarlySatellites,1962,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+FirstNavSat,TargetedSats,1962,1958-1962,HomeWorld(),False,False,False,1.0,6,8
+OrbitalTestFlight,CrewedOrbit,1962,1958-1962,HomeWorld(),False,False,True,1.3,8,13
+flybyEve,SL_EarlyInnerPlanetProbes,1962,1958-1962,Eve,False,False,False,4.17,27,0
+MunImpactor,SL_EarlyLunarProbes,1962,1958-1962,Mun,False,False,False,2.46,16,5
+OrbitJoolMoons,UncrewedOrbits,1962,1958-1962,Jool,False,False,False,6.06,40,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Mercury-Redstone-2,MercuryMission,1962,1958-1962,Kerbin,False,False,True,1.04,7,5
+Saturn-SA-2,LauncherMissions,1962,1958-1962,Kerbin,False,False,False,1.0,6,5
+INJUN1,Surveillance,1962,1958-1962,HomeWorld(),False,False,False,0.8,5,5
+EOSGeigerMuller,SL_ScienceSatellites,1962,1958-1962,HomeWorld(),False,False,False,1.0,6,0
+LunarImpactorOptional,EarlyLunarProbes,1962,1958-1962,Mun,False,False,False,1.97,12,(12) / @/targetBody.Multiplier()
+OrbitalTestFlightAnimal,CrewedOrbit,1962,1958-1962,HomeWorld(),False,False,True,1.04,6,13
+Magellan,ProbeMission,1963,1963-1967,Eve,False,False,False,5.42,34,10
+Mercury-Scout-1,MercuryMission,1963,1963-1967,Kerbin,False,False,False,0.8,5,0
+EarlyComSat,TargetedSats,1963,1963-1967,HomeWorld(),False,False,False,0.48,3,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+EOSIRRad2,EOS,1963,1963-1967,HomeWorld(),False,False,False,0.8,5,8
+flybyMars,EarlyInnerPlanetProbes,1963,1963-1967,Duna,False,False,False,4.17,25,(25) / @/targetBody.Multiplier()
+Saturn-SA-3,LauncherMissions,1963,1963-1967,Kerbin,False,False,False,0.8,5,5
+MunImpactorOptional,SL_EarlyLunarProbes,1963,1963-1967,Mun,False,False,False,2.46,15,5
+FirstBioSat-Heavy,EarlySatellites-Heavy,1963,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+FirstNavSat-CA,CommApp,1963,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+Sigma-7,MercuryMission,1963,1963-1967,Kerbin,True,False,True,2.08,12,5
+Ranger-8,RangerMission,1963,1963-1967,Mun,False,False,False,1.97,12,5
+EarlyComNetwork3,CommNetwork,1963,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+CrewedSuborbital,CrewedOrbit,1963,1963-1967,HomeWorld(),True,False,True,2.08,12,18
+CrewedHighAltitudeResearch,EarlySpacePlanes,1963,1963-1967,HomeWorld(),True,True,False,1.8,11,0
+CrewedSupersonicResearch,SL_EarlySpacePlanes,1963,1963-1967,HomeWorld(),True,True,False,1.8,11,0
+flybyEveRepeat,SL_EarlyInnerPlanetProbes,1963,1963-1967,Eve,False,False,False,4.17,25,0
+FirstMolniyaSat,TargetedSats,1963,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+X013,USAaeroMission,1963,1963-1967,HomeWorld(),True,False,True,2.08,12,1.0
+EOSIonizationElectrostatic,SL_ScienceSatellites,1963,1963-1967,HomeWorld(),False,False,False,0.8,5,0
+Saturn-SA-4,LauncherMissions,1963,1963-1967,Kerbin,False,False,False,0.8,5,5
+EOSMagScan1,EOS,1964,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+SuborbitalTestFlight,CrewedOrbit,1964,1963-1967,HomeWorld(),False,False,True,1.04,6,13
+MunOrbiter,SL_EarlyLunarProbes,1964,1963-1967,Mun,False,False,False,2.46,14,5
+NEAR-Shoemaker,ProbeMission,1964,1963-1967,Duna,False,False,False,5.42,30,50
+EarlyComSat-CA,CommApp,1964,1963-1967,HomeWorld(),False,False,False,0.48,3,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+FirstWeatherSat,TargetedSats,1964,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+Saturn-SA-5,LauncherMissions,1964,1963-1967,Kerbin,False,False,False,0.8,4,5
+EOS2ATS1,EOS2,1964,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+MoonOrbiter,UncrewedLunarSurface,1964,1963-1967,Mun,False,False,False,2.46,15,(14) / @/targetBody.Multiplier()
+CollectCrewedScienceBasic,CrewedOrbit,1964,1963-1967,HomeWorld(),True,False,True,3.38,20,23
+MinmusOrbiterMapping,SL_UncrewedLunarSurface,1964,1963-1967,Minmus,False,False,False,2.46,15,5
+orbitEve,SL_EarlyInnerPlanetProbes,1964,1963-1967,Eve,False,False,False,4.17,25,0
+LOFTI,Surveillance,1964,1963-1967,HomeWorld(),False,False,False,0.8,5,5
+EOSIndirectIonization,SL_ScienceSatellites,1964,1963-1967,HomeWorld(),False,False,False,0.8,5,0
+EOSCoronaRep,EOS,1964,1963-1967,HomeWorld(),False,False,True,1.04,6,13
+LunarOrbiter,EarlyLunarProbes,1964,1963-1967,Mun,False,False,False,3.2,18,(14) / @/targetBody.Multiplier()
+FirstComSat,TargetedSats,1964,1963-1967,HomeWorld(),False,False,False,1.0,6,8
+Saturn-SA-6,LauncherMissions,1964,1963-1967,Kerbin,False,False,False,0.8,5,5
+MoonFlyby,SL_EarlyLunarProbes,1964,1963-1967,Mun,False,False,False,2.46,14,5
+first_OrbitCrewed,CrewedOrbit,1964,1963-1967,HomeWorld(),True,False,True,2.6,14,18
+EarlyMolniyaSat,CommApp,1965,1963-1967,HomeWorld(),False,False,False,0.48,3,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+orbitVenus,EarlyInnerPlanetProbes,1965,1963-1967,Eve,False,False,False,4.17,23,(35) / @/targetBody.Multiplier()
+EOS2Midas1,EOS2,1965,1963-1967,HomeWorld(),False,False,False,1.0,5,8
+X015,USAaeroMission,1965,1963-1967,HomeWorld(),True,False,True,2.6,14,3
+Suisei,ProbeMission,1965,1963-1967,Sun,False,False,False,3.34,18,5
+Saturn-SA-7,LauncherMissions,1965,1963-1967,Kerbin,False,False,False,0.8,4,5
+EOSIRRad3,EOS,1965,1963-1967,HomeWorld(),False,False,False,0.8,5,8
+Rendezvous,CrewedOrbitAdv,1965,1963-1967,HomeWorld(),True,False,True,2.6,15,18
+MinmusOrbit,CrewedMilestones,1965,1963-1967,Minmus,True,False,True,8.32,48,"(4) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Gemini-I,GeminiMission,1965,1963-1967,Kerbin,False,False,False,0.8,5,5
+Ranger-9,RangerMission,1965,1963-1967,Mun,False,False,False,1.97,11,5
+ComTestSat,TargetedSats,1965,1963-1967,HomeWorld(),False,False,False,0.48,3,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+OrbitalFlight1,CrewedOrbit,1965,1963-1967,HomeWorld(),True,False,True,1.25,7,9
+EarlyNavSatLate,CommercialApplications,1965,1963-1967,HomeWorld(),False,False,False,0.48,3,0
+MinmusLandingFarSide,SL_UncrewedLunarSurface,1965,1963-1967,Minmus,False,True,False,3.69,21,5
+flybyVenusRepeat,SL_EarlyInnerPlanetProbes,1965,1963-1967,Eve,False,False,False,4.17,24,0
+Gemini-II,GeminiMission,1965,1963-1967,Kerbin,False,False,True,1.04,6,5
+EOSAtmosphericDensity,SL_ScienceSatellites,1965,1963-1967,HomeWorld(),False,False,False,0.8,4,0
+Gemini-IX-ATDA,GeminiMission,1965,1963-1967,Kerbin,False,False,False,0.8,4,1
+MoonImpactor,SL_EarlyLunarProbes,1965,1963-1967,Mun,False,False,False,2.46,14,5
+Gemini-IX,GeminiMission,1965,1963-1967,Kerbin,True,False,True,2.6,14,5
+EarlyNavSat-CA,CommApp,1965,1963-1967,HomeWorld(),False,False,False,0.48,3,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+Gemini-V,GeminiMission,1965,1963-1967,Kerbin,True,False,True,2.08,11,5
+OrbitSaturnMoons,UncrewedOrbits,1965,1963-1967,@/saturn,False,False,False,3.29,18,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Thor-Able,LauncherMissions,1965,1963-1967,HomeWorld(),False,False,False,0.8,4,1
+Gemini-VII,GeminiMission,1965,1963-1967,Kerbin,True,False,True,2.6,14,5
+Pioneer-5,PioneerMission,1966,1963-1967,Kerbin,False,False,False,0.8,4,3
+Gemini-X-ATV,GeminiMission,1966,1963-1967,Kerbin,False,False,False,0.8,4,1
+CrewedSpaceplaneSuborbital,EarlySpacePlanes,1966,1963-1967,HomeWorld(),True,True,True,3.12,16,8
+EOS2Vela1,EOS2,1966,1963-1967,HomeWorld(),False,False,False,1.0,5,8
+Gemini-X,GeminiMission,1966,1963-1967,Kerbin,True,False,True,2.08,11,5
+Mariner-5,MarinerMission,1966,1963-1967,Eve,False,False,False,3.34,18,5
+MoonOrbiterOptional,UncrewedLunarSurface,1966,1963-1967,Mun,False,False,False,1.97,10,(14) / @/targetBody.Multiplier()
+Gemini-XI-ATV,GeminiMission,1966,1963-1967,Kerbin,False,False,False,0.8,4,1
+Poppy20Constellation2,Surveillance,1966,1963-1967,HomeWorld(),False,False,False,0.8,4,0
+Gemini-XI,GeminiMission,1966,1963-1967,Kerbin,True,False,True,2.08,11,5
+Gemini-XII-ATV,GeminiMission,1966,1963-1967,Kerbin,False,False,False,0.8,4,1
+Titan-IIIE-Centaur,LauncherMissions,1966,1963-1967,Kerbin,False,False,False,1.0,5,5
+MinmusFlyby,MinmusExploration,1966,1963-1967,Minmus,False,False,False,1.97,10,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Gemini-XII,GeminiMission,1966,1963-1967,Kerbin,True,False,True,2.08,11,5
+Ulysses,ProbeMission,1966,1963-1967,Jool,False,False,False,7.88,41,10
+Lunar-Orbiter-2,LunarOrbiterMission,1966,1963-1967,Mun,False,False,False,1.97,10,10
+Surveyor-3,SurveyorMissions,1966,1963-1967,Mun,False,True,False,4.8,25,(5) / @/targetBody.Multiplier()
+LunarOrbiterOptional,EarlyLunarProbes,1966,1963-1967,Mun,False,False,False,1.97,10,(14) / @/targetBody.Multiplier()
+EarlyComNetwork4,CommNetwork,1966,1963-1967,HomeWorld(),False,False,False,1.0,5,8
+FirstFirstSunSyncWeather,SL_ScienceSatellites,1966,1963-1967,HomeWorld(),False,False,False,0.8,4,0
+MinmusLandingOptional,SL_UncrewedLunarSurface,1966,1963-1967,Minmus,False,True,False,3.69,19,5
+MoonImpactorOptional,SL_EarlyLunarProbes,1966,1963-1967,Mun,False,False,False,2.46,13,5
+flybyDunaRepeat,SL_EarlyInnerPlanetProbes,1966,1963-1967,Duna,False,False,False,4.17,22,0
+FirstMolniyaSat-CA,CommApp,1966,1963-1967,HomeWorld(),False,False,False,1.0,5,8
+first_Docking,CrewedOrbitAdv,1966,1963-1967,HomeWorld(),False,False,False,1.3,6,8
+Lunar-Orbiter-3,LunarOrbiterMission,1966,1963-1967,Mun,False,False,False,1.97,9,(5) / @/targetBody.Multiplier()
+orbitMars,EarlyInnerPlanetProbes,1966,1963-1967,Duna,False,False,False,4.17,19,(35) / @/targetBody.Multiplier()
+EOS2OGO1,EOS2,1966,1963-1967,HomeWorld(),False,False,False,1.0,5,8
+X016,USAaeroMission,1966,1963-1967,HomeWorld(),True,False,True,3.38,16,4
+Titan-IVB-Centaur,LauncherMissions,1966,1963-1967,Kerbin,False,False,False,1.0,5,5
+Pegasus-1,USAMiscMissions,1967,1963-1967,Kerbin,False,False,False,1.0,5,3
+Lunar-Orbiter-4,LunarOrbiterMission,1967,1963-1967,Mun,False,False,False,1.97,9,(5) / @/targetBody.Multiplier()
+Surveyor-5,SurveyorMissions,1967,1963-1967,Mun,False,True,False,3.69,17,(5) / @/targetBody.Multiplier()
+FirstComSat-CA,CommApp,1967,1963-1967,HomeWorld(),False,False,False,1.0,5,8
+first_MoonFlybyCrewed,CrewedLunar,1967,1963-1967,Mun,True,False,True,6.4,30,(50) / @/targetBody.Multiplier()
+probeVenus,VenusSurfaceExp,1967,1963-1967,Eve,False,True,False,5.01,24,(35) / @/targetBody.Multiplier()
+Transtage-1,LauncherMissions,1967,1963-1967,Kerbin,False,False,False,0.8,4,5
+Apollo-IX,ApolloMission,1967,1963-1967,HomeWorld(),True,False,True,2.08,10,20
+Lunar-Orbiter-5,LunarOrbiterMission,1967,1963-1967,Mun,False,False,False,1.97,9,(5) / @/targetBody.Multiplier()
+MinmusLandingFarSideOptional,SL_UncrewedLunarSurface,1967,1963-1967,Minmus,False,True,False,3.69,17,5
+first_MinmusFlybyCrewed,SL_CrewedLunar,1967,1963-1967,Minmus,True,True,False,9.6,45,15
+probeEve,SL_VenusSurfaceExp,1967,1963-1967,Eve,False,False,False,4.17,20,0
+flybyMarsRepeat,SL_EarlyInnerPlanetProbes,1967,1963-1967,Duna,False,False,False,4.17,20,0
+EOS2Nimbus1,EOS2,1967,1963-1967,HomeWorld(),False,False,False,1.0,5,8
+Surveyor-6,SurveyorMissions,1967,1963-1967,Mun,False,True,False,3.69,17,(5) / @/targetBody.Multiplier()
+FirstCrewedMinmusOrbit,SL_CrewedLunar,1967,1963-1967,Minmus,True,True,False,9.6,45,15
+MoonLanding,UncrewedLunarSurface,1967,1963-1967,Mun,False,True,False,3.69,18,(20) / @/targetBody.Multiplier()
+OrbitalFlight2,CrewedOrbitAdv,1968,1968-1972,HomeWorld(),True,False,True,1.25,6,9
+Poppy20Constellation3,Surveillance,1968,1968-1972,HomeWorld(),False,False,False,0.8,4,0
+EarlyComNetwork3-CA,CommApp,1968,1968-1972,HomeWorld(),False,False,False,1.0,5,8
+Apollo-Soyuz,ApolloMission,1968,1968-1972,HomeWorld(),True,False,True,2.08,10,15
+first_MinmusLandingCrewed,SL_CrewedLunar,1968,1968-1972,Minmus,True,True,False,9.6,46,15
+MinmusImpact,MinmusExploration,1968,1968-1972,Minmus,False,False,False,2.46,12,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+FirstCrewedLunarOrbit,CrewedLunar,1968,1968-1972,Mun,True,False,True,6.4,31,(54) / @/targetBody.Multiplier()
+EOS2Hexagon,EOS2,1968,1968-1972,HomeWorld(),False,False,True,1.3,7,13
+X017,USAaeroMission,1968,1968-1972,HomeWorld(),True,False,True,2.08,11,1.0
+Surveyor-7,SurveyorMissions,1968,1968-1972,Mun,False,True,False,3.69,19,(5) / @/targetBody.Multiplier()
+MinmusLandingReturn,SL_UncrewedLunarSurface,1968,1968-1972,Minmus,False,True,True,4.8,25,5
+orbitDuna,SL_EarlyInnerPlanetProbes,1968,1968-1972,Duna,False,False,False,4.17,21,0
+first_SpaceplaneOrbit,EarlySpacePlanes,1968,1968-1972,HomeWorld(),True,True,True,3.9,19,8
+RepeatMinmusLandingCrew,SL_CrewedLunar,1968,1968-1972,Minmus,True,True,False,9.6,47,15
+VenusOrbitRepeatable,EarlyInnerPlanetProbes,1968,1968-1972,Eve,False,False,False,2.0,10,(18) / @/targetBody.Multiplier()
+Apollo-X,ApolloMission,1968,1968-1972,Mun,True,False,True,5.12,25,15
+EarlyComNetwork4-CA,CommApp,1968,1968-1972,HomeWorld(),False,False,False,1.0,5,8
+MinmusExtendedStayCrew,SL_CrewedLunar,1969,1968-1972,Minmus,True,True,False,9.6,46,15
+OrbitUranusMoons,UncrewedOrbits,1969,1968-1972,@/uranus,False,False,False,3.29,16,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+CrewedLunarOrbitRepeat,CrewedLunar,1969,1968-1972,Mun,True,False,True,5.12,24,(54) / @/targetBody.Multiplier()
+OrbitalFlight3,CrewedOrbitAdv,1969,1968-1972,HomeWorld(),True,False,True,1.25,6,9
+EOS2HexagonRep,EOS2,1969,1968-1972,HomeWorld(),False,False,True,1.04,5,13
+CrewedMinmusOrbitRepeat,SL_CrewedLunar,1969,1968-1972,Minmus,True,True,False,7.39,36,5
+MunOrbiterMapping,SL_UncrewedLunarSurface,1969,1968-1972,Mun,False,False,False,2.46,12,5
+orbitDunaRepeat,SL_EarlyInnerPlanetProbes,1969,1968-1972,Duna,False,False,False,4.17,20,0
+MoonLandingOptional,UncrewedLunarSurface,1969,1968-1972,Mun,False,True,False,2.95,14,(20) / @/targetBody.Multiplier()
+Apollo-XII,ApolloMission,1969,1968-1972,Mun,True,True,True,12.48,59,10
+Poppy24Constellation3,Surveillance,1969,1968-1972,HomeWorld(),False,False,False,0.8,4,0
+EarlyNavNetwork3,CommApp,1969,1968-1972,HomeWorld(),False,False,False,1.0,5,8
+first_MunFlybyCrewed,SL_CrewedLunar,1969,1968-1972,Mun,True,True,False,9.6,46,15
+Mariner-6,MarinerMission,1969,1968-1972,Duna,False,False,False,3.34,16,5
+first_MoonLandingCrewed,CrewedLunar,1970,1968-1972,Mun,True,True,True,9.6,46,(60) / @/targetBody.Multiplier()
+EOS2MidasRep,EOS2,1970,1968-1972,HomeWorld(),False,False,False,0.8,4,8
+MinmusSat,MinmusExploration,1970,1968-1972,Minmus,False,False,False,1.97,9,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+FirstCrewedMunOrbit,SL_CrewedLunar,1970,1968-1972,Mun,True,True,False,9.6,47,15
+Apollo-XIII,ApolloMission,1970,1968-1972,HomeWorld(),True,False,True,2.6,13,15
+FirstGeosync,CommApp2,1970,1968-1972,HomeWorld(),False,False,False,0.8,4,8
+MarsOrbitRepeatable,EarlyInnerPlanetProbes,1970,1968-1972,Duna,False,False,False,2.0,9,(18) / @/targetBody.Multiplier()
+EarlyNavNetwork4,CommApp,1970,1968-1972,HomeWorld(),False,False,False,1.0,4,8
+recordUncrewedSpeed,Records,1970,1968-1972,HomeWorld(),False,False,False,0.48,2,2
+first_EVA,CrewedOrbitAdv,1970,1968-1972,HomeWorld(),True,False,True,2.6,12,18
+MinmusLanding-Crew,CrewedMilestones,1970,1968-1972,Minmus,True,True,True,12.48,56,"(5) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+EveRover,Rovers,1970,1968-1972,Eve,False,True,False,6.26,28,0
+MunLanding,SL_UncrewedLunarSurface,1970,1968-1972,Mun,False,True,False,3.69,17,5
+orbitEveRepeat,SL_EarlyInnerPlanetProbes,1970,1968-1972,Eve,False,False,False,4.17,19,0
+first_MunLandingCrewed,SL_CrewedLunar,1970,1968-1972,Mun,True,True,False,9.6,48,15
+RepeatMoonLandingCrew,CrewedLunar,1970,1968-1972,Mun,True,True,True,12.48,62,(60) / @/targetBody.Multiplier()
+EOS2OGORep,EOS2,1970,1968-1972,HomeWorld(),False,False,False,0.8,4,8
+RepeatMunLandingCrew,SL_CrewedLunar,1970,1968-1972,Mun,True,True,False,9.6,48,15
+Apollo-XIV,ApolloMission,1971,1968-1972,Mun,True,True,True,9.6,48,10
+recordCrewedCount,HumanRecords,1971,1968-1972,HomeWorld(),False,False,False,0.48,2,2
+OrbitalSpaceplane1,EarlySpacePlanes,1971,1968-1972,HomeWorld(),True,True,True,1.87,9,4
+MunExtendedStayCrew,SL_CrewedLunar,1971,1968-1972,Mun,True,True,False,9.6,49,15
+MoonLandingFarSide,UncrewedLunarSurface,1971,1968-1972,Mun,False,True,False,4.8,24,(20) / @/targetBody.Multiplier()
+SubSatelliteFerrets,Surveillance,1971,1968-1972,HomeWorld(),False,False,False,0.48,2,0
+flybyPhobos,MartianSurfaceExploration,1971,1968-1972,Ike,False,False,False,3.34,18,(28) / @/targetBody.Multiplier()
+CollectSecondGenerationStationScience,EarlyEarthSpaceStation,1971,1968-1972,HomeWorld(),False,False,False,1.3,7,17
+SSSixMonths,SpaceStations,1971,1968-1972,Earth,True,False,True,8.56,47,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+MunLandingFarSide,SL_UncrewedLunarSurface,1971,1968-1972,Mun,False,True,False,3.69,20,5
+probeDuna,SL_MartianSurfaceExploration,1971,1968-1972,Duna,False,False,False,4.17,23,0
+orbitMarsRepeat,SL_EarlyInnerPlanetProbes,1971,1968-1972,Duna,False,False,False,4.17,23,0
+first_MoonLandingCrewedDirect,CrewedLunar,1971,1968-1972,Mun,True,True,True,9.6,53,(60) / @/targetBody.Multiplier()
+EOS2VelaRep,EOS2,1971,1968-1972,HomeWorld(),False,False,False,0.8,4,8
+CrewedMunOrbitRepeat,SL_CrewedLunar,1971,1968-1972,Mun,True,True,False,7.39,41,5
+Apollo-XVI,ApolloMission,1971,1968-1972,Mun,True,True,True,12.48,69,10
+FirstTargetedGeo,CommApp2,1971,1968-1972,HomeWorld(),False,False,False,1.0,6,8
+MinmusLanding,MinmusExploration,1971,1968-1972,Minmus,False,True,False,3.69,21,"(3) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingEve,SL_VenusSurfaceExp,1972,1968-1972,Eve,False,True,False,6.26,35,0
+FirstCrewedMoonOrbit,SL_CrewedLunar,1972,1968-1972,Mun,True,True,False,9.6,53,15
+OrbitNeptuneMoons,UncrewedOrbits,1972,1968-1972,@/neptune,False,False,False,3.29,18,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+flybyJupiter,OuterPlanetFlyby,1972,1968-1972,Jool,False,False,False,6.06,38,(30) / @/targetBody.Multiplier()
+MoonExtendedStayCrew,CrewedLunar,1972,1968-1972,Mun,True,True,True,7.68,48,(54) / @/targetBody.Multiplier()
+EOS2NimbusRep,EOS2,1972,1968-1972,HomeWorld(),False,False,False,0.8,5,8
+EOS3GEOS,EOS3,1972,1968-1972,HomeWorld(),False,False,False,1.0,6,8
+Apollo-XVII,ApolloMission,1972,1968-1972,Mun,True,True,True,12.48,78,10
+MunLandingOptional,SL_UncrewedLunarSurface,1972,1968-1972,Mun,False,True,False,3.69,23,5
+CrewedMoonOrbitRepeat,SL_CrewedLunar,1972,1968-1972,Mun,True,True,False,7.39,46,5
+orbitVenusRepeat,SL_EarlyInnerPlanetProbes,1972,1968-1972,Eve,False,False,False,4.17,26,0
+MoonLandingFarSideOptional,UncrewedLunarSurface,1973,1973-1980,Mun,False,True,False,2.95,16,(20) / @/targetBody.Multiplier()
+FirstOpticalSurveillanceSatellite,Surveillance,1973,1973-1980,HomeWorld(),False,True,False,1.2,7,0
+FirstTargetedMolniya,CommApp2,1973,1973-1980,HomeWorld(),False,False,False,0.8,4,8
+orbitMercury,MercuryExploration,1973,1973-1980,Moho,False,False,False,5.1,36,(49) / @/targetBody.Multiplier()
+flybyCallisto,JupiterObservation,1973,1973-1980,Bop,False,False,False,6.66,47,(40) / @/targetBody.Multiplier()
+Skylab-3,SkylabMission,1973,1973-1980,Kerbin,True,False,True,2.08,15,3
+Skylab-4,SkylabMission,1973,1973-1980,Kerbin,True,False,True,2.08,15,3
+Mariner-7,MarinerMission,1973,1973-1980,Duna,False,False,False,3.34,24,5
+Pioneer-7,PioneerMission,1973,1973-1980,Kerbin,False,False,False,0.8,6,3
+MunLandingFarSideOptional,SL_UncrewedLunarSurface,1973,1973-1980,Mun,False,True,False,3.69,26,5
+SSOneYear,SpaceStations,1973,1973-1980,Earth,True,False,True,8.56,61,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+MinmusReturn,MinmusExploration,1973,1973-1980,Minmus,False,True,True,4.8,35,"(5) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+OrbitalSpaceplane2,EarlySpacePlanes,1973,1973-1980,HomeWorld(),True,True,True,1.87,14,4
+Pegasus-2,USAMiscMissions,1973,1973-1980,Kerbin,False,False,False,0.8,6,3
+CollectProtoStationScience,EarlyEarthSpaceStation,1974,1973-1980,HomeWorld(),False,False,False,1.0,7,17
+EOS3GOES,EOS3,1974,1973-1980,HomeWorld(),False,False,False,1.0,8,8
+Helios-1,HeliosMission,1974,1973-1980,HomeWorld().Parent(),False,False,False,0.8,7,(5) / @/targetBody.Multiplier()
+MunLandingReturn,SL_UncrewedLunarSurface,1974,1973-1980,Mun,False,True,True,4.8,41,5
+FirstTargetedTundra,CommApp2,1974,1973-1980,HomeWorld(),False,False,False,1.0,8,8
+MoonRover,UncrewedLunarSurface,1974,1973-1980,Mun,False,True,False,2.95,24,(32) / @/targetBody.Multiplier()
+PanoramicOpticalSurveillanceImagery,Surveillance,1974,1973-1980,HomeWorld(),False,True,False,1.2,10,0
+MoonLandingCrew1Month,EarlyLunarHabitation,1975,1973-1980,Mun,True,True,True,9.6,94,(60) / @/targetBody.Multiplier()
+MinmusRover,MinmusExploration,1975,1973-1980,Minmus,False,True,False,3.69,36,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+MinmusLandingStay,CrewedMilestones,1975,1973-1980,Minmus,True,True,True,9.6,94,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+OrbitPlutoMoons,UncrewedOrbits,1975,1973-1980,@/pluto,False,False,False,3.29,32,"(2) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+BaseMoonScan,SurfaceBases,1975,1973-1980,Mun,False,False,False,1.97,19,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Viking-2,VikingMission,1975,1973-1980,@targetBody1,False,True,False,4.94,49,(5) / @/targetBody.Multiplier()
+EarlyNavSat,CommercialApplications,1975,1973-1980,HomeWorld(),False,False,False,0.8,8,0
+MunRover,SL_UncrewedLunarSurface,1975,1973-1980,Mun,False,False,False,2.46,24,15
+SSCrewRotation,SpaceStations,1975,1973-1980,@/targetBody1,False,False,True,2.57,26,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+EOS3ERTS,EOS3,1975,1973-1980,HomeWorld(),False,False,False,1.0,10,8
+flybySaturn,OuterPlanetFlyby,1975,1973-1980,Sarnus,False,False,False,7.07,72,(40) / @/targetBody.Multiplier()
+EveRoverDrive,Rovers,1975,1973-1980,Eve,False,False,False,4.17,43,"(5) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+FirstGEOSat,CommApp2,1975,1973-1980,HomeWorld(),False,False,False,1.0,10,8
+probeMars,MartianSurfaceExploration,1976,1973-1980,Duna,False,False,False,3.34,35,(35) / @/targetBody.Multiplier()
+OrbitalSpaceplane3,EarlySpacePlanes,1976,1973-1980,HomeWorld(),True,True,True,1.87,20,4
+landingDuna,SL_MartianSurfaceExploration,1976,1973-1980,Duna,False,True,False,6.26,66,0
+first_spaceStation,EarlyEarthSpaceStation,1976,1973-1980,HomeWorld(),True,False,False,2.0,29,17
+MoonLandingReturn,UncrewedLunarSurface,1976,1973-1980,Mun,False,True,True,3.84,56,(30) / @/targetBody.Multiplier()
+landingVenus,VenusSurfaceExp,1976,1973-1980,Eve,False,True,False,8.13,118,(50) / @/targetBody.Multiplier()
+Helios-2,HeliosMission,1976,1973-1980,HomeWorld().Parent(),False,False,False,0.8,12,(5) / @/targetBody.Multiplier()
+ImprovedOpticalSurveillanceImagery,Surveillance,1976,1973-1980,HomeWorld(),False,True,False,0.72,10,0
+MoonOrbiterMapping,SL_UncrewedLunarSurface,1976,1973-1980,Mun,False,False,False,2.46,36,5
+flybyGilly,SL_VenusSurfaceExp,1976,1973-1980,Gilly,False,False,False,3.34,48,0
+flybyEuropa,JupiterObservation,1977,1973-1980,Vall,False,False,False,6.66,115,(40) / @/targetBody.Multiplier()
+FirstTundraSat,CommApp2,1977,1973-1980,HomeWorld(),False,False,False,0.8,14,8
+EOS3Kennen,EOS3,1977,1973-1980,HomeWorld(),False,False,False,1.0,17,8
+Voyager-1,VoyagerMission,1977,1973-1980,Jool,False,False,False,7.88,132,50
+SpaceStation,SpaceStations,1977,1973-1980,@/targetBody1,False,False,False,1.97,35,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+MoonLandingCrew1Year,EarlyLunarHabitation,1977,1973-1980,Mun,True,True,True,7.68,137,(60) / @/targetBody.Multiplier()
+MolniyaRepeatComSats,CommApp2,1978,1973-1980,HomeWorld(),False,False,False,0.48,9,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+SpaceplaneRendezvous,EarlySpacePlanes,1978,1973-1980,HomeWorld(),True,True,True,3.9,76,8
+supplyProtoStation,EarlyEarthSpaceStation,1978,1973-1980,HomeWorld(),False,False,False,0.8,16,12
+EOS3Nimbus7,EOS3,1978,1973-1980,HomeWorld(),False,False,False,1.0,20,8
+flybyUranus,OuterPlanetFlyby,1979,1973-1980,Urlum,False,False,False,8.1,163,(50) / @/targetBody.Multiplier()
+flybyDione,SaturnObservation,1979,1973-1980,Ovok,False,False,False,7.48,141,(45) / @/targetBody.Multiplier()
+SSDeorbit,SpaceStations,1979,1973-1980,@/targetBody1,False,False,True,2.57,46,0
+MoonLandingCrew2Week,EarlyLunarHabitation,1979,1973-1980,Mun,True,True,True,9.6,175,(60) / @/targetBody.Multiplier()
+TundraRepeatComSats,CommApp2,1980,1973-1980,HomeWorld(),False,False,False,0.48,9,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+BaseMoonScout,SurfaceBases,1980,1973-1980,Mun,False,True,False,2.95,48,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Pegasus-3,USAMiscMissions,1980,1973-1980,Kerbin,False,False,False,0.8,13,3
+EOS3KennenRep,EOS3,1980,1973-1980,HomeWorld(),False,False,False,0.8,14,8
+recordCrewedDuration,HumanRecords,1980,1973-1980,HomeWorld(),True,False,False,0.96,17,2
+flybyGanymede,JupiterObservation,1980,1973-1980,Tylo,False,False,False,6.66,117,(45) / @/targetBody.Multiplier()
+landingGilly,SL_VenusSurfaceExp,1980,1973-1980,Gilly,False,True,False,6.26,115,0
+landingMars,MartianSurfaceExploration,1981,1981-1990,Duna,False,True,False,6.26,106,(50) / @/targetBody.Multiplier()
+flybyIke,SL_MartianSurfaceExploration,1981,1981-1990,Ike,False,False,False,3.34,57,0
+CeresRover,Rovers,1981,1981-1990,@/ceres,False,True,False,4.94,84,0
+GEORepeatComSats,CommApp2,1981,1981-1990,HomeWorld(),False,False,False,0.48,9,"Max(1, Round(4 * Max(@rewardFactor, 0.25)))"
+prototype_spaceStation_launch,EarlyEarthSpaceStation,1981,1981-1990,HomeWorld(),False,False,False,0.8,19,12
+first_SpaceplaneDocking,EarlySpacePlanes,1981,1981-1990,HomeWorld(),False,True,True,2.54,60,8
+ALT-15,SpaceShuttleMission,1981,1981-1990,Kerbin,True,True,True,3.12,74,5
+SSAddMoreCrew,SpaceStations,1981,1981-1990,@/targetBody1,False,False,False,1.97,46,0
+MoonLandingCrew3Month,EarlyLunarHabitation,1982,1981-1990,Mun,True,True,False,7.39,171,(50) / @/targetBody.Multiplier()
+EOS3Magsat,EOS3,1982,1981-1990,HomeWorld(),False,False,False,1.0,24,8
+flybyEnceladus,SaturnObservation,1982,1981-1990,Hale,False,False,False,7.48,179,(45) / @/targetBody.Multiplier()
+ALT-16,SpaceShuttleMission,1982,1981-1990,HomeWorld(),True,True,True,3.12,74,5
+flybyNeptune,OuterPlanetFlyby,1982,1981-1990,Neidon,False,False,False,8.74,198,(60) / @/targetBody.Multiplier()
+GeoComSatNetwork3,CommApp2,1982,1981-1990,HomeWorld(),False,False,False,1.0,24,8
+orbitMercury_Rep,MercuryExploration,1982,1981-1990,Moho,False,False,False,2.45,56,(24) / @/targetBody.Multiplier()
+STS-100,SpaceShuttleMission,1983,1981-1990,HomeWorld(),True,False,True,2.08,46,1
+EOS3GOESRep,EOS3,1983,1981-1990,HomeWorld(),False,False,False,0.8,15,8
+SSAddMoreFuel,SpaceStations,1983,1981-1990,@/targetBody1,False,False,False,1.97,37,0
+supplySecondGenerationStation,EarlyEarthSpaceStation,1984,1981-1990,HomeWorld(),False,False,False,0.8,15,12
+STS-104,SpaceShuttleMission,1984,1981-1990,HomeWorld(),True,False,True,2.08,40,5
+GeoComSatNetwork4,CommApp2,1984,1981-1990,HomeWorld(),False,False,False,1.0,19,8
+MoonLandingCrew6Month,EarlyLunarHabitation,1984,1981-1990,Mun,True,True,False,9.6,192,(50) / @/targetBody.Multiplier()
+flybyIo,JupiterObservation,1984,1981-1990,Laythe,False,False,False,6.66,124,(40) / @/targetBody.Multiplier()
+STS-105,SpaceShuttleMission,1984,1981-1990,HomeWorld(),True,False,True,2.08,36,1
+flybyIapetus,SaturnObservation,1985,1981-1990,Eeloo,False,False,False,8.1,146,(50) / @/targetBody.Multiplier()
+MolniyaNetwork3,CommApp2,1985,1981-1990,HomeWorld(),False,False,False,1.0,18,8
+EOS3GEOSRep,EOS3,1985,1981-1990,HomeWorld(),False,False,False,0.8,14,8
+BaseMoonCore,SurfaceBases,1985,1981-1990,Mun,False,True,False,4.8,84,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingVenusRepeatable,VenusSurfaceExp,1985,1981-1990,Eve,False,True,False,3.0,53,(25) / @/targetBody.Multiplier()
+samplesGilly,SL_VenusSurfaceExp,1985,1981-1990,Gilly,False,True,True,10.57,186,15
+STS-110,SpaceShuttleMission,1985,1981-1990,HomeWorld(),True,False,True,2.08,31,1
+SSAddMorePower,SpaceStations,1986,1981-1990,@/targetBody1,False,False,False,1.97,29,0
+landingMarsRepeatable,MartianSurfaceExploration,1986,1981-1990,Duna,False,True,False,3.0,45,(25) / @/targetBody.Multiplier()
+landingIke,SL_MartianSurfaceExploration,1986,1981-1990,Ike,False,True,False,6.26,93,0
+flybyPluto,OuterPlanetFlyby,1986,1981-1990,Plock,False,False,False,9.17,136,(70) / @/targetBody.Multiplier()
+flybyAriel,OuterGasGiantSurvey,1986,1981-1990,Polta,False,False,False,8.53,134,(55) / @/targetBody.Multiplier()
+flybyMercury,SmallBodiesFlyby,1986,1981-1990,Moho,False,False,False,5.1,80,(35) / @/targetBody.Multiplier()
+secondGen_spaceStation,EarlyEarthSpaceStation,1986,1981-1990,HomeWorld(),True,False,False,2.6,41,17
+STS-112,SpaceShuttleMission,1986,1981-1990,HomeWorld(),True,False,True,2.08,33,1
+MoonSpaceStation,EarlyLunarHabitation,1986,1981-1990,Mun,True,False,False,3.94,37,(54) / @/targetBody.Multiplier()
+CeresRoverDrive,Rovers,1986,1981-1990,@/ceres,False,False,False,3.29,31,"(5) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+STS-113,SpaceShuttleMission,1987,1981-1990,HomeWorld(),True,False,True,2.6,24,5
+flybyRhea,SaturnObservation,1987,1981-1990,Slate,False,False,False,7.48,86,(50) / @/targetBody.Multiplier()
+SSResupplyFuel,SpaceStations,1988,1981-1990,@/targetBody1,False,False,False,1.97,23,0
+orbitJupiter,JupiterObservation,1988,1981-1990,Jool,False,False,False,6.06,70,(42) / @/targetBody.Multiplier()
+STS-115,SpaceShuttleMission,1988,1981-1990,HomeWorld(),True,False,True,2.08,24,5
+MoonSpaceStation12Month,EarlyLunarHabitation,1988,1981-1990,Mun,False,False,False,1.97,22,(24) / @/targetBody.Multiplier()
+STS-116,SpaceShuttleMission,1988,1981-1990,HomeWorld(),True,False,True,2.08,23,10
+flybyOberon,OuterGasGiantSurvey,1989,1981-1990,Tal,False,False,False,8.53,92,(55) / @/targetBody.Multiplier()
+flybyCharon,OuterPlanetFlyby,1989,1981-1990,Karen,False,False,False,7.34,79,(70) / @/targetBody.Multiplier()
+STS-117,SpaceShuttleMission,1989,1981-1990,HomeWorld(),True,False,True,2.6,29,1
+SSResupplyMP,SpaceStations,1990,1981-1990,@/targetBody1,False,False,False,1.97,23,0
+recordCrewedSpeed,HumanRecords,1990,1981-1990,HomeWorld(),True,False,False,0.96,11,2
+BaseMoonCrew,SurfaceBases,1990,1981-1990,Mun,False,False,False,2.46,29,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+flybyTitan,SaturnObservation,1990,1981-1990,Tekto,False,False,False,7.48,97,(50) / @/targetBody.Multiplier()
+STS-118,SpaceShuttleMission,1990,1981-1990,HomeWorld(),True,False,True,2.08,27,2
+landingPhobos,MartianSurfaceExploration,1990,1981-1990,Ike,False,True,False,5.01,62,(55) / @/targetBody.Multiplier()
+samplesIke,SL_MartianSurfaceExploration,1990,1981-1990,Ike,False,True,True,10.57,130,15
+MoonSpaceStation3Month,EarlyLunarHabitation,1991,1991-2000,Mun,False,False,False,1.97,25,(24) / @/targetBody.Multiplier()
+STS-119,SpaceShuttleMission,1991,1991-2000,HomeWorld(),True,False,True,2.08,26,2
+probeJupiter,JupiterObservation,1991,1991-2000,Jool,False,False,False,4.85,21,(42) / @/targetBody.Multiplier()
+DresRover,Rovers,1992,1991-2000,@/dres,False,True,False,4.94,21,0
+SSNewCrew,SpaceStations,1992,1991-2000,@/targetBody1,True,False,False,3.95,17,0
+flybyTitania,OuterGasGiantSurvey,1992,1991-2000,Wal,False,False,False,8.53,37,(55) / @/targetBody.Multiplier()
+STS-120,SpaceShuttleMission,1992,1991-2000,HomeWorld(),True,False,True,2.08,9,5
+landingMercury,MercuryExploration,1992,1991-2000,Moho,False,True,False,9.94,42,(70) / @/targetBody.Multiplier()
+STS-122,SpaceShuttleMission,1993,1991-2000,HomeWorld(),True,False,True,2.08,9,5
+MoonSpaceStation6Month,EarlyLunarHabitation,1993,1991-2000,Mun,False,False,False,1.97,9,(24) / @/targetBody.Multiplier()
+orbitSaturn,SaturnObservation,1993,1991-2000,Sarnus,False,False,False,7.07,31,(56) / @/targetBody.Multiplier()
+STS-125,SpaceShuttleMission,1994,1991-2000,HomeWorld(),True,False,True,2.6,44,1
+SSResupplyLS,SpaceStations,1994,1991-2000,@/targetBody1,False,False,False,1.97,33,0
+STS-130,SpaceShuttleMission,1994,1991-2000,HomeWorld(),True,False,True,2.08,38,4
+flybyTriton,OuterGasGiantSurvey,1995,1991-2000,Thatmo,False,False,False,9.17,173,(65) / @/targetBody.Multiplier()
+orbitJupiter_Rep,JupiterObservation,1995,1991-2000,Jool,False,False,False,2.91,51,(21) / @/targetBody.Multiplier()
+MoonOrbitCrewedPolar,EarlyLunarHabitation,1995,1991-2000,Mun,True,False,True,5.12,90,(54) / @/targetBody.Multiplier()
+BaseMinmusScan,SurfaceBases,1995,1991-2000,Minmus,False,False,False,1.97,35,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+STS-132,SpaceShuttleMission,1995,1991-2000,HomeWorld(),True,False,True,2.6,47,1
+roverMars,MartianSurfaceExploration,1995,1991-2000,Duna,False,True,False,8.13,149,(80) / @/targetBody.Multiplier()
+flybyDeimos,SL_MartianSurfaceExploration,1995,1991-2000,Deimos,False,False,False,0.8,15,0
+probeSaturn,SaturnObservation,1996,1991-2000,Sarnus,False,False,False,7.07,137,(56) / @/targetBody.Multiplier()
+SSResupplyLS,SpaceStations,1996,1991-2000,@/targetBody1,False,False,False,1.97,38,0
+flybyVesta,SmallBodiesFlyby,1996,1991-2000,Gilly,False,False,False,4.17,80,(30) / @/targetBody.Multiplier()
+STS-133,SpaceShuttleMission,1996,1991-2000,HomeWorld(),True,False,True,2.6,50,1
+STS-26,SpaceShuttleMission,1997,1991-2000,HomeWorld(),True,False,True,2.08,43,15
+DresRoverDrive,Rovers,1997,1991-2000,@/dres,False,False,False,3.29,68,"(5) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+flybyUmbriel,OuterGasGiantSurvey,1998,1991-2000,Priax,False,False,False,8.53,158,(55) / @/targetBody.Multiplier()
+STS-3,SpaceShuttleMission,1998,1991-2000,HomeWorld(),True,False,True,2.08,38,50
+SSResupplyLS,SpaceStations,1998,1991-2000,@/targetBody1,False,False,False,1.97,37,0
+ISS-1A,ISSMission,1998,1991-2000,HomeWorld(),False,False,False,0.8,15,5
+orbitSaturn_Rep,SaturnObservation,1998,1991-2000,Sarnus,False,False,False,3.39,60,(28) / @/targetBody.Multiplier()
+STS-30,SpaceShuttleMission,1998,1991-2000,HomeWorld(),True,False,True,2.6,45,75
+STS-31,SpaceShuttleMission,1999,1991-2000,HomeWorld(),True,False,True,2.6,53,100
+ISS-1R,ISSMission,2000,1991-2000,HomeWorld(),False,False,False,0.8,18,5
+orbitCeres,AsteroidExploration,2000,1991-2000,Dres,False,False,False,5.1,95,(42) / @/targetBody.Multiplier()
+BaseMinmusScout,SurfaceBases,2000,1991-2000,Minmus,False,True,False,2.95,55,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+SSResupplyLS,SpaceStations,2000,1991-2000,@/targetBody1,False,False,False,1.97,37,0
+roverMarsRepeatable,MartianSurfaceExploration,2000,1991-2000,Duna,False,True,False,3.0,55,(40) / @/targetBody.Multiplier()
+landingDeimos,SL_MartianSurfaceExploration,2000,1991-2000,Deimos,False,True,False,1.5,27,0
+STS-34,SpaceShuttleMission,2000,1991-2000,HomeWorld(),True,False,True,2.6,47,25
+orbitUranus,OuterGasGiantSurvey,2000,1991-2000,Urlum,False,False,False,8.1,157,(70) / @/targetBody.Multiplier()
+STS-41-B,SpaceShuttleMission,2001,2001-2010,HomeWorld(),True,False,True,2.08,40,10
+probeTitan,SaturnObservation,2001,2001-2010,Tekto,False,False,False,7.48,149,(70) / @/targetBody.Multiplier()
+landingMercuryRepeatable,MercuryExploration,2002,2001-2010,Moho,False,True,False,3.67,79,(35) / @/targetBody.Multiplier()
+ISS-3R,ISSMission,2002,2001-2010,HomeWorld(),False,False,False,0.8,17,5
+STS-41,SpaceShuttleMission,2002,2001-2010,HomeWorld(),True,False,True,2.08,44,5
+STS-51-F,SpaceShuttleMission,2003,2001-2010,HomeWorld(),True,False,True,2.08,48,105
+landingCeres,AsteroidExploration,2003,2001-2010,Dres,False,True,False,7.65,179,(60) / @/targetBody.Multiplier()
+orbitNeptune,OuterGasGiantSurvey,2003,2001-2010,Neidon,False,False,False,8.74,61,(84) / @/targetBody.Multiplier()
+STS-61,SpaceShuttleMission,2004,2001-2010,HomeWorld(),True,False,True,3.38,24,50
+ISS-5R,ISSMission,2004,2001-2010,HomeWorld(),False,False,False,0.8,6,5
+roverTitan,SaturnObservation,2004,2001-2010,Tekto,False,True,False,8.97,245,(160) / @/targetBody.Multiplier()
+STS-8,SpaceShuttleMission,2004,2001-2010,HomeWorld(),True,False,True,2.08,53,10
+samplesPhobos,MartianSurfaceExploration,2005,2001-2010,Ike,False,True,True,6.51,166,(66) / @/targetBody.Multiplier()
+BaseMinmusCore,SurfaceBases,2005,2001-2010,Minmus,False,True,False,4.8,122,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingDione,SaturnMoonLandings,2005,2001-2010,Ovok,False,True,False,11.22,285,(90) / @/targetBody.Multiplier()
+samplesDeimos,SL_MartianSurfaceExploration,2005,2001-2010,Deimos,False,True,True,2.54,65,15
+STS-83,SpaceShuttleMission,2005,2001-2010,HomeWorld(),True,False,True,2.08,58,5
+ISS-6R,ISSMission,2005,2001-2010,HomeWorld(),False,False,False,0.8,23,5
+orbitCeres_Rep,AsteroidExploration,2006,2001-2010,Dres,False,False,False,2.45,74,(21) / @/targetBody.Multiplier()
+flybyCeres,SmallBodiesFlyby,2006,2001-2010,Dres,False,False,False,5.1,144,(30) / @/targetBody.Multiplier()
+STS-88,SpaceShuttleMission,2006,2001-2010,HomeWorld(),True,False,True,3.38,95,15
+orbitUranus_Rep,OuterGasGiantSurvey,2006,2001-2010,Urlum,False,False,False,3.89,118,(35) / @/targetBody.Multiplier()
+STS-9,SpaceShuttleMission,2007,2001-2010,HomeWorld(),True,False,True,2.08,63,10
+ISS-7R,ISSMission,2007,2001-2010,HomeWorld(),False,False,False,0.8,24,5
+STS-90,SpaceShuttleMission,2008,2001-2010,HomeWorld(),True,False,True,2.08,57,12
+STS-92,SpaceShuttleMission,2008,2001-2010,HomeWorld(),True,False,True,2.6,83,8
+CeresRoboticSampleReturn,AsteroidExploration,2009,2001-2010,Dres,False,True,False,6.12,201,(90) / @/targetBody.Multiplier()
+ISS-8R,ISSMission,2009,2001-2010,HomeWorld(),False,False,False,0.8,31,5
+probeUranus,OuterGasGiantSurvey,2009,2001-2010,Urlum,False,False,False,8.1,312,(70) / @/targetBody.Multiplier()
+STS-97,SpaceShuttleMission,2009,2001-2010,HomeWorld(),True,False,True,2.08,76,2
+BaseMinmusCrew,SurfaceBases,2010,2001-2010,Minmus,False,False,False,2.46,71,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+STS-98,SpaceShuttleMission,2010,2001-2010,HomeWorld(),True,False,True,2.08,73,2
+roverMercury,MercuryExploration,2011,2011-2051,Moho,False,True,False,6.12,225,(112) / @/targetBody.Multiplier()
+ISS-9R,ISSMission,2011,2011-2051,HomeWorld(),False,False,False,0.8,29,5
+STS-99,SpaceShuttleMission,2011,2011-2051,HomeWorld(),True,False,True,2.08,76,5
+orbitVesta,AsteroidExploration,2011,2011-2051,Gilly,False,False,False,4.17,173,(42) / @/targetBody.Multiplier()
+orbitNeptune_Rep,OuterGasGiantSurvey,2012,2011-2051,Neidon,False,False,False,4.2,180,(42) / @/targetBody.Multiplier()
+landingEnceladus,SaturnMoonLandings,2012,2011-2051,Hale,False,True,False,11.22,474,(90) / @/targetBody.Multiplier()
+landingVesta,AsteroidExploration,2014,2011-2051,Gilly,False,True,False,6.26,241,(60) / @/targetBody.Multiplier()
+probeNeptune,OuterGasGiantSurvey,2015,2011-2051,Neidon,False,False,False,8.74,231,(84) / @/targetBody.Multiplier()
+landingCallisto,JupiterMoonLandings,2015,2011-2051,Bop,False,True,False,9.99,264,(80) / @/targetBody.Multiplier()
+orbitPluto,PlutoLandings,2015,2011-2051,Plock,False,False,False,9.17,242,(98) / @/targetBody.Multiplier()
+BaseDunaScan,SurfaceBases,2015,2011-2051,Duna,False,False,False,3.34,88,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+orbitVesta_Rep,AsteroidExploration,2017,2011-2051,Gilly,False,False,False,2.0,53,(21) / @/targetBody.Multiplier()
+landingPluto,PlutoLandings,2019,2011-2051,Plock,False,True,False,13.76,208,(140) / @/targetBody.Multiplier()
+VestaRoboticSampleReturn,AsteroidExploration,2020,2011-2051,Gilly,False,True,False,5.01,63,(90) / @/targetBody.Multiplier()
+FlybyJool-Crew,CrewedFlybys,2020,2011-2051,Jool,True,False,True,20.49,256,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+BaseDunaScout,SurfaceBases,2020,2011-2051,Duna,False,True,False,5.01,63,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingIapetus,SaturnMoonLandings,2020,2011-2051,Eeloo,False,True,False,12.15,152,(100) / @/targetBody.Multiplier()
+landingEuropa,JupiterMoonLandings,2022,2011-2051,Vall,False,True,False,9.99,96,(80) / @/targetBody.Multiplier()
+FlybyCeres-Crew,CrewedFlybys,2022,2011-2051,@/ceres,True,False,True,11.12,107,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Artemis-I,ArtemisMission,2022,2011-2051,HomeWorld(),False,False,True,1.04,10,5
+Artemis-II,ArtemisMission,2023,2011-2051,Mun,True,False,True,6.4,53,5
+landingPlutoRepeat,PlutoLandings,2023,2011-2051,Plock,False,True,False,6.6,49,(70) / @/targetBody.Multiplier()
+FlybyDres-Crew,CrewedFlybys,2023,2011-2051,@/dres,True,False,True,11.12,82,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Artemis-III,ArtemisMission,2023,2011-2051,Mun,True,True,True,12.48,92,5
+Artemis-IV,ArtemisMission,2024,2011-2051,Mun,True,True,True,12.48,91,5
+Artemis-IX,ArtemisMission,2025,2011-2051,Mun,True,True,True,12.48,17,5
+FlybyJoolMoons-Crew,CrewedFlybys,2025,2011-2051,Jool,True,False,True,20.49,24,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+BaseDunaCore,SurfaceBases,2025,2011-2051,Duna,False,True,False,8.13,9,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Artemis-V,ArtemisMission,2025,2011-2051,Mun,True,True,True,12.48,17,5
+Artemis-VI,ArtemisMission,2026,2011-2051,Mun,True,True,True,12.48,17,5
+FlybyMoho-Crew,CrewedFlybys,2027,2011-2051,Mercury,True,False,True,17.23,21,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Artemis-VII,ArtemisMission,2027,2011-2051,Mun,True,True,True,12.48,15,5
+Artemis-VIII,ArtemisMission,2027,2011-2051,Mun,True,True,True,12.48,16,5
+landingCharon,PlutoLandings,2028,2011-2051,Karen,False,True,False,13.76,17,(140) / @/targetBody.Multiplier()
+landingRhea,SaturnMoonLandings,2028,2011-2051,Slate,False,True,False,11.22,14,(100) / @/targetBody.Multiplier()
+Artemis-X,ArtemisMission,2028,2011-2051,Mun,True,True,True,12.48,15,5
+landingGanymede,JupiterMoonLandings,2028,2011-2051,Tylo,False,True,False,9.99,12,(90) / @/targetBody.Multiplier()
+FlybySaturn-Crew,CrewedFlybys,2028,2011-2051,@/saturn,True,False,True,11.12,13,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Support-I,ArtemisMission,2029,2011-2051,Mun,False,False,True,3.2,4,5
+Support-II,ArtemisMission,2029,2011-2051,Mun,False,False,False,2.46,3,5
+landingAriel,UranusMoonLandings,2030,2011-2051,Polta,False,True,False,12.79,109,(110) / @/targetBody.Multiplier()
+MarsRoboticSampleReturn,CrewedMarsExp,2030,2011-2051,Duna,False,True,False,6.26,53,(75) / @/targetBody.Multiplier()
+FlybyUranus-Crew,CrewedFlybys,2030,2011-2051,@/uranus,True,False,True,11.12,94,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+EveMoonsLanding-Crew,CrewedLanding,2030,2011-2051,Eve,True,True,True,21.15,180,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+BaseDunaCrew,SurfaceBases,2030,2011-2051,Duna,False,False,False,4.17,35,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+Support-IIA,ArtemisMission,2030,2011-2051,Mun,False,False,False,2.46,21,5
+AsteroidLanding-Crew,CrewedLanding,2031,2011-2051,Earth,True,False,True,11.12,95,"(5) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingCharonRepeat,PlutoLandings,2032,2011-2051,Karen,False,True,False,6.6,55,(70) / @/targetBody.Multiplier()
+FlybyNeptune-Crew,CrewedFlybys,2032,2011-2051,@/neptune,True,False,True,11.12,92,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+first_MarsFlybyCrewed,CrewedMarsExp,2032,2011-2051,Duna,True,False,True,5.21,43,(62) / @/targetBody.Multiplier()
+DresLanding-Crew,CrewedLanding,2033,2011-2051,@/dres,True,True,True,16.69,149,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+FlybyPluto-Crew,CrewedFlybys,2033,2011-2051,@/pluto,True,False,True,11.12,94,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+MarsVenusFlybyCrewed,CrewedMarsExp,2034,2011-2051,Eve,True,False,False,4.0,36,50
+CeresLanding-Crew,CrewedLanding,2034,2011-2051,@/ceres,True,True,True,16.69,151,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingIo,JupiterMoonLandings,2035,2011-2051,Laythe,False,True,False,9.99,67,(80) / @/targetBody.Multiplier()
+landingOberon,UranusMoonLandings,2035,2011-2051,Tal,False,True,False,12.79,85,(110) / @/targetBody.Multiplier()
+FlybySaturnMoons-Crew,CrewedFlybys,2035,2011-2051,@/saturn,True,False,True,11.12,74,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingTriton,NeptuneMoonLandings,2035,2011-2051,Thatmo,False,True,False,13.76,92,(130) / @/targetBody.Multiplier()
+landingTitan,SaturnMoonLandings,2035,2011-2051,Tekto,False,True,False,11.22,75,(100) / @/targetBody.Multiplier()
+JoolMoonsLanding-Crew,CrewedLanding,2035,2011-2051,Jool,True,True,True,30.74,240,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+FirstCrewedMarsOrbit,CrewedMarsExp,2036,2011-2051,Duna,True,False,True,10.85,85,(135) / @/targetBody.Multiplier()
+roverPluto,PlutoLandings,2036,2011-2051,Plock,False,True,False,11.01,86,(224) / @/targetBody.Multiplier()
+FlybyUranusMoons-Crew,CrewedFlybys,2037,2011-2051,@/uranus,True,False,True,11.12,83,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+MohoLanding-Crew,CrewedLanding,2037,2011-2051,Mercury,True,True,True,25.84,204,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+CrewedMarsLandingRepeat,CrewedMarsExp,2038,2011-2051,Duna,True,True,True,13.01,99,(150) / @/targetBody.Multiplier()
+EveLanding-Crew,CrewedLanding,2038,2011-2051,Eve,True,True,True,21.15,167,"(50) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+FlybyNeptuneMoons-Crew,CrewedFlybys,2038,2011-2051,@/neptune,True,False,True,11.12,88,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+FirstCrewedMarsLanding,CrewedMarsExp,2039,2011-2051,Duna,True,True,False,12.51,104,(125) / @/targetBody.Multiplier()
+SaturnMoonsLanding-Crew,CrewedLanding,2040,2011-2051,@/saturn,True,True,True,16.69,138,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingTitania,UranusMoonLandings,2040,2011-2051,Wal,False,True,False,12.79,93,(110) / @/targetBody.Multiplier()
+roverCharon,PlutoLandings,2040,2011-2051,Karen,False,True,False,11.01,80,(224) / @/targetBody.Multiplier()
+FlybyPlutoMoons-Crew,CrewedFlybys,2040,2011-2051,@/pluto,True,False,True,11.12,81,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+UranusMoonsLanding-Crew,CrewedLanding,2041,2011-2051,@/uranus,True,True,True,16.69,14,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+PhobosLandingCrew,CrewedMarsExp,2041,2011-2051,Ike,True,True,True,7.81,7,(82) / @/targetBody.Multiplier()
+NeptuneMoonsLanding-Crew,CrewedLanding,2042,2011-2051,@/neptune,True,True,True,16.69,17,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+CollectCrewedMarsSurfaceScience,CrewedMarsExp,2043,2011-2051,Duna,False,False,False,4.17,4,(75) / @/targetBody.Multiplier()
+PlutoLanding-Crew,CrewedLanding,2044,2011-2051,@/pluto,True,True,True,16.69,21,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"
+landingUmbriel,UranusMoonLandings,2045,2011-2051,Priax,False,True,False,12.79,20,(110) / @/targetBody.Multiplier()
+CrewedPhobosLandingSurfaceScience,CrewedMarsExp,2045,2011-2051,Ike,True,True,True,16.27,25,(165) / @/targetBody.Multiplier()
+PlutoMoonsLanding-Crew,CrewedLanding,2045,2011-2051,@/pluto,True,True,True,16.69,25,"(1) * Min(@/targetBody.Multiplier(), 8) / @/targetBody.Multiplier()"

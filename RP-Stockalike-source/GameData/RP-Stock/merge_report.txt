@@ -1,0 +1,285 @@
+Career Evolution: kept 73, removed 92
+History of NASA: kept 202, removed 43
+
+== CE: removed (duplicate) (92)
+FirstLaunch (First Flight (uncrewed)) -> RP-0 First Launch
+UpperAtmo (Upper Atmosphere (uncrewed)) -> RP-0 altitude sounding rockets
+KarmanLine (Karman Line (uncrewed)) -> RP-0 Karman Line
+SuborbitalReturn (Reach a Suborbital Trajectory & Return (uncrewed)) -> RP-0 Suborbital Return
+OrbitReturn (Reach Orbit & Return (uncrewed)) -> RP-0 Reach Orbital Speed & Return
+FirstSat (First Satellite) -> RP-0 First Artificial Satellite
+PolarSat (Polar Satellite) -> RP-0 First Polar Orbit Satellite
+Geostationary (Geostationary Satellite) -> RP-0 Geostationary Test Satellite
+ScientificSat (Scientific Satellite (Low Eccentricity)) -> RP-0 First Scientific Satellite
+SunSyncSat (Sun-Synchronous Orbit (SSO) Satellite) -> RP-0 First Sun-Synchronous Satellite
+MolniyaSat (Molniya Communications Satellite) -> RP-0 First Molniya Orbit Satellite
+MEOSat (Medium Orbit Navigation Satellite) -> RP-0 First Navigational Satellite
+TundraSat (Tundra Orbit Satellite) -> RP-0 Tundra Orbit Test Satellite
+MoonFlyby (Flyby @targetBody (uncrewed)) -> RP-0 Munar Flyby
+MoonImpact (Impact @targetBody (uncrewed)) -> RP-0 First Munar Impactor
+MoonSat (Satellite of @targetBody (uncrewed)) -> RP-0 First Munar Orbiter
+MoonLanding (Soft Landing on @targetBody (uncrewed)) -> RP-0 First Munar Landing
+MoonReturn (Automated Sample Return from @targetBody (uncrewed)) -> RP-0 Munar Landing & Sample Return
+MoonRover (Robotic Rover on @targetBody (uncrewed)) -> RP-0 Munar Rover
+SoundBarrier (Break the Sound Barrier) -> RP-0 Break the Sound Barrier
+UpperAtmo-Crew (Reach Upper Atmoshpere (crewed)) -> RP-0 X-Planes (High Altitude)
+KarmanLine-Crew (Cross the Karman Line (crewed)) -> RP-0 X-Planes (Karman Line)
+Orbit-Crew (Put the First Kerbal in Orbit) -> RP-0 First Orbital Flight (Crewed)
+TwoCrew (Put Two Kerbals in Orbit) -> RP-0 Orbital Flight with 2+ Crew
+OrbitOneWeek (Orbit for One Week) -> NASA Gemini V (8 days)
+CrewEVA (First Orbital EVA) -> RP-0 First EVA
+Rendezvous (First Rendezvous) -> RP-0 First Rendezvous
+FirstDocking (First Docking) -> RP-0 First Docking
+MoonOrbit (First Crewed Orbit of @targetBody) -> RP-0 First Crewed Munar Orbit
+MoonLanding-Crew (First Crewed Landing on @targetBody) -> RP-0 First Human Mun Landing
+MoonLandingStay (Landing on @targetBody with Extended Stay) -> RP-0 Two-week Crewed Munar Stay
+OrbitOneDay (Orbit for One Day) -> NASA Faith 7 (first day+ in orbit)
+ThreeCrew (Put Three Kerbals in Orbit) -> RP-0 Orbital Flight with 3 Crew
+OrbitTwoWeeks (Orbit for Two Weeks) -> NASA Gemini VII (14 days)
+DockedManeuver (Docked Orbital Maneuvering) -> NASA Gemini X (docked Agena burn)
+HighOrbit-Crew (First Crewed High Orbit) -> NASA Gemini XI (high-apogee record)
+FlybyEve (Flyby @targetBody) -> RP-0 Eve Flyby
+FlybyEveMoons (Flyby the Moon of @targetBody) -> RP-0 Gilly Flyby
+FlybyDuna (Flyby @targetBody) -> RP-0 Duna Flyby
+FlybyDunaMoons (Flyby the Moon of @targetBody) -> RP-0 Ike Flyby
+FlybyJool (Flyby @targetBody) -> RP-0 Jool Flyby
+FlybyMoho (Flyby @targetBody) -> RP-0 Moho Flyby
+FlybyDres (Flyby @targetBody) -> RP-0 Dres Flyby
+FlybyCeres (Flyby @targetBody) -> RP-0 Dres Flyby
+FlybyJoolMoons (Flyby the Moons of @targetBody) -> RP-0 Jool moon flybys
+FlybySaturn (Flyby @targetBody) -> RP-0 Sarnus Flyby
+FlybyUranus (Flyby @targetBody) -> RP-0 Urlum Flyby
+FlybyNeptune (Flyby @targetBody) -> RP-0 Neidon Flyby
+FlybySaturnMoons (Flyby the Moons of @targetBody) -> RP-0 Sarnus moon flybys
+FlybyUranusMoons (Flyby the Moons of @targetBody) -> RP-0 Urlum moon flybys
+FlybyNeptuneMoons (Flyby the Moons of @targetBody) -> RP-0 Thatmo Flyby
+FlybyPluto (Flyby @targetBody) -> RP-0 Plock Flyby
+FlybyPlutoMoons (Flyby the Moons of @targetBody) -> RP-0 Karen Flyby
+OrbitEve (Orbit @targetBody) -> RP-0 Eve Orbit
+OrbitEveMoons (Orbit the Moon of @targetBody) -> RP-0 Gilly Orbit
+OrbitDuna (Orbit @targetBody) -> RP-0 Duna Orbit
+OrbitJool (Orbit @targetBody) -> RP-0 Jool Orbit
+OrbitMoho (Orbit @targetBody) -> RP-0 Moho Orbit
+OrbitDres (Orbit @targetBody) -> RP-0 Dres Orbit
+OrbitCeres (Orbit @targetBody) -> RP-0 Dres Orbit
+OrbitSaturn (Orbit @targetBody) -> RP-0 Sarnus Orbit
+OrbitUranus (Orbit @targetBody) -> RP-0 Urlum Orbit
+OrbitNeptune (Orbit @targetBody) -> RP-0 Neidon Orbit
+OrbitPluto (Orbit @targetBody) -> RP-0 Plock Orbit
+EveLanding (Land on @targetBody) -> RP-0 Eve Landing
+EveMoonsLanding (Land on the Moon of @targetBody) -> RP-0 Gilly Landing
+DunaLanding (Land on @targetBody) -> RP-0 Duna Landing
+DunaMoonsLanding (Land on the Moon of @targetBody) -> RP-0 Ike Landing
+MohoLanding (Land on @targetBody) -> RP-0 Moho Landing
+AsteroidLanding (Land on an Asteroid) -> NASA NEAR-Shoemaker (first asteroid landing)
+DresLanding (Land on @targetBody) -> RP-0 Dres Landing
+CeresLanding (Land on @targetBody) -> RP-0 Dres Landing
+JoolMoonsLanding (Land on the Moons of @targetBody) -> RP-0 Jool moon landings
+EelooLanding (Land on @targetBody) -> RP-0 Eeloo Landing
+SaturnMoonsLanding (Land on the Moons of @targetBody) -> RP-0 Sarnus moon landings
+UranusMoonsLanding (Land on the Moons of @targetBody) -> RP-0 Urlum moon landings
+NeptuneMoonsLanding (Land on the Moons of @targetBody) -> RP-0 Thatmo Landing
+PlutoLanding (Land on @targetBody) -> RP-0 Plock Landing
+PlutoMoonsLanding (Land on the Moons of @targetBody) -> RP-0 Karen Landing
+DunaRover (Land a rover on @/targetBody) -> RP-0 Duna Rover
+DunaRoverDrive (Explore @/targetBody with a Rover) -> RP-0 Duna Rover
+MohoRover (Land a rover on @/targetBody) -> RP-0 Moho Rover
+MohoRoverDrive (Explore @/targetBody with a Rover) -> RP-0 Moho Rover
+PlutoRover (Land a rover on @/targetBody) -> RP-0 Plock Rover
+PlutoRoverDrive (Explore @/targetBody with a Rover) -> RP-0 Plock Rover
+FirstSpaceStation (Launch your First Space Station) -> RP-0 First Space Station
+SSFirstCrew (First Crew on your Space Station) -> RP-0 First Space Station
+SSThreeMonths (Live for 90 Days in Space) -> NASA Skylab 4 (84 days)
+FlybyEve-Crew (Crewed Flyby of @targetBody) -> RP-0 Duna Opposition Eve Flyby (Crewed)
+FlybyDuna-Crew (Crewed Flyby of @targetBody) -> RP-0 Flyby Duna (Crewed)
+DunaLanding-Crew (Crewed Landing on @targetBody) -> RP-0 First Crewed Duna Landing
+DunaMoonsLanding-Crew (Crewed Landing on the Moons of @targetBody) -> RP-0 Ike Landing (Crewed)
+
+== NASA downrange -> waypoint (15)
+LGM-25C-Titan-II: 923 km
+LGM-30A-Minuteman: 767 km
+LGM-30F-Minuteman-II: 923 km
+SM-65B-Atlas: 923 km
+SM-65D-Atlas: 923 km
+SM-65E-Atlas: 923 km
+SM-68A-Titan-I: 767 km
+MGM-5-Corporal: 70 km
+Hermes-A-2: 35 km
+Hermes-A-3a: 70 km
+Hermes-A-3b: 70 km
+Hermes-II: 86 km
+PGM-11-Redstone: 86 km
+Corporal-E: 70 km
+RTV-A-3-NATIV: 42 km
+
+== NASA: removed (duplicate) (43)
+Lunar-Orbiter-1 (Lunar Orbiter 1) -> RP-0 First Munar Orbiter
+Mariner-10 (Mariner-10) -> RP-0 Moho Flyby
+Mariner-2 (Mariner-2) -> RP-0 Eve Flyby
+Mariner-4 (Mariner-4) -> RP-0 Duna Flyby
+Mariner-9 (Mariner-9) -> RP-0 Duna Orbit
+Pioneer-10 (Pioneer 10) -> RP-0 Jool Flyby
+Pioneer-11 (Pioneer 11) -> RP-0 Sarnus Flyby
+Pioneer-12 (Pioneer 12) -> RP-0 Eve Orbit
+Pioneer-13 (Pioneer 13) -> RP-0 Eve Atmospheric Probe
+Pioneer-4 (Pioneer 4) -> RP-0 Munar Flyby
+Cassini-Huygens (Cassini-Huygens) -> RP-0 Sarnus Orbit & Tekto Landing
+Dawn (Dawn) -> RP-0 Gilly & Dres Orbits
+Explorer-1 (Explorer 1) -> RP-0 First Artificial Satellite
+Galileo (Galileo) -> RP-0 Jool Orbit & Atmospheric Probe
+MESSENGER (MESSENGER) -> RP-0 Moho Orbit
+New Horizons (New Horizons) -> RP-0 Plock Flyby
+Vanguard-1 (Vanguard 1) -> RP-0 First Solar-Powered Satellite
+Voyager-2 (Voyager-2) -> RP-0 Urlum & Neidon Flybys
+Ranger-4 (Ranger 4) -> RP-0 First Munar Impactor
+Surveyor-1 (Surveyor 1) -> RP-0 First Munar Landing
+Viking-1 (Viking 1) -> RP-0 Duna Landing
+X003 (03 Break the Sound Barrier (Bell X-1)) -> RP-0 Break the Sound Barrier
+X006 (06 Speed Record (Bell X-1A)) -> RP-0 X-Planes (Mach 2)
+X012 (13 Speed Record (X-15-1 Late)) -> RP-0 X-Planes (Hypersonic)
+X014 (15 Altitude Record (X-15-3)) -> RP-0 X-Planes (Karman Line)
+Apollo-VII (Apollo-VII) -> RP-0 Orbital Flight with 3 Crew
+Apollo-VIII (Apollo-VIII) -> RP-0 First Crewed Munar Orbit
+Apollo-XI (Apollo-XI) -> RP-0 First Human Mun Landing
+Apollo-XV (Apollo-XV) -> RP-0 Crewed Mun Landing & Rover Exploration
+Gemini-III (Gemini III) -> RP-0 Orbital Flight with 2+ Crew
+Gemini-IV (Gemini IV) -> RP-0 First EVA
+Gemini-VI-A (Gemini VI-A) -> RP-0 First Rendezvous
+Gemini-VIII-ATV (Gemini VIII ATV) -> RP-0 First Docking (its docking target)
+Gemini-VIII (Gemini VIII) -> RP-0 First Docking
+Freedom-7 (07 Freedom 7) -> RP-0 Suborbital Flight (Crewed)
+Friendship-7 (12 Friendship 7) -> RP-0 First Orbital Flight (Crewed)
+Mercury-Atlas-4 (09 Mercury-Atlas 4) -> RP-0 Orbital Test Flight (Uncrewed)
+Mercury-Atlas-5 (11 Mercury-Atlas 5) -> RP-0 Orbital Test Flight (Animal Crew)
+STS-1 (STS-001) -> RP-0 First Orbital Spaceplane Flight
+Skylab-1 (Skylab-1) -> RP-0 First Space Station
+Skylab-2 (Skylab-2) -> RP-0 First Space Station
+TinyTim (01 Tiny Tim) -> RP-0 First Launch
+V-2 No 1 (03 Project Hermes V-2 No 1) -> RP-0 Karman Line (first rocket into space)
+
+== requirements re-pointed (125)
+[CE] MinmusFlyby: FirstSat -> FirstSatellite
+[CE] MinmusSat: Geostationary -> FirstGEOSat
+[CE] MinmusLanding: Geostationary -> FirstGEOSat
+[CE] MinmusOrbit: FirstDocking -> first_Docking
+[CE] MinmusOrbit: CrewEVA -> first_EVA
+[CE] OrbitDunaMoons: OrbitDuna -> orbitMars
+[CE] OrbitJoolMoons: OrbitJool -> orbitJupiter
+[CE] OrbitJoolMoons: FlybyJoolMoons -> flybyIo
+[CE] OrbitSaturnMoons: OrbitSaturn -> orbitSaturn
+[CE] OrbitSaturnMoons: FlybySaturnMoons -> flybyTitan
+[CE] OrbitUranusMoons: OrbitUranus -> orbitUranus
+[CE] OrbitUranusMoons: FlybyUranusMoons -> flybyTitania
+[CE] OrbitNeptuneMoons: OrbitNeptune -> orbitNeptune
+[CE] OrbitNeptuneMoons: FlybyNeptuneMoons -> flybyTriton
+[CE] OrbitPlutoMoons: OrbitPluto -> orbitPluto
+[CE] OrbitPlutoMoons: FlybyPlutoMoons -> flybyCharon
+[CE] EveRover: FlybyEve -> flybyVenus
+[CE] EveRover: MoonRover -> MoonRover
+[CE] CeresRover: FlybyCeres -> flybyCeres
+[CE] DresRover: FlybyDres -> flybyCeres
+[CE] SSSixMonths: SSThreeMonths -> Skylab-4
+[CE] SSAddMoreFuel: SSThreeMonths -> Skylab-4
+[CE] SSAddMorePower: SSThreeMonths -> Skylab-4
+[CE] SSResupplyFuel: SSThreeMonths -> Skylab-4
+[CE] SSResupplyMP: SSThreeMonths -> Skylab-4
+[CE] SSResupplyLS: SSThreeMonths -> Skylab-4
+[CE] SSResupplyLS: SSThreeMonths -> Skylab-4
+[CE] SSResupplyLS: SSThreeMonths -> Skylab-4
+[CE] SSResupplyLS: SSThreeMonths -> Skylab-4
+[CE] FlybyJool-Crew: FlybyEve-Crew -> MarsVenusFlybyCrewed
+[CE] FlybyJool-Crew: FlybyDuna-Crew -> first_MarsFlybyCrewed
+[CE] FlybyJool-Crew: FlybyJool -> flybyJupiter
+[CE] FlybyCeres-Crew: FlybyEve-Crew -> MarsVenusFlybyCrewed
+[CE] FlybyCeres-Crew: FlybyDuna-Crew -> first_MarsFlybyCrewed
+[CE] FlybyCeres-Crew: FlybyCeres -> flybyCeres
+[CE] FlybyDres-Crew: FlybyEve-Crew -> MarsVenusFlybyCrewed
+[CE] FlybyDres-Crew: FlybyDuna-Crew -> first_MarsFlybyCrewed
+[CE] FlybyDres-Crew: FlybyDres -> flybyCeres
+[CE] FlybyJoolMoons-Crew: FlybyEve-Crew -> MarsVenusFlybyCrewed
+[CE] FlybyJoolMoons-Crew: FlybyDuna-Crew -> first_MarsFlybyCrewed
+[CE] FlybyJoolMoons-Crew: FlybyJool -> flybyJupiter
+[CE] FlybyMoho-Crew: FlybyEve-Crew -> MarsVenusFlybyCrewed
+[CE] FlybyMoho-Crew: FlybyDuna-Crew -> first_MarsFlybyCrewed
+[CE] FlybyMoho-Crew: FlybyMoho -> flybyMercury
+[CE] FlybySaturn-Crew: FlybySaturn -> flybySaturn
+[CE] FlybyUranus-Crew: FlybyUranus -> flybyUranus
+[CE] FlybyNeptune-Crew: FlybyNeptune -> flybyNeptune
+[CE] FlybyPluto-Crew: FlybyPluto -> flybyPluto
+[CE] FlybySaturnMoons-Crew: FlybySaturn -> flybySaturn
+[CE] FlybyUranusMoons-Crew: FlybyUranus -> flybyUranus
+[CE] FlybyNeptuneMoons-Crew: FlybyNeptune -> flybyNeptune
+[CE] FlybyPlutoMoons-Crew: FlybyPluto -> flybyPluto
+[CE] EveMoonsLanding-Crew: EveMoonsLanding -> landingVesta
+[CE] AsteroidLanding-Crew: AsteroidLanding -> NEAR-Shoemaker
+[CE] DresLanding-Crew: DresLanding -> landingCeres
+[CE] DresLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] CeresLanding-Crew: CeresLanding -> landingCeres
+[CE] CeresLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] JoolMoonsLanding-Crew: JoolMoonsLanding -> landingIo
+[CE] JoolMoonsLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] MohoLanding-Crew: MohoLanding -> landingMercury
+[CE] MohoLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] EveLanding-Crew: EveLanding -> landingVenus
+[CE] EveLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] SaturnMoonsLanding-Crew: SaturnMoonsLanding -> landingTitan
+[CE] SaturnMoonsLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] UranusMoonsLanding-Crew: UranusMoonsLanding -> landingTitania
+[CE] UranusMoonsLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] NeptuneMoonsLanding-Crew: NeptuneMoonsLanding -> landingTriton
+[CE] NeptuneMoonsLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] PlutoLanding-Crew: PlutoLanding -> landingPluto
+[CE] PlutoLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] PlutoMoonsLanding-Crew: PlutoMoonsLanding -> landingCharon
+[CE] PlutoMoonsLanding-Crew: DunaLanding-Crew -> FirstCrewedMarsLanding
+[CE] BaseMoonScan: MoonSat -> LunarOrbiter
+[CE] BaseMoonScout: MoonSat -> LunarOrbiter
+[CE] BaseMoonCore: MoonLandingStay -> MoonLandingCrew2Week
+[CE] BaseDunaScan: DunaLanding -> landingMars
+[CE] BaseDunaScout: DunaLanding -> landingMars
+[CE] BaseDunaCore: DunaLanding-Crew -> FirstCrewedMarsLanding
+[NASA] Helios-1: Mariner-10 -> flybyMercury
+[NASA] Helios-2: Viking-1 -> landingMars
+[NASA] Mariner-3: Mariner-2 -> flybyVenus
+[NASA] Pioneer-1: Vanguard-1 -> FirstSolarSat
+[NASA] Pioneer-5: Pioneer-4 -> LunarFlyby
+[NASA] Pioneer-7: Lunar-Orbiter-1 -> LunarOrbiter
+[NASA] Genesis: Cassini-Huygens -> landingTitan
+[NASA] Kepler: Dawn -> orbitVesta
+[NASA] Suisei: Sakigake -> Helios-2
+[NASA] Ulysses: Galileo -> probeJupiter
+[NASA] Voyager-1: Voyager-2 -> flybyUranus
+[NASA] Ranger-8: Mariner-4 -> flybyMars
+[NASA] Viking-2: Pioneer-12 -> orbitVenus
+[NASA] X004: X003 -> BreakSoundBarrier
+[NASA] X007: X006 -> XPlanesSupersonicMach2
+[NASA] X013: X012 -> XPlanesHypersonic
+[NASA] X015: X014 -> XPlanesKarman
+[NASA] Apollo-IX: Apollo-VIII -> FirstCrewedLunarOrbit
+[NASA] Apollo-Soyuz: Soyuz-18 -> Apollo-XVII
+[NASA] Apollo-XII: Apollo-XI -> first_MoonLandingCrewed
+[NASA] Apollo-XVI: Apollo-XV -> MoonExtendedStayCrew
+[NASA] Artemis-I: STS-135 -> STS-133
+[NASA] Gemini-IX-ATDA: Gemini-VIII -> first_Docking
+[NASA] Gemini-IX: Gemini-VIII -> first_Docking
+[NASA] Gemini-V: Gemini-IV -> first_EVA
+[NASA] Aurora-7: Friendship-7 -> first_OrbitCrewed
+[NASA] Liberty-Bell-7: Freedom-7 -> CrewedSuborbital
+[NASA] Mercury-Scout-1: Mercury-Atlas-4 -> OrbitalTestFlight
+[NASA] STS-100: STS-102 -> STS-98
+[NASA] STS-110: STS-109 -> STS-105
+[NASA] STS-112: STS-111 -> STS-110
+[NASA] STS-115: STS-121 -> STS-113
+[NASA] STS-119: STS-126 -> STS-122
+[NASA] STS-130: STS-129 -> STS-125
+[NASA] STS-132: STS-131 -> STS-130
+[NASA] STS-26: STS-61-C -> STS-51-F
+[NASA] STS-3: STS-1 -> first_SpaceplaneOrbit
+[NASA] STS-31: STS-36 -> STS-34
+[NASA] STS-83: STS-82 -> STS-61
+[NASA] STS-88: STS-95 -> STS-90
+[NASA] STS-90: STS-89 -> STS-83
+[NASA] STS-92: STS-106 -> STS-88
+[NASA] Skylab-3: Skylab-2 -> first_spaceStation
+[NASA] WAC-Corporal: TinyTim -> first_FirstFlight
+[NASA] V-2 No 13: V-2 No 1 -> KarmanLine

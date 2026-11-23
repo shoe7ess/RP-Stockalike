@@ -1,0 +1,265 @@
+folder,contract,program,kind,rp0_funds,stock_funds,science,scales_with_rewardFactor,mission,body
+Human Records,recordCrewedAlt,-,opt,10000,3300,2,False,record,Kerbin
+Human Records,recordCrewedCount,-,opt,10000,3300,2,False,record,Kerbin
+Human Records,recordCrewedDuration,-,opt,10000,3300,2,False,record,Kerbin
+Human Records,recordCrewedSpeed,-,opt,10000,3300,2,False,record,Kerbin
+Records,recordUncrewedAlt,-,opt,10000,3300,2,False,record,Kerbin
+Records,recordUncrewedSpeed,-,opt,10000,3300,2,False,record,Kerbin
+Sounding Rockets,KarmanLine,SuborbRocketDev,req,24706,7300,5,False,space,Kerbin
+Sounding Rockets,SuborbitalReturn,SuborbRocketDev,req,24706,7300,7,False,suborbital+return,Kerbin
+Sounding Rockets,DistanceSoundingDifficult,SuborbRocketDev,opt,26250,7700,1,True,suborbital,Kerbin
+Sounding Rockets,DownrangeSoundingIntermediate,SuborbRocketDev,opt,26250,7700,1,True,suborbital,Kerbin
+Sounding Rockets,Downrange,SuborbRocketDev,opt,26250,7700,2,False,suborbital,Kerbin
+Sounding Rockets,DownrangeEarly,SuborbRocketDev,opt,26250,7700,2,False,suborbital,Kerbin
+Sounding Rockets,first_FirstFlight,SuborbRocketDev,opt,26250,7700,2,False,suborbital,Kerbin
+Commercial Applications 1,FirstNavSat-CA,CommercialApplications1,req,26509,7800,8,False,orbit_home,Kerbin
+Commercial Applications 1,FirstComSat-CA,CommercialApplications1,req,29822,8700,8,False,orbit_home,Kerbin
+Sounding Rockets,SoundingRocketBio,SuborbRocketResearch,req,33158,9500,7,False,suborbital+return,Kerbin
+Earth Satellites,ComTestSat,TargetedSats,opt,35000,10000,4,True,orbit_home,Kerbin
+Earth Satellites,EarlyComSat,TargetedSats,opt,35000,10000,4,True,orbit_home,Kerbin
+Sounding Rockets,SoundingDifficult,SuborbRocketResearch,opt,35000,10000,1,True,suborbital,Kerbin
+Sounding Rockets,SoundingIntermediate,SuborbRocketResearch,opt,35000,10000,1,True,suborbital,Kerbin
+Sounding Rockets,SoundingRocketAdvancedBioOptional,SuborbRocketResearch,opt,35000,10000,7,False,suborbital+return,Kerbin
+Sounding Rockets,SoundingRocketBioOptional,SuborbRocketResearch,opt,35000,10000,7,False,suborbital+return,Kerbin
+Sounding Rockets,SoundingRocketFilmOptional,SuborbRocketResearch,opt,35000,10000,7,False,suborbital+return,Kerbin
+Commercial Applications 1,EarlyComSat-CA,CommercialApplications1,opt,40000,11000,4,True,orbit_home,Kerbin
+Commercial Applications 1,EarlyMolniyaSat,CommercialApplications1,opt,40000,11000,4,True,orbit_home,Kerbin
+Commercial Applications 1,EarlyNavSat-CA,CommercialApplications1,opt,40000,11000,4,True,orbit_home,Kerbin
+Commercial Applications 1,FirstMolniyaSat-CA,CommercialApplications1,req,39763,11000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSCoronaRep,EarthObservationScience1,opt,46667,13000,13,False,orbit_home+return,Kerbin
+Earth Observation 1,EOSGrav1,EarthObservationScience1,opt,46667,13000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSIRRad2,EarthObservationScience1,opt,46667,13000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSIRRad3,EarthObservationScience1,opt,46667,13000,8,False,orbit_home,Kerbin
+Early Satellites (Light),Downrange6000,EarlySatellites,opt,53200,14000,2,False,suborbital,Kerbin
+Early Satellites (Light),Downrange7500,EarlySatellites,opt,53200,14000,2,False,suborbital,Kerbin
+Early Satellites (Light),FirstSunSyncSat,EarlySatellites,opt,53200,14000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSCherenkov,EarthObservationScience1,req,57436,15000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSCosmicRay1,EarthObservationScience1,req,57436,15000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSIRRad1,EarthObservationScience1,req,57436,15000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSMagScan1,EarthObservationScience1,req,57436,15000,8,False,orbit_home,Kerbin
+Earth Satellites,FirstNavSat,TargetedSats,req,55082,15000,8,False,orbit_home,Kerbin
+Earth Satellites,FirstWeatherSat,TargetedSats,req,55082,15000,8,False,orbit_home,Kerbin
+X-Plane Research,BreakSoundBarrier,EarlyXPlanes,req,57143,15000,8,False,xplane+return,Kerbin
+Earth Observation 2,EOS2HexagonRep,EarthObservationScience2,opt,60000,16000,13,False,orbit_home+return,Kerbin
+Earth Observation 2,EOS2MidasRep,EarthObservationScience2,opt,60000,16000,8,False,orbit_home,Kerbin
+Earth Observation 2,EOS2NimbusRep,EarthObservationScience2,opt,60000,16000,8,False,orbit_home,Kerbin
+Earth Observation 2,EOS2OGORep,EarthObservationScience2,opt,60000,16000,8,False,orbit_home,Kerbin
+Earth Observation 2,EOS2VelaRep,EarthObservationScience2,opt,60000,16000,8,False,orbit_home,Kerbin
+Earth Satellites,FirstComSat,TargetedSats,req,61967,16000,8,False,orbit_home,Kerbin
+Sounding Rockets,DownrangeInSpaceControl,SuborbRocketDev,req,61765,16000,2,False,suborbital,Kerbin
+Earth Observation 3,EOS3GEOSRep,EarthObservationScience3,opt,66667,18000,8,False,orbit_home,Kerbin
+Earth Observation 3,EOS3GOESRep,EarthObservationScience3,opt,66667,18000,8,False,orbit_home,Kerbin
+Earth Observation 3,EOS3KennenRep,EarthObservationScience3,opt,66667,18000,8,False,orbit_home,Kerbin
+X-Plane Research,RocketPlaneDevelopmentOptional,EarlyXPlanes,opt,66667,18000,8,False,xplane+return,Kerbin
+X-Plane Research,XPlanesHighAltitudeOptional,EarlyXPlanes,opt,66667,18000,8,False,xplane+return,Kerbin
+X-Plane Research,XPlanesHypersonicOptional,EarlyXPlanes,opt,66667,18000,8,False,xplane+return,Kerbin
+X-Plane Research,XPlanesStratosphericResearchOptional,EarlyXPlanes,opt,66667,18000,8,False,xplane+return,Kerbin
+X-Plane Research,XPlanesSuborbital,EarlyXPlanes,opt,66667,18000,8,False,xplane+return,Kerbin
+X-Plane Research,XPlanesSupersonicOptionalHigh,EarlyXPlanes,opt,66667,18000,8,True,xplane+return,Kerbin
+X-Plane Research,XPlanesSupersonicOptionalLow,EarlyXPlanes,opt,66667,18000,8,False,xplane+return,Kerbin
+Commercial Applications 2,MolniyaRepeatComSats,CommercialApplications2,opt,72727,19000,4,True,orbit_home,Kerbin
+Commercial Applications 2,TundraRepeatComSats,CommercialApplications2,opt,72727,19000,4,True,orbit_home,Kerbin
+Commercial Applications 2,GEORepeatComSats,GEOCommNetwork,opt,77778,20000,4,True,orbit_home,Kerbin
+Sounding Rockets,SoundingRocketFilm,SuborbRocketResearch,req,77368,20000,7,False,suborbital+return,Kerbin
+Commercial Applications 2,FirstGEOSat,TargetedSats,req,82623,21000,8,False,orbit_home,Kerbin
+Commercial Applications 2,FirstTundraSat,TargetedSats,req,82623,21000,8,False,orbit_home,Kerbin
+Earth Satellites,FirstMolniyaSat,TargetedSats,req,82623,21000,8,False,orbit_home,Kerbin
+Earth Observation 2,EOS2ATS1,EarthObservationScience2,req,87273,22000,8,False,orbit_home,Kerbin
+Earth Observation 2,EOS2Hexagon,EarthObservationScience2,req,87273,22000,13,False,orbit_home+return,Kerbin
+Early Satellites (Light),AtmoSat,EarlySatellites,req,93333,24000,8,False,orbit_home,Kerbin
+Early Satellites (Light),FirstPolarSat,EarlySatellites,req,93333,24000,8,False,orbit_home,Kerbin
+Early Satellites (Light),FirstSolarSat,EarlySatellites,req,93333,24000,8,False,orbit_home,Kerbin
+Commercial Applications 1,EarlyComNetwork3-CA,CommercialApplications1,req,99408,25000,8,False,orbit_home,Kerbin
+Commercial Applications 1,EarlyNavNetwork3,CommercialApplications1,req,99408,25000,8,False,orbit_home,Kerbin
+Sounding Rockets,DownrangeInSpaceIgnition,SuborbRocketDev,req,98824,25000,2,False,suborbital,Kerbin
+Sounding Rockets,SoundingRocketAdvancedBio,SuborbRocketResearch,req,99474,25000,7,False,suborbital+return,Kerbin
+Earth Observation 3,EOS3ERTS,EarthObservationScience3,req,104348,26000,8,False,orbit_home,Kerbin
+Early Satellites (Heavy),Downrange6000-Heavy,EarlySatellites-Heavy,opt,109375,27000,2,False,suborbital,Kerbin
+Early Satellites (Heavy),Downrange7500-Heavy,EarlySatellites-Heavy,opt,109375,27000,2,False,suborbital,Kerbin
+Earth Observation 2,EOS2Vela1,EarthObservationScience2,req,109091,27000,8,False,orbit_home,Kerbin
+Early Satellites (Light),FirstScienceSat,EarlySatellites,req,112000,28000,8,False,orbit_home,Kerbin
+Earth Observation 1,EOSCorona,EarthObservationScience1,req,114872,28000,13,False,orbit_home+return,Kerbin
+X-Plane Research,XPlanesStratosphericResearch,EarlyXPlanes,req,114286,28000,8,False,xplane+return,Kerbin
+Earth Observation 3,EOS3GEOS,EarthObservationScience3,req,115942,29000,8,False,orbit_home,Kerbin
+Earth Observation 3,EOS3Magsat,EarthObservationScience3,req,115942,29000,8,False,orbit_home,Kerbin
+Earth Satellites,EarlyComNetwork3,CommNetwork,req,120000,29000,8,False,orbit_home,Kerbin
+Commercial Applications 1,EarlyComNetwork4-CA,CommercialApplications1,req,132544,32000,8,False,orbit_home,Kerbin
+Commercial Applications 1,EarlyNavNetwork4,CommercialApplications1,req,132544,32000,8,False,orbit_home,Kerbin
+Commercial Applications 2,FirstGeosync,CommercialApplications2,opt,133333,32000,8,False,orbit_home,Kerbin
+Commercial Applications 2,FirstTargetedMolniya,CommercialApplications2,opt,133333,32000,8,False,orbit_home,Kerbin
+Early Lunar Probes,LunarImpactorOptional,EarlyLunarProbes,opt,133333,32000,12,False,impact,Mun
+Early Lunar Probes,LunarOrbiterOptional,EarlyLunarProbes,opt,133333,32000,14,False,orbit,Mun
+Earth Observation 2,EOS2Nimbus1,EarthObservationScience2,req,130909,32000,8,False,orbit_home,Kerbin
+Earth Observation 2,EOS2OGO1,EarthObservationScience2,req,130909,32000,8,False,orbit_home,Kerbin
+Early Satellites (Light),FirstSatellite,EarlySatellites,req,140000,34000,8,False,orbit_home,Kerbin
+X-Plane Research,XPlanesHighAltitude,EarlyXPlanes,req,142857,34000,8,False,xplane+return,Kerbin
+X-Plane Research,XPlanesHypersonic,EarlyXPlanes,req,142857,34000,8,False,xplane+return,Kerbin
+X-Plane Research,XPlanesSupersonicMach2,EarlyXPlanes,req,142857,34000,8,False,xplane+return,Kerbin
+Earth Observation 3,EOS3GOES,EarthObservationScience3,req,144928,35000,8,False,orbit_home,Kerbin
+Earth Observation 3,EOS3Nimbus7,EarthObservationScience3,req,144928,35000,8,False,orbit_home,Kerbin
+Earth Satellites,EarlyComNetwork4,CommNetwork,req,160000,38000,8,False,orbit_home,Kerbin
+Commercial Applications 2,FirstTargetedGeo,CommercialApplications2,req,171429,40000,8,False,orbit_home,Kerbin
+Commercial Applications 2,FirstTargetedTundra,CommercialApplications2,req,171429,40000,8,False,orbit_home,Kerbin
+Earth Crewed,OrbitalTestFlight,CrewedOrbitEarly,req,175610,41000,13,False,orbit_home+return,Kerbin
+Earth Observation 2,EOS2Midas1,EarthObservationScience2,req,174545,41000,8,False,orbit_home,Kerbin
+Earth Observation 3,EOS3Kennen,EarthObservationScience3,req,173913,41000,8,False,orbit_home,Kerbin
+Earth Crewed,SuborbitalTestFlight,CrewedOrbitEarly,opt,180000,42000,13,False,orbit_home+return,Kerbin
+Early Satellites (Heavy),FirstSatellite-Heavy,EarlySatellites-Heavy,req,195896,45000,8,False,orbit_home,Kerbin
+Early Lunar Probes,LunarFlyby,EarlyLunarProbes,req,200000,46000,10,False,flyby,Mun
+Earth Crewed Adv,first_EVA,CrewedOrbitEarly,opt,200000,46000,18,False,orbit_home+crew+return,Kerbin
+Earth Crewed Adv,OrbitalFlight3,CrewedOrbitEarly,opt,200000,46000,9,False,orbit_home+crew+return,Kerbin
+Earth Crewed,OrbitRecovery,CrewedOrbitEarly,opt,200000,46000,13,False,orbit_home+return,Kerbin
+Earth Crewed,OrbitalFlight1,CrewedOrbitEarly,opt,200000,46000,9,False,orbit_home+crew+return,Kerbin
+Earth Crewed,OrbitalTestFlightAnimal,CrewedOrbitEarly,opt,200000,46000,13,False,orbit_home+return,Kerbin
+Earth Crewed,CrewedSuborbital,CrewedOrbitEarly,opt,200000,46000,18,False,orbit_home+crew+return,Kerbin
+X-Plane Research,XPlanesKarman,EarlyXPlanes,req,200000,46000,8,False,xplane+return,Kerbin
+Early Satellites (Heavy),FirstBioSat-Heavy,EarlySatellites-Heavy,req,208955,48000,8,False,orbit_home,Kerbin
+Early Satellites (Heavy),FirstPolarSat-Heavy,EarlySatellites-Heavy,req,208955,48000,8,False,orbit_home,Kerbin
+Earth Crewed,first_OrbitRecover,EarthObservationScience1,req,215385,49000,13,False,orbit_home+return,Kerbin
+Lunar Surface Probes,MoonLandingFarSideOptional,UncrewedLunarSurface,opt,229167,52000,20,False,landing,Mun
+Lunar Surface Probes,MoonLandingOptional,UncrewedLunarSurface,opt,229167,52000,20,False,landing,Mun
+Lunar Surface Probes,MoonLandingReturn,UncrewedLunarSurface,opt,229167,52000,30,False,landing+return,Mun
+Lunar Surface Probes,MoonOrbiterOptional,UncrewedLunarSurface,opt,229167,52000,14,False,orbit,Mun
+Lunar Surface Probes,MoonRover,UncrewedLunarSurface,opt,229167,52000,32,False,landing+rover,Mun
+Early Satellites (Heavy),FirstScienceSat-Heavy,EarlySatellites-Heavy,req,261194,58000,8,False,orbit_home,Kerbin
+Mars,MarsOrbitRepeatable,EarlyInnerPlanetProbes,opt,262500,59000,18,False,orbit,Duna
+Venus,VenusOrbitRepeatable,EarlyInnerPlanetProbes,opt,262500,59000,18,False,orbit,Eve
+Early Lunar Probes,LunarImpactor,EarlyLunarProbes,req,266667,60000,12,False,impact,Mun
+Commercial Applications 2,GeoComSatNetwork3,GEOCommNetwork,req,304348,67000,8,False,orbit_home,Kerbin
+Early Lunar Probes,LunarOrbiter,EarlyLunarProbes,req,333333,72000,14,False,orbit,Mun
+Lunar Surface Probes,MoonOrbiter,UncrewedLunarSurface,req,343750,74000,14,False,orbit,Mun
+Saturn Observation,orbitSaturn_Rep,SaturnObservation,opt,343750,74000,28,False,orbit,Sarnus
+Spaceplanes,CrewedSpaceplaneSuborbital,CrewedSpaceplaneDev,opt,345600,75000,8,False,xplane+return,Kerbin
+Lunar Crewed,RepeatMoonLandingCrew,CrewedLunar,opt,359314,77000,60,False,landing+crew+return,Mun
+Commercial Applications 2,GeoComSatNetwork4,GEOCommNetwork,req,395652,84000,8,False,orbit_home,Kerbin
+Jupiter Observation,orbitJupiter_Rep,JupiterObservation,opt,400000,85000,21,False,orbit,Jool
+Jupiter Observation,probeJupiter,JupiterObservation,opt,400000,85000,42,False,orbit,Jool
+Earth Crewed,CollectCrewedScienceBasic,CrewedOrbitEarly,req,439024,92000,23,False,orbit_home+crew+return+duration,Kerbin
+Commercial Applications 2,MolniyaNetwork3,CommercialApplications2,req,457143,96000,8,False,orbit_home,Kerbin
+Lunar Surface Probes,MoonLanding,UncrewedLunarSurface,req,458333,96000,20,False,landing,Mun
+Mars,flybyMars,EarlyInnerPlanetProbes,req,466667,97000,25,False,flyby,Duna
+Venus,flybyVenus,EarlyInnerPlanetProbes,req,466667,97000,25,False,flyby,Eve
+Asteroid Exploration,landingCeres,AsteroidExploration,req,519231,110000,60,False,landing,Dres
+Asteroid Exploration,orbitCeres_Rep,AsteroidExploration,opt,562500,110000,21,False,orbit,Dres
+Asteroid Exploration,CeresRoboticSampleReturn,AsteroidExploration,opt,562500,110000,90,False,landing+return,Dres
+Asteroid Exploration,landingVesta,AsteroidExploration,req,519231,110000,60,False,landing,Gilly
+Asteroid Exploration,orbitVesta_Rep,AsteroidExploration,opt,562500,110000,21,False,orbit,Gilly
+Asteroid Exploration,VestaRoboticSampleReturn,AsteroidExploration,opt,562500,110000,90,False,landing+return,Gilly
+Earth Crewed Adv,OrbitalFlight2,CrewedOrbitAdv,opt,550000,110000,9,False,orbit_home+crew+return,Kerbin
+Outer Planet Flyby,flybyCharon,OuterPlanetFlyby,opt,540000,110000,70,False,flyby,Karen
+Earth Crewed,first_OrbitCrewed,CrewedOrbitEarly,req,585366,120000,18,False,orbit_home+crew+return,Kerbin
+Lunar Surface Probes,MoonLandingFarSide,UncrewedLunarSurface,req,572917,120000,20,False,landing,Mun
+Mars,orbitMars,EarlyInnerPlanetProbes,req,583333,120000,35,False,orbit,Duna
+Neptunian Moon Landings,landingTriton,OuterGasGiantSurvey,opt,600000,120000,130,False,landing,Thatmo
+Outer Gas Giant Survey,orbitNeptune_Rep,OuterGasGiantSurvey,opt,600000,120000,42,False,orbit,Neidon
+Outer Gas Giant Survey,orbitUranus_Rep,OuterGasGiantSurvey,opt,600000,120000,35,False,orbit,Urlum
+Saturn Observation,flybyDione,SaturnObservation,req,590604,120000,45,False,flyby,Ovok
+Saturn Observation,flybyEnceladus,SaturnObservation,req,590604,120000,45,False,flyby,Hale
+Saturn Observation,flybyIapetus,SaturnObservation,req,590604,120000,50,False,flyby,Eeloo
+Saturn Observation,flybyRhea,SaturnObservation,req,590604,120000,50,False,flyby,Slate
+Venus,orbitVenus,EarlyInnerPlanetProbes,req,583333,120000,35,False,orbit,Eve
+Saturn Observation,orbitSaturn,SaturnObservation,req,627517,130000,56,False,orbit,Sarnus
+Spaceplanes,OrbitalSpaceplane1,CrewedSpaceplaneDev,opt,666667,130000,4,False,xplane+return,Kerbin
+Spaceplanes,OrbitalSpaceplane2,CrewedSpaceplaneDev,opt,666667,130000,4,False,xplane+return,Kerbin
+Spaceplanes,OrbitalSpaceplane3,CrewedSpaceplaneDev,opt,666667,130000,4,False,xplane+return,Kerbin
+Saturn Observation,flybyTitan,SaturnObservation,req,738255,150000,50,False,flyby,Tekto
+Jupiter Observation,flybyCallisto,JupiterObservation,req,800000,160000,40,False,flyby,Bop
+Jupiter Observation,flybyEuropa,JupiterObservation,req,800000,160000,40,False,flyby,Vall
+Jupiter Observation,flybyGanymede,JupiterObservation,req,800000,160000,45,False,flyby,Tylo
+Jupiter Observation,flybyIo,JupiterObservation,req,800000,160000,40,False,flyby,Laythe
+Jupiter Observation,orbitJupiter,JupiterObservation,req,800000,160000,42,False,orbit,Jool
+Outer Planet Flyby,flybyJupiter,OuterPlanetFlyby,req,859091,170000,30,False,flyby,Jool
+Saturn Observation,probeSaturn,SaturnObservation,req,885906,170000,56,False,orbit,Sarnus
+Saturn Observation,probeTitan,SaturnObservation,req,885906,170000,70,False,orbit,Tekto
+Outer Gas Giant Survey,flybyAriel,OuterGasGiantSurvey,req,1012500,190000,55,False,flyby,Polta
+Outer Gas Giant Survey,flybyOberon,OuterGasGiantSurvey,req,1012500,190000,55,False,flyby,Tal
+Outer Gas Giant Survey,flybyTitania,OuterGasGiantSurvey,req,1012500,190000,55,False,flyby,Wal
+Outer Gas Giant Survey,flybyUmbriel,OuterGasGiantSurvey,req,1012500,190000,55,False,flyby,Priax
+Outer Planet Flyby,flybySaturn,OuterPlanetFlyby,req,981818,190000,40,False,flyby,Sarnus
+Earth Crewed Adv,first_Docking,CrewedOrbitAdv,req,1100000,210000,8,False,orbit_home,Kerbin
+Earth Crewed Adv,Rendezvous,CrewedOrbitAdv,req,1100000,210000,18,False,orbit_home+crew+return,Kerbin
+Outer Gas Giant Survey,flybyTriton,OuterGasGiantSurvey,req,1125000,210000,65,False,flyby,Thatmo
+Outer Planet Flyby,flybyUranus,OuterPlanetFlyby,req,1104545,210000,50,False,flyby,Urlum
+Early Lunar Habitation,MoonLandingCrew1Year,EarlyLunarHabitation,opt,1200000,220000,60,False,landing+crew+return,Mun
+Early Lunar Habitation,MoonOrbitCrewedPolar,EarlyLunarHabitation,opt,1200000,220000,54,False,orbit+crew+return,Mun
+Early Lunar Habitation,MoonSpaceStation,EarlyLunarHabitation,opt,1200000,220000,54,False,station+crew,Mun
+Early Lunar Habitation,MoonSpaceStation12Month,EarlyLunarHabitation,opt,1200000,220000,24,False,station,Mun
+Early Lunar Habitation,MoonSpaceStation3Month,EarlyLunarHabitation,opt,1200000,220000,24,False,station,Mun
+Early Lunar Habitation,MoonSpaceStation6Month,EarlyLunarHabitation,opt,1200000,220000,24,False,station,Mun
+Mars,landingMarsRepeatable,MarsSurfaceExp,opt,1200000,220000,25,False,landing,Duna
+Mars,probeMars,MarsSurfaceExp,opt,1200000,220000,35,False,orbit,Duna
+Mars,roverMarsRepeatable,MarsSurfaceExp,opt,1200000,220000,40,False,landing+rover,Duna
+Mars,flybyPhobos,MarsSurfaceExp,opt,1152000,220000,28,False,flyby,Ike
+Mars,landingPhobos,MarsSurfaceExp,opt,1200000,220000,55,False,landing,Ike
+Mars,samplesPhobos,MarsSurfaceExp,opt,1200000,220000,66,False,orbit+return,Ike
+Mercury Exploration,landingMercuryRepeatable,MercuryExploration,opt,1200000,220000,35,False,landing,Moho
+Mercury Exploration,orbitMercury_Rep,MercuryExploration,opt,1200000,220000,24,False,orbit,Moho
+Mercury Exploration,roverMercury,MercuryExploration,opt,1200000,220000,112,False,landing+rover,Moho
+Small Bodies Flyby,flybyCeres,SmallBodiesFlyby,req,1176471,220000,30,False,flyby,Dres
+Small Bodies Flyby,flybyVesta,SmallBodiesFlyby,req,1176471,220000,30,False,flyby,Gilly
+Spaceplanes,first_SpaceplaneDocking,CrewedSpaceplaneDev,req,1200000,220000,8,False,xplane+return,Kerbin
+Spaceplanes,SpaceplaneRendezvous,CrewedSpaceplaneDev,req,1200000,220000,8,False,xplane+return,Kerbin
+Venus,landingVenusRepeatable,VenusSurfaceExp,opt,1152000,220000,25,False,landing,Eve
+Outer Planet Flyby,flybyNeptune,OuterPlanetFlyby,req,1227273,230000,60,False,flyby,Neidon
+Outer Planet Flyby,flybyPluto,OuterPlanetFlyby,req,1227273,230000,70,False,flyby,Plock
+Lunar Crewed,first_MoonFlybyCrewed,CrewedLunar,req,1310000,240000,50,False,flyby+crew+return,Mun
+Outer Gas Giant Survey,probeNeptune,OuterGasGiantSurvey,req,1350000,250000,84,False,orbit,Neidon
+Outer Gas Giant Survey,orbitUranus,OuterGasGiantSurvey,req,1350000,250000,70,False,orbit,Urlum
+Outer Gas Giant Survey,probeUranus,OuterGasGiantSurvey,req,1350000,250000,70,False,orbit,Urlum
+Venus,probeVenus,VenusSurfaceExp,opt,1440000,260000,35,False,orbit,Eve
+Outer Gas Giant Survey,orbitNeptune,OuterGasGiantSurvey,req,1575000,280000,84,False,orbit,Neidon
+Spaceplanes,first_SpaceplaneOrbit,CrewedSpaceplaneDev,req,1600000,290000,8,False,xplane+return,Kerbin
+Small Bodies Flyby,flybyMercury,SmallBodiesFlyby,req,1647059,300000,35,False,flyby,Moho
+Asteroid Exploration,orbitCeres,AsteroidExploration,req,1730769,310000,42,False,orbit,Dres
+Asteroid Exploration,orbitVesta,AsteroidExploration,req,1730769,310000,42,False,orbit,Gilly
+Mercury Exploration,orbitMercury,MercuryExploration,req,1745455,310000,49,False,orbit,Moho
+Early Space Stations,supplySecondGenerationStation,EarlyEarthSpaceStation,opt,1787500,320000,12,False,station,Kerbin
+Early Space Stations,supplyProtoStation,EarlyEarthSpaceStation,opt,1787500,320000,12,False,station,Kerbin
+Early Space Stations,prototype_spaceStation_launch,EarlyEarthSpaceStation,opt,1787500,320000,12,False,station,Kerbin
+Early Lunar Habitation,MoonLandingCrew2Week,EarlyLunarHabitation,req,1952542,340000,60,False,landing+crew+return,Mun
+Lunar Crewed,CrewedLunarOrbitRepeat,CrewedLunar,opt,1965000,350000,54,False,orbit+crew+return,Mun
+Lunar Crewed,MoonExtendedStayCrew,CrewedLunar,opt,1965000,350000,54,False,orbit+crew+return,Mun
+Early Lunar Habitation,MoonLandingCrew1Month,EarlyLunarHabitation,req,2115254,370000,60,False,landing+crew+return,Mun
+Mars,landingMars,MarsSurfaceExp,req,2181818,380000,50,False,landing,Duna
+Saturn Observation,roverTitan,SaturnMoonLandings,opt,2160000,380000,160,False,landing+rover,Tekto
+Early Lunar Habitation,MoonLandingCrew3Month,EarlyLunarHabitation,req,2277966,390000,50,False,landing+crew,Mun
+Early Space Stations,first_spaceStation,EarlyEarthSpaceStation,req,2600000,440000,17,False,station+crew,Kerbin
+Early Space Stations,CollectProtoStationScience,EarlyEarthSpaceStation,req,2600000,440000,17,False,station+duration,Kerbin
+Mars,roverMars,MarsSurfaceExp,req,2618182,440000,80,False,landing+rover,Duna
+Jovian Moon Landings,landingCallisto,JupiterMoonLandings,req,2842105,480000,80,False,landing,Bop
+Mercury Exploration,landingMercury,MercuryExploration,req,3054545,510000,70,False,landing,Moho
+Jovian Moon Landings,landingGanymede,JupiterMoonLandings,req,3221053,530000,90,False,landing,Tylo
+Early Lunar Habitation,MoonLandingCrew6Month,EarlyLunarHabitation,req,3254237,540000,50,False,landing+crew,Mun
+Lunar Crewed,FirstCrewedLunarOrbit,CrewedLunar,req,3493333,570000,54,False,orbit+crew+return,Mun
+Uranian Moon Landings,landingAriel,UranusMoonLandings,req,3600000,590000,110,False,landing,Polta
+Uranian Moon Landings,landingOberon,UranusMoonLandings,req,3600000,590000,110,False,landing,Tal
+Uranian Moon Landings,landingTitania,UranusMoonLandings,req,3600000,590000,110,False,landing,Wal
+Uranian Moon Landings,landingUmbriel,UranusMoonLandings,req,3600000,590000,110,False,landing,Priax
+Jovian Moon Landings,landingEuropa,JupiterMoonLandings,req,3789474,620000,80,False,landing,Vall
+Early Space Stations,secondGen_spaceStation,EarlyEarthSpaceStation,req,3900000,630000,17,False,station+crew,Kerbin
+Saturnine Moon Landings,landingDione,SaturnMoonLandings,req,3927273,640000,90,False,landing,Ovok
+Mars Crewed,CrewedMarsLandingRepeat,CrewedMarsExp,opt,4000000,650000,150,False,landing+crew+return,Duna
+Mars Crewed,first_MarsFlybyCrewed,CrewedMarsExp,opt,4000000,650000,62,False,flyby+crew+return,Duna
+Mars Crewed,MarsVenusFlybyCrewed,CrewedMarsExp,opt,4000000,650000,50,False,flyby+crew,Kerbin
+Mars Crewed,PhobosLandingCrew,CrewedMarsExp,opt,4000000,650000,82,False,landing+crew+return,Ike
+Plutonian Landings,landingCharonRepeat,PlutoLandings,opt,4050000,650000,70,False,landing,Karen
+Plutonian Landings,landingPlutoRepeat,PlutoLandings,opt,4050000,650000,70,False,landing,Plock
+Plutonian Landings,roverCharon,PlutoLandings,opt,4200000,670000,224,False,landing+rover,Karen
+Plutonian Landings,roverPluto,PlutoLandings,opt,4200000,670000,224,False,landing+rover,Plock
+Saturnine Moon Landings,landingIapetus,SaturnMoonLandings,req,4254545,680000,100,False,landing,Eeloo
+Saturnine Moon Landings,landingRhea,SaturnMoonLandings,req,4254545,680000,100,False,landing,Slate
+Saturnine Moon Landings,landingTitan,SaturnMoonLandings,req,4254545,680000,100,False,landing,Tekto
+Mars Crewed,FirstCrewedMarsOrbit,CrewedMarsExp,req,4347826,690000,135,False,orbit+crew+return,Duna
+Lunar Crewed,first_MoonLandingCrewedDirect,CrewedLunar,req,4366667,700000,60,False,landing+crew+return,Mun
+Jovian Moon Landings,landingIo,JupiterMoonLandings,req,4547368,720000,80,False,landing,Laythe
+Venus,landingVenus,VenusSurfaceExp,req,4800000,760000,50,False,landing,Eve
+Saturnine Moon Landings,landingEnceladus,SaturnMoonLandings,req,4909091,770000,90,False,landing,Hale
+Early Space Stations,CollectSecondGenerationStationScience,EarlyEarthSpaceStation,req,5200000,810000,17,False,station+duration,Kerbin
+Mars Crewed,MarsRoboticSampleReturn,CrewedMarsExp,req,5217391,820000,75,False,landing+return,Duna
+Mars Crewed,CollectCrewedMarsSurfaceScience,CrewedMarsExp,req,6521739,990000,75,False,landing+duration,Duna
+Mars Crewed,CrewedPhobosLandingSurfaceScience,CrewedMarsExp,req,6521739,990000,165,False,landing+crew+return,Ike
+Lunar Crewed,first_MoonLandingCrewed,CrewedLunar,req,6550000,1000000,60,False,landing+crew+return,Mun
+Plutonian Landings,orbitPluto,PlutoLandings,req,7753846,1200000,98,False,orbit,Plock
+Plutonian Landings,landingCharon,PlutoLandings,req,8723077,1300000,140,False,landing,Karen
+Plutonian Landings,landingPluto,PlutoLandings,req,8723077,1300000,140,False,landing,Plock
+Mars Crewed,FirstCrewedMarsLanding,CrewedMarsExp,req,17391304,2400000,125,False,landing+crew,Duna
