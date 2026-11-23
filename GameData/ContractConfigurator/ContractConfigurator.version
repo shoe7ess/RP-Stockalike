@@ -1,0 +1,32 @@
+{
+     "NAME":"Contract Configurator",
+	 "URL":"https://github.com/KSP-RO/ContractConfigurator/raw/master/GameData/ContractConfigurator/ContractConfigurator.version",
+	 "DOWNLOAD":"https://github.com/KSP-RO/ContractConfigurator/releases",
+     "CHANGE_LOG_URL":"https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/2.0.0/CHANGES.txt",
+     "GITHUB":{
+         "USERNAME":"KSP-RO",
+         "REPOSITORY":"ContractConfigurator",
+         "ALLOW_PRE_RELEASE":false
+     },
+     "VERSION":{
+         "MAJOR":2,
+         "MINOR":13,
+         "PATCH":4,
+         "BUILD":0
+     },
+     "KSP_VERSION":{
+         "MAJOR":1,
+         "MINOR":12,
+         "PATCH":3
+     },
+     "KSP_VERSION_MIN":{
+         "MAJOR":1,
+         "MINOR":12,
+         "PATCH":3
+     },
+     "KSP_VERSION_MAX":{
+         "MAJOR":1,
+         "MINOR":12,
+         "PATCH":99
+     }
+ } 

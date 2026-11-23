@@ -1,0 +1,270 @@
+Debug information for CONTRACT_TYPE 'Uncrewed10kmHopReal':
+
+Configuration:
+CONTRACT_TYPE
+{
+	name = Uncrewed10kmHopReal
+	title = Uncrewed 10 Kilometer Hop
+	group = Primitive_UncrewedFlight
+	sortKey = 00
+	description = So you want to go to space? Let's try something easier first. Prove your skills by sending a small rocket only a few kilometers up.
+	synopsis = Launch a sounding rocket to 10 kilometers.
+	notes = We hope you enjoy this alternative to RP-1. Please report any bugs to defoma.
+	completedMessage = Well done!
+	cancellable = True
+	declinable = False
+	autoAccept = False
+	minExpiry = 0
+	maxExpiry = 0
+	maxCompletions = 1
+	maxSimultaneous = 1
+	deadline = 0
+	targetBody = Earth
+	prestige = Trivial
+	rewardScience = 0
+	rewardReputation = 0
+	rewardFunds = 5000
+	failureReputation = 0
+	failureFunds = 0
+	advanceFunds = 0
+	SystemScale = Real
+	REQUIREMENT
+	{
+		name = UnlockRequirements
+		type = Any
+		hideChildren = False
+		targetBody = @/targetBody
+		REQUIREMENT
+		{
+			name = PartModuleUnlocked
+			type = PartModuleUnlocked
+			partModule = ModuleCommand
+			targetBody = @/targetBody
+		}
+	}
+	PARAMETER
+	{
+		name = CraftChecks
+		type = VesselParameterGroup
+		title = Craft
+		hideChildren = False
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			minCrew = 0
+			maxCrew = 0
+			targetBody = @/targetBody
+		}
+	}
+	PARAMETER
+	{
+		name = VesselState
+		type = VesselParameterGroup
+		title = Flight
+		hideChilden = False
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = ReachState
+			type = ReachState
+			targetBody = Earth
+			minAltitude = 10000
+		}
+	}
+}
+
+Data Nodes:
+Uncrewed10kmHopReal
+    Primitive:name = Primitive, deterministic = True
+    Primitive:displayName = Primitive, deterministic = True
+    Primitive:minVersion = , deterministic = True
+    Primitive:maxCompletions = 0, deterministic = True
+    Primitive:maxSimultaneous = 0, deterministic = True
+    Primitive:disabledContractType = [], deterministic = True
+    Primitive:agent = Progression, deterministic = True
+    Primitive:sortKey = 00, deterministic = True
+    Primitive:tip = , deterministic = True
+    Primitive_UncrewedFlight:name = Primitive_UncrewedFlight, deterministic = True
+    Primitive_UncrewedFlight:displayName = Uncrewed Flight, deterministic = True
+    Primitive_UncrewedFlight:minVersion = 1.0, deterministic = True
+    Primitive_UncrewedFlight:maxCompletions = 0, deterministic = True
+    Primitive_UncrewedFlight:maxSimultaneous = 0, deterministic = True
+    Primitive_UncrewedFlight:disabledContractType = [], deterministic = True
+    Primitive_UncrewedFlight:agent = Probe Research, deterministic = True
+    Primitive_UncrewedFlight:sortKey = 01, deterministic = True
+    Primitive_UncrewedFlight:tip = , deterministic = True
+    name = Uncrewed10kmHopReal, deterministic = True
+    trace = False, deterministic = True
+    supportsPreview = False, deterministic = True
+    title = Uncrewed 10 Kilometer Hop, deterministic = True
+    tag = , deterministic = True
+    description = So you want to go to space? Let's try something easier first. Prove your skills by sending a small rocket only a few kilometers up., deterministic = True
+    topic = , deterministic = True
+    subject = , deterministic = True
+    notes = We hope you enjoy this alternative to RP-1. Please report any bugs to defoma., deterministic = True
+    synopsis = Launch a sounding rocket to 10 kilometers., deterministic = True
+    completedMessage = Well done!, deterministic = True
+    agent = Probe Research, deterministic = True
+    minExpiry = 0, deterministic = True
+    maxExpiry = 0, deterministic = True
+    deadline = 0, deterministic = True
+    cancellable = True, deterministic = True
+    declinable = False, deterministic = True
+    autoAccept = False, deterministic = True
+    prestige = [ Trivial ], deterministic = True
+    targetBody = Earth (CelestialBody), deterministic = True
+    maxCompletions = 1, deterministic = True
+    maxSimultaneous = 1, deterministic = True
+    rewardFunds = 5000, deterministic = True
+    rewardReputation = 0, deterministic = True
+    rewardScience = 0, deterministic = True
+    failureFunds = 0, deterministic = True
+    failureReputation = 0, deterministic = True
+    advanceFunds = 0, deterministic = True
+    genericTitle = Uncrewed 10 Kilometer Hop, deterministic = True
+    genericDescription = So you want to go to space? Let's try something easier first. Prove your skills by sending a small rocket only a few kilometers up., deterministic = True
+    sortKey = 00, deterministic = True
+
+	CraftChecks
+	    type = VesselParameterGroup, deterministic = True
+	    name = CraftChecks, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Craft, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		HasCrew
+		    type = HasCrew, deterministic = True
+		    name = HasCrew, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    trait = null, deterministic = True
+		    minExperience = 0, deterministic = True
+		    maxExperience = 5, deterministic = True
+		    minCrew = 0, deterministic = True
+		    maxCrew = 0, deterministic = True
+		    crewOnly = False, deterministic = True
+		    kerbal = [], deterministic = True
+		    excludeKerbal = [], deterministic = True
+		
+	VesselState
+	    type = VesselParameterGroup, deterministic = True
+	    name = VesselState, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Flight, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		ReachState
+		    type = ReachState, deterministic = True
+		    name = ReachState, deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    failWhenUnmet = False, deterministic = True
+		    biome = null, deterministic = True
+		    situation = [], deterministic = True
+		    minAltitude = 10000, deterministic = True
+		    maxAltitude = 3.402823E+38, deterministic = True
+		    minTerrainAltitude = 0, deterministic = True
+		    maxTerrainAltitude = 3.402823E+38, deterministic = True
+		    minSpeed = 0, deterministic = True
+		    maxSpeed = 1.79769313486232E+308, deterministic = True
+		    speedMode = null, deterministic = True
+		    minRateOfClimb = -1.79769313486232E+308, deterministic = True
+		    maxRateOfClimb = 1.79769313486232E+308, deterministic = True
+		    minAcceleration = 0, deterministic = True
+		    maxAcceleration = 3.402823E+38, deterministic = True
+		    minDeltaVeeActual = 0, deterministic = True
+		    maxDeltaVeeActual = 1.79769313486232E+308, deterministic = True
+		    minDeltaVeeVacuum = 0, deterministic = True
+		    maxDeltaVeeVacuum = 1.79769313486232E+308, deterministic = True
+		    minDownrange = 0, deterministic = True
+		    maxDownrange = 1.79769313486232E+308, deterministic = True
+		    updateFrequency = 0.1, deterministic = True
+		    targetBody = [ Earth (CelestialBody) ], deterministic = True
+		
+	UnlockRequirements
+	    type = Any, deterministic = True
+	    name = UnlockRequirements, deterministic = True
+	    title = null, deterministic = True
+	    hideChildren = False, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    checkOnActiveContract = False, deterministic = True
+	    invertRequirement = False, deterministic = True
+	
+		PartModuleUnlocked
+		    type = PartModuleUnlocked, deterministic = True
+		    name = PartModuleUnlocked, deterministic = True
+		    title = null, deterministic = True
+		    hideChildren = False, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    checkOnActiveContract = False, deterministic = True
+		    invertRequirement = False, deterministic = True
+		    partModule = [ ModuleCommand ], deterministic = True
+		
+
+Output log:
+[INFO] ContractConfigurator.ContractType: Loading CONTRACT_TYPE: 'Uncrewed10kmHopReal'
+[WARNING] ContractConfigurator.ContractType: CONTRACT_TYPE 'Uncrewed10kmHopReal': unexpected attribute 'SystemScale' found, ignored.
+[INFO] ContractConfigurator.ContractType: Successfully loaded CONTRACT_TYPE 'Uncrewed10kmHopReal'

@@ -1,0 +1,274 @@
+Debug information for CONTRACT_TYPE 'Uncrewed1000kmDownrangeReal':
+
+Configuration:
+CONTRACT_TYPE
+{
+	name = Uncrewed1000kmDownrangeReal
+	title = Uncrewed 1000 Kilometer Downrange
+	group = Primitive_UncrewedFlight
+	sortKey = 03b_01
+	description = You can't stay in space very long by going straight up. That's why we've decided we want you to try going... sideways? Maybe if you go fast enough, the curvature of the planet will move away from you as fast as you fall around it? We think it's worth a shot.
+	synopsis = Launch a sounding rocket 1000 km downrange.
+	completedMessage = Well done!
+	cancellable = True
+	declinable = False
+	autoAccept = False
+	minExpiry = 0
+	maxExpiry = 0
+	maxCompletions = 1
+	maxSimultaneous = 1
+	deadline = 0
+	targetBody = Earth
+	prestige = Significant
+	rewardScience = 0
+	rewardReputation = 0
+	rewardFunds = 30000
+	failureReputation = 0
+	failureFunds = 0
+	advanceFunds = 0
+	SystemScale = Real
+	REQUIREMENT
+	{
+		name = UnlockRequirements
+		type = Any
+		hideChildren = False
+		targetBody = @/targetBody
+		REQUIREMENT
+		{
+			name = CompleteContract
+			type = CompleteContract
+			contractType = Uncrewed100kmDownrangeReal
+			minCount = 1
+			targetBody = @/targetBody
+		}
+	}
+	PARAMETER
+	{
+		name = CraftChecks
+		type = VesselParameterGroup
+		title = Craft
+		hideChildren = False
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			minCrew = 0
+			maxCrew = 0
+			targetBody = @/targetBody
+		}
+	}
+	PARAMETER
+	{
+		name = VesselState
+		type = VesselParameterGroup
+		title = Flight
+		hideChilden = False
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = ReachState
+			type = ReachState
+			minDownrange = 1000000
+			targetBody = @/targetBody
+		}
+	}
+}
+
+Data Nodes:
+Uncrewed1000kmDownrangeReal
+    Primitive:name = Primitive, deterministic = True
+    Primitive:displayName = Primitive, deterministic = True
+    Primitive:minVersion = , deterministic = True
+    Primitive:maxCompletions = 0, deterministic = True
+    Primitive:maxSimultaneous = 0, deterministic = True
+    Primitive:disabledContractType = [], deterministic = True
+    Primitive:agent = Progression, deterministic = True
+    Primitive:sortKey = 00, deterministic = True
+    Primitive:tip = , deterministic = True
+    Primitive_UncrewedFlight:name = Primitive_UncrewedFlight, deterministic = True
+    Primitive_UncrewedFlight:displayName = Uncrewed Flight, deterministic = True
+    Primitive_UncrewedFlight:minVersion = 1.0, deterministic = True
+    Primitive_UncrewedFlight:maxCompletions = 0, deterministic = True
+    Primitive_UncrewedFlight:maxSimultaneous = 0, deterministic = True
+    Primitive_UncrewedFlight:disabledContractType = [], deterministic = True
+    Primitive_UncrewedFlight:agent = Probe Research, deterministic = True
+    Primitive_UncrewedFlight:sortKey = 01, deterministic = True
+    Primitive_UncrewedFlight:tip = , deterministic = True
+    name = Uncrewed1000kmDownrangeReal, deterministic = True
+    trace = False, deterministic = True
+    supportsPreview = False, deterministic = True
+    title = Uncrewed 1000 Kilometer Downrange, deterministic = True
+    tag = , deterministic = True
+    description = You can't stay in space very long by going straight up. That's why we've decided we want you to try going... sideways? Maybe if you go fast enough, the curvature of the planet will move away from you as fast as you fall around it? We think it's worth a shot., deterministic = True
+    topic = , deterministic = True
+    subject = , deterministic = True
+    notes = null, deterministic = True
+    synopsis = Launch a sounding rocket 1000 km downrange., deterministic = True
+    completedMessage = Well done!, deterministic = True
+    agent = Probe Research, deterministic = True
+    minExpiry = 0, deterministic = True
+    maxExpiry = 0, deterministic = True
+    deadline = 0, deterministic = True
+    cancellable = True, deterministic = True
+    declinable = False, deterministic = True
+    autoAccept = False, deterministic = True
+    prestige = [ Significant ], deterministic = True
+    targetBody = Earth (CelestialBody), deterministic = True
+    maxCompletions = 1, deterministic = True
+    maxSimultaneous = 1, deterministic = True
+    rewardFunds = 30000, deterministic = True
+    rewardReputation = 0, deterministic = True
+    rewardScience = 0, deterministic = True
+    failureFunds = 0, deterministic = True
+    failureReputation = 0, deterministic = True
+    advanceFunds = 0, deterministic = True
+    genericTitle = Uncrewed 1000 Kilometer Downrange, deterministic = True
+    genericDescription = You can't stay in space very long by going straight up. That's why we've decided we want you to try going... sideways? Maybe if you go fast enough, the curvature of the planet will move away from you as fast as you fall around it? We think it's worth a shot., deterministic = True
+    sortKey = 03b_01, deterministic = True
+
+	CraftChecks
+	    type = VesselParameterGroup, deterministic = True
+	    name = CraftChecks, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Craft, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		HasCrew
+		    type = HasCrew, deterministic = True
+		    name = HasCrew, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    trait = null, deterministic = True
+		    minExperience = 0, deterministic = True
+		    maxExperience = 5, deterministic = True
+		    minCrew = 0, deterministic = True
+		    maxCrew = 0, deterministic = True
+		    crewOnly = False, deterministic = True
+		    kerbal = [], deterministic = True
+		    excludeKerbal = [], deterministic = True
+		
+	VesselState
+	    type = VesselParameterGroup, deterministic = True
+	    name = VesselState, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Flight, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		ReachState
+		    type = ReachState, deterministic = True
+		    name = ReachState, deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    failWhenUnmet = False, deterministic = True
+		    biome = null, deterministic = True
+		    situation = [], deterministic = True
+		    minAltitude = -3.402823E+38, deterministic = True
+		    maxAltitude = 3.402823E+38, deterministic = True
+		    minTerrainAltitude = 0, deterministic = True
+		    maxTerrainAltitude = 3.402823E+38, deterministic = True
+		    minSpeed = 0, deterministic = True
+		    maxSpeed = 1.79769313486232E+308, deterministic = True
+		    speedMode = null, deterministic = True
+		    minRateOfClimb = -1.79769313486232E+308, deterministic = True
+		    maxRateOfClimb = 1.79769313486232E+308, deterministic = True
+		    minAcceleration = 0, deterministic = True
+		    maxAcceleration = 3.402823E+38, deterministic = True
+		    minDeltaVeeActual = 0, deterministic = True
+		    maxDeltaVeeActual = 1.79769313486232E+308, deterministic = True
+		    minDeltaVeeVacuum = 0, deterministic = True
+		    maxDeltaVeeVacuum = 1.79769313486232E+308, deterministic = True
+		    minDownrange = 1000000, deterministic = True
+		    maxDownrange = 1.79769313486232E+308, deterministic = True
+		    updateFrequency = 0.1, deterministic = True
+		    targetBody = [ Earth (CelestialBody) ], deterministic = True
+		
+	UnlockRequirements
+	    type = Any, deterministic = True
+	    name = UnlockRequirements, deterministic = True
+	    title = null, deterministic = True
+	    hideChildren = False, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    checkOnActiveContract = False, deterministic = True
+	    invertRequirement = False, deterministic = True
+	
+		CompleteContract
+		    type = CompleteContract, deterministic = True
+		    name = CompleteContract, deterministic = True
+		    title = null, deterministic = True
+		    hideChildren = False, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    checkOnActiveContract = True, deterministic = True
+		    invertRequirement = False, deterministic = True
+		    tag = null, deterministic = True
+		    contractType = Uncrewed100kmDownrangeReal, deterministic = True
+		    minCount = 1, deterministic = True
+		    maxCount = 4294967295, deterministic = True
+		    cooldownDuration = 00:00:00, deterministic = True
+		
+
+Output log:
+[INFO] ContractConfigurator.ContractType: Loading CONTRACT_TYPE: 'Uncrewed1000kmDownrangeReal'
+[WARNING] ContractConfigurator.ContractType: CONTRACT_TYPE 'Uncrewed1000kmDownrangeReal': unexpected attribute 'SystemScale' found, ignored.
+[INFO] ContractConfigurator.ContractType: Successfully loaded CONTRACT_TYPE 'Uncrewed1000kmDownrangeReal'

@@ -1,0 +1,288 @@
+Debug information for CONTRACT_TYPE 'Mach2Jet':
+
+Configuration:
+CONTRACT_TYPE
+{
+	name = Mach2Jet
+	title = Mach 2 Jet
+	group = Primitive_CrewedFlight
+	sortKey = 02a_01
+	description = Our scientists want you to continue to push the speed barrier further and further. They say you should add moar engines.
+	synopsis = Fly a kerbal in a jet aircraft to mach 2.
+	completedMessage = Well done!
+	cancellable = True
+	declinable = False
+	autoAccept = False
+	minExpiry = 0
+	maxExpiry = 0
+	maxCompletions = 1
+	maxSimultaneous = 1
+	deadline = 0
+	targetBody = Earth
+	prestige = Trivial
+	rewardScience = 0
+	rewardReputation = 0
+	rewardFunds = 20000
+	failureReputation = 0
+	failureFunds = 0
+	advanceFunds = 0
+	SystemScale = Real
+	REQUIREMENT
+	{
+		name = UnlockRequirements
+		type = Any
+		hideChildren = False
+		targetBody = @/targetBody
+		REQUIREMENT
+		{
+			name = CompleteContract
+			type = CompleteContract
+			contractType = Mach1Jet
+			minCount = 1
+			targetBody = @/targetBody
+		}
+	}
+	PARAMETER
+	{
+		name = CraftChecks
+		type = VesselParameterGroup
+		title = Craft
+		hideChildren = False
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			minCrew = 1
+			targetBody = @/targetBody
+		}
+		NONE
+		{
+			partModule = FSengineSounds
+			partModule = ModuleRoboticServoRotor
+			MODULE
+			{
+				EngineType = SolidBooster
+				EngineType = LiquidFuel
+			}
+		}
+	}
+	PARAMETER
+	{
+		name = VesselState
+		type = VesselParameterGroup
+		title = Flight
+		hideChilden = False
+		completeInSequence = True
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = ReachState
+			type = ReachState
+			targetBody = Earth
+			minAltitude = 10000
+			minSpeed = 686
+			minRateOfClimb = -10
+			maxRateOfClimb = 10
+			situation = FLYING
+		}
+	}
+}
+
+Data Nodes:
+Mach2Jet
+    Primitive:name = Primitive, deterministic = True
+    Primitive:displayName = Primitive, deterministic = True
+    Primitive:minVersion = , deterministic = True
+    Primitive:maxCompletions = 0, deterministic = True
+    Primitive:maxSimultaneous = 0, deterministic = True
+    Primitive:disabledContractType = [], deterministic = True
+    Primitive:agent = Progression, deterministic = True
+    Primitive:sortKey = 00, deterministic = True
+    Primitive:tip = , deterministic = True
+    Primitive_CrewedFlight:name = Primitive_CrewedFlight, deterministic = True
+    Primitive_CrewedFlight:displayName = Crewed Flight, deterministic = True
+    Primitive_CrewedFlight:minVersion = 1.0, deterministic = True
+    Primitive_CrewedFlight:maxCompletions = 0, deterministic = True
+    Primitive_CrewedFlight:maxSimultaneous = 0, deterministic = True
+    Primitive_CrewedFlight:disabledContractType = [], deterministic = True
+    Primitive_CrewedFlight:agent = Crewed Research, deterministic = True
+    Primitive_CrewedFlight:sortKey = 00, deterministic = True
+    Primitive_CrewedFlight:tip = , deterministic = True
+    name = Mach2Jet, deterministic = True
+    trace = False, deterministic = True
+    supportsPreview = False, deterministic = True
+    title = Mach 2 Jet, deterministic = True
+    tag = , deterministic = True
+    description = Our scientists want you to continue to push the speed barrier further and further. They say you should add moar engines., deterministic = True
+    topic = , deterministic = True
+    subject = , deterministic = True
+    notes = null, deterministic = True
+    synopsis = Fly a kerbal in a jet aircraft to mach 2., deterministic = True
+    completedMessage = Well done!, deterministic = True
+    agent = Crewed Research, deterministic = True
+    minExpiry = 0, deterministic = True
+    maxExpiry = 0, deterministic = True
+    deadline = 0, deterministic = True
+    cancellable = True, deterministic = True
+    declinable = False, deterministic = True
+    autoAccept = False, deterministic = True
+    prestige = [ Trivial ], deterministic = True
+    targetBody = Earth (CelestialBody), deterministic = True
+    maxCompletions = 1, deterministic = True
+    maxSimultaneous = 1, deterministic = True
+    rewardFunds = 20000, deterministic = True
+    rewardReputation = 0, deterministic = True
+    rewardScience = 0, deterministic = True
+    failureFunds = 0, deterministic = True
+    failureReputation = 0, deterministic = True
+    advanceFunds = 0, deterministic = True
+    genericTitle = Mach 2 Jet, deterministic = True
+    genericDescription = Our scientists want you to continue to push the speed barrier further and further. They say you should add moar engines., deterministic = True
+    sortKey = 02a_01, deterministic = True
+
+	CraftChecks
+	    type = VesselParameterGroup, deterministic = True
+	    name = CraftChecks, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Craft, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		HasCrew
+		    type = HasCrew, deterministic = True
+		    name = HasCrew, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    trait = null, deterministic = True
+		    minExperience = 0, deterministic = True
+		    maxExperience = 5, deterministic = True
+		    minCrew = 1, deterministic = True
+		    maxCrew = 2147483647, deterministic = True
+		    crewOnly = False, deterministic = True
+		    kerbal = [], deterministic = True
+		    excludeKerbal = [], deterministic = True
+		
+	VesselState
+	    type = VesselParameterGroup, deterministic = True
+	    name = VesselState, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = True, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Flight, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		ReachState
+		    type = ReachState, deterministic = True
+		    name = ReachState, deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    failWhenUnmet = False, deterministic = True
+		    biome = null, deterministic = True
+		    situation = [ FLYING ], deterministic = True
+		    minAltitude = 10000, deterministic = True
+		    maxAltitude = 3.402823E+38, deterministic = True
+		    minTerrainAltitude = 0, deterministic = True
+		    maxTerrainAltitude = 3.402823E+38, deterministic = True
+		    minSpeed = 686, deterministic = True
+		    maxSpeed = 1.79769313486232E+308, deterministic = True
+		    speedMode = null, deterministic = True
+		    minRateOfClimb = -10, deterministic = True
+		    maxRateOfClimb = 10, deterministic = True
+		    minAcceleration = 0, deterministic = True
+		    maxAcceleration = 3.402823E+38, deterministic = True
+		    minDeltaVeeActual = 0, deterministic = True
+		    maxDeltaVeeActual = 1.79769313486232E+308, deterministic = True
+		    minDeltaVeeVacuum = 0, deterministic = True
+		    maxDeltaVeeVacuum = 1.79769313486232E+308, deterministic = True
+		    minDownrange = 0, deterministic = True
+		    maxDownrange = 1.79769313486232E+308, deterministic = True
+		    updateFrequency = 0.1, deterministic = True
+		    targetBody = [ Earth (CelestialBody) ], deterministic = True
+		
+	UnlockRequirements
+	    type = Any, deterministic = True
+	    name = UnlockRequirements, deterministic = True
+	    title = null, deterministic = True
+	    hideChildren = False, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    checkOnActiveContract = False, deterministic = True
+	    invertRequirement = False, deterministic = True
+	
+		CompleteContract
+		    type = CompleteContract, deterministic = True
+		    name = CompleteContract, deterministic = True
+		    title = null, deterministic = True
+		    hideChildren = False, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    checkOnActiveContract = True, deterministic = True
+		    invertRequirement = False, deterministic = True
+		    tag = null, deterministic = True
+		    contractType = Mach1Jet, deterministic = True
+		    minCount = 1, deterministic = True
+		    maxCount = 4294967295, deterministic = True
+		    cooldownDuration = 00:00:00, deterministic = True
+		
+
+Output log:
+[INFO] ContractConfigurator.ContractType: Loading CONTRACT_TYPE: 'Mach2Jet'
+[WARNING] ContractConfigurator.ContractType: CONTRACT_TYPE 'Mach2Jet': unexpected attribute 'SystemScale' found, ignored.
+[INFO] ContractConfigurator.ContractType: Successfully loaded CONTRACT_TYPE 'Mach2Jet'

@@ -1,0 +1,394 @@
+Debug information for CONTRACT_TYPE 'CrewedRendezvousWithProbeReal':
+
+Configuration:
+CONTRACT_TYPE
+{
+	name = CrewedRendezvousWithProbeReal
+	title = Crewed Rendezvous with a Probe
+	group = Intermediate_CrewedOrbit
+	sortKey = 01b_00
+	description = CrewedRendezvousWithProbe Description (out of ideas)
+	synopsis = Rendezvous and dock a crewed craft with a provided target probe.
+	completedMessage = Well done!
+	cancellable = True
+	declinable = False
+	autoAccept = False
+	minExpiry = 0
+	maxExpiry = 0
+	maxCompletions = 1
+	maxSimultaneous = 1
+	deadline = 0
+	targetBody = Earth
+	prestige = Trivial
+	rewardScience = 0
+	rewardReputation = 0
+	rewardFunds = 50000
+	failureReputation = 0
+	failureFunds = 0
+	advanceFunds = 0
+	SystemScale = Real
+	REQUIREMENT
+	{
+		name = UnlockRequirements
+		type = Any
+		hideChildren = False
+		targetBody = @/targetBody
+		REQUIREMENT
+		{
+			name = CompleteContract
+			type = CompleteContract
+			contractType = CrewedLowOrbitReal
+			minCount = 1
+			targetBody = @/targetBody
+		}
+	}
+	PARAMETER
+	{
+		name = CraftChecks
+		type = VesselParameterGroup
+		title = Craft
+		hideChildren = False
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			minCrew = 1
+			targetBody = @/targetBody
+		}
+	}
+	BEHAVIOUR
+	{
+		name = SpawnVessel
+		type = SpawnVessel
+		deferVesselCreation = True
+		VESSEL
+		{
+			name = Rendezvous Target Probe
+			craftURL = Sol-Contracts/04_Crafts/RendezvousTargetProbe.craft
+			flagURL = Sol-Contracts/00_Framework/Placeholder.png
+			vesselType = Probe
+			owned = False
+			targetBody = Earth
+			ORBIT
+			{
+				SMA = 10751550
+				ECC = 0.04
+				INC = 10
+				LPE = 168
+				LAN = 56
+				MNA = 0.015
+				EPH = 3680
+				REF = 1
+			}
+		}
+	}
+	PARAMETER
+	{
+		name = Docking
+		type = Docking
+		title = Docking
+		vessel = Rendezvous Target Probe
+		targetBody = @/targetBody
+	}
+	PARAMETER
+	{
+		name = CraftChecks
+		type = VesselParameterGroup
+		title = Craft
+		hideChildren = False
+		name = Recovery
+		type = VesselParameterGroup
+		title = Recovery
+		hideChildren = False
+		completeInSequence = True
+		targetBody = @/targetBody
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			minCrew = 1
+			targetBody = @/targetBody
+		}
+		PARAMETER
+		{
+			name = ReachState2
+			type = ReachState
+			targetBody = Earth
+			situation = LANDED
+			maxSpeed = 0.0
+		}
+	}
+}
+
+Data Nodes:
+CrewedRendezvousWithProbeReal
+    Intermediate:name = Intermediate, deterministic = True
+    Intermediate:displayName = Intermediate, deterministic = True
+    Intermediate:minVersion = , deterministic = True
+    Intermediate:maxCompletions = 0, deterministic = True
+    Intermediate:maxSimultaneous = 0, deterministic = True
+    Intermediate:disabledContractType = [], deterministic = True
+    Intermediate:agent = Progression, deterministic = True
+    Intermediate:sortKey = 01, deterministic = True
+    Intermediate:tip = , deterministic = True
+    Intermediate_CrewedOrbit:name = Intermediate_CrewedOrbit, deterministic = True
+    Intermediate_CrewedOrbit:displayName = Crewed Orbit, deterministic = True
+    Intermediate_CrewedOrbit:minVersion = 1.0, deterministic = True
+    Intermediate_CrewedOrbit:maxCompletions = 0, deterministic = True
+    Intermediate_CrewedOrbit:maxSimultaneous = 0, deterministic = True
+    Intermediate_CrewedOrbit:disabledContractType = [], deterministic = True
+    Intermediate_CrewedOrbit:agent = Crewed Research, deterministic = True
+    Intermediate_CrewedOrbit:sortKey = 00, deterministic = True
+    Intermediate_CrewedOrbit:tip = , deterministic = True
+    name = CrewedRendezvousWithProbeReal, deterministic = True
+    trace = False, deterministic = True
+    supportsPreview = False, deterministic = True
+    title = Crewed Rendezvous with a Probe, deterministic = True
+    tag = , deterministic = True
+    description = CrewedRendezvousWithProbe Description (out of ideas), deterministic = True
+    topic = , deterministic = True
+    subject = , deterministic = True
+    notes = null, deterministic = True
+    synopsis = Rendezvous and dock a crewed craft with a provided target probe., deterministic = True
+    completedMessage = Well done!, deterministic = True
+    agent = Crewed Research, deterministic = True
+    minExpiry = 0, deterministic = True
+    maxExpiry = 0, deterministic = True
+    deadline = 0, deterministic = True
+    cancellable = True, deterministic = True
+    declinable = False, deterministic = True
+    autoAccept = False, deterministic = True
+    prestige = [ Trivial ], deterministic = True
+    targetBody = Earth (CelestialBody), deterministic = True
+    maxCompletions = 1, deterministic = True
+    maxSimultaneous = 1, deterministic = True
+    rewardFunds = 50000, deterministic = True
+    rewardReputation = 0, deterministic = True
+    rewardScience = 0, deterministic = True
+    failureFunds = 0, deterministic = True
+    failureReputation = 0, deterministic = True
+    advanceFunds = 0, deterministic = True
+    genericTitle = Crewed Rendezvous with a Probe, deterministic = True
+    genericDescription = CrewedRendezvousWithProbe Description (out of ideas), deterministic = True
+    sortKey = 01b_00, deterministic = True
+
+	CraftChecks
+	    type = VesselParameterGroup, deterministic = True
+	    name = CraftChecks, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Craft, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		HasCrew
+		    type = HasCrew, deterministic = True
+		    name = HasCrew, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    trait = null, deterministic = True
+		    minExperience = 0, deterministic = True
+		    maxExperience = 5, deterministic = True
+		    minCrew = 1, deterministic = True
+		    maxCrew = 2147483647, deterministic = True
+		    crewOnly = False, deterministic = True
+		    kerbal = [], deterministic = True
+		    excludeKerbal = [], deterministic = True
+		
+	Docking
+	    type = Docking, deterministic = True
+	    name = Docking, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = False, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Docking, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    vessel = [ Rendezvous Target Probe ], deterministic = True
+	    defineDockedVessel = null, deterministic = True
+	
+	CraftChecks_1
+	    type = VesselParameterGroup, deterministic = True
+	    name = CraftChecks, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    rewardFunds = 0, deterministic = True
+	    rewardReputation = 0, deterministic = True
+	    rewardScience = 0, deterministic = True
+	    failureFunds = 0, deterministic = True
+	    failureReputation = 0, deterministic = True
+	    optional = False, deterministic = True
+	    disableOnStateChange = null, deterministic = True
+	    completeInSequence = True, deterministic = True
+	    hidden = False, deterministic = True
+	    hideChildren = False, deterministic = True
+	    title = Craft, deterministic = True
+	    notes = null, deterministic = True
+	    completedMessage = null, deterministic = True
+	    duration = 00:00:00, deterministic = True
+	    define = null, deterministic = True
+	    defineList = null, deterministic = True
+	    vessel = [], deterministic = True
+	    dissassociateVesselsOnContractFailure = True, deterministic = True
+	    dissassociateVesselsOnContractCompletion = False, deterministic = True
+	    hideVesselName = False, deterministic = True
+	    resetChildrenWhenVesselDestroyed = False, deterministic = True
+	
+		HasCrew
+		    type = HasCrew, deterministic = True
+		    name = HasCrew, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    trait = null, deterministic = True
+		    minExperience = 0, deterministic = True
+		    maxExperience = 5, deterministic = True
+		    minCrew = 1, deterministic = True
+		    maxCrew = 2147483647, deterministic = True
+		    crewOnly = False, deterministic = True
+		    kerbal = [], deterministic = True
+		    excludeKerbal = [], deterministic = True
+		
+		ReachState2
+		    type = ReachState, deterministic = True
+		    name = ReachState2, deterministic = True
+		    rewardFunds = 0, deterministic = True
+		    rewardReputation = 0, deterministic = True
+		    rewardScience = 0, deterministic = True
+		    failureFunds = 0, deterministic = True
+		    failureReputation = 0, deterministic = True
+		    optional = False, deterministic = True
+		    disableOnStateChange = null, deterministic = True
+		    completeInSequence = False, deterministic = True
+		    hidden = False, deterministic = True
+		    hideChildren = False, deterministic = True
+		    title = null, deterministic = True
+		    notes = null, deterministic = True
+		    completedMessage = null, deterministic = True
+		    failWhenUnmet = False, deterministic = True
+		    biome = null, deterministic = True
+		    situation = [ LANDED ], deterministic = True
+		    minAltitude = -3.402823E+38, deterministic = True
+		    maxAltitude = 3.402823E+38, deterministic = True
+		    minTerrainAltitude = 0, deterministic = True
+		    maxTerrainAltitude = 3.402823E+38, deterministic = True
+		    minSpeed = 0, deterministic = True
+		    maxSpeed = 0, deterministic = True
+		    speedMode = null, deterministic = True
+		    minRateOfClimb = -1.79769313486232E+308, deterministic = True
+		    maxRateOfClimb = 1.79769313486232E+308, deterministic = True
+		    minAcceleration = 0, deterministic = True
+		    maxAcceleration = 3.402823E+38, deterministic = True
+		    minDeltaVeeActual = 0, deterministic = True
+		    maxDeltaVeeActual = 1.79769313486232E+308, deterministic = True
+		    minDeltaVeeVacuum = 0, deterministic = True
+		    maxDeltaVeeVacuum = 1.79769313486232E+308, deterministic = True
+		    minDownrange = 0, deterministic = True
+		    maxDownrange = 1.79769313486232E+308, deterministic = True
+		    updateFrequency = 0.1, deterministic = True
+		    targetBody = [ Earth (CelestialBody) ], deterministic = True
+		
+	SpawnVessel
+	    type = SpawnVessel, deterministic = True
+	    name = SpawnVessel, deterministic = True
+	    targetBody = null, deterministic = True
+	    deferVesselCreation = True, deterministic = True
+	
+		VESSEL_0
+		    name = Rendezvous Target Probe, deterministic = True
+		    craftURL = Sol-Contracts/04_Crafts/RendezvousTargetProbe.craft, deterministic = True
+		    flagURL = Sol-Contracts/00_Framework/Placeholder.png, deterministic = True
+		    vesselType = Probe, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    ORBIT = Orbit, deterministic = True
+		    heading = 0, deterministic = True
+		    pitch = 0, deterministic = True
+		    roll = 0, deterministic = True
+		    owned = False, deterministic = True
+		
+			ORBIT
+			    SMA = 10751550, deterministic = True
+			    ECC = 0.04, deterministic = True
+			    INC = 10, deterministic = True
+			    LPE = 168, deterministic = True
+			    LAN = 56, deterministic = True
+			    MNA = 0.015, deterministic = True
+			    EPH = 3680, deterministic = True
+			    REF = 1, deterministic = True
+			
+	UnlockRequirements
+	    type = Any, deterministic = True
+	    name = UnlockRequirements, deterministic = True
+	    title = null, deterministic = True
+	    hideChildren = False, deterministic = True
+	    targetBody = Earth (CelestialBody), deterministic = True
+	    checkOnActiveContract = False, deterministic = True
+	    invertRequirement = False, deterministic = True
+	
+		CompleteContract
+		    type = CompleteContract, deterministic = True
+		    name = CompleteContract, deterministic = True
+		    title = null, deterministic = True
+		    hideChildren = False, deterministic = True
+		    targetBody = Earth (CelestialBody), deterministic = True
+		    checkOnActiveContract = True, deterministic = True
+		    invertRequirement = False, deterministic = True
+		    tag = null, deterministic = True
+		    contractType = CrewedLowOrbitReal, deterministic = True
+		    minCount = 1, deterministic = True
+		    maxCount = 4294967295, deterministic = True
+		    cooldownDuration = 00:00:00, deterministic = True
+		
+
+Output log:
+[INFO] ContractConfigurator.ContractType: Loading CONTRACT_TYPE: 'CrewedRendezvousWithProbeReal'
+[WARNING] ContractConfigurator.ContractType: CONTRACT_TYPE 'CrewedRendezvousWithProbeReal': unexpected attribute 'SystemScale' found, ignored.
+[INFO] ContractConfigurator.ContractType: Successfully loaded CONTRACT_TYPE 'CrewedRendezvousWithProbeReal'
