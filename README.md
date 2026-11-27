@@ -1,6 +1,6 @@
 RP-Stockalike
 
-A historically grounded career for stock-scale Kerbal Space Program 1.12 (supports OPM for additional planets/planetoids). RP-Stockalike combines RP-0's tech tree with contracts from several historical spaceflight packs, and rebalances the result for the stock Kerbol system. The aim is to play through the real space age at stock scale, without needing Realism Overhaul.
+A historically grounded career for stock-scale Kerbal Space Program 1.12 (supports OPM for additional planets/planetoids). RP-Stockalike combines RP-0's tech tree with contracts from several historical spaceflight packs, and rebalances the result for the stock Kerbol system (with OPM support, converting into more planet/planetoids). The aim is to play through the real space age at stock scale, without needing Realism Overhaul.
 
 ⚠️ AI-generated content. The configs, patches and tools in this mod were written by an AI assistant (Claude). shoe7ess directed and reviewed the work over many rounds and tested it in game. Please report problems as GitHub issues.
 
